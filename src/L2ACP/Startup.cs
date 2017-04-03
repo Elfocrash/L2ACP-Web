@@ -32,7 +32,7 @@ namespace L2ACP
         {
             // Add framework services.
             services.AddTransient<IAuthService, AuthService>();
-            services.AddTransient<IRepository, Repository>();
+            services.AddTransient<IRequestService, RequestService>();
 
             services.AddMvc();
         }

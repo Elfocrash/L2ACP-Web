@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 
 namespace L2ACP.Extensions
 {
@@ -12,6 +14,15 @@ namespace L2ACP.Extensions
             byte[] bytes = new ASCIIEncoding().GetBytes(str);
             str = Convert.ToBase64String(shA1.ComputeHash(bytes));
             return str;
+        }
+
+        public static string GetUsername(this HttpContext context)
+        {
+            if (context.User.Identity.IsAuthenticated)
+            {
+                return context.User.Claims.FirstOrDefault(x => x.Type == "username").Value;
+            }
+            return string.Empty;
         }
     }
 }

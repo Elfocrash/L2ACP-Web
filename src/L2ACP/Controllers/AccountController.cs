@@ -10,12 +10,12 @@ namespace L2ACP.Controllers
     public class AccountController : Controller
     {
         private readonly IAuthService _authService;
-        private readonly IRepository _repository;
+        private readonly IRequestService _requestService;
 
-        public AccountController(IAuthService authService, IRepository repository)
+        public AccountController(IAuthService authService, IRequestService requestService)
         {
             _authService = authService;
-            _repository = repository;
+            _requestService = requestService;
         }
 
         [Route("/register")]
@@ -44,15 +44,14 @@ namespace L2ACP.Controllers
 
             if (ModelState.IsValid)
             {
-                if (await _repository.IsValidLogin(model.Username, model.Password.ToL2Password()))
+                var response = await _requestService.LoginUser(model.Username, model.Password.ToL2Password());
+
+                if (response.ResponseCode == 200)
                 {
                     await _authService.SignInUser(model.Username, HttpContext);
                     return Redirect("/");
                 }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                }
+                ModelState.AddModelError(string.Empty, response.ResponseMessage);
             }
             return View(model);
         }
@@ -73,15 +72,16 @@ namespace L2ACP.Controllers
                     return View(model);
                 }
 
-                if (await _repository.IsValidRegister(model.Username))
+                var response = await _requestService.RegisterUser(model.Username, model.Password.ToL2Password());
+
+                if (response.ResponseCode == 200)
                 {
-                    await _repository.RegisterUser(model.Username, model.Password.ToL2Password());
                     await _authService.SignInUser(model.Username, HttpContext);
                     return Redirect("/");
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Account already exists with that name.");
+                    ModelState.AddModelError(string.Empty, response.ResponseMessage);
                 }
             }
             return View(model);

@@ -12,5 +12,7 @@ namespace L2ACP.Models
 
         [Required]
         public string ConfirmPassword { get; set; }
+
+        public string Test { get; set; } = "true";
     }
 }
