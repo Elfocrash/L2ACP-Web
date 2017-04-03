@@ -26,6 +26,16 @@ namespace L2ACP.Controllers
             return View();
         }
 
+        [Route("/logout")]
+        public IActionResult Logout()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                HttpContext.Authentication.SignOutAsync("Auth");
+            }
+            return RedirectToAction("Login");
+        }
+
         [Route("/login")]
         public IActionResult Login()
         {

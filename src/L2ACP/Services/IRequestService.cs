@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using L2ACP.Models;
+using L2ACP.Responses;
 
 namespace L2ACP.Services
 {
@@ -8,5 +9,7 @@ namespace L2ACP.Services
         Task<L2Response> LoginUser(string username, string password);
 
         Task<L2Response> RegisterUser(string username, string password);
+
+        Task<L2Response> GetAllCharNames(string getUsername);
     }
 }

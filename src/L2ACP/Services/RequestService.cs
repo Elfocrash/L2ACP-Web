@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using L2ACP.Models;
 using L2ACP.Requests;
+using L2ACP.Responses;
 using Newtonsoft.Json;
 
 namespace L2ACP.Services
@@ -38,6 +39,22 @@ namespace L2ACP.Services
             var result = await request.Content.ReadAsStringAsync();
 
             var responseObject = JsonConvert.DeserializeObject<L2Response>(result);
+
+            return responseObject;
+        }
+
+        public async Task<L2Response> GetAllCharNames(string username)
+        {
+            var loginRequest = new GetAllCharsRequest
+            {
+                Username = username
+            };
+
+            var request = await new HttpClient().PostAsync("http://localhost:8000/api", new JsonContent(loginRequest));
+
+            var result = await request.Content.ReadAsStringAsync();
+
+            var responseObject = JsonConvert.DeserializeObject<GetAllCharsResponse>(result);
 
             return responseObject;
         }

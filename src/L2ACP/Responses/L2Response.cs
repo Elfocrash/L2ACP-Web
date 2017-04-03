@@ -1,17 +1,14 @@
 ﻿using System.Net.Http;
 using System.Text;
-using L2ACP.Requests;
 using Newtonsoft.Json;
 
-namespace L2ACP.Models
+namespace L2ACP.Responses
 {
     public class L2Response
     {
         public int ResponseCode { get; set; }
 
         public string ResponseMessage { get; set; }
-
-        public string ResponseContent { get; set; }
     }
 
     public class JsonContent : StringContent
