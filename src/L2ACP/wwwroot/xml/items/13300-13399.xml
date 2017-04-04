@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="13300" type="EtcItem" name="Feather of Blessing (Event)">
+		<set name="icon" val="icon.blessed_feather_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="13301" type="EtcItem" name="My Teleport Spellbook (Event)">
+		<set name="icon" val="icon.bookmark_book_i00" />
+		<set name="default_action" val="call_skill" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2610-1" />
+	</item>
+	<item id="13302" type="EtcItem" name="My Teleport Scroll (Event)">
+		<set name="icon" val="icon.bookmark_scroll_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="13303" type="EtcItem" name="White Weasel Hunting Helper Necklace (Event)">
+		<set name="icon" val="icon.pet_controler_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13304" type="EtcItem" name="Fairy Princess Hunting Helper Necklace (Event)">
+		<set name="icon" val="icon.pet_controler_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13305" type="EtcItem" name="Wild Beast Fighter Hunting Helper Necklace (Event)">
+		<set name="icon" val="icon.pet_controler_i01" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13306" type="EtcItem" name="Fox Shaman Hunting Helper Necklace (Event)">
+		<set name="icon" val="icon.pet_controler_i01" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13307" type="EtcItem" name="Color Name (Event)">
+		<set name="icon" val="icon.color_name_i00" />
+		<set name="default_action" val="nick_color" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="NicknameColor" />
+	</item>
+	<item id="13308" type="Armor" name="Light Purple-Maned Horse Mount Bracelet (Event) - 7-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="619-1" />
+		<set name="item_skill" val="8247-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13309" type="Armor" name="Agathion of Love (Event) - 30-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5763-1;8245-1;3267-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13310" type="Armor" name="Kat the Cat Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13311" type="Armor" name="Feline Queen Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13312" type="Armor" name="Monster Eye Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_monstereye_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13313" type="Armor" name="Brown Bear Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_brown_bear_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13314" type="Armor" name="Fungus Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_fungus_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13315" type="Armor" name="Skull Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13316" type="Armor" name="Ornithomimus Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_ornithomimus_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13317" type="Armor" name="Feline King Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13318" type="Armor" name="Kai the Cat Hat (Event) - 30-day limited period">
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13319" type="Weapon" name="O Stick (Event) - 30-day limited period">
+		<set name="icon" val="icon.weapon_o_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13320" type="Weapon" name="X Stick (Event) - 30-day limited period">
+		<set name="icon" val="icon.weapon_x_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13321" type="Weapon" name="Scissors Stick (Event) - 30-day limited period">
+		<set name="icon" val="icon.weapon_scissors_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13322" type="Weapon" name="Rock-type Stick (Event) - 30-day limited period">
+		<set name="icon" val="icon.weapon_rock_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13323" type="Weapon" name="Paper-type Stick (Event) - 30-day limited period">
+		<set name="icon" val="icon.weapon_diver_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="43200" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13324" type="Weapon" name="Pumpkin Transformation Stick (Event) - 30-day limited period">
+		<set name="icon" val="icon.weapon_pumpkin_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="839-1" />
+		<set name="item_skill" val="8246-1" />
+		<set name="time" val="43200" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13325" type="Armor" name="Kat the Cat Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13326" type="Armor" name="Feline Queen Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_queen_of_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13327" type="Armor" name="Monster Eye Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_monstereye_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13328" type="Armor" name="Brown Bear Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_brown_bear_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13329" type="Armor" name="Fungus Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_fungus_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13330" type="Armor" name="Skull Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_skeleton_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13331" type="Armor" name="Ornithomimus Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_ornithomimus_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13332" type="Armor" name="Feline King Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_king_of_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13333" type="Armor" name="Kai the Cat Hat (Event) - 7-day limited period">
+		<set name="icon" val="icon.accessory_chi_the_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13334" type="Weapon" name="O Stick (Event) - 7-day limited period">
+		<set name="icon" val="icon.weapon_o_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13335" type="Weapon" name="X Stick (Event) - 7-day limited period">
+		<set name="icon" val="icon.weapon_x_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13336" type="Weapon" name="Scissors Stick (Event) - 7-day limited period">
+		<set name="icon" val="icon.weapon_scissors_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13337" type="Weapon" name="Rock-type Stick (Event) - 7-day limited period">
+		<set name="icon" val="icon.weapon_rock_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13338" type="Weapon" name="Paper-type Stick (Event) - 7-day limited period">
+		<set name="icon" val="icon.weapon_diver_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13339" type="Weapon" name="Pumpkin Transformation Stick (Event) - 7-day limited period">
+		<set name="icon" val="icon.weapon_pumpkin_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="839-1" />
+		<set name="item_skill" val="8246-1" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13340" type="Armor" name="Agathion of Love (Event) - 7-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5763-1;8245-1;3267-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13341" type="EtcItem" name="My Teleport Spellbook 1-Book Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13301,1,1,100" />
+	</item>
+	<item id="13342" type="EtcItem" name="My Teleport Scroll 30-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13302,30,30,100" />
+	</item>
+	<item id="13343" type="EtcItem" name="Feather of Blessing 3-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13300,3,3,100" />
+	</item>
+	<item id="13344" type="EtcItem" name="Agathion of Love 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13309,1,1,100" />
+	</item>
+	<item id="13345" type="EtcItem" name="Halloween Gift Box">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13324,1,1,100" />
+	</item>
+	<item id="13346" type="EtcItem" name="Kamaloka Entrance Pass 3-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13297,5,5,100;13298,5,5,100;13299,5,5,100" />
+	</item>
+	<item id="13347" type="EtcItem" name="Kat the Cat Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13310,1,1,100" />
+	</item>
+	<item id="13348" type="EtcItem" name="Feline Queen Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13311,1,1,100" />
+	</item>
+	<item id="13349" type="EtcItem" name="Monster Eye Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13312,1,1,100" />
+	</item>
+	<item id="13350" type="EtcItem" name="Brown Bear Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13313,1,1,100" />
+	</item>
+	<item id="13351" type="EtcItem" name="Fungus Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13314,1,1,100" />
+	</item>
+	<item id="13352" type="EtcItem" name="Skull Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13315,1,1,100" />
+	</item>
+	<item id="13353" type="EtcItem" name="Ornithomimus Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13316,1,1,100" />
+	</item>
+	<item id="13354" type="EtcItem" name="Feline King Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13317,1,1,100" />
+	</item>
+	<item id="13355" type="EtcItem" name="Kai the Cat Hat 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13318,1,1,100" />
+	</item>
+	<item id="13356" type="EtcItem" name="OX Stick 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13319,1,1,100;13320,1,1,100" />
+	</item>
+	<item id="13357" type="EtcItem" name="Rock-Paper-Scissors Stick 30-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13321,1,1,100;13322,1,1,100;13323,1,1,100" />
+	</item>
+	<item id="13358" type="EtcItem" name="Purple Maned Horse 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13308,1,1,100" />
+	</item>
+	<item id="13359" type="EtcItem" name="Color Name 3-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13307,3,3,100" />
+	</item>
+	<item id="13360" type="EtcItem" name="Color Name 1-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13307,1,1,100" />
+	</item>
+	<item id="13361" type="EtcItem" name="My Teleport Scroll 10-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13016,10,10,100" />
+	</item>
+	<item id="13362" type="EtcItem" name="Kamaloka (Hall of the Abyss) 15-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13297,15,15,100" />
+	</item>
+	<item id="13363" type="EtcItem" name="Near Kamaloka 15-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13298,15,15,100" />
+	</item>
+	<item id="13364" type="EtcItem" name="Kamaloka (Labyrinth of the Abyss) 15-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13299,15,15,100" />
+	</item>
+	<item id="13365" type="EtcItem" name="Kamaloka (Hall of the Abyss) 5-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13297,5,5,100" />
+	</item>
+	<item id="13366" type="EtcItem" name="Near Kamaloka 5-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13298,5,5,100" />
+	</item>
+	<item id="13367" type="EtcItem" name="Kamaloka (Labyrinth of the Abyss) 5-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13299,5,5,100" />
+	</item>
+	<item id="13368" type="EtcItem" name="Feather of Blessing 1-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13300,1,1,100" />
+	</item>
+	<item id="13369" type="EtcItem" name="Agathion of Love 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13340,1,1,100" />
+	</item>
+	<item id="13370" type="EtcItem" name="Pumpkin Transformation Stick 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13339,1,1,100" />
+	</item>
+	<item id="13371" type="EtcItem" name="Kat the Cat Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13325,1,1,100" />
+	</item>
+	<item id="13372" type="EtcItem" name="Feline Queen Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13326,1,1,100" />
+	</item>
+	<item id="13373" type="EtcItem" name="Monster Eye Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13327,1,1,100" />
+	</item>
+	<item id="13374" type="EtcItem" name="Brown Bear Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13328,1,1,100" />
+	</item>
+	<item id="13375" type="EtcItem" name="Fungus Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13329,1,1,100" />
+	</item>
+	<item id="13376" type="EtcItem" name="Skull Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13330,1,1,100" />
+	</item>
+	<item id="13377" type="EtcItem" name="Ornithomimus Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13331,1,1,100" />
+	</item>
+	<item id="13378" type="EtcItem" name="Feline King Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13332,1,1,100" />
+	</item>
+	<item id="13379" type="EtcItem" name="Kai the Cat Hat 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13333,1,1,100" />
+	</item>
+	<item id="13380" type="EtcItem" name="OX Stick 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13334,1,1,100;13335,1,1,100" />
+	</item>
+	<item id="13381" type="EtcItem" name="Rock-Paper-Scissors Stick 7-Day Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13336,1,1,100;13337,1,1,100;13338,1,1,100" />
+	</item>
+	<item id="13382" type="EtcItem" name="Gran Kain's Gift Box (Event) - 30-day limited period">
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2606-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13383" type="EtcItem" name="Hunting Helper Exchange Coupon - 5 hours (Event)">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="13384" type="EtcItem" name="Hunting Helper Exchange Coupon 3-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13383,3,3,100" />
+	</item>
+	<item id="13385" type="EtcItem" name="Hunting Helper Exchange Coupon 1-Sheet Pack (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13383,1,1,100" />
+	</item>
+	<item id="13386" type="EtcItem" name="Blue Crystal of Fantasy">
+		<set name="icon" val="icon.etc_sp_crystal_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2608-1" />
+	</item>
+	<item id="13387" type="EtcItem" name="Green Crystal of Fantasy">
+		<set name="icon" val="icon.etc_sp_crystal_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2608-2" />
+	</item>
+	<item id="13388" type="EtcItem" name="Red Crystal of Fantasy">
+		<set name="icon" val="icon.etc_sp_crystal_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2608-3" />
+	</item>
+	<item id="13389" type="Armor" name="Kratei Barbed Shirt - CP">
+		<set name="icon" val="icon.etc_shirts_a_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3453-1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="23" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13390" type="Armor" name="Kratei Mithril Shirt - CP">
+		<set name="icon" val="icon.etc_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3459-1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13391" type="Armor" name="Kratei Striped Barbed Shirt - CP">
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3477-1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="26" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13392" type="Armor" name="Kratei Striped Mithril Shirt - CP">
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3483-1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="30" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13393" type="Armor" name="Shadow Item - Monkey Hat">
+		<set name="icon" val="icon.monkey_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="100" />
+	</item>
+	<item id="13394" type="Armor" name="Shadow Item - Pig Hat">
+		<set name="icon" val="icon.event_pig_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="100" />
+	</item>
+	<item id="13395" type="EtcItem" name="Scroll of Escape: Talking Island Village">
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2609-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13396" type="EtcItem" name="Scroll of Escape: Elven Village">
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2609-2" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13397" type="EtcItem" name="Scroll of Escape: Dark Elven Village">
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2609-3" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13398" type="EtcItem" name="Scroll of Escape: Orc Village">
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2609-4" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13399" type="EtcItem" name="Scroll of Escape: Dwarven Village">
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2609-5" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+</list>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="22565" type="EtcItem" name="Dimensional Support Pack">
+		<!-- Description: Wrapped pack containing 2 Superior Minion Coupons, 3 Feathers of Blessing, 5 Kamaloka (Hall of the Abyss, Labyrinth of the Abyss, Near) entrance passes, and 3 Vitality Replenishing Beverages. Cannot be exchanged, dropped, or destroyed. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="22566" type="EtcItem" name="Potion Support Pack">
+		<!-- Description: Wrapped pack containing 20 Greater Quick Healing Potions, 50 Greater Healing Potions, 5 Fresh Milks, and 5 Leaves of Appreciation. Cannot be exchanged, dropped, or destroyed. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="22567" type="EtcItem" name="Supplies Support Pack">
+		<!-- Description: Wrapped pack containing 200,000 Mysterious Soulshots of all grade. Cannot be exchanged, dropped, or destroyed. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+</list>

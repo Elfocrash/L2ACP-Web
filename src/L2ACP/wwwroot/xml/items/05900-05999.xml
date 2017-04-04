@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="5900" type="EtcItem" name="Coin Collecting Album">
+		<set name="icon" val="icon.etc_magic_book_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5901" type="EtcItem" name="Blood Offering">
+		<set name="icon" val="icon.etc_dragon_blood_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5902" type="EtcItem" name="Scroll of Ancient Magic">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5903" type="EtcItem" name="Ancient Ash Urn">
+		<set name="icon" val="icon.etc_oil_pot_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5904" type="EtcItem" name="Wesley's Mixing Stone">
+		<set name="icon" val="icon.etc_gem_green_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5905" type="EtcItem" name="Magister's Mixing Stone">
+		<set name="icon" val="icon.etc_gem_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5906" type="EtcItem" name="5th Anniversary Gift Box (10 Honey Rice Cake Set)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13420,10,10,100;13419,1,1,100" />
+	</item>
+	<item id="5907" type="EtcItem" name="5th Anniversary Gift Box (9 Honey Rice Cake Set)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13420,9,9,100;13419,1,1,100" />
+	</item>
+	<item id="5908" type="EtcItem" name="Red Soul Crystal: Stage 13">
+		<set name="icon" val="icon.etc_soul_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="5909" type="EtcItem" name="5th Anniversary Gift Box (8 Honey Rice Cake Set)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13420,8,8,100;13419,1,1,100" />
+	</item>
+	<item id="5910" type="EtcItem" name="5th Anniversary Gift Box (7 Honey Rice Cake Set)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13420,7,7,100;13419,1,1,100" />
+	</item>
+	<item id="5911" type="EtcItem" name="Green Soul Crystal: Stage 13">
+		<set name="icon" val="icon.etc_soul_stone_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="5912" type="EtcItem" name="5th Anniversary Gift Box (6 Honey Rice Cake Set)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13420,6,6,100;13419,1,1,100" />
+	</item>
+	<item id="5913" type="EtcItem" name="5th Anniversary Gift Box (3 Honey Wheat Cake Set)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13421,3,3,100;13419,1,1,100" />
+	</item>
+	<item id="5914" type="EtcItem" name="Blue Soul Crystal: Stage 13">
+		<set name="icon" val="icon.etc_soul_stone_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="5915" type="EtcItem" name="Pirate's Treasure Map">
+		<set name="icon" val="icon.etc_map_ivory_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5916" type="EtcItem" name="Spellbook Page">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2171-1" />
+	</item>
+	<item id="5917" type="EtcItem" name="Kranvel's Spellbook: Chapter of Fire">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5918" type="EtcItem" name="Kranvel's Spellbook: Chapter of Water">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5919" type="EtcItem" name="Kranvel's Spellbook: Chapter of Wind">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5920" type="EtcItem" name="Kranvel's Spellbook: Chapter of Earth">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5921" type="EtcItem" name="Worthless Piece of Paper">
+		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5922" type="EtcItem" name="Blueprint: Giants Golem 1">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5923" type="EtcItem" name="Blueprint: Giants Golem 2">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5924" type="EtcItem" name="Blueprint: Giants Golem 3">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5925" type="EtcItem" name="Blueprint: Giants Golem 4">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5926" type="EtcItem" name="Blueprint: Giants Golem 5">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5927" type="EtcItem" name="Book: Basics of Giants Magic, Chapter 1">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5928" type="EtcItem" name="Book: Basics of Giants Magic, Chapter 2">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5929" type="EtcItem" name="Book: Basics of Giants Magic, Chapter 3">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5930" type="EtcItem" name="Book: Basics of Giants Magic, Chapter 4">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5931" type="EtcItem" name="Book: Basics of Giants Magic, Chapter 5">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5932" type="EtcItem" name="Handbook: Giants Architecture, Chapter 1">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5933" type="EtcItem" name="Handbook: Giants Architecture, Chapter 2">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5934" type="EtcItem" name="Handbook: Giants Architecture, Chapter 3">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5935" type="EtcItem" name="Handbook: Giants Architecture, Chapter 4">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5936" type="EtcItem" name="Handbook: Giants Architecture, Chapter 5">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5937" type="EtcItem" name="Book: Giants Medical Science, Chapter 1">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5938" type="EtcItem" name="Book: Giants Medical Science, Chapter 2">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5939" type="EtcItem" name="Book: Giants Medical Science, Chapter 3">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5940" type="EtcItem" name="Book: Giants Medical Science, Chapter 4">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5941" type="EtcItem" name="Book: Giants Medical Science, Chapter 5">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5942" type="EtcItem" name="Giant's Love Letter">
+		<set name="icon" val="icon.etc_piece_of_report_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5943" type="EtcItem" name="Giants' Doodle">
+		<set name="icon" val="icon.etc_painting_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5944" type="EtcItem" name="Ancient Parchment">
+		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2172-1" />
+	</item>
+	<item id="5945" type="EtcItem" name="Book: Giants Science and Technology, Chapter 1">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5946" type="EtcItem" name="Book: Giants Science and Technology, Chapter 2">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5947" type="EtcItem" name="Book: Giants Science and Technology, Chapter 3">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5948" type="EtcItem" name="Book: Giants Science and Technology, Chapter 4">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5949" type="EtcItem" name="Book: Giants Science and Technology, Chapter 5">
+		<set name="icon" val="icon.etc_spell_books_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5950" type="EtcItem" name="Almanac: Titan Culture, Chapter 1">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5951" type="EtcItem" name="Almanac: Titan Culture, Chapter 2">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5952" type="EtcItem" name="Almanac: Titan Culture, Chapter 3">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5953" type="EtcItem" name="Almanac: Titan Culture, Chapter 4">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5954" type="EtcItem" name="Almanac: Titan Culture, Chapter 5">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5955" type="EtcItem" name="Ancient Titan Book">
+		<set name="icon" val="icon.etc_spell_books_black_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2173-1" />
+	</item>
+	<item id="5956" type="EtcItem" name="15 Year Old Wine">
+		<set name="icon" val="icon.etc_luxury_wine_a_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="5900" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5957" type="EtcItem" name="30 Year Old Wine">
+		<set name="icon" val="icon.etc_luxury_wine_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="7900" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5958" type="EtcItem" name="60 Year Old Wine">
+		<set name="icon" val="icon.etc_luxury_wine_c_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="30900" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5959" type="EtcItem" name="Ritron's Dessert Recipe">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="40000" />
+	</item>
+	<item id="5960" type="EtcItem" name="Ritron Jelly">
+		<set name="icon" val="icon.etc_cobol_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="920" />
+	</item>
+	<item id="5961" type="EtcItem" name="Kail's Silver Basilisk">
+		<set name="icon" val="icon.etc_kyles_silver_basilisk_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5962" type="EtcItem" name="Kail's Gold Golem">
+		<set name="icon" val="icon.etc_kyles_gold_golem_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5963" type="EtcItem" name="Kail's Blood Dragon">
+		<set name="icon" val="icon.etc_kyles_blood_dragon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5964" type="EtcItem" name="Warehouse Keeper's Medal">
+		<set name="icon" val="icon.etc_irongate_medal_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5965" type="EtcItem" name="Blank Scroll">
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5966" type="EtcItem" name="Ancient Red Papyrus">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2176-1" />
+	</item>
+	<item id="5967" type="EtcItem" name="Ancient Blue Papyrus">
+		<set name="icon" val="icon.etc_paper_blue_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2176-2" />
+	</item>
+	<item id="5968" type="EtcItem" name="Ancient Black Papyrus">
+		<set name="icon" val="icon.etc_paper_black_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2176-3" />
+	</item>
+	<item id="5969" type="EtcItem" name="Ancient White Papyrus">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2176-4" />
+	</item>
+	<item id="5970" type="EtcItem" name="Ancient Chain Letter">
+		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5971" type="EtcItem" name="Ancient Joke Book">
+		<set name="icon" val="icon.etc_piece_of_paper_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5972" type="EtcItem" name="Revelation of the Seals: Chapter of Avarice">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5973" type="EtcItem" name="Revelation of the Seals: Chapter of Gnosis">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5974" type="EtcItem" name="Revelation of the Seals: Chapter of Strife">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5975" type="EtcItem" name="Revelation of the Seals: Chapter of Vengeance">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5976" type="EtcItem" name="Revelation of the Seals: Chapter of Awakening">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5977" type="EtcItem" name="Revelation of the Seals: Chapter of Calamity">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5978" type="EtcItem" name="Revelation of the Seals: Chapter of Descent">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5979" type="EtcItem" name="Ancient Epic, Chapter 1">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5980" type="EtcItem" name="Ancient Epic, Chapter 2">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5981" type="EtcItem" name="Ancient Epic, Chapter 3">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5982" type="EtcItem" name="Ancient Epic, Chapter 4">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5983" type="EtcItem" name="Ancient Epic, Chapter 5">
+		<set name="icon" val="icon.etc_piece_of_paper_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5984" type="EtcItem" name="Imperial Genealogy 1">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5985" type="EtcItem" name="Imperial Genealogy 2">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5986" type="EtcItem" name="Imperial Genealogy 3">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5987" type="EtcItem" name="Imperial Genealogy 4">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5988" type="EtcItem" name="Imperial Genealogy 5">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5989" type="EtcItem" name="Blueprint: Tower of Insolence, 1st Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5990" type="EtcItem" name="Blueprint: Tower of Insolence, 2nd Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5991" type="EtcItem" name="Blueprint: Tower of Insolence, 3rd Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5992" type="EtcItem" name="Blueprint: Tower of Insolence, 4th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5993" type="EtcItem" name="Blueprint: Tower of Insolence, 5th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5994" type="EtcItem" name="Blueprint: Tower of Insolence, 6th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5995" type="EtcItem" name="Blueprint: Tower of Insolence, 7th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5996" type="EtcItem" name="Blueprint: Tower of Insolence, 8th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5997" type="EtcItem" name="Blueprint: Tower of Insolence, 9th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5998" type="EtcItem" name="Blueprint: Tower of Insolence, 10th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5999" type="EtcItem" name="Blueprint: Tower of Insolence, 11th Floor">
+		<set name="icon" val="icon.etc_letter_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="4000" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4001" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4002" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4003" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4004" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4005" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4006" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4007" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4008" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4009" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4010" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4011" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4012" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4013" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4014" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4015" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4016" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4017" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4018" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4019" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4020" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4021" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4022" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4023" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4024" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4025" type="EtcItem" name="Mercenary Posting Ticket (Teleporter4)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4026" type="EtcItem" name="Mercenary Posting Ticket (Teleporter5)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="4027" type="Weapon" name="Bouquet">
+		<set name="icon" val="icon.etc_plan_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<for>
+			<set order="0x08" stat="pAtk" val="8" />
+			<set order="0x08" stat="mAtk" val="6" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="4028" type="Weapon" name="Giant Cannon">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="409000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="4029" type="EtcItem" name="Red Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4030" type="EtcItem" name="Orange Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4031" type="EtcItem" name="Yellow Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4032" type="EtcItem" name="Green Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4033" type="EtcItem" name="Blue Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4034" type="EtcItem" name="Purple Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4035" type="EtcItem" name="White Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4036" type="EtcItem" name="Black Paper">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4037" type="EtcItem" name="Coin of Luck">
+		<set name="icon" val="icon.etc_coins_gold_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4038" type="EtcItem" name="Food For Hatchling">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="150" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="PetFood" />
+		<set name="item_skill" val="2063-1" />
+		<set name="use_condition" val="{{uc_category;{@hatchling_group}}}" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="4039" type="EtcItem" name="Mold Glue">
+		<set name="icon" val="icon.etc_reagent_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="6000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4040" type="EtcItem" name="Mold Lubricant">
+		<set name="icon" val="icon.etc_reagent_gold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4041" type="EtcItem" name="Mold Hardener">
+		<set name="icon" val="icon.etc_reagent_blue_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="23000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4042" type="EtcItem" name="Enria">
+		<set name="icon" val="icon.etc_gem_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="12000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4043" type="EtcItem" name="Asofe">
+		<set name="icon" val="icon.etc_gem_blue_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="6000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4044" type="EtcItem" name="Thons">
+		<set name="icon" val="icon.etc_gem_clear_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="6000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4045" type="EtcItem" name="Maestro Holder">
+		<set name="icon" val="icon.etc_lump_yellow_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="411000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4046" type="EtcItem" name="Maestro Anvil Lock">
+		<set name="icon" val="icon.etc_lump_dark_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="90400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4047" type="EtcItem" name="Craftsman Mold">
+		<set name="icon" val="icon.etc_mold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="710000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4048" type="EtcItem" name="Maestro Mold">
+		<set name="icon" val="icon.etc_silver_mold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="154000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4049" type="EtcItem" name="Adamantite Earring Gemstone">
+		<set name="icon" val="icon.etc_crystal_ball_gold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3813" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4050" type="EtcItem" name="Adamantite Ring Wire">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3228" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4051" type="EtcItem" name="Adamantite Necklace Chain">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="5157" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4052" type="EtcItem" name="Earring of Black Ore Piece">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="5649" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4053" type="EtcItem" name="Ring of Black Ore Gemstone">
+		<set name="icon" val="icon.etc_gem_black_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4666" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4054" type="EtcItem" name="Necklace of Black Ore Beads">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="10154" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4055" type="EtcItem" name="Composite Shield Fragment">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4056" type="EtcItem" name="Zubei's Breastplate Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="11050" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4057" type="EtcItem" name="Zubei's Gaiter Material">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="7150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4058" type="EtcItem" name="Implosion Boots Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4059" type="EtcItem" name="Boots of Silence Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4060" type="EtcItem" name="Guardian's Boots Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4061" type="EtcItem" name="Paradia Boots Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4062" type="EtcItem" name="Elemental Boots Lining">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4063" type="EtcItem" name="Boots of Grace Lining">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4064" type="EtcItem" name="Avadon Breastplate Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="11050" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4065" type="EtcItem" name="Avadon Gaiters Material">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="7150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4066" type="EtcItem" name="Zubei's Leather Shirt Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="8483" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4067" type="EtcItem" name="Zubei's Leather Gaiter Texture">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="5587" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4068" type="EtcItem" name="Avadon Leather Armor Lining">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="11042" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4069" type="EtcItem" name="Tunic of Zubei Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="8483" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4070" type="EtcItem" name="Stockings of Zubei Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="5587" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4071" type="EtcItem" name="Avadon Robe Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="11042" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4072" type="EtcItem" name="Avadon Circlet Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4453" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4073" type="EtcItem" name="Sealed Avadon Gloves Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4074" type="EtcItem" name="Chain Gloves of Silence Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4075" type="EtcItem" name="Guardian's Gloves Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4076" type="EtcItem" name="Gloves of Blessing Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4077" type="EtcItem" name="Doom Shield Fragment">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4446" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4078" type="EtcItem" name="Blue Wolf Breastplate Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="13692" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4079" type="EtcItem" name="Boots of Blessing Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4080" type="EtcItem" name="Blue Wolf Gaiters Material">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="9723" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4081" type="EtcItem" name="Doom Plate Armor Temper">
+		<set name="icon" val="icon.etc_lump_white_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="20292" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4082" type="EtcItem" name="Blue Wolf Leather Armor Texture">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="17700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4083" type="EtcItem" name="Leather Armor of Doom Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="17700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4084" type="EtcItem" name="Blue Wolf Tunic Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="11508" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4085" type="EtcItem" name="Tunic of Doom Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="11508" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4086" type="EtcItem" name="Blue Wolf Stockings Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="8523" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4087" type="EtcItem" name="Stockings of Doom Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="8523" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4088" type="EtcItem" name="Blue Wolf Helmet Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="5292" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4089" type="EtcItem" name="Doom Helmet Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="5292" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4090" type="EtcItem" name="Sealed Blue Wolf Boots Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4091" type="EtcItem" name="Sealed Doom Gloves Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4092" type="EtcItem" name="Elemental Gloves Lining">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4093" type="EtcItem" name="Gloves of Grace Lining">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4094" type="EtcItem" name="Implosion Gauntlet Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4095" type="EtcItem" name="Paradia Gloves Pattern">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4096" type="EtcItem" name="Sealed Blue Wolf Gloves Fabric">
+		<set name="icon" val="icon.etc_leather_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4097" type="EtcItem" name="Sealed Zubei's Boots Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4098" type="EtcItem" name="Sealed Avadon Boots Design">
+		<set name="icon" val="icon.etc_pouch_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="3843" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="4099" type="EtcItem" name="Sealed Doom Boots Part">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="4455" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

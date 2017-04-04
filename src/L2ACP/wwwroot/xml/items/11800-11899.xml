@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="11800" type="Weapon" name="Common Item - Grace Dagger">
+		<set name="icon" val="icon.weapon_grace_dagger_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="340" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="11801" type="Weapon" name="Common Item - Sword of Limit">
+		<set name="icon" val="icon.weapon_sword_of_limit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11812" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11802" type="Weapon" name="Common Item - Nirvana Axe">
+		<set name="icon" val="icon.weapon_nirvana_axe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="383" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11803" type="Weapon" name="Common Item - Dark Screamer">
+		<set name="icon" val="icon.weapon_dark_screamer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="337" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="122" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="11804" type="Weapon" name="Common Item - Club of Nature">
+		<set name="icon" val="icon.weapon_club_of_nature_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="wood" />
+		<set name="weight" val="367" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11805" type="Weapon" name="Common Item - Sword of Whispering Death">
+		<set name="icon" val="icon.weapon_deathbreath_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="307" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11806" type="Weapon" name="Common Item - Mace of Underworld">
+		<set name="icon" val="icon.weapon_mace_of_underworld_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="363" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11807" type="Weapon" name="Common Item - Sword of Delusion">
+		<set name="icon" val="icon.weapon_sword_of_delusion_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11809" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11808" type="Weapon" name="Common Item - Blinzlasher">
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11821" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="126" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="11809" type="Weapon" name="Common Item - Blinzlasher">
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11807" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="126" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="11810" type="Weapon" name="Common Item - Blinzlasher">
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11820" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="126" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="11811" type="Weapon" name="Common Item - Blinzlasher">
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11815" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="126" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="11812" type="Weapon" name="Common Item - Blinzlasher">
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11801" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="126" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="11813" type="Weapon" name="Common Item - Pa'agrian Sword">
+		<set name="icon" val="icon.weapon_sword_of_paagrio_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="660" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11818" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11814" type="Weapon" name="Common Item - Akat Long Bow">
+		<set name="icon" val="icon.weapon_akat_long_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="horn" />
+		<set name="weight" val="580" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11823" />
+		<set name="soulshots" val="9" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="3" />
+		<set name="reuse_delay" val="820" />
+		<for>
+			<set order="0x08" stat="pAtk" val="316" />
+			<set order="0x08" stat="mAtk" val="84" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="227" />
+		</for>
+	</item>
+	<item id="11815" type="Weapon" name="Common Item - Sword of Nightmare">
+		<set name="icon" val="icon.weapon_sword_of_nightmare_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11811" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11816" type="Weapon" name="Common Item - War Axe">
+		<set name="icon" val="icon.weapon_war_axe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="553" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11817" type="Weapon" name="Common Item - Heathen's Book">
+		<set name="icon" val="icon.weapon_heathens_book_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="etc" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="187" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11818" type="Weapon" name="Common Item - Immortal Edge">
+		<set name="icon" val="icon.weapon_invincible_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="660" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11813" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="151" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="11819" type="Weapon" name="Common Item - Inferno Staff">
+		<set name="icon" val="icon.weapon_inferno_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="wood" />
+		<set name="weight" val="333" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11820" type="Weapon" name="Common Item - Tsurugi">
+		<set name="icon" val="icon.weapon_tsurugi_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11810" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11821" type="Weapon" name="Common Item - Caliburs">
+		<set name="icon" val="icon.weapon_caliburs_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="467" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11808" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11822" type="Weapon" name="Common Item - Karik Horn">
+		<set name="icon" val="icon.weapon_horn_of_karik_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="673" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11823" type="Weapon" name="Common Item - Tathlum">
+		<set name="icon" val="icon.weapon_taslam_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="587" />
+		<set name="price" val="182200" />
+		<set name="change_weaponId" val="11814" />
+		<set name="soulshots" val="5" />
+		<set name="spiritshots" val="3" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="176" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="11824" type="Weapon" name="Common Item - Pa'agrian Hammer">
+		<set name="icon" val="icon.weapon_paagrio_hammer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="337" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11825" type="Weapon" name="Common Item - Paradia Staff">
+		<set name="icon" val="icon.weapon_paradia_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="wood" />
+		<set name="weight" val="337" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11826" type="Weapon" name="Common Item - Poleaxe">
+		<set name="icon" val="icon.weapon_poleaxe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="670" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="item_skill" val="3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="139" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11827" type="Weapon" name="Common Item - Fisted Blade">
+		<set name="icon" val="icon.weapon_fist_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;90" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="493" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="76" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11828" type="Weapon" name="Common Item - Sage's Staff">
+		<set name="icon" val="icon.weapon_sages_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="wood" />
+		<set name="weight" val="333" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="135" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11829" type="Weapon" name="Common Item - Homunkulus's Sword">
+		<set name="icon" val="icon.weapon_homunkuluss_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="73" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="317" />
+		<set name="price" val="182200" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="111" />
+			<set order="0x08" stat="mAtk" val="101" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11830" type="Weapon" name="Common Item - Scorpion">
+		<set name="icon" val="icon.weapon_scorpion_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="78" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="663" />
+		<set name="price" val="194400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="item_skill" val="3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="144" />
+			<set order="0x08" stat="mAtk" val="78" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11831" type="Weapon" name="Common Item - Stormbringer*Stormbringer">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="78" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="777" />
+		<set name="price" val="194400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3046-6" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="78" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11832" type="Weapon" name="Common Item - Widow Maker">
+		<set name="icon" val="icon.weapon_widow_maker_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="78" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="660" />
+		<set name="price" val="194400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="item_skill" val="3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="144" />
+			<set order="0x08" stat="mAtk" val="78" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11833" type="Weapon" name="Common Item - Pa'agrian Axe">
+		<set name="icon" val="icon.weapon_paagrio_axe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="78" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="330" />
+		<set name="price" val="194400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="141" />
+			<set order="0x08" stat="mAtk" val="114" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11834" type="Weapon" name="Common Item - Stormbringer*Raid Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="780" />
+		<set name="price" val="207000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3045-7" />
+		<for>
+			<set order="0x08" stat="pAtk" val="183" />
+			<set order="0x08" stat="mAtk" val="81" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11835" type="Weapon" name="Common Item - Stormbringer*Shamshir">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="767" />
+		<set name="price" val="207000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3042-7" />
+		<for>
+			<set order="0x08" stat="pAtk" val="183" />
+			<set order="0x08" stat="mAtk" val="81" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11836" type="Weapon" name="Common Item - Stormbringer*Spirit Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="770" />
+		<set name="price" val="207000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3044-7" />
+		<for>
+			<set order="0x08" stat="pAtk" val="183" />
+			<set order="0x08" stat="mAtk" val="81" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11837" type="Weapon" name="Common Item - Stormbringer*Katana">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="773" />
+		<set name="price" val="207000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="183" />
+			<set order="0x08" stat="mAtk" val="81" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11838" type="Weapon" name="Common Item - Ghoul's Staff">
+		<set name="icon" val="icon.weapon_ghouls_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="bone" />
+		<set name="weight" val="333" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11839" type="Weapon" name="Common Item - Great Pata">
+		<set name="icon" val="icon.weapon_great_pata_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;90" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="487" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11840" type="Weapon" name="Common Item - Dwarven Hammer">
+		<set name="icon" val="icon.weapon_dwarven_hammer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="670" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11841" type="Weapon" name="Common Item - Raid Sword*Raid Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3045-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11842" type="Weapon" name="Common Item - Deadman's Staff">
+		<set name="icon" val="icon.weapon_deadmans_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="bone" />
+		<set name="weight" val="337" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11843" type="Weapon" name="Common Item - Berserker Blade">
+		<set name="icon" val="icon.weapon_berserker_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="460" />
+		<set name="price" val="279400" />
+		<set name="change_weaponId" val="11849" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11844" type="Weapon" name="Common Item - Sharpshooter">
+		<set name="icon" val="icon.weapon_taslam_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="580" />
+		<set name="price" val="279400" />
+		<set name="change_weaponId" val="11857" />
+		<set name="soulshots" val="6" />
+		<set name="spiritshots" val="3" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="198" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="11845" type="Weapon" name="Common Item - Shamshir*Raid Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="760" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3044-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11846" type="Weapon" name="Common Item - Shamshir*Shamshir">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="777" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3046-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11847" type="Weapon" name="Common Item - Shamshir*Spirit Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="760" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11848" type="Weapon" name="Common Item - Shamshir*Katana">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="770" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3042-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11849" type="Weapon" name="Common Item - Saber Tooth">
+		<set name="icon" val="icon.weapon_invincible_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="650" />
+		<set name="price" val="279400" />
+		<set name="change_weaponId" val="11843" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="169" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="11850" type="Weapon" name="Common Item - Ecliptic Sword">
+		<set name="icon" val="icon.weapon_sword_of_eclipse_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="460" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="125" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11851" type="Weapon" name="Common Item - Spirit Sword*Raid Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="753" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3044-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11852" type="Weapon" name="Common Item - Spirit Sword*Spirit Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="747" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11853" type="Weapon" name="Common Item - Samurai Long Sword">
+		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="460" />
+		<set name="price" val="279400" />
+		<set name="change_weaponId" val="11854" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11854" type="Weapon" name="Common Item - Admiral's Estoc">
+		<set name="icon" val="icon.weapon_blink_slasher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="460" />
+		<set name="price" val="279400" />
+		<set name="change_weaponId" val="11853" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3426-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="141" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="11855" type="Weapon" name="Common Item - Demon's Staff">
+		<set name="icon" val="icon.weapon_demons_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="wood" />
+		<set name="weight" val="330" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="152" />
+			<set order="0x08" stat="mAtk" val="122" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11856" type="Weapon" name="Common Item - Yaksa Mace">
+		<set name="icon" val="icon.weapon_yaksa_mace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="547" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11857" type="Weapon" name="Common Item - Eminence Bow">
+		<set name="icon" val="icon.weapon_eminence_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="573" />
+		<set name="price" val="279400" />
+		<set name="change_weaponId" val="11844" />
+		<set name="soulshots" val="10" />
+		<set name="spiritshots" val="3" />
+		<set name="mp_consume" val="3" />
+		<set name="reuse_delay" val="1500" />
+		<for>
+			<set order="0x08" stat="pAtk" val="323" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="11858" type="Weapon" name="Common Item - Orcish Poleaxe">
+		<set name="icon" val="icon.weapon_orcish_poleaxe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="650" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="item_skill" val="3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11859" type="Weapon" name="Common Item - Ecliptic Axe">
+		<set name="icon" val="icon.weapon_eclipse_axe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="547" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="125" />
+			<set order="0x08" stat="mAtk" val="111" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="11860" type="Weapon" name="Common Item - Katana*Raid Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="757" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3042-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11861" type="Weapon" name="Common Item - Katana*Spirit Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3046-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11862" type="Weapon" name="Common Item - Katana*Katana">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="757" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant4_skill" val="3045-8" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11863" type="Weapon" name="Common Item - Crystal Dagger">
+		<set name="icon" val="icon.weapon_crystal_dagger_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="112" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="333" />
+		<set name="price" val="279400" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="136" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="11864" type="Weapon" name="Common Item - Stormbringer*Sword of Limit">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="747" />
+		<set name="price" val="308500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-9" />
+		<for>
+			<set order="0x08" stat="pAtk" val="197" />
+			<set order="0x08" stat="mAtk" val="86" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11865" type="Weapon" name="Common Item - Stormbringer*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="743" />
+		<set name="price" val="308500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="197" />
+			<set order="0x08" stat="mAtk" val="86" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11866" type="Weapon" name="Common Item - Stormbringer*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="308500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3044-9" />
+		<for>
+			<set order="0x08" stat="pAtk" val="197" />
+			<set order="0x08" stat="mAtk" val="86" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11867" type="Weapon" name="Common Item - Stormbringer*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="740" />
+		<set name="price" val="308500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3045-9" />
+		<for>
+			<set order="0x08" stat="pAtk" val="197" />
+			<set order="0x08" stat="mAtk" val="86" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11868" type="Weapon" name="Common Item - Stormbringer*Caliburs">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="753" />
+		<set name="price" val="308500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3046-9" />
+		<for>
+			<set order="0x08" stat="pAtk" val="197" />
+			<set order="0x08" stat="mAtk" val="86" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11869" type="Weapon" name="Common Item - Raid Sword*Sword of Limit">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="723" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11870" type="Weapon" name="Common Item - Raid Sword*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="727" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11871" type="Weapon" name="Common Item - Raid Sword*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="723" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3044-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11872" type="Weapon" name="Common Item - Raid Sword*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="723" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3045-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11873" type="Weapon" name="Common Item - Raid Sword*Caliburs">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="730" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3046-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11874" type="Weapon" name="Common Item - Shamshir*Sword of Limit">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="747" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11875" type="Weapon" name="Common Item - Shamshir*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="733" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11876" type="Weapon" name="Common Item - Shamshir*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="737" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3044-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11877" type="Weapon" name="Common Item - Shamshir*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="740" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3045-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11878" type="Weapon" name="Common Item - Shamshir*Caliburs">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="743" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3046-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11879" type="Weapon" name="Common Item - Spirit Sword*Sword of Limit">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="747" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11880" type="Weapon" name="Common Item - Spirit Sword*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11881" type="Weapon" name="Common Item - Spirit Sword*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3044-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11882" type="Weapon" name="Common Item - Spirit Sword*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="740" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3045-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11883" type="Weapon" name="Common Item - Spirit Sword*Caliburs">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="747" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3046-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11884" type="Weapon" name="Common Item - Katana*Sword of Limit">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="727" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11885" type="Weapon" name="Common Item - Katana*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="730" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11886" type="Weapon" name="Common Item - Katana*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="723" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3044-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11887" type="Weapon" name="Common Item - Katana*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="737" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3045-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11888" type="Weapon" name="Common Item - Katana*Caliburs">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="740" />
+		<set name="price" val="329600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3046-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="204" />
+			<set order="0x08" stat="mAtk" val="89" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11889" type="Weapon" name="Common Item - Great Sword">
+		<set name="icon" val="icon.weapon_great_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="643" />
+		<set name="price" val="349500" />
+		<set name="change_weaponId" val="11895" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11890" type="Weapon" name="Common Item - Great Axe">
+		<set name="icon" val="icon.weapon_great_axe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="647" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="item_skill" val="3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11891" type="Weapon" name="Common Item - Sword of Limit*Sword of Limit">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="713" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-11" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11892" type="Weapon" name="Common Item - Sword of Limit*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="713" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11893" type="Weapon" name="Common Item - Sword of Limit*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="710" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3044-11" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11894" type="Weapon" name="Common Item - Sword of Limit*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="707" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3045-11" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11895" type="Weapon" name="Common Item - Innominate Victory">
+		<set name="icon" val="icon.weapon_nameless_victory_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="643" />
+		<set name="price" val="349500" />
+		<set name="change_weaponId" val="11889" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="11896" type="Weapon" name="Common Item - Dark Elven Long Bow">
+		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="573" />
+		<set name="price" val="349500" />
+		<set name="change_weaponId" val="11917" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="3" />
+		<set name="reuse_delay" val="820" />
+		<for>
+			<set order="0x08" stat="pAtk" val="397" />
+			<set order="0x08" stat="mAtk" val="100" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="227" />
+		</for>
+	</item>
+	<item id="11897" type="Weapon" name="Common Item - Sword of Delusion*Sword of Delusion">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="717" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3046-11" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11898" type="Weapon" name="Common Item - Sword of Delusion*Sword of Nightmare">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="710" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3042-11" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="11899" type="Weapon" name="Common Item - Sword of Delusion*Tsurugi">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="47" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="713" />
+		<set name="price" val="349500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3013-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="213" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+</list>

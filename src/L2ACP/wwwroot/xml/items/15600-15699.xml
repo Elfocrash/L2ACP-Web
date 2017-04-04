@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="15600" type="Armor" name="Vorpal Gloves">
+		<set name="icon" val="icon.armor_t96_g_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="670" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15601" type="Armor" name="Vorpal Boots">
+		<set name="icon" val="icon.armor_t94_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="670" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15602" type="Armor" name="Vorpal Leather Boots">
+		<set name="icon" val="icon.armor_t95_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="670" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15603" type="Armor" name="Vorpal Shoes">
+		<set name="icon" val="icon.armor_t96_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="670" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="13960000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15604" type="Armor" name="Vorpal Shield">
+		<set name="icon" val="icon.Evilgate_Shield_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1190" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="399" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="15605" type="Armor" name="Vorpal Sigil">
+		<set name="icon" val="icon.belleface_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="sigil" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="920" />
+		<set name="price" val="14658000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15606" type="Armor" name="Moirai Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="606" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="12627000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15607" type="Armor" name="Moirai Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="606" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="12627000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15608" type="Armor" name="Moirai Circlet">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="606" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="12627000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15609" type="Armor" name="Moirai Breastplate">
+		<set name="icon" val="icon.armor_t100_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1616" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="7520" />
+		<set name="price" val="33673000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="238" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15610" type="Armor" name="Moirai Leather Breastplate">
+		<set name="icon" val="icon.armor_t101_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1212" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="4140" />
+		<set name="price" val="25255000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="178" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15611" type="Armor" name="Moirai Tunic">
+		<set name="icon" val="icon.armor_t102_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1212" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1750" />
+		<set name="price" val="25255000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="119" />
+			<add order="0x40" stat="maxMp" val="614" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15612" type="Armor" name="Moirai Gaiter">
+		<set name="icon" val="icon.armor_t100_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1010" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="3170" />
+		<set name="price" val="21046000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="149" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15613" type="Armor" name="Moirai Leather Legging">
+		<set name="icon" val="icon.armor_t101_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="758" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1320" />
+		<set name="price" val="15784000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="111" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15614" type="Armor" name="Moirai Stockings">
+		<set name="icon" val="icon.armor_t102_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="758" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="850" />
+		<set name="price" val="15784000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="74" />
+			<add order="0x40" stat="maxMp" val="392" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15615" type="Armor" name="Moirai Gauntlet">
+		<set name="icon" val="icon.armor_t100_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="404" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="8418000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15616" type="Armor" name="Moirai Leather Gloves">
+		<set name="icon" val="icon.armor_t101_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="404" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="8418000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15617" type="Armor" name="Moirai Gloves">
+		<set name="icon" val="icon.armor_t102_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="404" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="8418000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15618" type="Armor" name="Moirai Boots">
+		<set name="icon" val="icon.armor_t100_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="404" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="8418000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15619" type="Armor" name="Moirai Leather Boots">
+		<set name="icon" val="icon.armor_t101_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="404" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="8418000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15620" type="Armor" name="Moirai Shoes">
+		<set name="icon" val="icon.armor_t102_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="404" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="8418000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="64" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15621" type="Armor" name="Moirai Shield">
+		<set name="icon" val="icon.weapon_tysandy_shield_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="424" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1190" />
+		<set name="price" val="8839000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="355" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="15622" type="Armor" name="Moirai Sigil">
+		<set name="icon" val="icon.weapon_tysandy_sigil_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="sigil" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="424" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="920" />
+		<set name="price" val="8839000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<add order="0x10" stat="pDef" val="16" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15623" type="EtcItem" name="Exp">
+		<set name="icon" val="icon.etc_exp_point_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15624" type="EtcItem" name="SP">
+		<set name="icon" val="icon.etc_sp_point_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15625" type="EtcItem" name="Question Mark">
+		<set name="icon" val="icon.etc_question_mark_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15626" type="EtcItem" name="Vitality">
+		<set name="icon" val="icon.etc_vitality_point_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15627" type="EtcItem" name="Clan Point">
+		<set name="icon" val="icon.bloodpledge_point_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15628" type="EtcItem" name="Gamble Reward">
+		<set name="icon" val="icon.etc_quest_game_reward_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15629" type="EtcItem" name="Random Reward">
+		<set name="icon" val="icon.etc_quest_random_reward_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15630" type="EtcItem" name="Flexible Reward">
+		<set name="icon" val="icon.etc_quest_account_reward_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15631" type="EtcItem" name="Bonus Reward">
+		<set name="icon" val="icon.etc_quest_add_reward_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15632" type="EtcItem" name="Sub Class Reward">
+		<set name="icon" val="icon.etc_quest_subclass_reward_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15633" type="EtcItem" name="PK Reduction">
+		<set name="icon" val="icon.etc_quest_pkcount_reward_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15634" type="EtcItem" name="Vesper Cutter Piece">
+		<set name="icon" val="icon.etc_vesper_cutter_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="336700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15635" type="EtcItem" name="Vesper Slasher Piece">
+		<set name="icon" val="icon.etc_vesper_slasher_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="337300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15636" type="EtcItem" name="Vesper Buster Piece">
+		<set name="icon" val="icon.etc_vesper_burster_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="336700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15637" type="EtcItem" name="Vesper Shaper Piece">
+		<set name="icon" val="icon.etc_vesper_shaper_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="336700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15638" type="EtcItem" name="Vesper Fighter Piece">
+		<set name="icon" val="icon.etc_vesper_fighter_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="339600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15639" type="EtcItem" name="Vesper Stormer Piece">
+		<set name="icon" val="icon.etc_vesper_stormer_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="335700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15640" type="EtcItem" name="Vesper Avenger Piece">
+		<set name="icon" val="icon.etc_vesper_avenger_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="339600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15641" type="EtcItem" name="Vesper Retributer Piece">
+		<set name="icon" val="icon.etc_vesper_retributer_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="335700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15642" type="EtcItem" name="Vesper Caster Piece">
+		<set name="icon" val="icon.etc_vesper_caster_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="339600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15643" type="EtcItem" name="Vesper Singer Piece">
+		<set name="icon" val="icon.etc_vesper_singer_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="338700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15644" type="EtcItem" name="Vesper Thrower Piece">
+		<set name="icon" val="icon.etc_vesper_thrower_piece_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="335300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15645" type="EtcItem" name="Sealed Moirai Helmet Piece">
+		<set name="icon" val="icon.etc_sealed_blluelycan_helmet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="33700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15646" type="EtcItem" name="Sealed Moirai Leather Helmet Piece">
+		<set name="icon" val="icon.etc_sealed_blluelycan_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="33700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15647" type="EtcItem" name="Sealed Moirai Circlet Piece">
+		<set name="icon" val="icon.etc_sealed_blluelycan_circlet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="33700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15648" type="EtcItem" name="Sealed Moirai Breastplate Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_cuirass_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="84300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15649" type="EtcItem" name="Sealed Moirai Leather Breastplate Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_houberk_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="62300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15650" type="EtcItem" name="Sealed Moirai Tunic Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_jaket_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="62300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15651" type="EtcItem" name="Sealed Moirai Gaiter Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_gaiter_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="50300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15652" type="EtcItem" name="Sealed Moirai Leather Legging Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="38400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15653" type="EtcItem" name="Sealed Moirai Stockings Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_hose_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="38400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15654" type="EtcItem" name="Sealed Moirai Gauntlet Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="22400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15655" type="EtcItem" name="Sealed Moirai Leather Gloves Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="22400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15656" type="EtcItem" name="Sealed Moirai Gloves Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_gloves_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="22400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15657" type="EtcItem" name="Sealed Moirai Boots Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_boots_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="22400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15658" type="EtcItem" name="Sealed Moirai Leather Boots Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="22400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15659" type="EtcItem" name="Sealed Moirai Shoes Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_shoes_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="22400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15660" type="EtcItem" name="Sealed Vesper Helmet Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_helmet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="43600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15661" type="EtcItem" name="Sealed Vesper Leather Helmet Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_helmet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="43600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15662" type="EtcItem" name="Sealed Vesper Circlet Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_circlet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="43600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15663" type="EtcItem" name="Sealed Vesper Breastplate Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_cuirass_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="110500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15664" type="EtcItem" name="Sealed Vesper Leather Breastplate Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_houberk_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="84300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15665" type="EtcItem" name="Sealed Vesper Tunic Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_jaket_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="84300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15666" type="EtcItem" name="Sealed Vesper Gaiter Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_gaiter_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="68600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15667" type="EtcItem" name="Sealed Vesper Gauntlet Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_gauntlet_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="26100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15668" type="EtcItem" name="Sealed Vesper Boots Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_boots_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="26100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15669" type="EtcItem" name="Sealed Vesper Verteidiger Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_verteidiger_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="29500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15670" type="EtcItem" name="Sealed Vesper Leather Legging Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_legging_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="54700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15671" type="EtcItem" name="Sealed Vesper Leather Gloves Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_gloves_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="26100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15672" type="EtcItem" name="Sealed Vesper Leather Boots Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_leather_boots_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="26100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15673" type="EtcItem" name="Sealed Vesper Stockings Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_hose_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="54700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15674" type="EtcItem" name="Sealed Vesper Gloves Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_gloves_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="26100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15675" type="EtcItem" name="Sealed Vesper Shoes Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_shoes_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="26100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15676" type="Weapon" name="Triumph Blade">
+		<set name="icon" val="icon.weapon_tysandy_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="171530000" />
+		<set name="change_weaponId" val="15687" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="15677" type="Weapon" name="Triumph Dagger">
+		<set name="icon" val="icon.weapon_tysandy_dagger_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="346" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="15678" type="Weapon" name="Triumph Hammer">
+		<set name="icon" val="icon.weapon_tysandy_hammer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="15679" type="Weapon" name="Triumph Crusher">
+		<set name="icon" val="icon.weapon_tysandy_crusher_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15680" type="Weapon" name="Triumph Two Hand Sword">
+		<set name="icon" val="icon.weapon_tysandy_two_hand_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="171530000" />
+		<set name="change_weaponId" val="15688" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15681" type="Weapon" name="Triumph Jamadhr">
+		<set name="icon" val="icon.weapon_tysandy_jamadhr_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1550" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="482" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15682" type="Weapon" name="Triumph Spear">
+		<set name="icon" val="icon.weapon_tysandy_spear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2010" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="3599-1" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="396" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15683" type="Weapon" name="Triumph Staff">
+		<set name="icon" val="icon.weapon_tysandy_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="317" />
+			<set order="0x08" stat="mAtk" val="244" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="15684" type="Weapon" name="Triumph Two Hand Staff">
+		<set name="icon" val="icon.weapon_tysandy_twohand_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="386" />
+			<set order="0x08" stat="mAtk" val="268" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15685" type="Weapon" name="Triumph Magic Sword">
+		<set name="icon" val="icon.weapon_tysandy_magic_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="171530000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="317" />
+			<set order="0x08" stat="mAtk" val="244" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="15686" type="Weapon" name="Triumph Bow">
+		<set name="icon" val="icon.weapon_tysandy_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="171530000" />
+		<set name="change_weaponId" val="15689" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="reuse_delay" val="1500" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="724" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="15687" type="Weapon" name="Triumph Rapier">
+		<set name="icon" val="icon.weapon_tysandy_rapier_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1280" />
+		<set name="price" val="171530000" />
+		<set name="change_weaponId" val="15676" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="oncrit_chance" val="4" />
+		<set name="oncrit_skill" val="3579-1" />
+		<set name="item_skill" val="3427-1" />
+		<cond msgId="1518">
+			<and>
+				<player races="Kamael" />
+				<player isHero="true" />
+			</and>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="344" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="15688" type="Weapon" name="Triumph Ancientsword">
+		<set name="icon" val="icon.weapon_tysandy_ancient_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="price" val="171530000" />
+		<set name="change_weaponId" val="15680" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<and>
+				<player races="Kamael" />
+				<player isHero="true" />
+			</and>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="429" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="15689" type="Weapon" name="Triumph Crossbow">
+		<set name="icon" val="icon.seapon_tysandy_crossbow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="price" val="171530000" />
+		<set name="change_weaponId" val="15686" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="is_oly_restricted" val="true" />
+		<cond msgId="1518">
+			<and>
+				<player races="Kamael" />
+				<player isHero="true" />
+			</and>
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="444" />
+			<set order="0x08" stat="mAtk" val="183" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="15690" type="EtcItem" name="Secret Key">
+		<set name="icon" val="icon.etc_key_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9076-1" />
+	</item>
+	<item id="15691" type="EtcItem" name="Sealed Vesper Sigil Piece">
+		<set name="icon" val="icon.etc_sealed_vesper_sigil_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="29500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15692" type="EtcItem" name="Sealed Moirai Sigil Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_sigil_piece_I00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="18800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15693" type="EtcItem" name="Sealed Moirai Shield Piece">
+		<set name="icon" val="icon.etc_sealed_bluelycan_shield_piece_I01" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="18800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15694" type="Armor" name="Sealed Moirai Helmet">
+		<set name="icon" val="icon.armor_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="606" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="12627000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15695" type="Armor" name="Sealed Moirai Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="606" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="12627000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15696" type="Armor" name="Sealed Moirai Circlet">
+		<set name="icon" val="icon.armor_circlet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="606" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="12627000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="96" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15697" type="Armor" name="Sealed Moirai Breastplate">
+		<set name="icon" val="icon.armor_t94_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1616" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="7520" />
+		<set name="price" val="33673000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="225" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15698" type="Armor" name="Sealed Moirai Leather Breastplate">
+		<set name="icon" val="icon.armor_t95_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1212" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="4140" />
+		<set name="price" val="25255000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="169" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="15699" type="Armor" name="Sealed Moirai Tunic">
+		<set name="icon" val="icon.armor_t96_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1212" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1750" />
+		<set name="price" val="25255000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="112" />
+			<add order="0x40" stat="maxMp" val="614" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

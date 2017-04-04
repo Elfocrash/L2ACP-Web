@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="20700" type="EtcItem" name="Bamboo Panda Hat Pack">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20674,1,1,100" />
+	</item>
+	<item id="20701" type="EtcItem" name="Bamboo Panda Hat 7-Day Pack - Great Adventurer's Soul Power">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20675,1,1,100" />
+	</item>
+	<item id="20702" type="EtcItem" name="Sexy Panda Hat Pack">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20676,1,1,100" />
+	</item>
+	<item id="20703" type="EtcItem" name="Agathion of Sexy Panda 7-Day Pack - Blessing of Resurrection">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20677,1,1,100" />
+	</item>
+	<item id="20704" type="EtcItem" name="Gatekeeper Hat Pack">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20678,1,1,100" />
+	</item>
+	<item id="20705" type="EtcItem" name="Gatekeeper Hat 7-day Pack - Instinct of Destruction">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20679,1,1,100" />
+	</item>
+	<item id="20706" type="EtcItem" name="Halloween Candy (Event)">
+		<set name="icon" val="BranchSys.br_hallowinday_candy_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="20707" type="EtcItem" name="Wooldy Summon Scroll (Event)">
+		<set name="icon" val="BranchSys.icon.br_scroll_of_wooldie_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22105-1" />
+	</item>
+	<item id="20708" type="EtcItem" name="Verdandi Summon Scroll (Event)">
+		<set name="icon" val="BranchSys.icon.br_scroll_of_berdandi_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22106-1" />
+	</item>
+	<item id="20709" type="EtcItem" name="Skooldy Summon Scroll (Event)">
+		<set name="icon" val="BranchSys.icon.br_scroll_of_scooldie_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22107-1" />
+	</item>
+	<item id="20710" type="EtcItem" name="Halloween Toy Box (Event)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22108-1" />
+	</item>
+	<item id="20711" type="Armor" name="Jack O'Lantern Mask (Event)">
+		<set name="icon" val="BranchSys.icon.br_jack0_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21132-1;21120-1;21121-1" />
+	</item>
+	<item id="20712" type="Armor" name="Super Strong Giant's Mask (Event) - Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_frankenstein_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21122-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="120" />
+	</item>
+	<item id="20713" type="Armor" name="Mask of Silent Scream (Event) - Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_scream_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21123-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="120" />
+	</item>
+	<item id="20714" type="Armor" name="Spirit of Wrath Mask (Event) - Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_doccabi_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21124-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="120" />
+	</item>
+	<item id="20715" type="Armor" name="Undecaying Corpse Mask (Event) - Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_mummy_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21125-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="120" />
+	</item>
+	<item id="20716" type="Armor" name="Planet X235 Alien Mask (Event) - Blessing of Skooldy : Protection of Darkness - 2 Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_alien_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21126-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="120" />
+	</item>
+	<item id="20717" type="EtcItem" name="Shiny Halloween Toy Box (Event)">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22109-1" />
+	</item>
+	<item id="20718" type="Armor" name="Shiny Super Strong Giant's Mask (Event) - Blessing of Halloween - 4-Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_shiny_frankenstein_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21127-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="20719" type="Armor" name="Shiny Mask of Silent Scream (Event) - Blessing of Halloween - 4-Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_shiny_scream_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21128-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="20720" type="Armor" name="Shiny Spirit of Wrath Mask (Event) - Blessing of Halloween - 4-Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_shiny_doccabi_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21129-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="20721" type="Armor" name="Shiny Undecaying Corpse Mask (Event) - Blessing of Halloween - 4-Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_shiny_mummy_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21130-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="20722" type="Armor" name="Shiny Planet X235 Alien Mask (Event) - Blessing of Halloween - 4-Hour Limited Period">
+		<set name="icon" val="BranchSys.icon.br_shiny_alien_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21131-1;21132-1;21120-1;21121-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="20723" type="Armor" name="Golden Jack O'Lantern Mask.">
+		<set name="icon" val="BranchSys.icon.br_golden_jack0_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="20724" type="Armor" name="Golden Jack O'Lantern Mask. - Authority of Golden Jack O'Lantern - 7-Day Limited Period">
+		<set name="icon" val="BranchSys.icon.br_golden_jack0_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21136-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20725" type="Armor" name="Red Flame of Valakas">
+		<set name="icon" val="BranchSys.icon.br_valakas_the_flame_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="20726" type="Armor" name="Agathion Seal Bracelet - Zombie">
+		<set name="icon" val="BranchSys.icon.br_aga_gangsi_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21133-1;23117-1" />
+	</item>
+	<item id="20727" type="Armor" name="Agathion Seal Bracelet - Zombie - Escape from Death - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_gangsi_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21133-1;23117-1;23174-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20728" type="EtcItem" name="Lucky Sky Lantern Summon Scroll">
+		<set name="icon" val="BranchSys.icon.br_lamp_orange_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="shared_reuse_group" val="101" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22110-1" />
+		<set name="use_condition" val="{{uc_restart_point;7}}" />
+	</item>
+	<item id="20729" type="EtcItem" name="Ambience Sky Lantern Summon Scroll">
+		<set name="icon" val="BranchSys.icon.br_lamp_a_yellow_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="shared_reuse_group" val="101" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22111-1" />
+		<set name="use_condition" val="{{uc_restart_point;7}}" />
+	</item>
+	<item id="20730" type="EtcItem" name="Sway Sky Lantern Summon Scroll">
+		<set name="icon" val="BranchSys.icon.br_lamp_b_red_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="shared_reuse_group" val="101" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22112-1" />
+		<set name="use_condition" val="{{uc_restart_point;7}}" />
+	</item>
+	<item id="20731" type="EtcItem" name="Comfort Sky Lantern Summon Scroll">
+		<set name="icon" val="BranchSys.icon.br_lamp_c_pink_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="shared_reuse_group" val="101" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22113-1" />
+		<set name="use_condition" val="{{uc_restart_point;7}}" />
+	</item>
+	<item id="20732" type="Armor" name="Agathion Seal Bracelet - Baekyi Hwamae">
+		<set name="icon" val="BranchSys.icon.br_aga_bluebird_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21134-1;23119-1" />
+	</item>
+	<item id="20733" type="Armor" name="Agathion Seal Bracelet - Kwanwoo Hwamae">
+		<set name="icon" val="BranchSys.icon.br_aga_hatbird_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21135-1;23120-1" />
+	</item>
+	<item id="20734" type="EtcItem" name="Golden Jack O'Lantern Mask 7-Day Pack - Authority of Golden Jack O'Lantern Mask.">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20724,1,1,100" />
+	</item>
+	<item id="20735" type="EtcItem" name="Zombie Agathion Pack">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20726,1,1,100" />
+	</item>
+	<item id="20736" type="EtcItem" name="Zombie Agathion 7-Day Pack - Escape from Death">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20727,1,1,100" />
+	</item>
+	<item id="20737" type="EtcItem" name="Bluebird Agathion Pack">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20732,1,1,100" />
+	</item>
+	<item id="20738" type="EtcItem" name="Hatbird Agathion Pack">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20733,1,1,100" />
+	</item>
+	<item id="20739" type="EtcItem" name="Morph Scroll Box">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22114-1" />
+	</item>
+	<item id="20740" type="EtcItem" name="Cocktail Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20393,1,1,100;20394,1,1,100" />
+	</item>
+	<item id="20741" type="EtcItem" name="Rune of SP 30% (Event) - 1-hour limited period">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_sp_i00" />
+		<set name="etcitem_type" val="rune" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22040-1" />
+		<set name="time" val="60" />
+	</item>
+	<item id="20742" type="EtcItem" name="Rune of Experience Points 30% (Event) - 1-hour limited period">
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="etcitem_type" val="rune" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22039-1" />
+		<set name="time" val="60" />
+	</item>
+	<item id="20743" type="Armor" name="Shiny Super Strong Giant's Mask. - Blessing of Halloween - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_shiny_frankenstein_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21137-1;21132-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20744" type="Armor" name="Shiny Mask of Silent Scream. - Blessing of Halloween - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_shiny_scream_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21138-1;21132-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20745" type="Armor" name="Shiny Spirit of Wrath Mast. - Blessing of Halloween - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_shiny_doccabi_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21139-1;21132-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20746" type="Armor" name="Shiny Undecaying Corpse Mask. - Blessing of Halloween - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_shiny_mummy_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21140-1;21132-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20747" type="Armor" name="Shiny Planet X235 Alien Mask. - Blessing of Halloween - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_shiny_alien_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21141-1;21132-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20748" type="EtcItem" name="Shiny Super Strong Giant's Mask 7-Day Pack - Blessing of Halloween">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20743,1,1,100" />
+	</item>
+	<item id="20749" type="EtcItem" name="Shiny Mask of Silent Scream 7-Day Pack - Blessing of Halloween">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20744,1,1,100" />
+	</item>
+	<item id="20750" type="EtcItem" name="Shiny Spirit of Wrath Mask 7-Day Pack - Blessing of Halloween">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20745,1,1,100" />
+	</item>
+	<item id="20751" type="EtcItem" name="Shiny Undecaying Corpse Mask 7Day Pack - Blessing of Halloween">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20746,1,1,100" />
+	</item>
+	<item id="20752" type="EtcItem" name="Shiny Planet X235 Alien Mask 7-Day Pack - Blessing of Halloween">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20747,1,1,100" />
+	</item>
+	<item id="20753" type="EtcItem" name="Santa's Gift Box">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20756,1,1,100;20758,1,1,100;5561,1,1,100" />
+	</item>
+	<item id="20754" type="EtcItem" name="Santa's Gift Box - Jackpot">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20756,1,1,100;20757,1,1,100;5561,1,1,100" />
+	</item>
+	<item id="20755" type="EtcItem" name="Santa's Weapon Exchange Coupon - Regular - 24-hour limited period">
+		<set name="icon" val="icon.etc_lottery_card_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="1440" />
+	</item>
+	<item id="20756" type="EtcItem" name="Santa's Shirt Exchange Coupon - 24-hour limited period">
+		<set name="icon" val="icon.etc_lottery_card_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="1440" />
+	</item>
+	<item id="20757" type="EtcItem" name="Santa's Weapon Exchange Coupon - Jackpot - 24-hour limited period">
+		<set name="icon" val="icon.etc_lottery_card_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="1440" />
+	</item>
+	<item id="20758" type="EtcItem" name="Santa's Weapon Exchange Coupon Box">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22115-1" />
+	</item>
+	<item id="20759" type="Armor" name="Christmas Shirt - 24-hour limited period">
+		<set name="icon" val="BranchSys.br_xmas_shirts_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="enchant_enabled" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="1440" />
+	</item>
+	<item id="20760" type="EtcItem" name="Rudolph Necklace (Event)">
+		<set name="icon" val="BranchSys.br_rudolf_necklace_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="20761" type="EtcItem" name="Rudolph Necklace">
+		<set name="icon" val="BranchSys.br_rudolf_necklace_i01" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="20762" type="EtcItem" name="Rudolph Pet Exchange Ticket - 7 days limit">
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20763" type="EtcItem" name="Rudolph Rearing Certificate - 24-hour limited period">
+		<set name="icon" val="icon.etc_royal_membership_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_questitem" val="true" />
+		<set name="time" val="1440" />
+	</item>
+	<item id="20764" type="EtcItem" name="Purple Star Candy">
+		<set name="icon" val="BranchSys.br_rudolf_food_purple_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22137-1" />
+	</item>
+	<item id="20765" type="EtcItem" name="Blue Star Candy">
+		<set name="icon" val="BranchSys.br_rudolf_food_blue_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22137-1" />
+	</item>
+	<item id="20766" type="EtcItem" name="Red Star Candy">
+		<set name="icon" val="BranchSys.br_rudolf_food_red_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22137-1" />
+	</item>
+	<item id="20767" type="EtcItem" name="Orange Star Candy">
+		<set name="icon" val="BranchSys.br_rudolf_food_orange_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22137-1" />
+	</item>
+	<item id="20768" type="EtcItem" name="Food of Doubt">
+		<set name="icon" val="BranchSys.br_rudolf_food_unknown_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="15" />
+		<set name="reuse_delay" val="14400000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22130-1" />
+	</item>
+	<item id="20769" type="EtcItem" name="Rudolph Baby Food">
+		<set name="icon" val="BranchSys.br_baby_food_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22126-1" />
+	</item>
+	<item id="20770" type="EtcItem" name="Apple Basket Herb">
+		<set name="icon" val="BranchSys.br_Xmas_apple_basket_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22128-1" />
+	</item>
+	<item id="20771" type="EtcItem" name="Orange Basket Herb">
+		<set name="icon" val="BranchSys.br_Xmas_orange_basket_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22128-2" />
+	</item>
+	<item id="20772" type="EtcItem" name="Banana Basket Herb">
+		<set name="icon" val="BranchSys.br_Xmas_banana_basket_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22128-3" />
+	</item>
+	<item id="20773" type="EtcItem" name="Rudolph's Gift">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20762,1,1,100;20739,1,1,100;20764,1,1,100;20765,1,1,100;20766,1,1,100;20767,1,1,100;20768,1,1,100" />
+	</item>
+	<item id="20774" type="Armor" name="GG - Aura of Fury - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_warriorgod_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21142-1;23123-1;23124-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20775" type="Armor" name="Agathion Seal Bracelet - Gwanseum Nyang Nyang - Blessing of Mercy - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_mercygod_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21143-1;23125-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20776" type="Armor" name="Agathion Seal Bracelet - Blue Opera - Sword of Recovery - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_blue_pekingopera_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21144-1;23127-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20777" type="Armor" name="Agathion Seal Bracelet - Blue Opera - Sword of Lightning - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_blue_pekingopera_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21145-1;23127-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20778" type="Armor" name="Agathion Seal Bracelet - Red Opera - Spear of Flames - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_pekingopera_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21146-1;23130-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20779" type="Armor" name="Agathion Seal Bracelet - Opera">
+		<set name="icon" val="BranchSys.icon.br_aga_redblue_pekingopera_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21147-1;23132-1" />
+	</item>
+	<item id="20780" type="Armor" name="Agathion Seal Bracelet - Opera - Sword of Life - 30-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_redblue_pekingopera_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21147-1;23132-1;23164-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="20781" type="Armor" name="Agathion Seal Bracelet - Miss Chipao - Miss Chipao's Blessing - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_chinesedress_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21148-1;23133-1;23134-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20782" type="Armor" name="Agathion Seal Bracelet - Nepal Snow">
+		<set name="icon" val="BranchSys.icon.br_aga_suno_trumpet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21149-1;23135-1" />
+	</item>
+	<item id="20783" type="Armor" name="Agathion Seal Bracelet - Round Ball Snow">
+		<set name="icon" val="BranchSys.icon.br_aga_suno_ball_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21150-1;23137-1" />
+	</item>
+	<item id="20784" type="Armor" name="Agathion Seal Bracelet - Ladder Snow">
+		<set name="icon" val="BranchSys.icon.br_aga_suno_tall_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21151-1;23139-1" />
+	</item>
+	<item id="20785" type="Armor" name="Agathion Seal Bracelet - Nepal Snow - Snow's Haste - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_suno_trumpet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21149-1;23135-1;23136-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20786" type="Armor" name="Agathion Seal Bracelet - Round Ball Snow - Snow's Acumen - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_suno_ball_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21150-1;23137-1;23138-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20787" type="Armor" name="Agathion Seal Bracelet - Ladder Snow - Snow's Wind Walk - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_aga_suno_tall_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="3267-1;21151-1;23139-1;23140-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20788" type="EtcItem" name="Flame Box">
+		<set name="icon" val="BranchSys.icon.br_fire_box_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22116-1" />
+	</item>
+	<item id="20789" type="Armor" name="Rocket Gun Hat - Fireworks">
+		<set name="icon" val="BranchSys.icon.br_rocket_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="item_skill" val="21152-1" />
+	</item>
+	<item id="20790" type="Armor" name="Yellow Paper Hat - Blessed Body - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_party_hat_gold_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21153-4" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20791" type="Armor" name="Pink Paper Mask Set - Blessed Soul - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_party_hat_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21154-4" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20792" type="Armor" name="Flavorful Cheese Hat">
+		<set name="icon" val="BranchSys.icon.br_bigrat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="20793" type="Armor" name="Sweet Cheese Hat">
+		<set name="icon" val="BranchSys.icon.br_goldrat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="20794" type="Armor" name="Flavorful Cheese Hat - Scent of Flavorful Cheese - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_bigrat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21155-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20795" type="Armor" name="Sweet Cheese Hat - Scent of Sweet Cheese - 7-day limited period">
+		<set name="icon" val="BranchSys.icon.br_goldrat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="21156-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="20796" type="EtcItem" name="Guangong Agathion 7-Day Pack - Aura of Fury">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20774,1,1,100" />
+	</item>
+	<item id="20797" type="EtcItem" name="Gwanseum Nyang Nyang Agathion 7-Day Pack - Blessing of Mercy">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20775,1,1,100" />
+	</item>
+	<item id="20798" type="EtcItem" name="Blue Opera Agathion 7-Day Pack - Sword of Recovery">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20776,1,1,100" />
+	</item>
+	<item id="20799" type="EtcItem" name="Blue Opera Agathion 7-Day Pack - Sword of Lightning">
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="20777,1,1,100" />
+	</item>
+</list>

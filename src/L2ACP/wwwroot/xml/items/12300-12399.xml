@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="12300" type="Armor" name="Common Item - Sealed Imperial Crusader Gauntlet">
+		<set name="icon" val="icon.armor_t88_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="12" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="180" />
+		<set name="price" val="259800" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12301" type="Armor" name="Common Item - Sealed Imperial Crusader Boots">
+		<set name="icon" val="icon.armor_t88_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="12" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="370" />
+		<set name="price" val="259800" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12302" type="Armor" name="Common Item - Sealed Imperial Crusader Shield">
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="13" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="390" />
+		<set name="price" val="272800" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+		</for>
+	</item>
+	<item id="12303" type="Armor" name="Common Item - Sealed Imperial Crusader Helmet">
+		<set name="icon" val="icon.armor_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="19" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="183" />
+		<set name="price" val="389700" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12304" type="Armor" name="Common Item - Sealed Imperial Crusader Breastplate">
+		<set name="icon" val="icon.armor_t88_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="2540" />
+		<set name="price" val="1039000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="193" />
+		</for>
+	</item>
+	<item id="12305" type="Armor" name="Common Item - Imperial Crusader Gaiters">
+		<set name="icon" val="icon.armor_t88_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="31" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1087" />
+		<set name="price" val="650000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+		</for>
+	</item>
+	<item id="12306" type="Armor" name="Common Item - Imperial Crusader Gauntlet">
+		<set name="icon" val="icon.armor_t88_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="12" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="180" />
+		<set name="price" val="259800" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12307" type="Armor" name="Common Item - Imperial Crusader Boots">
+		<set name="icon" val="icon.armor_t88_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="12" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="370" />
+		<set name="price" val="259800" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12308" type="Armor" name="Common Item - Imperial Crusader Shield">
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="13" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="390" />
+		<set name="price" val="272800" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="290" />
+		</for>
+	</item>
+	<item id="12309" type="Armor" name="Common Item - Imperial Crusader Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="19" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="183" />
+		<set name="price" val="389700" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12310" type="Armor" name="Common Item - Imperial Crusader Breastplate">
+		<set name="icon" val="icon.armor_t88_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="2540" />
+		<set name="price" val="1039000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="205" />
+		</for>
+	</item>
+	<item id="12311" type="Armor" name="Common Item - Red Crescent">
+		<set name="icon" val="icon.accessary_red_cresent_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="1150" />
+		<for>
+			<add order="0x10" stat="mDef" val="24" />
+		</for>
+	</item>
+	<item id="12312" type="Armor" name="Common Item - Necklace of Devotion">
+		<set name="icon" val="icon.accessary_necklace_of_devotion_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="1530" />
+		<for>
+			<add order="0x10" stat="mDef" val="32" />
+		</for>
+	</item>
+	<item id="12313" type="Armor" name="Common Item - Ring of Devotion">
+		<set name="icon" val="icon.accessary_ring_of_devotion_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="766" />
+		<for>
+			<add order="0x10" stat="mDef" val="16" />
+		</for>
+	</item>
+	<item id="12314" type="Armor" name="Common Item - Enchanted Earring">
+		<set name="icon" val="icon.accessary_enchanted_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="1720" />
+		<for>
+			<add order="0x10" stat="mDef" val="27" />
+		</for>
+	</item>
+	<item id="12315" type="Armor" name="Common Item - Enchanted Necklace">
+		<set name="icon" val="icon.accessary_enchanted_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="2290" />
+		<for>
+			<add order="0x10" stat="mDef" val="36" />
+		</for>
+	</item>
+	<item id="12316" type="Armor" name="Common Item - Enchanted Ring">
+		<set name="icon" val="icon.accessary_enchanted_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="1150" />
+		<for>
+			<add order="0x10" stat="mDef" val="18" />
+		</for>
+	</item>
+	<item id="12317" type="Armor" name="Common Item - Near Forest Necklace">
+		<set name="icon" val="icon.accessary_near_forest_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="3320" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+		</for>
+	</item>
+	<item id="12318" type="Armor" name="Common Item - Tiger's Eye">
+		<set name="icon" val="icon.accessary_tigerseye_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="2490" />
+		<for>
+			<add order="0x10" stat="mDef" val="30" />
+		</for>
+	</item>
+	<item id="12319" type="Armor" name="Common Item - Black Pearl Ring">
+		<set name="icon" val="icon.accessary_black_pearl_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="1660" />
+		<for>
+			<add order="0x10" stat="mDef" val="20" />
+		</for>
+	</item>
+	<item id="12320" type="Armor" name="Common Item - Elven Necklace">
+		<set name="icon" val="icon.accessary_elven_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="9" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="4640" />
+		<for>
+			<add order="0x10" stat="mDef" val="45" />
+		</for>
+	</item>
+	<item id="12321" type="Armor" name="Common Item - Elven Ring">
+		<set name="icon" val="icon.accessary_elven_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="2320" />
+		<for>
+			<add order="0x10" stat="mDef" val="22" />
+		</for>
+	</item>
+	<item id="12322" type="Armor" name="Common Item - Elven Earring">
+		<set name="icon" val="icon.accessary_elven_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="3480" />
+		<for>
+			<add order="0x10" stat="mDef" val="34" />
+		</for>
+	</item>
+	<item id="12323" type="Armor" name="Common Item - Mithril Ring">
+		<set name="icon" val="icon.accessary_mithril_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="2940" />
+		<for>
+			<add order="0x10" stat="mDef" val="24" />
+		</for>
+	</item>
+	<item id="12324" type="Armor" name="Common Item - Necklace of Darkness">
+		<set name="icon" val="icon.accessary_necklace_of_darkness_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="11" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="5880" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+		</for>
+	</item>
+	<item id="12325" type="Armor" name="Common Item - Omen Beast's Eye">
+		<set name="icon" val="icon.accessary_onyxbeastseye_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="4410" />
+		<for>
+			<add order="0x10" stat="mDef" val="36" />
+		</for>
+	</item>
+	<item id="12326" type="Armor" name="Common Item - Moonstone Earring">
+		<set name="icon" val="icon.accessary_moonstone_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="5520" />
+		<for>
+			<add order="0x10" stat="mDef" val="39" />
+		</for>
+	</item>
+	<item id="12327" type="Armor" name="Common Item - Aquastone Necklace">
+		<set name="icon" val="icon.accessary_aquastone_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="7360" />
+		<for>
+			<add order="0x10" stat="mDef" val="52" />
+		</for>
+	</item>
+	<item id="12328" type="Armor" name="Common Item - Aquastone Ring">
+		<set name="icon" val="icon.accessary_aquastone_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="3680" />
+		<for>
+			<add order="0x10" stat="mDef" val="26" />
+		</for>
+	</item>
+	<item id="12329" type="Armor" name="Common Item - Earring of Protection">
+		<set name="icon" val="icon.accessary_earing_of_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="6820" />
+		<for>
+			<add order="0x10" stat="mDef" val="42" />
+		</for>
+	</item>
+	<item id="12330" type="Armor" name="Common Item - Necklace of Protection">
+		<set name="icon" val="icon.accessary_necklace_of_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="9090" />
+		<for>
+			<add order="0x10" stat="mDef" val="56" />
+		</for>
+	</item>
+	<item id="12331" type="Armor" name="Common Item - Ring of Protection">
+		<set name="icon" val="icon.accessary_ring_of_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="4550" />
+		<for>
+			<add order="0x10" stat="mDef" val="28" />
+		</for>
+	</item>
+	<item id="12332" type="Armor" name="Common Item - Earring of Seal">
+		<set name="icon" val="icon.accessary_earing_of_binding_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="12500" />
+		<for>
+			<add order="0x10" stat="mDef" val="45" />
+		</for>
+	</item>
+	<item id="12333" type="Armor" name="Common Item - Ring of Ages">
+		<set name="icon" val="icon.accessary_ring_of_ages_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="8330" />
+		<for>
+			<add order="0x10" stat="mDef" val="30" />
+		</for>
+	</item>
+	<item id="12334" type="Armor" name="Common Item - Necklace of Mermaid">
+		<set name="icon" val="icon.accessary_necklace_of_mermaid_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="16700" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+		</for>
+	</item>
+	<item id="12335" type="Armor" name="Common Item - Nassen's Earring">
+		<set name="icon" val="icon.accessary_nassens_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="19300" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+		</for>
+	</item>
+	<item id="12336" type="Armor" name="Common Item - Necklace of Seal">
+		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="10" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="50" />
+		<set name="price" val="25700" />
+		<for>
+			<add order="0x10" stat="mDef" val="64" />
+		</for>
+	</item>
+	<item id="12337" type="Armor" name="Common Item - Ring of Seal">
+		<set name="icon" val="icon.accessary_ring_of_binding_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="12900" />
+		<for>
+			<add order="0x10" stat="mDef" val="32" />
+		</for>
+	</item>
+	<item id="12338" type="Armor" name="Common Item - Adamantite Earring">
+		<set name="icon" val="icon.accessary_adamantite_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="24400" />
+		<for>
+			<add order="0x10" stat="mDef" val="51" />
+		</for>
+	</item>
+	<item id="12339" type="Armor" name="Common Item - Adamantite Necklace">
+		<set name="icon" val="icon.accessary_adamantite_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="32500" />
+		<for>
+			<add order="0x10" stat="mDef" val="68" />
+		</for>
+	</item>
+	<item id="12340" type="Armor" name="Common Item - Adamantite Ring">
+		<set name="icon" val="icon.accessary_adamantite_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="16200" />
+		<for>
+			<add order="0x10" stat="mDef" val="34" />
+		</for>
+	</item>
+	<item id="12341" type="Armor" name="Common Item - Earring of Black Ore">
+		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="43100" />
+		<for>
+			<add order="0x10" stat="mDef" val="54" />
+		</for>
+	</item>
+	<item id="12342" type="Armor" name="Common Item - Necklace of Black Ore">
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="57500" />
+		<for>
+			<add order="0x10" stat="mDef" val="72" />
+		</for>
+	</item>
+	<item id="12343" type="Armor" name="Common Item - Ring of Black Ore">
+		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="28800" />
+		<for>
+			<add order="0x10" stat="mDef" val="36" />
+		</for>
+	</item>
+	<item id="12344" type="Armor" name="Common Item - Sealed Phoenix Necklace">
+		<set name="icon" val="icon.accessary_phoenixs_necklace_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="69000" />
+		<for>
+			<add order="0x10" stat="mDef" val="76" />
+		</for>
+	</item>
+	<item id="12345" type="Armor" name="Common Item - Sealed Phoenix Earring">
+		<set name="icon" val="icon.accessary_phoenixs_earing_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="51800" />
+		<for>
+			<add order="0x10" stat="mDef" val="57" />
+		</for>
+	</item>
+	<item id="12346" type="Armor" name="Common Item - Sealed Phoenix Ring">
+		<set name="icon" val="icon.accessary_phoenixs_ring_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="34500" />
+		<for>
+			<add order="0x10" stat="mDef" val="38" />
+		</for>
+	</item>
+	<item id="12347" type="Armor" name="Common Item - Phoenix Necklace">
+		<set name="icon" val="icon.accessary_phoenixs_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="69000" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+			<add order="0x40" stat="maxMp" val="26" />
+		</for>
+	</item>
+	<item id="12348" type="Armor" name="Common Item - Phoenix Ring">
+		<set name="icon" val="icon.accessary_phoenixs_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="34500" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+			<add order="0x40" stat="maxMp" val="13" />
+		</for>
+	</item>
+	<item id="12349" type="Armor" name="Common Item - Phoenix Earring">
+		<set name="icon" val="icon.accessary_phoenixs_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="51800" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="20" />
+		</for>
+	</item>
+	<item id="12350" type="Armor" name="Common Item - Sealed Majestic Necklace">
+		<set name="icon" val="icon.accessary_inferno_necklace_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="9" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="108300" />
+		<for>
+			<add order="0x10" stat="mDef" val="80" />
+		</for>
+	</item>
+	<item id="12351" type="Armor" name="Common Item - Sealed Majestic Ring">
+		<set name="icon" val="icon.accessary_inferno_ring_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="54200" />
+		<for>
+			<add order="0x10" stat="mDef" val="40" />
+		</for>
+	</item>
+	<item id="12352" type="Armor" name="Common Item - Sealed Majestic Earring">
+		<set name="icon" val="icon.accessary_inferno_earing_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="81300" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+		</for>
+	</item>
+	<item id="12353" type="Armor" name="Common Item - Majestic Necklace">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="9" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="108300" />
+		<for>
+			<add order="0x10" stat="mDef" val="85" />
+			<add order="0x40" stat="maxMp" val="33" />
+		</for>
+	</item>
+	<item id="12354" type="Armor" name="Common Item - Majestic Ring">
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="54200" />
+		<for>
+			<add order="0x10" stat="mDef" val="42" />
+			<add order="0x40" stat="maxMp" val="17" />
+		</for>
+	</item>
+	<item id="12355" type="Armor" name="Common Item - Majestic Earring">
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="81300" />
+		<for>
+			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
+		</for>
+	</item>
+	<item id="12356" type="Armor" name="Common Item - Sealed Tateossian Necklace">
+		<set name="icon" val="icon.accessory_tateossian_necklace_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="17" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="354600" />
+		<for>
+			<add order="0x10" stat="mDef" val="91" />
+		</for>
+	</item>
+	<item id="12357" type="Armor" name="Common Item - Sealed Tateossian Ring">
+		<set name="icon" val="icon.accessory_tateossian_ring_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="9" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="177300" />
+		<for>
+			<add order="0x10" stat="mDef" val="46" />
+		</for>
+	</item>
+	<item id="12358" type="Armor" name="Common Item - Sealed Tateossian Earring">
+		<set name="icon" val="icon.accessory_tateossian_earring_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="13" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="265900" />
+		<for>
+			<add order="0x10" stat="mDef" val="68" />
+		</for>
+	</item>
+	<item id="12359" type="Armor" name="Common Item - Tateossian Necklace">
+		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="17" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="354600" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="12360" type="Armor" name="Common Item - Tateossian Ring">
+		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="9" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="50" />
+		<set name="price" val="177300" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="12361" type="Armor" name="Common Item - Tateossian Earring">
+		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="13" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="50" />
+		<set name="price" val="265900" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="12362" type="EtcItem" name="Weapon-Type Enhance Backup Stone (D-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i00" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2515-1" />
+	</item>
+	<item id="12363" type="EtcItem" name="Weapon-Type Enhance Backup Stone (C-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i01" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2516-1" />
+	</item>
+	<item id="12364" type="EtcItem" name="Weapon-Type Enhance Backup Stone (B-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i02" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2517-1" />
+	</item>
+	<item id="12365" type="EtcItem" name="Weapon-Type Enhance Backup Stone (A-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i03" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2518-1" />
+	</item>
+	<item id="12366" type="EtcItem" name="Weapon-Type Enhance Backup Stone (S-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i04" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2519-1" />
+	</item>
+	<item id="12367" type="EtcItem" name="Armor-Type Enhance Backup Stone (D-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i00" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2520-1" />
+	</item>
+	<item id="12368" type="EtcItem" name="Armor-Type Enhance Backup Stone (C-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i01" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2521-1" />
+	</item>
+	<item id="12369" type="EtcItem" name="Armor-Type Enhance Backup Stone (B-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i02" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2522-1" />
+	</item>
+	<item id="12370" type="EtcItem" name="Armor-Type Enhance Backup Stone (A-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i03" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2523-1" />
+	</item>
+	<item id="12371" type="EtcItem" name="Armor-Type Enhance Backup Stone (S-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i04" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2524-1" />
+	</item>
+	<item id="12372" type="Armor" name="Monkey Hat">
+		<set name="icon" val="icon.monkey_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="12373" type="Armor" name="Pig Hat">
+		<set name="icon" val="icon.event_pig_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="12374" type="EtcItem" name="Mammon's Varnish Enhancer">
+		<set name="icon" val="icon.etc_mammon_varnish_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="12375" type="EtcItem" name="Foundation Great Sword">
+		<set name="icon" val="icon.weapon_great_sword_i00" />
+		<set name="weapon_type" val="sword" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1930" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12376" type="EtcItem" name="Foundation Great Axe">
+		<set name="icon" val="icon.weapon_great_axe_i00" />
+		<set name="weapon_type" val="pole" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1940" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="12377" type="EtcItem" name="Foundation Innominate Victory">
+		<set name="icon" val="icon.weapon_nameless_victory_i00" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="random_damage" val="15" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1930" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="12378" type="EtcItem" name="Foundation Dark Elven Long Bow">
+		<set name="icon" val="icon.weapon_dark_elven_long_bow_i00" />
+		<set name="weapon_type" val="bow" />
+		<set name="random_damage" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1720" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="397" />
+			<set order="0x08" stat="mAtk" val="100" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="227" />
+		</for>
+	</item>
+	<item id="12379" type="EtcItem" name="Foundation Sword of Valhalla">
+		<set name="icon" val="icon.weapon_sword_of_valhalla_i00" />
+		<set name="weapon_type" val="sword" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="900" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12380" type="EtcItem" name="Foundation Spell Breaker">
+		<set name="icon" val="icon.weapon_spell_breaker_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1620" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12381" type="EtcItem" name="Foundation Arthro Nail">
+		<set name="icon" val="icon.weapon_arthro_nail_i00" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="random_damage" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1420" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="12382" type="EtcItem" name="Foundation Ice Storm Hammer">
+		<set name="icon" val="icon.weapon_ice_storm_hammer_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1950" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12383" type="EtcItem" name="Foundation Military Fleuret">
+		<set name="icon" val="icon.weapon_assult_fleuret_i00" />
+		<set name="weapon_type" val="rapier" />
+		<set name="random_damage" val="40" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1370" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="159" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="12384" type="EtcItem" name="Foundation Sprite's Staff">
+		<set name="icon" val="icon.weapon_sprites_staff_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="wood" />
+		<set name="weight" val="960" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12385" type="EtcItem" name="Foundation Kris">
+		<set name="icon" val="icon.weapon_kris_i00" />
+		<set name="weapon_type" val="dagger" />
+		<set name="random_damage" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="980" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="153" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="12386" type="EtcItem" name="Foundation Keshanberk">
+		<set name="icon" val="icon.weapon_kshanberk_i00" />
+		<set name="weapon_type" val="sword" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1370" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12387" type="EtcItem" name="Foundation Peacemaker">
+		<set name="icon" val="icon.weapon_peace_maker_i00" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1720" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="221" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="12388" type="EtcItem" name="Foundation Heavy War Axe">
+		<set name="icon" val="icon.weapon_heavy_war_axe_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1620" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="175" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12389" type="EtcItem" name="Foundation Hell Knife">
+		<set name="icon" val="icon.weapon_hell_knife_i00" />
+		<set name="weapon_type" val="dagger" />
+		<set name="random_damage" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="740" />
+		<set name="price" val="6680500" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="153" />
+			<set order="0x08" stat="mAtk" val="91" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="12390" type="EtcItem" name="Foundation Guardian Sword">
+		<set name="icon" val="icon.weapon_guardians_sword_i00" />
+		<set name="weapon_type" val="sword" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1930" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12391" type="EtcItem" name="Foundation Sword of Damascus">
+		<set name="icon" val="icon.weapon_sword_of_damascus_i00" />
+		<set name="weapon_type" val="sword" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1350" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12392" type="EtcItem" name="Foundation Dismantler">
+		<set name="icon" val="icon.weapon_dismantler_i00" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="random_damage" val="15" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1930" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="210" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="12393" type="EtcItem" name="Foundation Lance">
+		<set name="icon" val="icon.weapon_lancia_i00" />
+		<set name="weapon_type" val="pole" />
+		<set name="random_damage" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1920" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="12394" type="EtcItem" name="Foundation Bellion Cestus">
+		<set name="icon" val="icon.weapon_bellion_cestus_i00" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="random_damage" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1390" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="12395" type="EtcItem" name="Foundation Staff of Evil Spirits">
+		<set name="icon" val="icon.weapon_staff_of_evil_sprit_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="wood" />
+		<set name="weight" val="930" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12396" type="EtcItem" name="Foundation Deadman's Glory">
+		<set name="icon" val="icon.weapon_deadmans_glory_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1600" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12397" type="EtcItem" name="Foundation Star Buster">
+		<set name="icon" val="icon.weapon_star_buster_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1930" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12398" type="EtcItem" name="Foundation Art of Battle Axe">
+		<set name="icon" val="icon.weapon_art_of_battle_axe_i00" />
+		<set name="weapon_type" val="blunt" />
+		<set name="random_damage" val="20" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="1570" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="194" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="12399" type="EtcItem" name="Foundation Demon's Dagger">
+		<set name="icon" val="icon.weapon_demons_sword_i00" />
+		<set name="weapon_type" val="dagger" />
+		<set name="random_damage" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="970" />
+		<set name="price" val="10091400" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="170" />
+			<set order="0x08" stat="mAtk" val="99" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+</list>

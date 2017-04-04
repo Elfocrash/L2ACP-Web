@@ -9,6 +9,7 @@ namespace L2ACP.Services
 {
     public class RequestService : IRequestService
     {
+        private const string ApiUrl = "http://localhost:8000/api";
         public async Task<L2Response> LoginUser(string username, string password)
         {
             var loginRequest = new LoginRequest
@@ -34,7 +35,7 @@ namespace L2ACP.Services
                 Password = password
             };
 
-            var request = await new HttpClient().PostAsync("http://localhost:8000/api", new JsonContent(loginRequest));
+            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(loginRequest));
 
             var result = await request.Content.ReadAsStringAsync();
 
@@ -50,11 +51,27 @@ namespace L2ACP.Services
                 Username = username
             };
 
-            var request = await new HttpClient().PostAsync("http://localhost:8000/api", new JsonContent(loginRequest));
+            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(loginRequest));
 
             var result = await request.Content.ReadAsStringAsync();
 
             var responseObject = JsonConvert.DeserializeObject<GetAllCharsResponse>(result);
+
+            return responseObject;
+        }
+
+        public async Task<L2Response> GetInventory(string player)
+        {
+            var loginRequest = new GetInventoryRequest()
+            {
+                Username = player
+            };
+
+            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(loginRequest));
+
+            var result = await request.Content.ReadAsStringAsync();
+
+            var responseObject = JsonConvert.DeserializeObject<GetInventoryResponse>(result);
 
             return responseObject;
         }

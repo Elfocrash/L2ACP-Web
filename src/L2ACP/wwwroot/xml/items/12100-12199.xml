@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="12100" type="Armor" name="Common Item - Karmian Stockings">
+		<set name="icon" val="icon.armor_t53_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="323" />
+		<set name="price" val="8430" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+			<add order="0x40" stat="maxMp" val="141" />
+		</for>
+	</item>
+	<item id="12101" type="Armor" name="Common Item - Plate Leather Boots">
+		<set name="icon" val="icon.armor_t47_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="407" />
+		<set name="price" val="4500" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+		</for>
+	</item>
+	<item id="12102" type="Armor" name="Common Item - Dwarven Chain Shield">
+		<set name="icon" val="icon.shield_dwarven_chain_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="427" />
+		<set name="price" val="5480" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="174" />
+		</for>
+	</item>
+	<item id="12103" type="Armor" name="Common Item - Plate Leather Gaiters">
+		<set name="icon" val="icon.armor_t47_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="9780" />
+		<for>
+			<add order="0x10" stat="pDef" val="59" />
+		</for>
+	</item>
+	<item id="12104" type="Armor" name="Common Item - Plate Leather Gloves">
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="203" />
+		<set name="price" val="5220" />
+		<for>
+			<add order="0x10" stat="pDef" val="33" />
+		</for>
+	</item>
+	<item id="12105" type="Armor" name="Common Item - Plate Leather Armor">
+		<set name="icon" val="icon.armor_t47_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1483" />
+		<set name="price" val="15700" />
+		<for>
+			<add order="0x10" stat="pDef" val="94" />
+		</for>
+	</item>
+	<item id="12106" type="Armor" name="Common Item - Great Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="203" />
+		<set name="price" val="8420" />
+		<for>
+			<add order="0x10" stat="pDef" val="51" />
+		</for>
+	</item>
+	<item id="12107" type="Armor" name="Common Item - Knight's Shield">
+		<set name="icon" val="icon.shield_knight_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="420" />
+		<set name="price" val="5900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="178" />
+		</for>
+	</item>
+	<item id="12108" type="Armor" name="Common Item - Dwarven Chain Gloves">
+		<set name="icon" val="icon.armor_t60_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="200" />
+		<set name="price" val="5620" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+		</for>
+	</item>
+	<item id="12109" type="Armor" name="Common Item - Dwarven Chain Gaiters">
+		<set name="icon" val="icon.armor_t60_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1207" />
+		<set name="price" val="14000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="80" />
+		</for>
+	</item>
+	<item id="12110" type="Armor" name="Common Item - Dwarven Chain Mail Shirt">
+		<set name="icon" val="icon.armor_t60_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="9" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="2690" />
+		<set name="price" val="22500" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="129" />
+		</for>
+	</item>
+	<item id="12111" type="Armor" name="Common Item - Rind Leather Gaiters">
+		<set name="icon" val="icon.armor_t49_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="517" />
+		<set name="price" val="10500" />
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+		</for>
+	</item>
+	<item id="12112" type="Armor" name="Common Item - Rind Leather Gloves">
+		<set name="icon" val="icon.armor_t49_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="200" />
+		<set name="price" val="5620" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+		</for>
+	</item>
+	<item id="12113" type="Armor" name="Common Item - Rind Leather Armor">
+		<set name="icon" val="icon.armor_t49_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1473" />
+		<set name="price" val="16800" />
+		<for>
+			<add order="0x10" stat="pDef" val="97" />
+		</for>
+	</item>
+	<item id="12114" type="Armor" name="Common Item - Rind Leather Boots">
+		<set name="icon" val="icon.armor_t49_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="407" />
+		<set name="price" val="5620" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+		</for>
+	</item>
+	<item id="12115" type="Armor" name="Common Item - Robe of Seal">
+		<set name="icon" val="icon.armor_t44_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="11" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="833" />
+		<set name="price" val="27400" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="105" />
+			<add order="0x40" stat="maxMp" val="413" />
+		</for>
+	</item>
+	<item id="12116" type="Armor" name="Common Item - Gloves of Seal">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="207" />
+		<set name="price" val="5620" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+		</for>
+	</item>
+	<item id="12117" type="Armor" name="Common Item - Silk Shirt">
+		<set name="icon" val="icon.etc_shirts_c_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="27" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="43" />
+		<set name="price" val="14000" />
+		<for>
+			<add order="0x10" stat="pDef" val="17" />
+		</for>
+	</item>
+	<item id="12118" type="Armor" name="Common Item - Crimson Boots">
+		<set name="icon" val="icon.armor_t57_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="403" />
+		<set name="price" val="5620" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+		</for>
+	</item>
+	<item id="12119" type="Armor" name="Common Item - Mithril Gauntlet">
+		<set name="icon" val="icon.armor_t61_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="200" />
+		<set name="price" val="10400" />
+		<for>
+			<add order="0x10" stat="pDef" val="36" />
+		</for>
+	</item>
+	<item id="12120" type="Armor" name="Common Item - Shining Circlet">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="steel" />
+		<set name="weight" val="200" />
+		<set name="price" val="15600" />
+		<for>
+			<add order="0x10" stat="pDef" val="54" />
+		</for>
+	</item>
+	<item id="12121" type="Armor" name="Common Item - Demon's Boots">
+		<set name="icon" val="icon.armor_t54_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="407" />
+		<set name="price" val="10400" />
+		<for>
+			<add order="0x10" stat="pDef" val="36" />
+		</for>
+	</item>
+	<item id="12122" type="Armor" name="Common Item - Demon's Gloves">
+		<set name="icon" val="icon.armor_t54_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="203" />
+		<set name="price" val="10400" />
+		<for>
+			<add order="0x10" stat="pDef" val="36" />
+		</for>
+	</item>
+	<item id="12123" type="Armor" name="Common Item - Demon's Tunic">
+		<set name="icon" val="icon.armor_t54_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="12" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="663" />
+		<set name="price" val="31200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="69" />
+			<add order="0x40" stat="maxMp" val="284" />
+		</for>
+	</item>
+	<item id="12124" type="Armor" name="Common Item - Demon's Stockings">
+		<set name="icon" val="icon.armor_t54_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="327" />
+		<set name="price" val="19500" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="43" />
+			<add order="0x40" stat="maxMp" val="177" />
+		</for>
+	</item>
+	<item id="12125" type="Armor" name="Common Item - Composite Boots">
+		<set name="icon" val="icon.armor_t61_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="407" />
+		<set name="price" val="10400" />
+		<for>
+			<add order="0x10" stat="pDef" val="36" />
+		</for>
+	</item>
+	<item id="12126" type="Armor" name="Common Item - Composite Shield">
+		<set name="icon" val="icon.shield_composite_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="410" />
+		<set name="price" val="10900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="190" />
+		</for>
+	</item>
+	<item id="12127" type="Armor" name="Common Item - Composite Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="6" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="203" />
+		<set name="price" val="15600" />
+		<for>
+			<add order="0x10" stat="pDef" val="54" />
+		</for>
+	</item>
+	<item id="12128" type="Armor" name="Common Item - Composite Armor">
+		<set name="icon" val="icon.armor_t61_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="27" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="3660" />
+		<set name="price" val="67700" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="224" />
+		</for>
+	</item>
+	<item id="12129" type="Armor" name="Common Item - Tower Shield">
+		<set name="icon" val="icon.shield_tower_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="413" />
+		<set name="price" val="10900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="190" />
+		</for>
+	</item>
+	<item id="12130" type="Armor" name="Common Item - Theca Leather Gaiters">
+		<set name="icon" val="icon.armor_t63_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="21000" />
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+		</for>
+	</item>
+	<item id="12131" type="Armor" name="Common Item - Theca Leather Gloves">
+		<set name="icon" val="icon.armor_t63_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="200" />
+		<set name="price" val="11200" />
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+		</for>
+	</item>
+	<item id="12132" type="Armor" name="Common Item - Theca Leather Boots">
+		<set name="icon" val="icon.armor_t63_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="403" />
+		<set name="price" val="11200" />
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+		</for>
+	</item>
+	<item id="12133" type="Armor" name="Common Item - Theca Leather Armor">
+		<set name="icon" val="icon.armor_t63_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="13" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1457" />
+		<set name="price" val="33600" />
+		<for>
+			<add order="0x10" stat="pDef" val="106" />
+		</for>
+	</item>
+	<item id="12134" type="Armor" name="Common Item - Drake Leather Gloves">
+		<set name="icon" val="icon.armor_t21_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="200" />
+		<set name="price" val="16300" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+		</for>
+	</item>
+	<item id="12135" type="Armor" name="Common Item - Drake Leather Armor">
+		<set name="icon" val="icon.armor_t21_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="32" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1933" />
+		<set name="price" val="79500" />
+		<for>
+			<add order="0x10" stat="pDef" val="179" />
+		</for>
+	</item>
+	<item id="12136" type="Armor" name="Common Item - Drake Leather Boots">
+		<set name="icon" val="icon.armor_t21_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="403" />
+		<set name="price" val="16300" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+		</for>
+	</item>
+	<item id="12137" type="Armor" name="Common Item - Divine Gloves">
+		<set name="icon" val="icon.armor_t57_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="203" />
+		<set name="price" val="16300" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+		</for>
+	</item>
+	<item id="12138" type="Armor" name="Common Item - Divine Tunic">
+		<set name="icon" val="icon.armor_t57_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="20" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="660" />
+		<set name="price" val="48900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="74" />
+			<add order="0x40" stat="maxMp" val="314" />
+		</for>
+	</item>
+	<item id="12139" type="Armor" name="Common Item - Divine Stockings">
+		<set name="icon" val="icon.armor_t57_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="12" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="320" />
+		<set name="price" val="30600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<add order="0x40" stat="maxMp" val="196" />
+		</for>
+	</item>
+	<item id="12140" type="Armor" name="Common Item - Stripe Silk Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="60" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="43" />
+		<set name="price" val="40800" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+		</for>
+	</item>
+	<item id="12141" type="Armor" name="Common Item - Full Plate Gauntlet">
+		<set name="icon" val="icon.armor_t62_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="200" />
+		<set name="price" val="16300" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+		</for>
+	</item>
+	<item id="12142" type="Armor" name="Common Item - Full Plate Boots">
+		<set name="icon" val="icon.armor_t62_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="400" />
+		<set name="price" val="16300" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+		</for>
+	</item>
+	<item id="12143" type="Armor" name="Common Item - Full Plate Shield">
+		<set name="icon" val="icon.shield_full_plate_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="407" />
+		<set name="price" val="17100" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="203" />
+		</for>
+	</item>
+	<item id="12144" type="Armor" name="Common Item - Full Plate Armor">
+		<set name="icon" val="icon.armor_t62_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="42" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="3493" />
+		<set name="price" val="106000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="239" />
+		</for>
+	</item>
+	<item id="12145" type="Armor" name="Common Item - Full Plate Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="10" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="200" />
+		<set name="price" val="24500" />
+		<for>
+			<add order="0x10" stat="pDef" val="58" />
+		</for>
+	</item>
+	<item id="12146" type="Armor" name="Common Item - Sealed Zubei's Gauntlet">
+		<set name="icon" val="icon.armor_t64_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12147" type="Armor" name="Common Item - Sealed Zubei's Boots">
+		<set name="icon" val="icon.armor_t64_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12148" type="Armor" name="Common Item - Sealed Avadon Gloves">
+		<set name="icon" val="icon.armor_t66_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12149" type="Armor" name="Common Item - Sealed Avadon Boots">
+		<set name="icon" val="icon.armor_t66_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="390" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12150" type="Armor" name="Common Item - Zubei's Leather Gaiters">
+		<set name="icon" val="icon.armor_t65_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="493" />
+		<set name="price" val="39100" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+		</for>
+	</item>
+	<item id="12151" type="Armor" name="Common Item - Zubei's Leather Shirt">
+		<set name="icon" val="icon.armor_t65_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1443" />
+		<set name="price" val="62600" />
+		<for>
+			<add order="0x10" stat="pDef" val="117" />
+		</for>
+	</item>
+	<item id="12152" type="Armor" name="Common Item - Zubei's Gaiters">
+		<set name="icon" val="icon.armor_t64_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1190" />
+		<set name="price" val="52200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="98" />
+		</for>
+	</item>
+	<item id="12153" type="Armor" name="Common Item - Zubei's Gauntlet - Heavy Armor">
+		<set name="icon" val="icon.armor_t64_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12154" type="Armor" name="Common Item - Zubei's Gauntlet - Tans Armor Use">
+		<set name="icon" val="icon.armor_t65_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12155" type="Armor" name="Common Item - Zubei's Gauntlet - Robe">
+		<set name="icon" val="icon.armor_t56_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12156" type="Armor" name="Common Item - Zubei's Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t64_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12157" type="Armor" name="Common Item - Zubei's Boots - Tans Armor Use">
+		<set name="icon" val="icon.armor_t65_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12158" type="Armor" name="Common Item - Zubei's Boots - Robe">
+		<set name="icon" val="icon.armor_t56_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12159" type="Armor" name="Common Item - Zubei's Shield">
+		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="403" />
+		<set name="price" val="21900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+		</for>
+	</item>
+	<item id="12160" type="Armor" name="Common Item - Zubei's Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="31300" />
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+		</for>
+	</item>
+	<item id="12161" type="Armor" name="Common Item - Zubei's Breastplate">
+		<set name="icon" val="icon.armor_t64_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="11" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="2657" />
+		<set name="price" val="83500" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="157" />
+		</for>
+	</item>
+	<item id="12162" type="Armor" name="Common Item - Avadon Gloves - Heavy Armor">
+		<set name="icon" val="icon.armor_t66_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12163" type="Armor" name="Common Item - Avadon Gloves - Tans Armor Use">
+		<set name="icon" val="icon.armor_t67_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12164" type="Armor" name="Common Item - Avadon Gloves - Robe">
+		<set name="icon" val="icon.armor_t59_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="197" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12165" type="Armor" name="Common Item - Avadon Leather Armor">
+		<set name="icon" val="icon.armor_t67_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="14" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1867" />
+		<set name="price" val="102000" />
+		<for>
+			<add order="0x10" stat="pDef" val="191" />
+		</for>
+	</item>
+	<item id="12166" type="Armor" name="Common Item - Avadon Robe">
+		<set name="icon" val="icon.armor_t59_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="14" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="847" />
+		<set name="price" val="102000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="127" />
+			<add order="0x40" stat="maxMp" val="561" />
+		</for>
+	</item>
+	<item id="12167" type="Armor" name="Common Item - Avadon Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t66_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12168" type="Armor" name="Common Item - Avadon Boots - Tans Armor Use">
+		<set name="icon" val="icon.armor_t67_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12169" type="Armor" name="Common Item - Avadon Boots - Robe">
+		<set name="icon" val="icon.armor_t59_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="393" />
+		<set name="price" val="20900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="12170" type="Armor" name="Common Item - Avadon Circlet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="197" />
+		<set name="price" val="31300" />
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+		</for>
+	</item>
+	<item id="12171" type="Armor" name="Common Item - Avadon Shield">
+		<set name="icon" val="icon.shield_avadon_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="403" />
+		<set name="price" val="21900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+		</for>
+	</item>
+	<item id="12172" type="Armor" name="Common Item - Avadon Plate Gaiters">
+		<set name="icon" val="icon.armor_t66_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="7" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1173" />
+		<set name="price" val="52200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="98" />
+		</for>
+	</item>
+	<item id="12173" type="Armor" name="Common Item - Avadon Breastplate">
+		<set name="icon" val="icon.armor_t66_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="11" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2640" />
+		<set name="price" val="83500" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="157" />
+		</for>
+	</item>
+	<item id="12174" type="Armor" name="Common Item - Thin Leather Shirt">
+		<set name="icon" val="icon.etc_shirts_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="29" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="43" />
+		<set name="price" val="52200" />
+		<for>
+			<add order="0x10" stat="pDef" val="21" />
+		</for>
+	</item>
+	<item id="12175" type="Armor" name="Common Item - Tunic of Zubei">
+		<set name="icon" val="icon.armor_t56_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="653" />
+		<set name="price" val="62600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="78" />
+			<add order="0x40" stat="maxMp" val="345" />
+		</for>
+	</item>
+	<item id="12176" type="Armor" name="Common Item - Stockings of Zubei">
+		<set name="icon" val="icon.armor_t56_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="313" />
+		<set name="price" val="39100" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<add order="0x40" stat="maxMp" val="216" />
+		</for>
+	</item>
+	<item id="12177" type="Armor" name="Common Item - Doom Gloves - Heavy Armor">
+		<set name="icon" val="icon.armor_t71_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="193" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12178" type="Armor" name="Common Item - Doom Gloves - Tans Armor Use">
+		<set name="icon" val="icon.armor_t72_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="193" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12179" type="Armor" name="Common Item - Doom Gloves - Robe">
+		<set name="icon" val="icon.armor_t73_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="193" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12180" type="Armor" name="Common Item - Doom Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t71_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12181" type="Armor" name="Common Item - Doom Boots - Tans Armor Use">
+		<set name="icon" val="icon.armor_t72_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12182" type="Armor" name="Common Item - Doom Boots - Robe">
+		<set name="icon" val="icon.armor_t73_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12183" type="Armor" name="Common Item - Doom Shield">
+		<set name="icon" val="icon.shield_doom_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="400" />
+		<set name="price" val="39400" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="230" />
+		</for>
+	</item>
+	<item id="12184" type="Armor" name="Common Item - Doom Plate Armor">
+		<set name="icon" val="icon.armor_t71_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="33" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="3327" />
+		<set name="price" val="244000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="270" />
+		</for>
+	</item>
+	<item id="12185" type="Armor" name="Common Item - Doom Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="8" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="193" />
+		<set name="price" val="56300" />
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+		</for>
+	</item>
+	<item id="12186" type="Armor" name="Common Item - Leather Armor of Doom">
+		<set name="icon" val="icon.armor_t72_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="24" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1833" />
+		<set name="price" val="183000" />
+		<for>
+			<add order="0x10" stat="pDef" val="202" />
+		</for>
+	</item>
+	<item id="12187" type="Armor" name="Common Item - Sealed Doom Gloves">
+		<set name="icon" val="icon.armor_t71_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="193" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12188" type="Armor" name="Common Item - Sealed Doom Boots">
+		<set name="icon" val="icon.armor_t71_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12189" type="Armor" name="Common Item - Sealed Blue Wolf Boots">
+		<set name="icon" val="icon.armor_t68_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12190" type="Armor" name="Common Item - Sealed Blue Wolf Gloves">
+		<set name="icon" val="icon.armor_t68_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="197" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12191" type="Armor" name="Common Item - Thin Stripe Leather Shirt">
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="43" />
+		<set name="price" val="93900" />
+		<for>
+			<add order="0x10" stat="pDef" val="22" />
+		</for>
+	</item>
+	<item id="12192" type="Armor" name="Common Item - Tunic of Doom">
+		<set name="icon" val="icon.armor_t73_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="15" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="633" />
+		<set name="price" val="112700" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<add order="0x40" stat="maxMp" val="377" />
+		</for>
+	</item>
+	<item id="12193" type="Armor" name="Common Item - Blue Wolf Gaiters">
+		<set name="icon" val="icon.armor_t68_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="13" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1123" />
+		<set name="price" val="93900" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="104" />
+		</for>
+	</item>
+	<item id="12194" type="Armor" name="Common Item - Blue Wolf Leather Armor">
+		<set name="icon" val="icon.armor_t69_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="24" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1833" />
+		<set name="price" val="183000" />
+		<for>
+			<add order="0x10" stat="pDef" val="202" />
+		</for>
+	</item>
+	<item id="12195" type="Armor" name="Common Item - Blue Wolf Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t68_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12196" type="Armor" name="Common Item - Blue Wolf Boots - Tans Armor Use">
+		<set name="icon" val="icon.armor_t69_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12197" type="Armor" name="Common Item - Blue Wolf Boots - Robe">
+		<set name="icon" val="icon.armor_t70_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="377" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12198" type="Armor" name="Common Item - Blue Wolf Gloves - Heavy Armor">
+		<set name="icon" val="icon.armor_t68_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="197" />
+		<set name="price" val="37600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+	<item id="12199" type="Armor" name="Common Item - Blue Wolf Gloves - Tans Armor Use">
+		<set name="icon" val="icon.armor_t69_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="5" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="197" />
+		<set name="price" val="37600" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+		</for>
+	</item>
+</list>

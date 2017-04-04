@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="15200" type="EtcItem" name="Orc Mage Class Equipment Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15222,1,1,100;15223,1,1,100;15224,1,1,100;15225,1,1,100;15230,1,1,100;15231,1,1,100;15232,1,1,100;15233,1,1,100;15234,1,1,100;15237,1,1,100;15270,1,1,100;15271,1,1,100;15272,1,1,100;15273,1,1,100" />
+	</item>
+	<item id="15201" type="EtcItem" name="Knight Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15246,1,1,100;15247,1,1,100;15248,1,1,100;15249,1,1,100;15261,1,1,100;15262,1,1,100;15265,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15202" type="EtcItem" name="Magic Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15254,1,1,100;15255,1,1,100;15256,1,1,100;15257,1,1,100;15258,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15203" type="EtcItem" name="Warrior Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15246,1,1,100;15247,1,1,100;15248,1,1,100;15249,1,1,100;15261,1,1,100;15265,1,1,100;15266,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15204" type="EtcItem" name="Rogue Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15250,1,1,100;15251,1,1,100;15252,1,1,100;15253,1,1,100;15259,1,1,100;15260,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15205" type="EtcItem" name="Kamael Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15250,1,1,100;15251,1,1,100;15252,1,1,100;15253,1,1,100;15267,1,1,100;15268,1,1,100;15269,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15206" type="EtcItem" name="Orc Fighter Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15246,1,1,100;15247,1,1,100;15248,1,1,100;15249,1,1,100;15250,1,1,100;15251,1,1,100;15252,1,1,100;15253,1,1,100;15263,1,1,100;15264,1,1,100;15266,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15207" type="EtcItem" name="Orc Mage Class Equipment Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15246,1,1,100;15247,1,1,100;15248,1,1,100;15249,1,1,100;15254,1,1,100;15255,1,1,100;15256,1,1,100;15257,1,1,100;15258,1,1,100;15261,1,1,100;15274,1,1,100;15275,1,1,100;15276,1,1,100;15277,1,1,100" />
+	</item>
+	<item id="15208" type="Armor" name="Bracelet of Friendship - 30-day limited period">
+		<set name="icon" val="icon.accessory_ring_of_friendship_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8329-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="15209" type="EtcItem" name="Equipment Set 10-Day Pack Exchange Coupon">
+		<set name="icon" val="icon.etc_exchange_ticket_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15210,1,1,100" />
+	</item>
+	<item id="15210" type="EtcItem" name="Equipment Set 10-Day Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2914-1" />
+		<set name="time" val="14400" />
+	</item>
+	<item id="15211" type="EtcItem" name="Equipment Set 30-Day Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2914-2" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="15212" type="EtcItem" name="Friend Recommend Round 1 Reward Pack Exchange Coupon - Recommender">
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15213,1,1,100" />
+	</item>
+	<item id="15213" type="EtcItem" name="Friend Recommend Round 1 Reward Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15208,1,1,100;15221,1,1,100;13273,1,1,100" />
+	</item>
+	<item id="15214" type="EtcItem" name="Friend Recommend Round 2 Reward Pack Exchange Coupon - Recommender">
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15215,1,1,100" />
+	</item>
+	<item id="15215" type="EtcItem" name="Friend Recommend Round 2 Reward Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15208,1,1,100;15220,1,1,100;14065,1,1,100;15279,10,10,100" />
+	</item>
+	<item id="15216" type="EtcItem" name="Friend Recommend Round 1 Reward Pack Exchange Coupon - New Dormancy">
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15217,1,1,100" />
+	</item>
+	<item id="15217" type="EtcItem" name="Friend Recommend Round 1 Reward Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_exchange_ticket_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15208,1,1,100;15221,1,1,100;13273,1,1,100;15211,1,1,100" />
+	</item>
+	<item id="15218" type="EtcItem" name="Friend Recommend Round 2 Reward Pack Exchange Coupon - New Dormancy">
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15219,1,1,100" />
+	</item>
+	<item id="15219" type="EtcItem" name="Friend Recommend Round 2 Reward Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_exchange_ticket_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15208,1,1,100;15220,1,1,100;14065,1,1,100;15211,1,1,100;15279,10,10,100" />
+	</item>
+	<item id="15220" type="Armor" name="Agathion Seal Bracelet - Oink Oink - 10-day limited period">
+		<set name="icon" val="icon.accessory_pig_lbracelet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="equip_reuse_delay" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="6197-1;8328-1;3267-1;6196-1" />
+		<set name="time" val="14400" />
+	</item>
+	<item id="15221" type="Armor" name="Puffy Hat of Friendship">
+		<set name="icon" val="icon.accessory_globefish_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="15222" type="EtcItem" name="Fortune Heavy Armor of Nightmare Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15141,1,1,100;15142,1,1,100;15143,1,1,100;15144,1,1,100;15145,1,1,100" />
+	</item>
+	<item id="15223" type="EtcItem" name="Doom Plate Armor of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15115,1,1,100;15116,1,1,100;15118,1,1,100;15120,1,1,100;15121,1,1,100" />
+	</item>
+	<item id="15224" type="EtcItem" name="Full Plate of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15126,1,1,100;15127,1,1,100;15128,1,1,100;15129,1,1,100;15130,1,1,100" />
+	</item>
+	<item id="15225" type="EtcItem" name="Brigandine of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15135,1,1,100;15136,1,1,100;15137,1,1,100;15138,1,1,100;15139,1,1,100;15140,1,1,100" />
+	</item>
+	<item id="15226" type="EtcItem" name="Dark Crystal Light Armor of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15110,1,1,100;15111,1,1,100;15112,1,1,100;15113,1,1,100;15093,1,1,100" />
+	</item>
+	<item id="15227" type="EtcItem" name="Leather Armor of Doom of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15114,1,1,100;15115,1,1,100;15117,1,1,100;15119,1,1,100" />
+	</item>
+	<item id="15228" type="EtcItem" name="Plate Leather of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15122,1,1,100;15123,1,1,100;15124,1,1,100;15125,1,1,100;15126,1,1,100" />
+	</item>
+	<item id="15229" type="EtcItem" name="Manticore Leather of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15131,1,1,100;15132,1,1,100;15133,1,1,100;15134,1,1,100;15137,1,1,100" />
+	</item>
+	<item id="15230" type="EtcItem" name="Dark Crystal Robe of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15092,1,1,100;15093,1,1,100;15094,1,1,100;15095,1,1,100;15096,1,1,100" />
+	</item>
+	<item id="15231" type="EtcItem" name="Avadon Robe of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15097,1,1,100;15098,1,1,100;15099,1,1,100;15100,1,1,100;15101,1,1,100" />
+	</item>
+	<item id="15232" type="EtcItem" name="Karmian of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15102,1,1,100;15103,1,1,100;15104,1,1,100;15105,1,1,100;15126,1,1,100" />
+	</item>
+	<item id="15233" type="EtcItem" name="Mithril Tunic of Fortune Set Pack - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15106,1,1,100;15107,1,1,100;15108,1,1,100;15109,1,1,100;15137,1,1,100" />
+	</item>
+	<item id="15234" type="EtcItem" name="Magic Weapon of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15146,1,1,100;15147,1,1,100;15148,1,1,100;15149,1,1,100" />
+	</item>
+	<item id="15235" type="EtcItem" name="Dagger of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15150,1,1,100;15151,1,1,100;15152,1,1,100;15153,1,1,100" />
+	</item>
+	<item id="15236" type="EtcItem" name="Bow of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15154,1,1,100;15155,1,1,100;15156,1,1,100;15157,1,1,100" />
+	</item>
+	<item id="15237" type="EtcItem" name="Blunt Weapon of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15158,1,1,100;15159,1,1,100;15160,1,1,100;15161,1,1,100" />
+	</item>
+	<item id="15238" type="EtcItem" name="One-handed Sword of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15162,1,1,100;15163,1,1,100;15164,1,1,100;15165,1,1,100" />
+	</item>
+	<item id="15239" type="EtcItem" name="Two-handed Sword of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15166,1,1,100;15167,1,1,100;15168,1,1,100;15169,1,1,100" />
+	</item>
+	<item id="15240" type="EtcItem" name="Hand-to-hand Combat Weapon of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15170,1,1,100;15171,1,1,100;15172,1,1,100;15173,1,1,100" />
+	</item>
+	<item id="15241" type="EtcItem" name="Dualsword of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15174,1,1,100;15175,1,1,100;15176,1,1,100;15177,1,1,100" />
+	</item>
+	<item id="15242" type="EtcItem" name="Spear of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15178,1,1,100;15179,1,1,100;15180,1,1,100;15181,1,1,100" />
+	</item>
+	<item id="15243" type="EtcItem" name="Ancient Sword of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15182,1,1,100;15183,1,1,100;15184,1,1,100;15185,1,1,100" />
+	</item>
+	<item id="15244" type="EtcItem" name="Short Sword of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15186,1,1,100;15187,1,1,100;15188,1,1,100;15189,1,1,100" />
+	</item>
+	<item id="15245" type="EtcItem" name="Crossbow of Fortune Set - 10-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15190,1,1,100;15191,1,1,100;15192,1,1,100;15193,1,1,100" />
+	</item>
+	<item id="15246" type="EtcItem" name="Fortune Heavy Armor of Nightmare Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15027,1,1,100;15028,1,1,100;15029,1,1,100;15030,1,1,100;15031,1,1,100" />
+	</item>
+	<item id="15247" type="EtcItem" name="Doom Plate Armor of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15001,1,1,100;15002,1,1,100;15004,1,1,100;15006,1,1,100;15007,1,1,100" />
+	</item>
+	<item id="15248" type="EtcItem" name="Full Plate of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15012,1,1,100;15013,1,1,100;15014,1,1,100;15015,1,1,100;15016,1,1,100" />
+	</item>
+	<item id="15249" type="EtcItem" name="Brigandine of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15021,1,1,100;15022,1,1,100;15023,1,1,100;15024,1,1,100;15025,1,1,100;15026,1,1,100" />
+	</item>
+	<item id="15250" type="EtcItem" name="Dark Crystal Light Armor of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14996,1,1,100;14997,1,1,100;14998,1,1,100;14999,1,1,100;14979,1,1,100" />
+	</item>
+	<item id="15251" type="EtcItem" name="Leather Armor of Doom of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15000,1,1,100;15001,1,1,100;15003,1,1,100;15005,1,1,100" />
+	</item>
+	<item id="15252" type="EtcItem" name="Plate Leather of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15008,1,1,100;15009,1,1,100;15010,1,1,100;15011,1,1,100;15012,1,1,100" />
+	</item>
+	<item id="15253" type="EtcItem" name="Manticore Leather of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15017,1,1,100;15018,1,1,100;15019,1,1,100;15020,1,1,100;15023,1,1,100" />
+	</item>
+	<item id="15254" type="EtcItem" name="Dark Crystal Robe of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14978,1,1,100;14979,1,1,100;14980,1,1,100;14981,1,1,100;14982,1,1,100" />
+	</item>
+	<item id="15255" type="EtcItem" name="Avadon Robe of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14983,1,1,100;14984,1,1,100;14985,1,1,100;14986,1,1,100;14987,1,1,100" />
+	</item>
+	<item id="15256" type="EtcItem" name="Karmian of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14988,1,1,100;14989,1,1,100;14990,1,1,100;14991,1,1,100;15012,1,1,100" />
+	</item>
+	<item id="15257" type="EtcItem" name="Mithril Tunic of Fortune Set Pack - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14992,1,1,100;14993,1,1,100;14994,1,1,100;14995,1,1,100;15023,1,1,100" />
+	</item>
+	<item id="15258" type="EtcItem" name="Magic Weapon of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15032,1,1,100;15033,1,1,100;15034,1,1,100;15035,1,1,100" />
+	</item>
+	<item id="15259" type="EtcItem" name="Dagger of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15036,1,1,100;15037,1,1,100;15038,1,1,100;15039,1,1,100" />
+	</item>
+	<item id="15260" type="EtcItem" name="Bow of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15040,1,1,100;15041,1,1,100;15042,1,1,100;15043,1,1,100" />
+	</item>
+	<item id="15261" type="EtcItem" name="Blunt Weapon of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15044,1,1,100;15045,1,1,100;15046,1,1,100;15047,1,1,100" />
+	</item>
+	<item id="15262" type="EtcItem" name="One-handed Sword of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15048,1,1,100;15049,1,1,100;15050,1,1,100;15051,1,1,100" />
+	</item>
+	<item id="15263" type="EtcItem" name="Two-handed Sword of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15052,1,1,100;15053,1,1,100;15054,1,1,100;15055,1,1,100" />
+	</item>
+	<item id="15264" type="EtcItem" name="Hand-to-hand Combat Weapon of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15056,1,1,100;15057,1,1,100;15058,1,1,100;15059,1,1,100" />
+	</item>
+	<item id="15265" type="EtcItem" name="Dualsword of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15060,1,1,100;15061,1,1,100;15062,1,1,100;15063,1,1,100" />
+	</item>
+	<item id="15266" type="EtcItem" name="Spear of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15064,1,1,100;15065,1,1,100;15066,1,1,100;15067,1,1,100" />
+	</item>
+	<item id="15267" type="EtcItem" name="Ancient Sword of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15068,1,1,100;15069,1,1,100;15070,1,1,100;15071,1,1,100" />
+	</item>
+	<item id="15268" type="EtcItem" name="Short Sword of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15072,1,1,100;15073,1,1,100;15074,1,1,100;15075,1,1,100" />
+	</item>
+	<item id="15269" type="EtcItem" name="Crossbow of Fortune Set - 30-day limited period">
+		<set name="icon" val="icon.etc_equip_item_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15076,1,1,100;15077,1,1,100;15078,1,1,100;15079,1,1,100" />
+	</item>
+	<item id="15270" type="EtcItem" name="Majestic Set of Fortune - 10-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15080,2,2,100;15081,1,1,100;15082,2,2,100" />
+	</item>
+	<item id="15271" type="EtcItem" name="Black Ore Set of Fortune - 10-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15084,1,1,100;15083,2,2,100;15085,2,2,100" />
+	</item>
+	<item id="15272" type="EtcItem" name="Sealed Set of Fortune - 10-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15087,1,1,100;15086,2,2,100;15088,2,2,100" />
+	</item>
+	<item id="15273" type="EtcItem" name="Elven Set of Fortune - 10-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="14400" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15090,1,1,100;15089,2,2,100;15091,2,2,100" />
+	</item>
+	<item id="15274" type="EtcItem" name="Majestic Set of Fortune - 30-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14966,2,2,100;14967,1,1,100;14968,2,2,100" />
+	</item>
+	<item id="15275" type="EtcItem" name="Black Ore Set of Fortune - 30-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14970,1,1,100;14969,2,2,100;14971,2,2,100" />
+	</item>
+	<item id="15276" type="EtcItem" name="Sealed Set of Fortune - 30-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14973,1,1,100;14972,2,2,100;14974,2,2,100" />
+	</item>
+	<item id="15277" type="EtcItem" name="Elven Set of Fortune - 30-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14976,1,1,100;14975,2,2,100;14977,2,2,100" />
+	</item>
+	<item id="15278" type="EtcItem" name="Dimensional Merchant's Gift">
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14739,1,1,100;9156,1,1,5;9157,1,1,5;14705,1,1,0.325;14706,1,1,0.025" />
+	</item>
+	<item id="15279" type="EtcItem" name="Friend Recommendation Proof">
+		<set name="icon" val="icon.etc_exchange_ticket_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="15280" type="Weapon" name="Transparent 1HS (for NPC)">
+		<set name="icon" val="icon.weapon_long_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="24" />
+			<set order="0x08" stat="mAtk" val="17" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="15281" type="Weapon" name="Transparent 2HS (for NPC)">
+		<set name="icon" val="icon.weapon_two_handed_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="2180" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="78" />
+			<set order="0x08" stat="mAtk" val="39" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15282" type="Armor" name="Gludio Water Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="waterRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15283" type="Armor" name="Dion Holy Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="holyRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15284" type="Armor" name="Giran Wind Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="windRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15285" type="Armor" name="Oren Dark Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="darkRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15286" type="Armor" name="Aden Earth Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="earthRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15287" type="Armor" name="Innadril Water Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="waterRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15288" type="Armor" name="Goddard Fire Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="fireRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15289" type="Armor" name="Rune Fire Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="fireRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15290" type="Armor" name="Schuttgart Wind Royal Guard Necklace">
+		<set name="icon" val="icon.accessory_nectklace_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+			<add order="0x40" stat="windRes" val="30" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15291" type="Armor" name="Gludio Earth Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8379-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="earthRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15292" type="Armor" name="Dion Water Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8380-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="waterRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15293" type="Armor" name="Giran Fire Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8381-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="fireRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15294" type="Armor" name="Oren Earth Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8382-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="earthRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15295" type="Armor" name="Aden Holy Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8383-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="holyRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15296" type="Armor" name="Innadril Holy Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8384-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="holyRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15297" type="Armor" name="Goddard Dark Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8385-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="darkRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15298" type="Armor" name="Rune Wind Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8386-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="windRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="15299" type="Armor" name="Schuttgart Dark Royal Guard Ring">
+		<set name="icon" val="icon.accessory_ring_of_domi_protection_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="8387-2" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+			<add order="0x40" stat="darkRes" val="15" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+</list>

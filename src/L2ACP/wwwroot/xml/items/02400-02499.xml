@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="2400" type="Armor" name="Tallum Tunic">
+		<set name="icon" val="icon.armor_t79_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="214" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1860" />
+		<set name="price" val="2671000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="86" />
+			<add order="0x40" stat="maxMp" val="409" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2401" type="Armor" name="Elven Mithril Stockings">
+		<set name="icon" val="icon.armor_elven_hose_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="199" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2400" />
+		<set name="price" val="107700" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+			<add order="0x40" stat="maxMp" val="105" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2402" type="Armor" name="Stockings of Zubei">
+		<set name="icon" val="icon.armor_t56_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="100" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="940" />
+		<set name="price" val="748300" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<add order="0x40" stat="maxMp" val="216" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2403" type="Armor" name="Blue Wolf Stockings">
+		<set name="icon" val="icon.armor_t70_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="155" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="920" />
+		<set name="price" val="1160300" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="52" />
+			<add order="0x40" stat="maxMp" val="236" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2404" type="Armor" name="Stockings of Doom">
+		<set name="icon" val="icon.armor_t73_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="155" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="910" />
+		<set name="price" val="1160300" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="52" />
+			<add order="0x40" stat="maxMp" val="236" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2405" type="Armor" name="Tallum Stockings">
+		<set name="icon" val="icon.armor_t79_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="134" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="920" />
+		<set name="price" val="1670000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="53" />
+			<add order="0x40" stat="maxMp" val="256" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2406" type="Armor" name="Avadon Robe">
+		<set name="icon" val="icon.armor_t59_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="259" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2540" />
+		<set name="price" val="1946000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="127" />
+			<add order="0x40" stat="maxMp" val="561" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2407" type="Armor" name="Dark Crystal Robe">
+		<set name="icon" val="icon.armor_t76_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="347" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2450" />
+		<set name="price" val="4341000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<add order="0x40" stat="maxMp" val="665" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2408" type="Armor" name="Robe of Nightmare">
+		<set name="icon" val="icon.armor_t82_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="528" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2300" />
+		<set name="price" val="6603000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="147" />
+			<add order="0x40" stat="maxMp" val="718" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2409" type="Armor" name="Majestic Robe">
+		<set name="icon" val="icon.armor_t85_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="528" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2330" />
+		<set name="price" val="6603000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="147" />
+			<add order="0x40" stat="maxMp" val="718" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2410" type="Armor" name="Nightmarish Tattoo">
+		<set name="icon" val="icon.armor_mithril_banded_mail_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="422" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="3600" />
+		<set name="price" val="4064000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2411" type="Armor" name="Brigandine Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="159" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="630" />
+		<set name="price" val="86100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2412" type="Armor" name="Plate Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="208" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="630" />
+		<set name="price" val="112800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2413" type="Armor" name="Chain Hood">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="58" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="620" />
+		<set name="price" val="145700" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="47" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2414" type="Armor" name="Full Plate Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="165" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="412600" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="58" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2415" type="Armor" name="Avadon Circlet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="80" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="598600" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2416" type="Armor" name="Blue Wolf Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="124" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="928300" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2417" type="Armor" name="Doom Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="124" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="928300" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2418" type="Armor" name="Helm of Nightmare">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="163" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="2032000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2419" type="Armor" name="Majestic Circlet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="163" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="2032000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2420" type="Armor" name="Dragon Headgear">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="179" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="2784000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2421" type="Armor" name="The Hood">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="179" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="2784000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="77" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2422" type="Armor" name="Reinforced Leather Boots">
+		<set name="icon" val="icon.armor_t13_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="72" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1280" />
+		<set name="price" val="39100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2423" type="Armor" name="Boots of Knowledge">
+		<set name="icon" val="icon.armor_t41_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="72" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1270" />
+		<set name="price" val="39100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2424" type="Armor" name="Manticore Skin Boots">
+		<set name="icon" val="icon.armor_t42_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="106" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1260" />
+		<set name="price" val="57400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2425" type="Armor" name="Brigandine Boots">
+		<set name="icon" val="icon.armor_t43_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="106" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1250" />
+		<set name="price" val="57400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2426" type="Armor" name="Elven Mithril Boots">
+		<set name="icon" val="icon.armor_t51_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="106" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1250" />
+		<set name="price" val="57400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2427" type="Armor" name="Salamander Skin Boots">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="139" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1230" />
+		<set name="price" val="75200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2428" type="Armor" name="Plate Boots">
+		<set name="icon" val="icon.armor_t46_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="139" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1240" />
+		<set name="price" val="75200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2429" type="Armor" name="Chain Boots">
+		<set name="icon" val="icon.armor_t48_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1220" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2430" type="Armor" name="Karmian Boots">
+		<set name="icon" val="icon.armor_t53_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1230" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2431" type="Armor" name="Plated Leather Boots">
+		<set name="icon" val="icon.armor_t47_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1220" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2432" type="Armor" name="Dwarven Chain Boots">
+		<set name="icon" val="icon.armor_t60_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1210" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2433" type="Armor" name="Boots of Seal">
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1220" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2434" type="Armor" name="Rind Leather Boots">
+		<set name="icon" val="icon.armor_t49_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1220" />
+		<set name="price" val="123900" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2435" type="Armor" name="Demon's Boots">
+		<set name="icon" val="icon.armor_t54_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="76" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1220" />
+		<set name="price" val="188800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="36" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2436" type="Armor" name="Theca Leather Boots">
+		<set name="icon" val="icon.armor_t63_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="85" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1210" />
+		<set name="price" val="211600" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2437" type="Armor" name="Drake Leather Boots">
+		<set name="icon" val="icon.armor_t21_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="110" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1210" />
+		<set name="price" val="275100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2438" type="Armor" name="Full Plate Boots">
+		<set name="icon" val="icon.armor_t62_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="110" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1200" />
+		<set name="price" val="275100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2439" type="Armor" name="Sealed Blue Wolf Boots">
+		<set name="icon" val="icon.armor_t68_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2440" type="Armor" name="Boots of Nightmare">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2441" type="Armor" name="Dark Legion Boots">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1120" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2442" type="Armor" name="Dasparion's Boots">
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1100" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2443" type="Armor" name="Dragon Leather Boots">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="119" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1100" />
+		<set name="price" val="1856000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="51" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2444" type="Armor" name="The Boots">
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="119" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1100" />
+		<set name="price" val="1856000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="51" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2445" type="Armor" name="Dragon Scale Boots">
+		<set name="icon" val="icon.armor_t15_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1100" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2446" type="Armor" name="Reinforced Leather Gloves">
+		<set name="icon" val="icon.armor_t13_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="72" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="640" />
+		<set name="price" val="39100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2447" type="Armor" name="Gloves of Knowledge">
+		<set name="icon" val="icon.armor_t41_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="72" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="640" />
+		<set name="price" val="39100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="24" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2448" type="Armor" name="Manticore Skin Gloves">
+		<set name="icon" val="icon.armor_t42_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="106" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="630" />
+		<set name="price" val="57400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2449" type="Armor" name="Brigandine Gauntlets">
+		<set name="icon" val="icon.armor_t43_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="106" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="630" />
+		<set name="price" val="57400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2450" type="Armor" name="Mithril Gloves">
+		<set name="icon" val="icon.armor_t51_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="106" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="640" />
+		<set name="price" val="57400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2451" type="Armor" name="Sage's Worn Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="139" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="630" />
+		<set name="price" val="75200" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2452" type="Armor" name="Reinforced Mithril Gloves">
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="620" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2453" type="Armor" name="Chain Gloves">
+		<set name="icon" val="icon.armor_t48_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="620" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2454" type="Armor" name="Karmian Gloves">
+		<set name="icon" val="icon.armor_t53_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="39" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="620" />
+		<set name="price" val="97100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2455" type="Armor" name="Plated Leather Gloves">
+		<set name="icon" val="icon.armor_t47_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="46" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="610" />
+		<set name="price" val="114400" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="33" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2456" type="Armor" name="Dwarven Chain Gloves">
+		<set name="icon" val="icon.armor_t60_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="123900" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2457" type="Armor" name="Gloves of Seal">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="620" />
+		<set name="price" val="123900" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2458" type="Armor" name="Rind Leather Gloves">
+		<set name="icon" val="icon.armor_t49_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="123900" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="34" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2459" type="Armor" name="Demon's Gloves">
+		<set name="icon" val="icon.armor_t54_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="76" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="610" />
+		<set name="price" val="188800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="36" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2460" type="Armor" name="Theca Leather Gloves">
+		<set name="icon" val="icon.armor_t63_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="85" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="211600" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2461" type="Armor" name="Drake Leather Gloves">
+		<set name="icon" val="icon.armor_t21_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="110" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="275100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2462" type="Armor" name="Full Plate Gauntlets">
+		<set name="icon" val="icon.armor_t62_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="110" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="275100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2463" type="Armor" name="Divine Gloves">
+		<set name="icon" val="icon.armor_t57_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="110" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="610" />
+		<set name="price" val="275100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2464" type="Armor" name="Sealed Avadon Gloves">
+		<set name="icon" val="icon.armor_t66_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2465" type="Armor" name="Chain Gloves of Silence">
+		<set name="icon" val="icon.armor_t65_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="69" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2466" type="Armor" name="Guardian's Gloves">
+		<set name="icon" val="icon.armor_t67_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="69" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2467" type="Armor" name="Gloves of Blessing">
+		<set name="icon" val="icon.armor_t56_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="69" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2468" type="Armor" name="Blessed Gloves">
+		<set name="icon" val="icon.armor_t67_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="143" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="600" />
+		<set name="price" val="275100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="39" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2469" type="Armor" name="Gloves of Underworld">
+		<set name="icon" val="icon.armor_t40_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2470" type="Armor" name="Gloves of Phantom">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2471" type="Armor" name="Dark Legion Gloves">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2472" type="Armor" name="Dark Crystal Gloves">
+		<set name="icon" val="icon.armor_t15_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2473" type="Armor" name="The Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="119" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="1856000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="51" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2474" type="Armor" name="Dasparion's Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2475" type="Armor" name="Sealed Doom Gloves">
+		<set name="icon" val="icon.armor_t71_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2476" type="Armor" name="Dragon Gauntlets">
+		<set name="icon" val="icon.armor_t15_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="130" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="2073000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="52" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2477" type="Armor" name="Dragon Leather Gloves">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="119" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="1856000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="51" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2478" type="Armor" name="Tallum Gloves">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2479" type="Armor" name="Gauntlets of Nightmare">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2480" type="Armor" name="Elemental Gloves">
+		<set name="icon" val="icon.armor_t71_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="107" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2481" type="Armor" name="Gloves of Grace">
+		<set name="icon" val="icon.armor_t71_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="107" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2482" type="Armor" name="Majestic Gauntlets">
+		<set name="icon" val="icon.armor_t15_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2483" type="Armor" name="Gust Bracer">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2484" type="Armor" name="Cerberus Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2485" type="Armor" name="Implosion Gauntlets">
+		<set name="icon" val="icon.armor_t68_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="107" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2486" type="Armor" name="Paradia Gloves">
+		<set name="icon" val="icon.armor_t68_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="107" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2487" type="Armor" name="Sealed Blue Wolf Gloves">
+		<set name="icon" val="icon.armor_t68_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2488" type="Armor" name="Phoenix Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="570" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2489" type="Armor" name="Gloves of Black Ore">
+		<set name="icon" val="icon.armor_t14_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="570" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2490" type="Armor" name="Cloak of Silence">
+		<set name="icon" val="icon.armor_back01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="250" />
+		<set name="price" val="6770" />
+		<for>
+			<add order="0x10" stat="pDef" val="5" />
+		</for>
+	</item>
+	<item id="2491" type="Armor" name="Golden Yarn Cloak">
+		<set name="icon" val="icon.armor_back01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="250" />
+		<set name="price" val="12300" />
+		<for>
+			<add order="0x10" stat="pDef" val="5" />
+		</for>
+	</item>
+	<item id="2492" type="Armor" name="Shadow Cloak">
+		<set name="icon" val="icon.armor_back01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="back" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="50" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="240" />
+		<set name="price" val="126000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="2493" type="Armor" name="Brigandine Shield">
+		<set name="icon" val="icon.shield_brigandine_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="111" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1320" />
+		<set name="price" val="60300" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="142" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="2494" type="Armor" name="Plate Shield">
+		<set name="icon" val="icon.shield_plate_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="146" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1310" />
+		<set name="price" val="79000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="154" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="2495" type="Armor" name="Chain Shield">
+		<set name="icon" val="icon.shield_chain_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="41" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1280" />
+		<set name="price" val="102000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="166" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="2496" type="Armor" name="Dwarven Chain Shield">
+		<set name="icon" val="icon.shield_dwarven_chain_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="48" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1280" />
+		<set name="price" val="120100" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="174" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="2497" type="Armor" name="Full Plate Shield">
+		<set name="icon" val="icon.shield_full_plate_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="116" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1220" />
+		<set name="price" val="288800" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="203" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="2498" type="Armor" name="Shield of Nightmare">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="114" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1180" />
+		<set name="price" val="1422000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="256" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="2499" type="Weapon" name="Elven Long Sword">
+		<set name="icon" val="icon.weapon_elven_long_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2561" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1440" />
+		<set name="price" val="1387000" />
+		<set name="change_weaponId" val="9225" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="92" />
+			<set order="0x08" stat="mAtk" val="54" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+</list>

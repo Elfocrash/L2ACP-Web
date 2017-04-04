@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="5200" type="EtcItem" name="Chest Key - Grade 5">
+		<set name="icon" val="icon.etc_key_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="1900" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2065-4" />
+	</item>
+	<item id="5201" type="EtcItem" name="Chest Key - Grade 4">
+		<set name="icon" val="icon.etc_key_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="3200" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2065-5" />
+	</item>
+	<item id="5202" type="EtcItem" name="Chest Key - Grade 3">
+		<set name="icon" val="icon.etc_key_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="5100" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2065-6" />
+	</item>
+	<item id="5203" type="EtcItem" name="Chest Key - Grade 2">
+		<set name="icon" val="icon.etc_key_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="7400" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2065-7" />
+	</item>
+	<item id="5204" type="EtcItem" name="Chest Key - Grade 1">
+		<set name="icon" val="icon.etc_key_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2065-8" />
+	</item>
+	<item id="5205" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5206" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5207" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5208" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5209" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5210" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5211" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5212" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5213" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5214" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5215" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5216" type="Armor" name="Wolf's Level 75 Armor">
+		<set name="icon" val="icon.etc_pet_armor_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="9586000" />
+		<set name="equip_condition" val="{{ec_category;{@all_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="58" />
+			<add order="0x10" stat="pDef" val="71" />
+		</for>
+	</item>
+	<item id="5217" type="Weapon" name="Wolf's Level 75 Weapon">
+		<set name="icon" val="icon.etc_pet_arms_i02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="61084" />
+		<set name="equip_condition" val="{{ec_category;{@all_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="194" />
+			<add order="0x10" stat="mAtk" val="136" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="5218" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5219" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+		<set name="icon" val="icon.mticket_teleporter_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="5220" type="EtcItem" name="Metal Hardener">
+		<set name="icon" val="icon.etc_plate_blue_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5221" type="EtcItem" name="Seed: Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="25" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="5222" type="EtcItem" name="Seed: Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="5223" type="EtcItem" name="Seed: Thorn Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="5224" type="EtcItem" name="Seed: Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="5225" type="EtcItem" name="Seed: Great Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="5226" type="EtcItem" name="Seed: Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="5227" type="EtcItem" name="Seed: Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="5228" type="EtcItem" name="Trash">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="250" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="5229" type="EtcItem" name="Trash">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="5230" type="EtcItem" name="Recipe: Mithril Arrow (100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="150000" />
+		<set name="recipe_id" val="496" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5231" type="EtcItem" name="Recipe: Metal Hardener (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="2800" />
+		<set name="recipe_id" val="497" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5232" type="EtcItem" name="White Fabric">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5233" type="Weapon" name="Keshanberk*Keshanberk">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1128" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="2080" />
+		<set name="price" val="14098000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3045-17" />
+		<for>
+			<set order="0x08" stat="pAtk" val="259" />
+			<set order="0x08" stat="mAtk" val="107" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="5234" type="EtcItem" name="Mystery Potion">
+		<set name="icon" val="icon.etc_lesser_potion_clear_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="10000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2103-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5235" type="EtcItem" name="Facelifting Potion - A">
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2122-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5236" type="EtcItem" name="Facelifting Potion - B">
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2123-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5237" type="EtcItem" name="Facelifting Potion - C">
+		<set name="icon" val="icon.etc_lesser_potion_purple_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2124-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5238" type="EtcItem" name="Dye Potion - A">
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2125-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5239" type="EtcItem" name="Dye Potion - B">
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2126-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5240" type="EtcItem" name="Dye Potion - C">
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2127-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5241" type="EtcItem" name="Dye Potion - D">
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2128-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="5242" type="EtcItem" name="Hair Style Change Potion - A">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2129-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5243" type="EtcItem" name="Hair Style Change Potion - B">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2130-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5244" type="EtcItem" name="Hair Style Change Potion - C">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2131-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5245" type="EtcItem" name="Hair Style Change Potion - D">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2132-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5246" type="EtcItem" name="Hair Style Change Potion - E">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2133-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5247" type="EtcItem" name="Hair Style Change Potion - F">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2134-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5248" type="EtcItem" name="Hair Style Change Potion - G">
+		<set name="icon" val="icon.etc_lesser_potion_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="50" />
+		<set name="price" val="20000" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2135-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5249" type="EtcItem" name="Commemorative Item: First Anniversary of Lineage II Service">
+		<set name="icon" val="icon.etc_l2_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="5250" type="EtcItem" name="Greater Compressed Package of Soulshots (No-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="600" />
+		<set name="price" val="7700" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2104-1" />
+	</item>
+	<item id="5251" type="EtcItem" name="Greater Compressed Package of Soulshots (D-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="450" />
+		<set name="price" val="11000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2105-1" />
+	</item>
+	<item id="5252" type="EtcItem" name="Greater Compressed Package of Soulshots (C-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="450" />
+		<set name="price" val="16500" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2106-1" />
+	</item>
+	<item id="5253" type="EtcItem" name="Greater Compressed Package of Soulshots (B-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="55000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2107-1" />
+	</item>
+	<item id="5254" type="EtcItem" name="Greater Compressed Package of Soulshots (A-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="88000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2108-1" />
+	</item>
+	<item id="5255" type="EtcItem" name="Greater Compressed Package of Soulshots (S-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="120000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2109-1" />
+	</item>
+	<item id="5256" type="EtcItem" name="Greater Compressed Package of Spiritshots (No-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="16500" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2110-1" />
+	</item>
+	<item id="5257" type="EtcItem" name="Greater Compressed Package of Spiritshots (D-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="19800" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2111-1" />
+	</item>
+	<item id="5258" type="EtcItem" name="Greater Compressed Package of Spiritshots (C-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="450" />
+		<set name="price" val="38500" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2112-1" />
+	</item>
+	<item id="5259" type="EtcItem" name="Greater Compressed Package of Spiritshots (B-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="450" />
+		<set name="price" val="110000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2113-1" />
+	</item>
+	<item id="5260" type="EtcItem" name="Greater Compressed Package of Spiritshots (A-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="132000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2114-1" />
+	</item>
+	<item id="5261" type="EtcItem" name="Greater Compressed Package of Spiritshots (S-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="180000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2115-1" />
+	</item>
+	<item id="5262" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots (No-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="38500" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2116-1" />
+	</item>
+	<item id="5263" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots (D-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="750" />
+		<set name="price" val="49500" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2117-1" />
+	</item>
+	<item id="5264" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots (C-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="450" />
+		<set name="price" val="99000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2118-1" />
+	</item>
+	<item id="5265" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots (B-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="450" />
+		<set name="price" val="269500" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2119-1" />
+	</item>
+	<item id="5266" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots (A-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="319000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2120-1" />
+	</item>
+	<item id="5267" type="EtcItem" name="Greater Compressed Package of Blessed Spiritshots (S-Grade)">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="price" val="419000" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2121-1" />
+	</item>
+	<item id="5268" type="EtcItem" name="Recipe: Greater Soulshot (D) Compressed Package (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="5000" />
+		<set name="recipe_id" val="498" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5269" type="EtcItem" name="Recipe: Greater Soulshot (C) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="60000" />
+		<set name="recipe_id" val="499" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5270" type="EtcItem" name="Recipe: Greater Soulshot (B) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100000" />
+		<set name="recipe_id" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5271" type="EtcItem" name="Recipe: Greater Soulshot (A) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="150000" />
+		<set name="recipe_id" val="501" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5272" type="EtcItem" name="Recipe: Greater Soulshot (S) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="450000" />
+		<set name="recipe_id" val="502" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5273" type="EtcItem" name="Recipe: Greater Spiritshot (D) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="5000" />
+		<set name="recipe_id" val="503" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5274" type="EtcItem" name="Recipe: Greater Spiritshot (C) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="60000" />
+		<set name="recipe_id" val="504" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5275" type="EtcItem" name="Recipe: Greater Spiritshot (B) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100000" />
+		<set name="recipe_id" val="505" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5276" type="EtcItem" name="Recipe: Greater Spiritshot (A) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="150000" />
+		<set name="recipe_id" val="506" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5277" type="EtcItem" name="Recipe: Greater Spiritshot (S) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="450000" />
+		<set name="recipe_id" val="507" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5278" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (D) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="5000" />
+		<set name="recipe_id" val="508" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5279" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (C) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="60000" />
+		<set name="recipe_id" val="509" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5280" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (B) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100000" />
+		<set name="recipe_id" val="510" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5281" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (A) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="150000" />
+		<set name="recipe_id" val="511" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5282" type="EtcItem" name="Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="450000" />
+		<set name="recipe_id" val="512" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="5283" type="EtcItem" name="Rice Cake">
+		<set name="icon" val="icon.etc_mochi_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2136-1" />
+	</item>
+	<item id="5284" type="Weapon" name="Zweihander">
+		<set name="icon" val="icon.weapon_zweihander_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1530" />
+		<set name="price" val="188000" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="5285" type="Weapon" name="Heavy Sword">
+		<set name="icon" val="icon.weapon_heavy_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="582" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="315000" />
+		<set name="change_weaponId" val="9210" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="49" />
+			<set order="0x08" stat="mAtk" val="26" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="5286" type="Weapon" name="Berserker Blade">
+		<set name="icon" val="icon.weapon_berserker_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1885" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1380" />
+		<set name="price" val="4713500" />
+		<set name="change_weaponId" val="9296" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="5287" type="Armor" name="Sealed Dark Crystal breastplate">
+		<set name="icon" val="icon.armor_t74_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="285" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="7700" />
+		<set name="price" val="3562000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="171" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5288" type="Armor" name="Sealed Dark Crystal Gaiters">
+		<set name="icon" val="icon.armor_t74_l_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="178" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3320" />
+		<set name="price" val="2226000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="107" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5289" type="Armor" name="Sealed Dark Crystal Helmet">
+		<set name="icon" val="icon.armor_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="107" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="570" />
+		<set name="price" val="1336000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="69" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5290" type="Armor" name="Sealed Dark Crystal Gloves">
+		<set name="icon" val="icon.armor_t74_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="71" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5291" type="Armor" name="Sealed Dark Crystal Boots">
+		<set name="icon" val="icon.armor_t74_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="71" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1110" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5292" type="Armor" name="Sealed Dark Crystal Shield">
+		<set name="icon" val="icon.shield_dark_crystal_shield_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="75" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1190" />
+		<set name="price" val="935000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="243" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="5293" type="Armor" name="Sealed Tallum Plate Armor">
+		<set name="icon" val="icon.armor_t77_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="463" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="9780" />
+		<set name="price" val="5788000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="278" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5294" type="Armor" name="Sealed Tallum Helmet">
+		<set name="icon" val="icon.armor_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="107" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="570" />
+		<set name="price" val="1336000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="69" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5295" type="Armor" name="Sealed Tallum Gloves">
+		<set name="icon" val="icon.armor_t77_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="71" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5296" type="Armor" name="Sealed Tallum Boots">
+		<set name="icon" val="icon.armor_t77_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="71" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1130" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5297" type="Armor" name="Sealed Dark Crystal Leather Armor">
+		<set name="icon" val="icon.armor_t75_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="214" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="4300" />
+		<set name="price" val="2671000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5298" type="Armor" name="Sealed Dark Crystal Leggings">
+		<set name="icon" val="icon.armor_t75_l_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="134" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1480" />
+		<set name="price" val="1670000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="80" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5299" type="Armor" name="Sealed Gloves of Underworld">
+		<set name="icon" val="icon.armor_t40_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

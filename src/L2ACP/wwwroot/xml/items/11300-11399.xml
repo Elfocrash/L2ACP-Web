@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="11300" type="Weapon" name="Icarus Dual Sword - Destruction">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3411-1" />
+		<set name="item_skill" val="3835-3;3552-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11301" type="Weapon" name="Icarus Disperser - Confusion">
+		<set name="icon" val="icon.weapon_icarus_disperser_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3858-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="318" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11302" type="Weapon" name="Icarus Disperser - Confusion - Focus">
+		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3858-3;3567-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="318" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11303" type="Weapon" name="Icarus Disperser - Confusion - Evasion">
+		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3009-8;3552-1;3858-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="318" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11304" type="Weapon" name="Icarus Disperser - Confusion - Critical Damage">
+		<set name="icon" val="icon.weapon_icarus_disperser_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3858-3;3066-4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="318" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11305" type="Weapon" name="Icarus Sawsword - Destruction">
+		<set name="icon" val="icon.weapon_icarus_sowsword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11313" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3825-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11306" type="Weapon" name="Icarus Sawsword - Destruction - Focus">
+		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11314" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3825-3;3566-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11307" type="Weapon" name="Icarus Sawsword - Destruction - Health">
+		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11315" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3825-3;3013-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11308" type="Weapon" name="Icarus Sawsword - Destruction - Light">
+		<set name="icon" val="icon.weapon_icarus_sowsword_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11316" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3552-1;3498-1;3825-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11309" type="Weapon" name="Icarus Shooter - Concentration">
+		<set name="icon" val="icon.weapon_icarus_shooter_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11321" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="item_skill" val="3868-3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="422" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11310" type="Weapon" name="Icarus Shooter - Concentration - Cheap Shot">
+		<set name="icon" val="icon.weapon_icarus_shooter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11322" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="item_skill" val="3868-3;3360-1" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="422" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<mul order="0x08" stat="MpConsume" val="0.88" />
+		</for>
+	</item>
+	<item id="11311" type="Weapon" name="Icarus Shooter - Concentration - Guidance">
+		<set name="icon" val="icon.weapon_icarus_shooter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11323" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="item_skill" val="3868-3;3573-2" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="422" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11312" type="Weapon" name="Icarus Shooter - Concentration - Focus">
+		<set name="icon" val="icon.weapon_icarus_shooter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11324" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<set name="item_skill" val="3868-3;3567-2" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="422" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11313" type="Weapon" name="Icarus Stinger - Destruction">
+		<set name="icon" val="icon.weapon_icarus_stinger_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1280" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11305" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3830-3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="329" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11314" type="Weapon" name="Icarus Stinger - Destruction - Focus">
+		<set name="icon" val="icon.weapon_icarus_stinger_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1280" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11306" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3830-3;3566-2" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="329" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11315" type="Weapon" name="Icarus Stinger - Destruction - Health">
+		<set name="icon" val="icon.weapon_icarus_stinger_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1280" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11307" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3830-3;3013-3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="329" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11316" type="Weapon" name="Icarus Stinger - Destruction - Light">
+		<set name="icon" val="icon.weapon_icarus_stinger_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1280" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11308" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3426-1" />
+		<set name="item_skill" val="3552-1;3498-1;3830-3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="329" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="406" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11317" type="Weapon" name="Icarus Spirit - Nature">
+		<set name="icon" val="icon.weapon_icarus_spirits_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3852-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11318" type="Weapon" name="Icarus Spirit - Nature - Acumen">
+		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3852-3;3047-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11319" type="Weapon" name="Icarus Spirit - Nature - Mana Up">
+		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3852-3;3014-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11320" type="Weapon" name="Icarus Spirit - Nature - Conversion">
+		<set name="icon" val="icon.weapon_icarus_spirits_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3852-3;3048-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11321" type="Weapon" name="Icarus Spitter - Concentration">
+		<set name="icon" val="icon.weapon_icarus_spiter_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11309" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="item_skill" val="3863-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="689" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11322" type="Weapon" name="Icarus Spitter - Concentration - Cheap Shot">
+		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11310" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="item_skill" val="3863-3;3552-1;8312-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="689" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+			<set order="0x08" stat="MpConsume" val="1">
+				<and>
+					<game skill="false" chance="26" />
+				</and>
+			</set>
+		</for>
+	</item>
+	<item id="11323" type="Weapon" name="Icarus Spitter - Concentration - Guidance">
+		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11311" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="item_skill" val="3863-3;3573-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="689" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11324" type="Weapon" name="Icarus Spitter - Concentration - Focus">
+		<set name="icon" val="icon.weapon_icarus_spiter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11312" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="6" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="item_skill" val="3863-3;3567-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="689" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11325" type="Weapon" name="Icarus Wingblade - Lightning">
+		<set name="icon" val="icon.weapon_icarus_wing_blade_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11341" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3851-2" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="393" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11326" type="Weapon" name="Icarus Wingblade - Lightning - Focus">
+		<set name="icon" val="icon.weapon_icarus_wing_blade_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11342" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3851-2;3566-2" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="393" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11327" type="Weapon" name="Icarus Wingblade - Lightning - Health">
+		<set name="icon" val="icon.weapon_icarus_wing_blade_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11343" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3851-2;3013-3" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="393" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11328" type="Weapon" name="Icarus Wingblade - Lightning - Light">
+		<set name="icon" val="icon.weapon_icarus_wing_blade_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11344" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3552-1;3498-1;3851-2" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="393" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+			<set order="0x08" stat="pAtkSpd" val="350" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11329" type="Weapon" name="Icarus Trident - Thunder">
+		<set name="icon" val="icon.weapon_icarus_trident_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2010" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3873-2;3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11330" type="Weapon" name="Icarus Trident - Thunder - Anger">
+		<set name="icon" val="icon.weapon_icarus_trident_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2010" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3873-2;3600-10" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11331" type="Weapon" name="Icarus Trident - Thunder - Critical Stun">
+		<set name="icon" val="icon.weapon_icarus_trident_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2010" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="oncrit_chance" val="48" />
+		<set name="oncrit_skill" val="3070-4" />
+		<set name="item_skill" val="3873-2;3552-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11332" type="Weapon" name="Icarus Trident - Thunder - Light">
+		<set name="icon" val="icon.weapon_icarus_trident_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2010" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3552-2;3498-1;3873-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11333" type="Weapon" name="Icarus Hammer - Earth">
+		<set name="icon" val="icon.weapon_icarus_hammer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3884-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11334" type="Weapon" name="Icarus Hammer - Earth - Anger">
+		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3884-3;3057-4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11335" type="Weapon" name="Icarus Hammer - Earth - Health">
+		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3884-3;3013-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11336" type="Weapon" name="Icarus Hammer - Earth - Rsk. Focus">
+		<set name="icon" val="icon.weapon_icarus_hammer_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3884-3;3027-7" />
+		<for>
+			<set order="0x08" stat="pAtk" val="363" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11337" type="Weapon" name="Icarus Hand - Destruction">
+		<set name="icon" val="icon.weapon_icarus_knuckle_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1550" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3879-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11338" type="Weapon" name="Icarus Hand - Destruction - Rsk. Evasion">
+		<set name="icon" val="icon.weapon_icarus_knuckle_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1550" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3069-1;3552-1;3879-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11339" type="Weapon" name="Icarus Hand - Destruction - Focus">
+		<set name="icon" val="icon.weapon_icarus_knuckle_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1550" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3879-3;3565-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11340" type="Weapon" name="Icarus Hand - Destruction - Haste">
+		<set name="icon" val="icon.weapon_icarus_knuckle_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1550" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3879-3;3564-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11341" type="Weapon" name="Icarus Heavy Arms - Lightning">
+		<set name="icon" val="icon.weapon_icarus_heavy_arms_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11325" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3845-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11342" type="Weapon" name="Icarus Heavy Arms - Lightning - Focus">
+		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11326" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3845-2;3566-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11343" type="Weapon" name="Icarus Heavy Arms - Lightning - Health">
+		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11327" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3845-2;3013-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11344" type="Weapon" name="Icarus Heavy Arms - Lightning - Light">
+		<set name="icon" val="icon.weapon_icarus_heavy_arms_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="103439000" />
+		<set name="change_weaponId" val="11328" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3552-1;3498-1;3845-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11345" type="Weapon" name="Icarus Hall - Hail">
+		<set name="icon" val="icon.weapon_icarus_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3889-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11346" type="Weapon" name="Icarus Hall - Hail - Mana Up">
+		<set name="icon" val="icon.weapon_icarus_stick_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3889-3;3014-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11347" type="Weapon" name="Icarus Hall - Hail - Conversion">
+		<set name="icon" val="icon.weapon_icarus_stick_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3889-3;3048-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11348" type="Weapon" name="Icarus Hall - Hail - Acumen">
+		<set name="icon" val="icon.weapon_icarus_stick_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="4965" />
+		<set name="crystal_type" val="s80" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="103439000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3889-3;3047-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="290" />
+			<set order="0x08" stat="mAtk" val="217" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="11349" type="Armor" name="Sealed Zubei's Gauntlet">
+		<set name="icon" val="icon.armor_t64_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11350" type="Armor" name="Sealed Zubei's Boots">
+		<set name="icon" val="icon.armor_t64_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11351" type="Armor" name="Sealed Avadon Gloves">
+		<set name="icon" val="icon.armor_t66_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11352" type="Armor" name="Sealed Avadon Boots">
+		<set name="icon" val="icon.armor_t66_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1170" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11353" type="Armor" name="Zubei's Leather Gaiters">
+		<set name="icon" val="icon.armor_t65_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="100" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1480" />
+		<set name="price" val="748300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3668-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11354" type="Armor" name="Zubei's Leather Shirt">
+		<set name="icon" val="icon.armor_t65_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="160" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="4330" />
+		<set name="price" val="1197000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3669-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="117" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11355" type="Armor" name="Zubei's Gaiters">
+		<set name="icon" val="icon.armor_t64_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="133" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="3570" />
+		<set name="price" val="997700" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3672-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="98" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11356" type="Armor" name="Zubei's Gauntlet - Heavy Armor">
+		<set name="icon" val="icon.armor_t64_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3673-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11357" type="Armor" name="Zubei's Gauntlet - Light Armor Use">
+		<set name="icon" val="icon.armor_t65_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3670-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11358" type="Armor" name="Zubei's Gauntlet - Robe">
+		<set name="icon" val="icon.armor_t56_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3679-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11359" type="Armor" name="Zubei's Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t64_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3674-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11360" type="Armor" name="Zubei's Boots - Light Armor Use">
+		<set name="icon" val="icon.armor_t65_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3671-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11361" type="Armor" name="Zubei's Boots - Robe">
+		<set name="icon" val="icon.armor_t56_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3680-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11362" type="Armor" name="Zubei's Shield">
+		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="56" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1210" />
+		<set name="price" val="419000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3681-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="11363" type="Armor" name="Zubei's Helmet - Heavy Armor">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="80" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="598600" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3675-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11364" type="Armor" name="Zubei's Breastplate">
+		<set name="icon" val="icon.armor_t64_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="213" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="7970" />
+		<set name="price" val="1596000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3676-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="157" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11365" type="Armor" name="Avadon Gloves - Heavy Armor">
+		<set name="icon" val="icon.armor_t66_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3682-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11366" type="Armor" name="Avadon Gloves - Light Armor Use">
+		<set name="icon" val="icon.armor_t67_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3689-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11367" type="Armor" name="Avadon Gloves - Robe">
+		<set name="icon" val="icon.armor_t59_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3693-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11368" type="Armor" name="Avadon Leather Armor">
+		<set name="icon" val="icon.armor_t67_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="259" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5600" />
+		<set name="price" val="1946000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3690-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="191" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11369" type="Armor" name="Avadon Robe">
+		<set name="icon" val="icon.armor_t59_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="259" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2540" />
+		<set name="price" val="1946000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3694-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="127" />
+			<add order="0x40" stat="maxMp" val="561" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11370" type="Armor" name="Avadon Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t66_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3683-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11371" type="Armor" name="Avadon Boots - Light Armor Use">
+		<set name="icon" val="icon.armor_t67_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3691-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11372" type="Armor" name="Avadon Boots - Robe">
+		<set name="icon" val="icon.armor_t59_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="53" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="price" val="399100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3695-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11373" type="Armor" name="Avadon Circlet - Heavy Armor">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="80" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="598600" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3684-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11374" type="Armor" name="Avadon Shield">
+		<set name="icon" val="icon.shield_avadon_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="56" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1210" />
+		<set name="price" val="419000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3687-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="11375" type="Armor" name="Avadon Gaiters">
+		<set name="icon" val="icon.armor_t66_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="133" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="3520" />
+		<set name="price" val="997700" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3685-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="98" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11376" type="Armor" name="Avadon Breastplate">
+		<set name="icon" val="icon.armor_t66_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="213" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="7920" />
+		<set name="price" val="1596000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3686-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="157" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11377" type="Armor" name="Tunic of Zubei">
+		<set name="icon" val="icon.armor_t56_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="160" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1960" />
+		<set name="price" val="1197000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3677-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="78" />
+			<add order="0x40" stat="maxMp" val="345" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11378" type="Armor" name="Stockings of Zubei">
+		<set name="icon" val="icon.armor_t56_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="100" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="940" />
+		<set name="price" val="748300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3678-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<add order="0x40" stat="maxMp" val="216" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11379" type="Armor" name="Doom Gloves - Heavy Armor">
+		<set name="icon" val="icon.armor_t71_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3696-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11380" type="Armor" name="Doom Gloves - Light Armor Use">
+		<set name="icon" val="icon.armor_t72_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3702-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11381" type="Armor" name="Doom Gloves - Robe">
+		<set name="icon" val="icon.armor_t73_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3705-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11382" type="Armor" name="Doom Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t71_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3697-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11383" type="Armor" name="Doom Boots - Light Armor Use">
+		<set name="icon" val="icon.armor_t72_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3703-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11384" type="Armor" name="Doom Boots - Robe">
+		<set name="icon" val="icon.armor_t73_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3706-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11385" type="Armor" name="Doom Shield">
+		<set name="icon" val="icon.shield_doom_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="87" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1200" />
+		<set name="price" val="649800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3700-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="230" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="11386" type="Armor" name="Doom Plate Armor">
+		<set name="icon" val="icon.armor_t71_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="536" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="9980" />
+		<set name="price" val="4022000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3698-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="270" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11387" type="Armor" name="Doom Helmet - Heavy Armor">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="124" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="928300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3699-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="66" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11388" type="Armor" name="Leather Armor of Doom">
+		<set name="icon" val="icon.armor_t72_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="402" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5500" />
+		<set name="price" val="3017000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3701-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="202" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11389" type="Armor" name="Sealed Doom Gloves">
+		<set name="icon" val="icon.armor_t71_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11390" type="Armor" name="Sealed Doom Boots">
+		<set name="icon" val="icon.armor_t71_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11391" type="Armor" name="Sealed Blue Wolf Boots">
+		<set name="icon" val="icon.armor_t68_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11392" type="Armor" name="Sealed Blue Wolf Gloves">
+		<set name="icon" val="icon.armor_t68_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11393" type="Armor" name="Tunic of Doom">
+		<set name="icon" val="icon.armor_t73_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="248" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1900" />
+		<set name="price" val="1857000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3707-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+			<add order="0x40" stat="maxMp" val="377" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11394" type="Armor" name="Blue Wolf Gaiters">
+		<set name="icon" val="icon.armor_t68_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="206" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="3370" />
+		<set name="price" val="1547100" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3711-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="104" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11395" type="Armor" name="Blue Wolf Leather Armor">
+		<set name="icon" val="icon.armor_t69_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="402" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5500" />
+		<set name="price" val="3017000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3715-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="202" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11396" type="Armor" name="Blue Wolf Boots - Heavy Armor">
+		<set name="icon" val="icon.armor_t68_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3712-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11397" type="Armor" name="Blue Wolf Boots - Light Armor Use">
+		<set name="icon" val="icon.armor_t69_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3716-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11398" type="Armor" name="Blue Wolf Boots - Robe">
+		<set name="icon" val="icon.armor_t70_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1130" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3719-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="11399" type="Armor" name="Blue Wolf Gloves - Heavy Armor">
+		<set name="icon" val="icon.armor_t68_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="price" val="618800" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3713-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="44" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+</list>

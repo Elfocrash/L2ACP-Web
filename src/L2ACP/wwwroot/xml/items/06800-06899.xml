@@ -1,0 +1,1166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="6800" type="EtcItem" name="Greater Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="250000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6801" type="EtcItem" name="Greater Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="250000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6802" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="140000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6803" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6804" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="200000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6805" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="350000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6806" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="350000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6807" type="EtcItem" name="Dawn Mercenary Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="140000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6808" type="EtcItem" name="Dawn Mercenary Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="170000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6809" type="EtcItem" name="Dawn Mercenary Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="200000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6810" type="EtcItem" name="Dawn Mercenary Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="350000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6811" type="EtcItem" name="Dawn Mercenary Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="350000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6812" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6813" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="90000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6814" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="110000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6815" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="230000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6816" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="230000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6817" type="EtcItem" name="Greater Recruit Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="70000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6818" type="EtcItem" name="Greater Recruit Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="90000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6819" type="EtcItem" name="Greater Recruit Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="110000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6820" type="EtcItem" name="Greater Recruit Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="230000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6821" type="EtcItem" name="Greater Recruit Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="230000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6822" type="EtcItem" name="Recruit Posting Ticket (Sword/Stationary)">
+		<set name="icon" val="icon.mticket_sword_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="40000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6823" type="EtcItem" name="Recruit Posting Ticket (Spear/Stationary)">
+		<set name="icon" val="icon.mticket_pole_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6824" type="EtcItem" name="Recruit Posting Ticket (Bow/Stationary)">
+		<set name="icon" val="icon.mticket_bow_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6825" type="EtcItem" name="Recruit Posting Ticket (Cleric/Stationary)">
+		<set name="icon" val="icon.mticket_cleric_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="150000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6826" type="EtcItem" name="Recruit Posting Ticket (Wizard/Stationary)">
+		<set name="icon" val="icon.mticket_wizard_fix_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="150000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6827" type="EtcItem" name="Recruit Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="40000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6828" type="EtcItem" name="Recruit Posting Ticket (Spear/Mobile)">
+		<set name="icon" val="icon.mticket_pole_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6829" type="EtcItem" name="Recruit Posting Ticket (Bow/Mobile)">
+		<set name="icon" val="icon.mticket_bow_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="60000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6830" type="EtcItem" name="Recruit Posting Ticket (Cleric/Mobile)">
+		<set name="icon" val="icon.mticket_cleric_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="150000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6831" type="EtcItem" name="Recruit Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="150000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6832" type="EtcItem" name="Nephilim Warrior Posting Ticket (Sword/Mobile)">
+		<set name="icon" val="icon.mticket_sword_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="2500000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6833" type="EtcItem" name="Nephilim Shaman Posting Ticket (Wizard/Mobile)">
+		<set name="icon" val="icon.mticket_wizard_move_i00" />
+		<set name="etcitem_type" val="castle_guard" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="5000000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="MercTicket" />
+	</item>
+	<item id="6834" type="Armor" name="Circlet of Innadril">
+		<set name="icon" val="icon.accessory_pledge_cap1_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{6}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="6" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6835" type="Armor" name="Circlet of Dion">
+		<set name="icon" val="icon.accessory_pledge_cap1_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{2}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="2" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6836" type="Armor" name="Goddard Circlet">
+		<set name="icon" val="icon.accessory_pledge_cap1_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{7}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="7" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6837" type="Armor" name="Circlet of Oren">
+		<set name="icon" val="icon.accessory_pledge_cap1_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{4}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="4" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6838" type="Armor" name="Circlet of Gludio">
+		<set name="icon" val="icon.accessory_pledge_cap1_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{1}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="1" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6839" type="Armor" name="Circlet of Giran">
+		<set name="icon" val="icon.accessory_pledge_cap1_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{3}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="3" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6840" type="Armor" name="Circlet of Aden">
+		<set name="icon" val="icon.accessory_pledge_cap2_i07" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3633-2" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{5}}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="5" />
+				<player pledgeClass="2" />
+				<!-- Heir -->
+			</and>
+		</cond>
+	</item>
+	<item id="6841" type="Armor" name="The Lord's Crown">
+		<set name="icon" val="icon.accessory_crown_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3632-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_clan_leader;1}}" />
+		<cond msgId="1518">
+			<and>
+				<player castle="-1" />
+				<player pledgeClass="-1" />
+				<!-- Clan Leader -->
+			</and>
+		</cond>
+	</item>
+	<item id="6842" type="Armor" name="Wings of Destiny Circlet">
+		<set name="icon" val="icon.accessory_hero_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player isHero="true" />
+		</cond>
+	</item>
+	<item id="6843" type="Armor" name="Cat Ears">
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+	</item>
+	<item id="6844" type="Armor" name="Lady's Hair Pin">
+		<set name="icon" val="icon.accessory_hairpin_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="6845" type="Armor" name="Pirate's Eye Patch">
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+	</item>
+	<item id="6846" type="Armor" name="Monocle">
+		<set name="icon" val="icon.accessory_glasses_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+	</item>
+	<item id="6847" type="EtcItem" name="Recipe: Sealed Tateossian Earring (70%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="74000" />
+		<set name="recipe_id" val="646" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6848" type="EtcItem" name="Recipe: Sealed Tateossian Earring (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="74000" />
+		<set name="recipe_id" val="647" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6849" type="EtcItem" name="Recipe: Sealed Tateossian Ring(70%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="49400" />
+		<set name="recipe_id" val="648" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6850" type="EtcItem" name="Recipe: Sealed Tateossian Ring(100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="49400" />
+		<set name="recipe_id" val="649" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6851" type="EtcItem" name="Recipe: Sealed Tateossian Necklace(70%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="98800" />
+		<set name="recipe_id" val="650" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6852" type="EtcItem" name="Recipe: Sealed Tateossian Necklace(100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="98800" />
+		<set name="recipe_id" val="651" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6853" type="EtcItem" name="Recipe: Sealed Imperial Crusader Breastplate (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="286000" />
+		<set name="recipe_id" val="652" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6854" type="EtcItem" name="Recipe: Sealed Imperial Crusader Breastplate (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="286000" />
+		<set name="recipe_id" val="653" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6855" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gaiters (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="179200" />
+		<set name="recipe_id" val="654" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6856" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gaiters (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="179200" />
+		<set name="recipe_id" val="655" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6857" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gauntlets (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="656" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6858" type="EtcItem" name="Recipe: Sealed Imperial Crusader Gauntlets (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="657" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6859" type="EtcItem" name="Recipe: Sealed Imperial Crusader Boots (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="658" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6860" type="EtcItem" name="Recipe: Sealed Imperial Crusader Boots (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="659" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6861" type="EtcItem" name="Recipe: Sealed Imperial Crusader Shield (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="75200" />
+		<set name="recipe_id" val="660" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6862" type="EtcItem" name="Recipe: Sealed Imperial Crusader Shield (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="75200" />
+		<set name="recipe_id" val="661" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6863" type="EtcItem" name="Recipe: Sealed Imperial Crusader Helmet (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="107400" />
+		<set name="recipe_id" val="662" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6864" type="EtcItem" name="Recipe: Sealed Imperial Crusader Helmet (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="107400" />
+		<set name="recipe_id" val="663" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6865" type="EtcItem" name="Recipe: Sealed Draconic Leather Armor (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="348000" />
+		<set name="recipe_id" val="664" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6866" type="EtcItem" name="Recipe: Sealed Draconic Leather Armor (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="348000" />
+		<set name="recipe_id" val="665" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6867" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="666" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6868" type="EtcItem" name="Recipe: Sealed Draconic Leather Gloves (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="667" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6869" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="668" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6870" type="EtcItem" name="Recipe: Sealed Draconic Leather Boots (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="669" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6871" type="EtcItem" name="Recipe: Sealed Draconic Leather Helmet (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="107400" />
+		<set name="recipe_id" val="670" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6872" type="EtcItem" name="Recipe: Sealed Draconic Leather Helmet (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="107400" />
+		<set name="recipe_id" val="671" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6873" type="EtcItem" name="Recipe: Sealed Major Arcana Robe (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="348000" />
+		<set name="recipe_id" val="672" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6874" type="EtcItem" name="Recipe: Sealed Major Arcana Robe (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="348000" />
+		<set name="recipe_id" val="673" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6875" type="EtcItem" name="Recipe: Sealed Major Arcana Gloves (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="674" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6876" type="EtcItem" name="Recipe: Sealed Major Arcana Gloves (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="675" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6877" type="EtcItem" name="Recipe: Sealed Major Arcana Boots (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="676" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6878" type="EtcItem" name="Recipe: Sealed Major Arcana Boots (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="71600" />
+		<set name="recipe_id" val="677" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6879" type="EtcItem" name="Recipe: Sealed Major Arcana Circlet (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="107400" />
+		<set name="recipe_id" val="678" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6880" type="EtcItem" name="Recipe: Sealed Major Arcana Circlet (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="107400" />
+		<set name="recipe_id" val="679" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6881" type="EtcItem" name="Recipe: Forgotten Blade (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="626" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6882" type="EtcItem" name="Recipe: Forgotten Blade (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="627" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6883" type="EtcItem" name="Recipe: Basalt Battlehammer (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="628" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6884" type="EtcItem" name="Recipe: Basalt Battlehammer (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="629" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6885" type="EtcItem" name="Recipe: Imperial Staff (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="630" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6886" type="EtcItem" name="Recipe: Imperial Staff(100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="631" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6887" type="EtcItem" name="Recipe: Angel Slayer (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="632" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6888" type="EtcItem" name="Recipe: Angel Slayer (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="633" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6889" type="EtcItem" name="Recipe: Shining Bow (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="634" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6890" type="EtcItem" name="Recipe: Shining Bow (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="635" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6891" type="EtcItem" name="Recipe: Dragon Hunter Axe (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="636" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6892" type="EtcItem" name="Recipe: Dragon Hunter Axe (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="637" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6893" type="EtcItem" name="Recipe: Saint Spear (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="638" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6894" type="EtcItem" name="Recipe: Saint Spear (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="639" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6895" type="EtcItem" name="Recipe: Demon Splinter (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="640" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6896" type="EtcItem" name="Recipe: Demon Splinter (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="641" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6897" type="EtcItem" name="Recipe: Heavens Divider (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="642" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6898" type="EtcItem" name="Recipe: Heavens Divider (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="643" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="6899" type="EtcItem" name="Recipe: Arcana Mace (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="976000" />
+		<set name="recipe_id" val="644" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+</list>

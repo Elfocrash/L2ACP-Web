@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="15400" type="Armor" name="Vitality Belt (Event) - 60-day limited period">
+		<set name="icon" val="icon.event_energy_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="enchant_enabled" val="4" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="86400" />
+	</item>
+	<item id="15401" type="Armor" name="Vitality Belt (Event) - 90-day limited period">
+		<set name="icon" val="icon.event_energy_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="enchant_enabled" val="4" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="time" val="129600" />
+	</item>
+	<item id="15402" type="Armor" name="Vitality Belt (Event) - Permanent Use">
+		<set name="icon" val="icon.event_energy_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="enchant_enabled" val="4" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15403" type="Weapon" name="Player Commendation - Berserker Blade - Player Commendation Weapon">
+		<set name="icon" val="icon.weapon_berserker_blade_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1380" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3010-4" />
+		<set name="duration" val="180" />
+		<set name="time" val="21600" />
+		<set name="useSkillDisTime" val="1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="190" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="15404" type="EtcItem" name="6th Anniversary Party Gift Box (2003) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15418,1,1,100" />
+	</item>
+	<item id="15405" type="EtcItem" name="6th Anniversary Party Gift Box (2004) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15419,1,1,100" />
+	</item>
+	<item id="15406" type="EtcItem" name="6th Anniversary Party Gift Box (2005) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15420,1,1,100" />
+	</item>
+	<item id="15407" type="EtcItem" name="6th Anniversary Party Gift Box (2006) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15421,1,1,100" />
+	</item>
+	<item id="15408" type="EtcItem" name="6th Anniversary Party Gift Box (2007) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15422,1,1,100" />
+	</item>
+	<item id="15409" type="EtcItem" name="6th Anniversary Party Gift Box (2008) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15423,1,1,100" />
+	</item>
+	<item id="15410" type="EtcItem" name="6th Anniversary Party Gift Box (2009) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15424,1,1,100" />
+	</item>
+	<item id="15411" type="EtcItem" name="6th Anniversary Party Gift Set (2003) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15418,1,1,100" />
+	</item>
+	<item id="15412" type="EtcItem" name="6th Anniversary Party Gift Set (2004) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15419,1,1,100" />
+	</item>
+	<item id="15413" type="EtcItem" name="6th Anniversary Party Gift Set (2005) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15420,1,1,100" />
+	</item>
+	<item id="15414" type="EtcItem" name="6th Anniversary Party Gift Set (2006) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15421,1,1,100" />
+	</item>
+	<item id="15415" type="EtcItem" name="6th Anniversary Party Gift Set (2007) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15422,1,1,100" />
+	</item>
+	<item id="15416" type="EtcItem" name="6th Anniversary Party Gift Set (2008) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15423,1,1,100" />
+	</item>
+	<item id="15417" type="EtcItem" name="6th Anniversary Party Gift Set (2009) - Event">
+		<set name="icon" val="icon.event_six_party_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15425,1,1,100;15424,1,1,100" />
+	</item>
+	<item id="15418" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 30-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9042-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="15419" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 25-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9043-1" />
+		<set name="time" val="36000" />
+	</item>
+	<item id="15420" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 20-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9044-1" />
+		<set name="time" val="28800" />
+	</item>
+	<item id="15421" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 15-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9045-1" />
+		<set name="time" val="21600" />
+	</item>
+	<item id="15422" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 10-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9046-1" />
+		<set name="time" val="14400" />
+	</item>
+	<item id="15423" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 5-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9047-1" />
+		<set name="time" val="7200" />
+	</item>
+	<item id="15424" type="EtcItem" name="6th Anniversary Party Cube Manage (Event) - 3-day limited period">
+		<set name="icon" val="icon.event_six_party_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9048-1" />
+		<set name="time" val="4320" />
+	</item>
+	<item id="15425" type="EtcItem" name="Hero's Treasure Box - Event">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15211,1,1,100;13273,1,1,100;15426,1,1,100" />
+	</item>
+	<item id="15426" type="EtcItem" name="Hero's Summon Point - Event">
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9040-1" />
+	</item>
+	<item id="15427" type="EtcItem" name="6th Anniversary Party Cake - Event">
+		<set name="icon" val="icon.event_six_party_cake_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9041-1" />
+	</item>
+	<item id="15428" type="Armor" name="6th Anniversary Party Earring (Event) - 30-day limited period">
+		<set name="icon" val="icon.event_six_party_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8361-1" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="15429" type="Armor" name="6th Anniversary Party Belt (Event) - 7-day limited period">
+		<set name="icon" val="icon.event_energy_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="equip_reuse_delay" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8360-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="15430" type="EtcItem" name="Event - Halloween Candy - Event">
+		<set name="icon" val="icon.ev_hallowinday_candy_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15431" type="EtcItem" name="Event - Uldie Summon Scroll">
+		<set name="icon" val="icon.ev_scroll_of_wooldie_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9061-1" />
+	</item>
+	<item id="15432" type="EtcItem" name="Event - Belldandy Summon Scroll">
+		<set name="icon" val="icon.ev_scroll_of_berdandi_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9062-1" />
+	</item>
+	<item id="15433" type="EtcItem" name="Event - Skooldie Summon Scroll">
+		<set name="icon" val="icon.ev_scroll_of_scooldie_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="mp_consume" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9063-1" />
+	</item>
+	<item id="15434" type="EtcItem" name="Halloween Toy Chest">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9064-1" />
+	</item>
+	<item id="15435" type="EtcItem" name="Shiny Halloween Toy Chest">
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9065-1" />
+	</item>
+	<item id="15436" type="EtcItem" name="Halloween Transformation Stick - 7-day limited period">
+		<set name="icon" val="icon.weapon_pumpkin_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="10" />
+		<set name="blessed" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="839-1" />
+		<set name="item_skill" val="8246-1" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="15437" type="EtcItem" name="Transformation Scroll Box">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9066-1" />
+	</item>
+	<item id="15438" type="EtcItem" name="Vitality Maintaining Potion (10 minutes)">
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9067-1" />
+	</item>
+	<item id="15439" type="EtcItem" name="10,000 SP scroll">
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9069-1" />
+	</item>
+	<item id="15440" type="EtcItem" name="Vitality Maintaining Potion (30 Minutes)">
+		<set name="icon" val="icon.etc_lesser_potion_scarlet_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9068-2" />
+	</item>
+	<item id="15441" type="Armor" name="Red Flare Valakas Hair Accessory">
+		<set name="icon" val="icon.ev_valakas_the_flame_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15442" type="Armor" name="Jack O'Lantern Mask">
+		<set name="icon" val="icon.ev_jack0_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8369-1;8370-1" />
+	</item>
+	<item id="15443" type="Armor" name="Super Strong Giant's Mask">
+		<set name="icon" val="icon.br_frankenstein_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8372-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15444" type="Armor" name="Silent Scream's Mask">
+		<set name="icon" val="icon.ev_scream_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8373-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15445" type="Armor" name="Wrathful Spirit's Mask">
+		<set name="icon" val="icon.ev_doccabi_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8374-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15446" type="Armor" name="Unrotten Corpse's Mask">
+		<set name="icon" val="icon.ev_mummy_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8375-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15447" type="Armor" name="Planet X235 Alien's Mask">
+		<set name="icon" val="icon.ev_alien_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8376-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15448" type="Armor" name="Golden Jack O'Lantern Mask - Permanent Use">
+		<set name="icon" val="icon.ev_golden_jack0_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15449" type="Armor" name="Shiny Planet X235 Alien's Mask">
+		<set name="icon" val="icon.ev_shiny_alien_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8376-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15450" type="Armor" name="Shiny Super Strong Giant's Mask">
+		<set name="icon" val="icon.ev_shiny_frankenstein_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8372-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15451" type="Armor" name="Shiny Silent Scream's Mask">
+		<set name="icon" val="icon.ev_shiny_scream_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8373-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15452" type="Armor" name="Shiny Wrathful Spirit's Mask">
+		<set name="icon" val="icon.ev_shiny_doccabi_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8374-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15453" type="Armor" name="Shiny Unrotten Corpse's Mask">
+		<set name="icon" val="icon.ev_shiny_mummy_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8375-1;8369-1;8370-1" />
+		<set name="time" val="240" />
+	</item>
+	<item id="15454" type="EtcItem" name="Shiny Planet X235 Alien's Mask Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15449,1,1,100" />
+	</item>
+	<item id="15455" type="EtcItem" name="Shiny Super Strong Giant's Mask Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15450,1,1,100" />
+	</item>
+	<item id="15456" type="EtcItem" name="Shiny Silent Scream's Mask Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15451,1,1,100" />
+	</item>
+	<item id="15457" type="EtcItem" name="Shiny Wrathful Spirit's Mask Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15452,1,1,100" />
+	</item>
+	<item id="15458" type="EtcItem" name="Shiny Unrotten Corpse's Mask Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15453,1,1,100" />
+	</item>
+	<item id="15459" type="EtcItem" name="Halloween Nectar Pumpkin Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15461,1,1,100" />
+	</item>
+	<item id="15460" type="EtcItem" name="Halloween King Pumpkin Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15462,1,1,100" />
+	</item>
+	<item id="15461" type="EtcItem" name="Halloween Nectar Pumpkin - Event">
+		<set name="icon" val="icon.event_halloween_pumpkin_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9070-1" />
+	</item>
+	<item id="15462" type="EtcItem" name="Halloween King Pumpkin - Event">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15461,6,6,100;15464,1,1,100" />
+	</item>
+	<item id="15463" type="EtcItem" name="Small Halloween Pumpkin - Event">
+		<set name="icon" val="icon.event_halloween_pumpkin_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9072-1" />
+	</item>
+	<item id="15464" type="Armor" name="Golden Jack O'Lantern Mask - 7-day limited period">
+		<set name="icon" val="icon.ev_golden_jack0_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="equip_reuse_delay" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8377-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="15465" type="EtcItem" name="Halloween Nectar Pumpkin Pack (Event) - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15461,1,1,100" />
+	</item>
+	<item id="15466" type="EtcItem" name="Halloween King Pumpkin Pack (Event) - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15462,1,1,100" />
+	</item>
+	<item id="15467" type="EtcItem" name="Halloween Nectar Pumpkin (Event) - Event">
+		<set name="icon" val="icon.event_halloween_pumpkin_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9071-1" />
+	</item>
+	<item id="15468" type="EtcItem" name="Halloween King Pumpkin (Event) - Event">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15461,6,6,100;15464,1,1,100" />
+	</item>
+	<item id="15469" type="EtcItem" name="Frozen Core">
+		<set name="icon" val="icon.etc_freezing_core_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9057-1" />
+	</item>
+	<item id="15470" type="EtcItem" name="Black Frozen Core">
+		<set name="icon" val="icon.etc_black_freezing_core_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9058-1" />
+	</item>
+	<item id="15471" type="EtcItem" name="Invisible Weapon for Freya">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15472" type="EtcItem" name="Sealed Mystery Sword">
+		<set name="icon" val="icon.etc_sealed_mystery_sword_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15473" type="Armor" name="Beast Handler's Whip">
+		<set name="icon" val="icon.etc_training_whip_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8363-1;8364-1;8362-1;8378-1" />
+	</item>
+	<item id="15474" type="EtcItem" name="Golden Spice">
+		<set name="icon" val="icon.etc_golden_spice_new_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3" />
+		<set name="price" val="200" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9049-1" />
+	</item>
+	<item id="15475" type="EtcItem" name="Crystal Spice">
+		<set name="icon" val="icon.etc_crystal_spice_new_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3" />
+		<set name="price" val="200" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9050-1" />
+	</item>
+	<item id="15476" type="EtcItem" name="Blessed Golden Spice">
+		<set name="icon" val="icon.etc_golden_spice_blessed_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9051-1" />
+	</item>
+	<item id="15477" type="EtcItem" name="Blessed Crystal Spice">
+		<set name="icon" val="icon.etc_crystal_spice_blessed_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9052-1" />
+	</item>
+	<item id="15478" type="EtcItem" name="Golden Spice (S-Grade)">
+		<set name="icon" val="icon.etc_golden_spice_s_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9053-1" />
+	</item>
+	<item id="15479" type="EtcItem" name="Crystal Spice (S-Grade)">
+		<set name="icon" val="icon.etc_crystal_spice_s_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="3" />
+		<set name="price" val="200" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9054-1" />
+	</item>
+	<item id="15480" type="EtcItem" name="Old Golden Spice">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i12" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15481" type="EtcItem" name="Old Crystal Spice">
+		<set name="icon" val="icon.event_halloween_king_pumpkin_i13" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15482" type="EtcItem" name="Golden Spice Crate">
+		<set name="icon" val="icon.etc_golden_spice_comp_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="30" />
+		<set name="price" val="9500" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9055-1" />
+	</item>
+	<item id="15483" type="EtcItem" name="Crystal Spice Compressed Pack">
+		<set name="icon" val="icon.etc_crystal_spice_comp_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="30" />
+		<set name="price" val="9500" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9056-1" />
+	</item>
+	<item id="15484" type="Armor" name="High-level Angel Circlet">
+		<set name="icon" val="icon.accessory_highangel_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+		<set name="equip_reuse_delay" val="10" />
+		<set name="item_skill" val="8509-1" />
+	</item>
+	<item id="15485" type="EtcItem" name="Torch">
+		<set name="icon" val="icon.etc_torchlight_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="9059-1" />
+		<set name="time" val="4" />
+	</item>
+	<item id="15486" type="EtcItem" name="Spirit Stone Fragment">
+		<set name="icon" val="icon.etc_a_broken_piece_of_soul_stone_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15487" type="EtcItem" name="Maguen Plasma Collector">
+		<set name="icon" val="icon.etc_machine_for_marguene_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="material" val="crystal" />
+		<set name="reuse_delay" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="9060-1" />
+	</item>
+	<item id="15488" type="EtcItem" name="Maguen Pet Collar">
+		<set name="icon" val="icon.etc_marguene_pet_collar_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="15489" type="EtcItem" name="Elite Maguen Pet Collar">
+		<set name="icon" val="icon.etc_elite_marguene_pet_collar_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="15490" type="EtcItem" name="Maguen Collection Box">
+		<set name="icon" val="icon.etc_marguene_collection_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15491" type="EtcItem" name="Elite Maguen Collection Box">
+		<set name="icon" val="icon.etc_elite_marguene_collection_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15492" type="EtcItem" name="Sel Mahum Salmon Porridge">
+		<set name="icon" val="icon.etc_salmon_soup_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="5" />
+		<set name="price" val="1" />
+		<set name="shared_reuse_group" val="6" />
+		<set name="reuse_delay" val="300000" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="9074-1" />
+	</item>
+	<item id="15493" type="EtcItem" name="Fantasy Mushroom Pouch">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15494" type="EtcItem" name="Sticky Mushroom Pouch">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15495" type="EtcItem" name="Vitality Plant Leaf">
+		<set name="icon" val="icon.etc_leaf_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15496" type="EtcItem" name="Seer Ugoros Pass">
+		<set name="icon" val="icon.etc_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15497" type="EtcItem" name="High-Grade Lizard Scale">
+		<set name="icon" val="icon.etc_godad_fish_scale_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15498" type="EtcItem" name="Middle-Grade Lizard Scale">
+		<set name="icon" val="icon.etc_innadrile_fish_scale_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="15499" type="EtcItem" name="Vial of Tanta Blood">
+		<set name="icon" val="icon.etc_dragons_blood_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+</list>

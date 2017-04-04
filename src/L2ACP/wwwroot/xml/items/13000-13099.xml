@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="13000" type="Armor" name="Sealed Helm of Nightmare - Light Armor Use">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="163" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="2032000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13001" type="Armor" name="Sealed Helm of Nightmare - Robe">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="163" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="2032000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13002" type="EtcItem" name="Essence of Kamaloka">
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13003" type="EtcItem" name="Pathfinder's Reward (D-Grade)">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2572-1" />
+	</item>
+	<item id="13004" type="EtcItem" name="Pathfinder's Reward (C-Grade)">
+		<set name="icon" val="icon.etc_crystal_ball_green_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2573-1" />
+	</item>
+	<item id="13005" type="EtcItem" name="Pathfinder's Reward (B-Grade)">
+		<set name="icon" val="icon.etc_bead_green_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2574-1" />
+	</item>
+	<item id="13006" type="EtcItem" name="Pathfinder's Reward (A-Grade)">
+		<set name="icon" val="icon.etc_bead_red_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2575-1" />
+	</item>
+	<item id="13007" type="EtcItem" name="Pathfinder's Reward (S-Grade)">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2576-1" />
+	</item>
+	<item id="13008" type="EtcItem" name="Spellbook - Bless the Blood">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="3650" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13009" type="EtcItem" name="inven_toll_iii">
+		<!-- Doesn't exist in client. -->
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13010" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Hall of the Abyss)">
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2589-1" />
+	</item>
+	<item id="13011" type="EtcItem" name="Extra Entrance Pass - Near Kamaloka">
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2590-1" />
+	</item>
+	<item id="13012" type="EtcItem" name="Extra Entrance Pass - Kamaloka (Labyrinth of the Abyss)">
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2591-1" />
+	</item>
+	<item id="13013" type="EtcItem" name="Gesto's Box">
+		<set name="icon" val="icon.etc_squares_wood_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13014" type="EtcItem" name="Freight Chest's Seal">
+		<set name="icon" val="icon.etc_jewel_green_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="13015" type="EtcItem" name="My Teleport Spellbook">
+		<set name="icon" val="icon.bookmark_book_i00" />
+		<set name="default_action" val="call_skill" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="TeleportBookmark" />
+		<set name="item_skill" val="2587-1" />
+	</item>
+	<item id="13016" type="EtcItem" name="My Teleport Scroll">
+		<set name="icon" val="icon.bookmark_scroll_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_freightable" val="true" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13017" type="EtcItem" name="White Weasel Hunting Helper Necklace">
+		<set name="icon" val="icon.pet_controler_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13018" type="EtcItem" name="Fairy Princess Hunting Helper Necklace">
+		<set name="icon" val="icon.pet_controler_i00" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13019" type="EtcItem" name="Wild Beast Fighter Hunting Helper Necklace">
+		<set name="icon" val="icon.pet_controler_i01" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13020" type="EtcItem" name="Fox Shaman Hunting Helper Necklace">
+		<set name="icon" val="icon.pet_controler_i01" />
+		<set name="default_action" val="skill_maintain" />
+		<set name="etcitem_type" val="pet_collar" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="SummonItems" />
+		<set name="item_skill" val="2046-1" />
+		<set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="13021" type="EtcItem" name="Color Name">
+		<set name="icon" val="icon.color_name_i00" />
+		<set name="default_action" val="nick_color" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="NicknameColor" />
+	</item>
+	<item id="13022" type="Armor" name="Light Purple-Maned Horse Mount Bracelet - 7-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="619-1" />
+		<set name="item_skill" val="8247-1" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="13023" type="Armor" name="Agathion of Love - 30-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5763-1;8245-1;3267-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13024" type="Armor" name="Sudden Agathion - 30-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8257-1;3267-1;5956-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13025" type="Armor" name="Shiny Agathion - 30-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8256-1;3267-1;5955-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13026" type="Armor" name="Sobbing Agathion - 30-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8258-1;3267-1;5957-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13027" type="EtcItem" name="Gran Kain's Gift Box - 30-day limited period">
+		<set name="icon" val="icon.special_cube_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2606-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="13028" type="EtcItem" name="Vitality Replenishing Herb">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2580-1" />
+	</item>
+	<item id="13029" type="EtcItem" name="Vitality Replenishing Transformation Herb - Timitran">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="13030" type="EtcItem" name="Vitality Replenishing Transformation Herb - Lava Golem">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="13031" type="EtcItem" name="Vitality Replenishing Transformation Herb - Yeti">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="13032" type="EtcItem" name="Pailaka Instant Shield">
+		<set name="icon" val="icon.etc_potion_red_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2577-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13033" type="EtcItem" name="Quick Healing Potion">
+		<set name="icon" val="icon.etc_potion_red_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="5000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2592-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13034" type="Weapon" name="Sprite's Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="817" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player instanceId="43" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="107" />
+			<set order="0x08" stat="mAtk" val="72" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13035" type="Weapon" name="Enhanced Sprite's Sword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="817" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8237-1" />
+		<cond msgId="1518">
+			<player instanceId="43" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="127" />
+			<set order="0x08" stat="mAtk" val="82" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13036" type="Weapon" name="Sword of Ice and Fire">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="817" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8238-1;8237-1" />
+		<cond msgId="1518">
+			<player instanceId="43" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="147" />
+			<set order="0x08" stat="mAtk" val="92" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13037" type="EtcItem" name="Pailaka Soulshot - Grade D">
+		<set name="icon" val="icon.etc_spirit_bullet_blue_i00" />
+		<set name="default_action" val="soulshot" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="paper" />
+		<set name="weight" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2150-1" />
+	</item>
+	<item id="13038" type="EtcItem" name="Essence of Water">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43" />
+		</cond>
+	</item>
+	<item id="13039" type="EtcItem" name="Essence of Fire">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43" />
+		</cond>
+	</item>
+	<item id="13040" type="EtcItem" name="Fire Attribute Enhancer">
+		<set name="icon" val="icon.etc_fire_potion_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2335-1" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43" />
+		</cond>
+	</item>
+	<item id="13041" type="EtcItem" name="Water Attribute Enhancer">
+		<set name="icon" val="icon.etc_water_potion_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2336-1" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43" />
+		</cond>
+	</item>
+	<item id="13042" type="Weapon" name="Ancient Legacy Sword">
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="643" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8250-1" />
+		<cond msgId="1518">
+			<player instanceId="44" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="259" />
+			<set order="0x08" stat="mAtk" val="143" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13043" type="Weapon" name="Enhanced Ancient Legacy Sword">
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="643" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8250-1;8242-1" />
+		<cond msgId="1518">
+			<player instanceId="44" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="279" />
+			<set order="0x08" stat="mAtk" val="153" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13044" type="Weapon" name="Complete Ancient Legacy Sword">
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="643" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8250-2;8242-1;8243-1" />
+		<cond msgId="1518">
+			<player instanceId="44" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="299" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13045" type="EtcItem" name="Pailaka Soulshot - Grade C">
+		<set name="icon" val="icon.etc_spirit_bullet_blue_i00" />
+		<set name="default_action" val="soulshot" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="paper" />
+		<set name="weight" val="3" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2151-1" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13046" type="EtcItem" name="Pailaka Weapon Upgrade Stage 1">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13047" type="EtcItem" name="Pailaka Weapon Upgrade Stage 2">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13048" type="EtcItem" name="Pailaka Antidote">
+		<set name="icon" val="icon.etc_potion_red_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2578-1" />
+		<cond msgId="113" addName="1">
+			<player instanceId="44" />
+		</cond>
+	</item>
+	<item id="13049" type="EtcItem" name="Divine Soul">
+		<set name="icon" val="icon.etc_unholy_potion_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2340-1" />
+		<cond msgId="113" addName="1">
+			<player instanceId="44" />
+		</cond>
+	</item>
+	<item id="13050" type="Armor" name="Tigress exclusive armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="for_npc" val="true" />
+		<cond msgId="1518">
+			<player instanceId="43,44,45" />
+		</cond>
+		<for>
+			<add order="0x10" stat="mDef" val="49" />
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="13051" type="EtcItem" name="Hair Accessory">
+		<set name="icon" val="icon.accessory_bear_cap_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13052" type="Weapon" name="Spear of Silenos">
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="607" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="8249-1" />
+		<set name="item_skill" val="8239-1;8240-1;3599-1" />
+		<cond msgId="1518">
+			<player instanceId="45" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="251" />
+			<set order="0x08" stat="mAtk" val="161" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13053" type="Weapon" name="Enhanced Spear of Silenos">
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="607" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="8249-1" />
+		<set name="item_skill" val="8239-1;8240-2;3599-1" />
+		<cond msgId="1518">
+			<player instanceId="45" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="271" />
+			<set order="0x08" stat="mAtk" val="171" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13054" type="Weapon" name="Complete Spear of Silenos">
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="607" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="8249-1" />
+		<set name="item_skill" val="8239-1;8240-3;3599-1" />
+		<cond msgId="1518">
+			<player instanceId="45" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="291" />
+			<set order="0x08" stat="mAtk" val="181" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13055" type="EtcItem" name="Pailaka Soulshot - Grade A">
+		<set name="icon" val="icon.etc_spirit_bullet_blue_i00" />
+		<set name="default_action" val="soulshot" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2153-1" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13056" type="EtcItem" name="Weapon Upgrade Stage 1">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13057" type="EtcItem" name="Weapon Upgrade Stage 2">
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="43,44,45" />
+		</cond>
+	</item>
+	<item id="13058" type="Armor" name="Silenos Hair Accessory">
+		<set name="icon" val="icon.accessory_barka_karm_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="13059" type="EtcItem" name="Long-Range Defense Increasing Potion">
+		<set name="icon" val="icon.etc_potion_red_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2593-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player instanceId="44" />
+		</cond>
+	</item>
+	<item id="13060" type="EtcItem" name="Tinplate Golem Transformation Stick">
+		<set name="icon" val="icon.etc_gateleeper_stick_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13061" type="Weapon" name="Exclusive to Monsters (Baroness' Employee)">
+		<set name="icon" val="icon.weapon_morning_star_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3014-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="267" />
+			<set order="0x08" stat="mAtk" val="202" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="13062" type="Weapon" name="Exclusive to Monsters (Employee's Friend)">
+		<set name="icon" val="icon.weapon_mon_friend_employee_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="442" />
+			<set order="0x08" stat="mAtk" val="163" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="13063" type="EtcItem" name="Unfair Joystick">
+		<set name="icon" val="icon.etc_gateleeper_stick_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13064" type="EtcItem" name="Unfair Naval Cannon Joystick">
+		<set name="icon" val="icon.etc_gateleeper_stick_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13065" type="EtcItem" name="Lucky 7 Treasure">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13066" type="EtcItem" name="Treasure of the Seven Fortunes">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13067" type="EtcItem" name="Fantasy Isle Coin">
+		<set name="icon" val="icon.etc_pig_adena_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13068" type="EtcItem" name="Fantasy Isle Coin (Player Commendation)">
+		<set name="icon" val="icon.etc_pig_adena_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13069" type="EtcItem" name="Long Prolonging Dream">
+		<set name="icon" val="icon.etc_potion_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="13070" type="EtcItem" name="Premium Parcel Box Test">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="13071" type="EtcItem" name="Red Soul Crystal - Stage 16">
+		<set name="icon" val="icon.etc_soul_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="13072" type="EtcItem" name="Blue Soul Crystal - Stage 16">
+		<set name="icon" val="icon.etc_soul_stone_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="13073" type="EtcItem" name="Green Soul Crystal - Stage 16">
+		<set name="icon" val="icon.etc_soul_stone_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="20" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2096-1" />
+	</item>
+	<item id="13074" type="Armor" name="Shadow Item - Top Hat">
+		<set name="icon" val="icon.accessory_magicial_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="13075" type="Armor" name="Shadow Item - Black Mask">
+		<set name="icon" val="icon.accessory_jjoro_masj_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="13076" type="Armor" name="Shadow Item - Rider Goggles">
+		<set name="icon" val="icon.accessory_dragonfly_goggle_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="10080" />
+	</item>
+	<item id="13077" type="EtcItem" name="Chaotic Arcana Sigil">
+		<set name="icon" val="icon.arcana_sigil_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1170" />
+		<set name="price" val="3355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+		</for>
+	</item>
+	<item id="13078" type="Armor" name="Arcana Sigil">
+		<set name="icon" val="icon.arcana_sigil_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="sigil" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="161" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="940" />
+		<set name="price" val="3355000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8310-1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<add order="0x10" stat="pDef" val="13" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="13079" type="EtcItem" name="My Teleport Spellbook 1-Sheet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13015,1,1,100" />
+	</item>
+	<item id="13080" type="EtcItem" name="My Teleport Scroll 30-Sheet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13016,30,30,100" />
+	</item>
+	<item id="13081" type="EtcItem" name="Kamaloka Entrance Pass Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="13082" type="EtcItem" name="Feather of Blessing 3-Sheet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="10649,3,3,100" />
+	</item>
+	<item id="13083" type="EtcItem" name="Agathion of Love 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13023,1,1,100" />
+	</item>
+	<item id="13084" type="EtcItem" name="Pumpkin Transformation Stick 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12800,1,1,100" />
+	</item>
+	<item id="13085" type="EtcItem" name="Kamaloka Entrance Pass 3-Sheet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13010,5,5,100;13011,5,5,100;13012,5,5,100" />
+	</item>
+	<item id="13086" type="EtcItem" name="Kat the Cat Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12782,1,1,100" />
+	</item>
+	<item id="13087" type="EtcItem" name="Feline Queen Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12783,1,1,100" />
+	</item>
+	<item id="13088" type="EtcItem" name="Monster Eye Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12786,1,1,100" />
+	</item>
+	<item id="13089" type="EtcItem" name="Brown Bear Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12787,1,1,100" />
+	</item>
+	<item id="13090" type="EtcItem" name="Fungus Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12788,1,1,100" />
+	</item>
+	<item id="13091" type="EtcItem" name="Skull Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12789,1,1,100" />
+	</item>
+	<item id="13092" type="EtcItem" name="Ornithomimus Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12790,1,1,100" />
+	</item>
+	<item id="13093" type="EtcItem" name="Feline King Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12791,1,1,100" />
+	</item>
+	<item id="13094" type="EtcItem" name="Kai the Cat Hat 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12792,1,1,100" />
+	</item>
+	<item id="13095" type="EtcItem" name="OX Stick 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12793,1,1,100;12794,1,1,100" />
+	</item>
+	<item id="13096" type="EtcItem" name="Rock-Paper-Scissors Stick 30-Day Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="12795,1,1,100;12796,1,1,100;12797,1,1,100" />
+	</item>
+	<item id="13097" type="EtcItem" name="Purple Maned Horse Bracelet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13022,1,1,100" />
+	</item>
+	<item id="13098" type="EtcItem" name="Color Name 3-Sheet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13021,3,3,100" />
+	</item>
+	<item id="13099" type="EtcItem" name="Sealed Arcana Sigil Piece">
+		<set name="icon" val="icon.etc_plate_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="14341" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

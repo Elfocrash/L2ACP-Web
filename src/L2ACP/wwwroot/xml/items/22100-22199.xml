@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="22100" type="EtcItem" name="Spiritshot Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_c_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-2" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22101" type="EtcItem" name="Spiritshot Pack (B-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_b_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-3" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22102" type="EtcItem" name="Spiritshot Pack (A-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_a_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-4" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22103" type="EtcItem" name="Spiritshot Pack (S-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_spiritshot_s_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-5" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22104" type="EtcItem" name="Soulshot Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_d_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22105" type="EtcItem" name="Soulshot Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_c_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-2" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22106" type="EtcItem" name="Soulshot Pack (B-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_b_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-3" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22107" type="EtcItem" name="Soulshot Pack (A-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_a_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-4" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22108" type="EtcItem" name="Soulshot Pack (S-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_s_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-5" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22109" type="EtcItem" name="Blessed Spiritshot Large Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_d_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26068-6" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22110" type="EtcItem" name="Blessed Spiritshot Large Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_c_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26068-7" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22111" type="EtcItem" name="Blessed Spiritshot Large Pack (B-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_b_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26068-8" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22112" type="EtcItem" name="Blessed Spiritshot Large Pack (A-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_a_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26068-9" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22113" type="EtcItem" name="Blessed Spiritshot Large Pack (S-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_blessed_spiritshot_s_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26068-10" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22114" type="EtcItem" name="Spiritshot Large Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_spiritshot_d_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-6" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22115" type="EtcItem" name="Spiritshot Large Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_spiritshot_c_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-7" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22116" type="EtcItem" name="Spiritshot Large Pack (B-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_spiritshot_b_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-8" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22117" type="EtcItem" name="Spiritshot Large Pack (A-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_spiritshot_a_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-9" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22118" type="EtcItem" name="Spiritshot Large Pack (S-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_spiritshot_s_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26069-10" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22119" type="EtcItem" name="Soulshot Large Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_soulshot_d_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-6" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22120" type="EtcItem" name="Soulshot Large Pack (C-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_soulshot_c_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-7" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22121" type="EtcItem" name="Soulshot Large Pack (B-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_soulshot_b_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-8" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22122" type="EtcItem" name="Soulshot Large Pack (A-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_soulshot_a_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-9" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22123" type="EtcItem" name="Soulshot Large Pack (S-Grade)">
+		<set name="icon" val="br_cashtex.item.br_cash_large_pack_of_soulshot_s_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26070-10" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22124" type="EtcItem" name="Wrapped daisy hairpin">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22125" type="EtcItem" name="Wrapped forget-me-not hairpin">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-2" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22126" type="EtcItem" name="Wrapped outlaw's eyepatch">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-3" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22127" type="EtcItem" name="Wrapped pirate's eyepatch">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-4" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22128" type="EtcItem" name="Wrapped Monocle">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-5" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22129" type="EtcItem" name="Wrapped Red Mask of Victory">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-6" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22130" type="EtcItem" name="Wrapped Red Horn of Victory">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-7" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22131" type="EtcItem" name="Wrapped Party Mask">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-8" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22132" type="EtcItem" name="Wrapped Red Party Mask">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-9" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22133" type="EtcItem" name="Wrapped Cat Ear">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-10" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22134" type="EtcItem" name="Wrapped Lady's Hair Pin">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-11" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22135" type="EtcItem" name="Wrapped Raccoon Ear">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-12" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22136" type="EtcItem" name="Wrapped Rabbit Ear">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-13" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22137" type="EtcItem" name="Wrapped Little Angel's Wings">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-14" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22138" type="EtcItem" name="Wrapped Fairy's Tentacle">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-15" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22139" type="EtcItem" name="Wrapped Dandy's Chapeau">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-16" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22140" type="EtcItem" name="Wrapped Artisan's Goggles">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_accessary_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26071-17" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22141" type="EtcItem" name="Wrapped Pet Exchange Ticket - Buffalo">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_pet_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26072-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22142" type="EtcItem" name="Wrapped Pet Exchange Ticket - Cougar">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_pet_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26072-2" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22143" type="EtcItem" name="Wrapped Pet Exchange Ticket - kookaburra">
+		<set name="icon" val="br_cashtex.item.br_cash_wrapped_pet_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26072-3" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22144" type="EtcItem" name="Bone Bolt">
+		<set name="icon" val="br_cashtex.item.br_cash_bone_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="22145" type="EtcItem" name="Steel Bolt">
+		<set name="icon" val="br_cashtex.item.br_cash_fine_steel_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="22146" type="EtcItem" name="Silver Bolt">
+		<set name="icon" val="br_cashtex.item.br_cash_silver_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="22147" type="EtcItem" name="Mithril Bolt">
+		<set name="icon" val="br_cashtex.item.br_cash_mithril_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="22148" type="EtcItem" name="Bolt of Light">
+		<set name="icon" val="br_cashtex.item.br_cash_shining_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+	</item>
+	<item id="22149" type="EtcItem" name="Bone Bolt Container">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_bone_bolts_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26073-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22150" type="EtcItem" name="Steel Bolt Container">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_fine_steel_bolts_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26073-2" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22151" type="EtcItem" name="Silver Bolt Container">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_silver_bolts_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26073-3" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22152" type="EtcItem" name="Mithril Bolt Container">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_mithril_bolts_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26073-4" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22153" type="EtcItem" name="Bolt Container of Light">
+		<set name="icon" val="br_cashtex.item.br_cash_quiver_of_shining_bolts_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="26073-5" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="22154" type="Armor" name="Shadow Weapon - Wolf Hat - Blessed Escape">
+		<set name="icon" val="icon.accessory_wolf_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="3264-1" />
+		<set name="duration" val="1440" />
+		<set name="useSkillDisTime" val="120" />
+	</item>
+	<item id="22155" type="Armor" name="Shadow Weapon - Wolf Hat - Blessed Resurrection">
+		<set name="icon" val="icon.accessory_wolf_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="3263-1" />
+		<set name="duration" val="1440" />
+		<set name="useSkillDisTime" val="120" />
+	</item>
+	<item id="22156" type="Armor" name="Daisy Hairpin">
+		<set name="icon" val="icon.accessory_daisy_hairpin_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="22157" type="Armor" name="Forget-me-not Hairpin">
+		<set name="icon" val="icon.accessory_forget_me_not_hairpin_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="22158" type="Armor" name="Outlaw's Eyepatch">
+		<set name="icon" val="icon.accessory_outlaw_eyepatch_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22159" type="Armor" name="Pirate's Eyepatch">
+		<set name="icon" val="icon.accessory_eye_bandage_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22160" type="Armor" name="Monocle">
+		<set name="icon" val="icon.accessory_glasses_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22161" type="Armor" name="Red Mask of Victory">
+		<set name="icon" val="icon.accessory_worldcup_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22162" type="Armor" name="Red Horn of Victory">
+		<set name="icon" val="icon.accessory_hair_cornu_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22163" type="Armor" name="Party Mask">
+		<set name="icon" val="icon.etc_party_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22164" type="Armor" name="Red Party Mask">
+		<set name="icon" val="icon.etc_party_mask_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22165" type="Armor" name="Cat Ears">
+		<set name="icon" val="icon.accessory_cat_ear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22166" type="Armor" name="Lady's Hair Pin">
+		<set name="icon" val="icon.accessory_hairpin_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="22167" type="Armor" name="Raccoon Ears">
+		<set name="icon" val="icon.accessory_racoon_ear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22168" type="Armor" name="Rabbit Ear">
+		<set name="icon" val="icon.accessory_rabbit_ear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22169" type="Armor" name="Little Angel Wings">
+		<set name="icon" val="icon.accessory_hair_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22170" type="Armor" name="Fairy's Tentacle">
+		<set name="icon" val="icon.accessory_hair_feeler_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22171" type="Armor" name="Dandy's Chapeau">
+		<set name="icon" val="icon.accessory_archer_hat_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22172" type="Armor" name="Artisan's Goggles">
+		<set name="icon" val="icon.accessory_dwarf_goggle_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22173" type="Armor" name="Improved Ring of Baium">
+		<!-- Description: MP +21, Resistance to Poison +40%, Poison attack rate +40%, Resistance to Hold +30%, Hold attack rate +30%, and increases Accuracy, Critical Damage, and Casting Spd. Only one effect is applied when wearing two of the same ring. -->
+		<set name="icon" val="icon.accessory_ring_of_baium_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="83" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="1730000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3561-1" /> <!-- Guess -->
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="22174" type="Armor" name="Improved Ring of Queen Ant">
+		<!-- Description: MP +21, Resistance to Poison +30%, Poison attack rate +30%, Resistance to Hold +20%, Hold attack rate +20%, and increases Accuracy and Critical Damage. Only one effect is applied when wearing two of the same ring. -->
+		<set name="icon" val="icon.accessory_ring_of_queen_ant_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="82" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="616000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3562-1" /> <!-- Guess -->
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="22175" type="Armor" name="Improved Blessed Earring of Zaken">
+		<!-- Description: MP +37, Resistance to Bleed +30%, Bleed attack rate +30%, heal amount +15%, vampiric rage effect, Resistance to Shock/Metal attacks +30%, Shock/Metal attack rate +30%, and Resistance to Dark +15. Only one effect is applied even when the same two earrings are worn. If it is equipped together with a standard Earring of Zaken, only the effect of Blessed Earring of Zaken will be applied. -->
+		<set name="icon" val="icon.accessory_earring_of_zaken_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="547" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3559-2" /> <!-- Guess -->
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="37" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="22176" type="EtcItem" name="Angry Bunny Lure Scroll - Event">
+		<!-- Description: Scroll that summons a Bad Bunny. If you relieve the Bad Bunny's fatigue, you can acquire Apiga. (Recovery is only possible through Cupid's Fatigue Recovery Potion or Cupid's Powerful Fatigue Recovery Potion.) -->
+		<set name="icon" val="BranchSys2.icon2.g_ev_rabbit" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22177" type="EtcItem" name="Fearless Angry Bunny Lure Scroll - Event">
+		<!-- Description: Scroll that summons a Liverless Bunny. While the Liverless Bunny is being recovered, it can sometimes transform into a Big Liver Bunny. (Recovery is only possible through Cupid's Fatigue Recovery Potion or Cupid's Powerful Fatigue Recovery Potion.) -->
+		<set name="icon" val="BranchSys2.icon2.g_ev_rabbit" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22178" type="EtcItem" name="Large Angry Bunny Lure Scroll - Event">
+		<!-- Description: Scroll that summons a Bad Bunny Captain. If you relieve the Bad Bunny Captain's fatigue, you can acquire Apiga. (Recovery is only possible through Cupid's Fatigue Recovery Potion or Cupid's Powerful Fatigue Recovery Potion.) -->
+		<set name="icon" val="BranchSys2.icon2.g_ev_rabbit_boss" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22179" type="EtcItem" name="Large Fearless Bunny Lure Scroll - Event">
+		<!-- Description: Scroll that summons a Liverless Bunny Captain. While the Liverless Bunny Captain is being recovered, it can sometimes transform into a Big Liver Bunny Captain. (Recovery is only possible through Cupid's Fatigue Recovery Potion or Cupid's Powerful Fatigue Recovery Potion.) -->
+		<set name="icon" val="BranchSys2.icon2.g_ev_rabbit_boss" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22180" type="EtcItem" name="Bunny Anger Management Kit - Event">
+		<!-- Description: An event pack that can be obtained once every 12 hours per account. If you double click it, you will obtain a Bad Bunny Scroll of Summon and "Cupid's Fatigue Recovery Potion" that are needed for the event. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22181" type="EtcItem" name="Bunny Pacifier Juice - Event">
+		<!-- Description: Recovers energy when used on a Bunny. -->
+		<set name="icon" val="icon.etc_faitgue_relief_of_cupid_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22182" type="EtcItem" name="Improved Bunny Pacifier Juice - Event">
+		<!-- Description: Recovers energy when used on a Bunny. It has a better effect than Cupid's Fatigue Recovery Potion. -->
+		<set name="icon" val="icon.etc_nutrients_of_cupid_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22183" type="Armor" name="Graduation Cap">
+		<!-- Description: Graduation Cap. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or sold. -->
+		<set name="icon" val="icon.accessory_graduation_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22184" type="Armor" name="Admiral's Hat">
+		<!-- Description: Admiral's Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or sold. -->
+		<set name="icon" val="icon.Accessary_middle_ages_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="steel" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22185" type="EtcItem" name="Illumination - Yellow">
+		<!-- Description: Brightly burning illumination. -->
+		<set name="icon" val="BranchSys2.icon.g_illumination_yellow" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22186" type="EtcItem" name="Cat the Ranger Summon Necklace Exchange Coupon">
+		<!-- Description: Coupon that can be exchanged for a necklace (5 hour) that summons a Cat the Ranger. Can be exchanged through the Dimensional Merchant. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22187" type="EtcItem" name="Birthday Present Pack">
+		<!-- Description: Birthday present received from Alegria on the character's birthday. When used, you can obtain (3) Birthday Vitality Potion(s), a birthday cake, and a Birthday Hat. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="22188,3,3,100;21595,1,1,100;21594,1,1,100" />
+	</item>
+	<item id="22188" type="EtcItem" name="Birthday Vitality Potion">
+		<!-- Description: Upon use, for 4 hours, when Exp. is acquired through hunting, vitality is recovered. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_potion_blue_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="80" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22312-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="22189" type="Armor" name="Child's Hat - Boy">
+		<!-- Description: Taiwanese child exclusive hat (boy). Uses 2 hair accessory slots. Cannot be exchanged, dropped, or sold. Item that can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_hat_for_boy_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22190" type="Armor" name="Child's Hat - Girl">
+		<!-- Description: Taiwanese child exclusive hat (girl). Uses 2 hair accessory slots. Cannot be exchanged, dropped, or sold. Item that can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_hat_for_girl_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+	</item>
+	<item id="22191" type="Armor" name="Rocking Horse Mount Bracelet - 7-day limited period">
+		<!-- Description: Dimensional item. Can ride a Rocking Horse when equipped. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon.g_wooen_house" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="22192" type="Armor" name="Rocking Horse Mount Bracelet - 30-day limited period">
+		<!-- Description: Dimensional item. Can ride a Rocking Horse when equipped. Can be used for 30 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon.g_wooen_house" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22193" type="Armor" name="Rocking Horse Mount Bracelet">
+		<!-- Description: Dimensional item. Can ride a Rocking Horse when equipped. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon.g_wooen_house" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22194" type="EtcItem" name="1st Place Treasure Sack">
+		<!-- Description: When double-clicked, a random 1st Place prize is granted. -->
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22195" type="EtcItem" name="2nd Place Treasure Sack">
+		<!-- Description: When double-clicked, a random 2nd Place prize is granted. -->
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22196" type="EtcItem" name="3rd Place Treasure Sack">
+		<!-- Description: When double-clicked, a random 3rd Place prize is granted. -->
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22197" type="EtcItem" name="4th Place Treasure Sack">
+		<!-- Description: When double-clicked, a random 4th Place prize is granted. -->
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22198" type="EtcItem" name="5th Place Treasure Sack">
+		<!-- Description: When double-clicked, a random 5th Place prize is granted. -->
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22199" type="EtcItem" name="6th Place Treasure Sack">
+		<!-- Description: When double-clicked, a random 6th Place prize is granted. -->
+		<set name="icon" val="BranchSys2.icon.etc_ancient_treasure_sack_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

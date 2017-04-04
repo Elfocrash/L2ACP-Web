@@ -1,0 +1,20 @@
+﻿@using L2ACP.Models
+@using L2ACP.Responses
+@using L2ACP.Services
+@model L2ACP.Responses.GetInventoryResponse
+@inject AssetManager AssetManager
+
+<div class="invcontainer">
+    @{ int count = 0;}
+    
+    <div class="equippedinv">
+        @foreach (InventoryInfo item in Model.InventoryInfo)
+        {
+            {
+                L2Item currentItem = AssetManager.GetItems().FirstOrDefault(x => x.Key == item.ItemId).Value;
+                <img class="invimage" title="@currentItem.Name" src="/images/gameIcons/@(currentItem.Image).png" />
+            }
+        }
+    </div>
+
+</div>

@@ -33,6 +33,7 @@ namespace L2ACP
             // Add framework services.
             services.AddTransient<IAuthService, AuthService>();
             services.AddTransient<IRequestService, RequestService>();
+            services.AddSingleton<AssetManager>();
 
             services.AddMvc();
         }
@@ -63,6 +64,12 @@ namespace L2ACP
                 AutomaticAuthenticate = true,
                 AutomaticChallenge = true
             });
+
+            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                var assetManager = serviceScope.ServiceProvider.GetService<AssetManager>();
+                assetManager.Initialize();
+            }
 
             app.UseMvc(routes =>
             {

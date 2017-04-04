@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+  <item id="3900" type="Armor" name="Wolf's Luxury Plate">
+    <set name="icon" val="icon.etc_pet_armor_i02" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="283000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="38" />
+      <add order="0" stat="pDef" val="43" />
+    </for>
+  </item>
+  <item id="3901" type="Armor" name="Wolf's Mithril Armor">
+    <set name="icon" val="icon.etc_pet_armor_i02" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="412500" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="41" />
+      <add order="0" stat="pDef" val="47" />
+    </for>
+  </item>
+  <item id="3902" type="Weapon" name="Ghost Canine">
+    <set name="icon" val="icon.etc_pet_arms_i00" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="30500" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="11" />
+      <add stat="mAtk" val="10" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3903" type="Weapon" name="Mithril Canine">
+    <set name="icon" val="icon.etc_pet_arms_i01" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="50000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="16" />
+      <add stat="mAtk" val="14" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3904" type="Weapon" name="Sylvan Canine">
+    <set name="icon" val="icon.etc_pet_arms_i01" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="80000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="23" />
+      <add stat="mAtk" val="18" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3905" type="Weapon" name="Orikarukon Canine">
+    <set name="icon" val="icon.etc_pet_arms_i01" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="120000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="31" />
+      <add stat="mAtk" val="24" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3906" type="Weapon" name="Fang of Saltydog">
+    <set name="icon" val="icon.etc_pet_arms_i01" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="175000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="40" />
+      <add stat="mAtk" val="30" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3907" type="Weapon" name="Fang of Cerberus">
+    <set name="icon" val="icon.etc_pet_arms_i01" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="225000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="49" />
+      <add stat="mAtk" val="36" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3908" type="Weapon" name="Fang of Coyote">
+    <set name="icon" val="icon.etc_pet_arms_i02" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="285000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="58" />
+      <add stat="mAtk" val="42" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3909" type="Weapon" name="Crystallized Ice Canine">
+    <set name="icon" val="icon.etc_pet_arms_i02" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="360000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="69" />
+      <add stat="mAtk" val="50" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3910" type="Weapon" name="Fang of the Blue Wolf">
+    <set name="icon" val="icon.etc_pet_arms_i02" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="550000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="80" />
+      <add stat="mAtk" val="58" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3911" type="Weapon" name="Fang of Fenrir">
+    <set name="icon" val="icon.etc_pet_arms_i02" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="750000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="ALL_WOLF_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="93" />
+      <add stat="mAtk" val="66" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3912" type="Armor" name="Hatchling's Soft Leather">
+    <set name="icon" val="icon.etc_pet_armor_i03" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="58500" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="26" />
+      <add order="0" stat="pDef" val="26" />
+    </for>
+  </item>
+  <item id="3913" type="Armor" name="Hatchling's Scale Mail">
+    <set name="icon" val="icon.etc_pet_armor_i03" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="86000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="29" />
+      <add order="0" stat="pDef" val="29" />
+    </for>
+  </item>
+  <item id="3914" type="Armor" name="Hatchling's Brigandine">
+    <set name="icon" val="icon.etc_pet_armor_i03" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="113000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="31" />
+      <add order="0" stat="pDef" val="31" />
+    </for>
+  </item>
+  <item id="3915" type="Armor" name="Hatchling's Bronze Coat">
+    <set name="icon" val="icon.etc_pet_armor_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="145500" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="33" />
+      <add order="0" stat="pDef" val="33" />
+    </for>
+  </item>
+  <item id="3916" type="Armor" name="Hatchling's Steel Coat">
+    <set name="icon" val="icon.etc_pet_armor_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="186000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="36" />
+      <add order="0" stat="pDef" val="36" />
+    </for>
+  </item>
+  <item id="3917" type="Armor" name="Hatchling's Shadowplate">
+    <set name="icon" val="icon.etc_pet_armor_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="283000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="38" />
+      <add order="0" stat="pDef" val="38" />
+    </for>
+  </item>
+  <item id="3918" type="Armor" name="Hatchling's Mithril Coat">
+    <set name="icon" val="icon.etc_pet_armor_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="chest" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LEATHER" />
+    <set name="weight" val="160" />
+    <set name="price" val="412500" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add order="0" stat="mDef" val="41" />
+      <add order="0" stat="pDef" val="41" />
+    </for>
+  </item>
+  <item id="3919" type="Weapon" name="Serpent Fang">
+    <set name="icon" val="icon.etc_pet_arms_i03" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="100000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="8" />
+      <add stat="mAtk" val="7" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3920" type="Weapon" name="Viperbite">
+    <set name="icon" val="icon.etc_pet_arms_i03" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="155000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="9" />
+      <add stat="mAtk" val="10" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3921" type="Weapon" name="Shadow Fang">
+    <set name="icon" val="icon.etc_pet_arms_i03" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="210000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="10" />
+      <add stat="mAtk" val="11" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3922" type="Weapon" name="Alya Fang">
+    <set name="icon" val="icon.etc_pet_arms_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="285000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="12" />
+      <add stat="mAtk" val="13" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3923" type="Weapon" name="Torturer">
+    <set name="icon" val="icon.etc_pet_arms_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="380000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="13" />
+      <add stat="mAtk" val="16" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3924" type="Weapon" name="Unuk Alhay Fang">
+    <set name="icon" val="icon.etc_pet_arms_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="550000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="15" />
+      <add stat="mAtk" val="18" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3925" type="Weapon" name="Antiplague">
+    <set name="icon" val="icon.etc_pet_arms_i04" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="SWORD" />
+    <set name="bodypart" val="rhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="40" />
+    <set name="damage_range" val="0;0;40;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="STEEL" />
+    <set name="weight" val="100" />
+    <set name="price" val="800000" />
+    <!-- H5 Price -->
+    <set name="for_npc" val="true" />
+    <cond msgId="1518">
+      <player categoryType="HATCHLING_GROUP" />
+    </cond>
+    <for>
+      <add stat="pAtk" val="17" />
+      <add stat="mAtk" val="21" />
+      <set stat="rCrit" val="8" />
+      <set stat="pAtkSpd" val="277" />
+    </for>
+  </item>
+  <item id="3926" type="EtcItem" name="L2Day - Guidance Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2050-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3927" type="EtcItem" name="L2Day - Death Whisper Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2051-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3928" type="EtcItem" name="L2Day - Focus Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2052-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3929" type="EtcItem" name="L2Day - Greater Acumen Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2053-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3930" type="EtcItem" name="L2Day - Haste Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2054-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3931" type="EtcItem" name="L2Day - Agility Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2055-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3932" type="EtcItem" name="L2Day - Mystic Empower Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2056-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3933" type="EtcItem" name="L2Day - Might Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2057-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3934" type="EtcItem" name="L2Day - Windwalk Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2058-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3935" type="EtcItem" name="L2Day - Shield Scroll">
+    <set name="icon" val="icon.etc_scroll_white_i00" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2059-1" />
+    <set name="for_npc" val="true" />
+    <cond msgId="113" addName="1">
+      <player flyMounted="false" />
+    </cond>
+  </item>
+  <item id="3936" type="EtcItem" name="Blessed Scroll of Resurrection">
+    <set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="price" val="400000" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2049-1" />
+  </item>
+  <item id="3937" type="Weapon" name="Giant Bar">
+    <set name="icon" val="icon.weapon_monster_i00" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="POLE" />
+    <set name="bodypart" val="lrhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="80" />
+    <set name="damage_range" val="0;0;66;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="743" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="BRONZE" />
+    <set name="weight" val="300" />
+    <set name="price" val="409000" />
+    <set name="soulshots" val="2" />
+    <set name="spiritshots" val="2" />
+    <set name="enchant_enabled" val="1" />
+    <set name="item_skill" val="3599-1" />
+    <set name="for_npc" val="true" />
+    <for>
+      <set stat="pAtk" val="50" />
+      <set stat="mAtk" val="26" />
+      <set stat="rCrit" val="8" />
+      <add stat="accCombat" val="-3.75" />
+      <set stat="pAtkSpd" val="325" />
+      <enchant val="0" stat="pAtk" />
+      <enchant val="0" stat="mAtk" />
+    </for>
+  </item>
+  <item id="3938" type="Weapon" name="Giant Rod">
+    <set name="icon" val="icon.weapon_monster_i00" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="POLE" />
+    <set name="bodypart" val="lrhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="80" />
+    <set name="damage_range" val="0;0;66;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="743" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="BRONZE" />
+    <set name="weight" val="300" />
+    <set name="price" val="409000" />
+    <set name="soulshots" val="2" />
+    <set name="spiritshots" val="2" />
+    <set name="enchant_enabled" val="1" />
+    <set name="item_skill" val="3599-1" />
+    <set name="for_npc" val="true" />
+    <for>
+      <set stat="pAtk" val="50" />
+      <set stat="mAtk" val="26" />
+      <set stat="rCrit" val="8" />
+      <add stat="accCombat" val="-3.75" />
+      <set stat="pAtkSpd" val="325" />
+      <enchant val="0" stat="pAtk" />
+      <enchant val="0" stat="mAtk" />
+    </for>
+  </item>
+  <item id="3939" type="Weapon" name="Lady's Fan">
+    <set name="icon" val="icon.weapon_monster_i00" />
+    <set name="default_action" val="EQUIP" />
+    <set name="weapon_type" val="POLE" />
+    <set name="bodypart" val="lrhand" />
+    <set name="random_damage" val="10" />
+    <set name="attack_range" val="80" />
+    <set name="damage_range" val="0;0;66;120" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="743" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="BRONZE" />
+    <set name="weight" val="300" />
+    <set name="price" val="409000" />
+    <set name="soulshots" val="2" />
+    <set name="spiritshots" val="2" />
+    <set name="enchant_enabled" val="1" />
+    <set name="item_skill" val="3599-1" />
+    <set name="for_npc" val="true" />
+    <for>
+      <set stat="pAtk" val="50" />
+      <set stat="mAtk" val="26" />
+      <set stat="rCrit" val="8" />
+      <add stat="accCombat" val="-3.75" />
+      <set stat="pAtkSpd" val="325" />
+      <enchant val="0" stat="pAtk" />
+      <enchant val="0" stat="mAtk" />
+    </for>
+  </item>
+  <item id="3940" type="EtcItem" name="Blueprint: Summon Siege Golem">
+    <set name="icon" val="icon.etc_plan_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="price" val="4800" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3941" type="EtcItem" name="Spellbook: Mass Resurrection">
+    <set name="icon" val="icon.etc_spell_books_white_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="price" val="4600" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3942" type="EtcItem" name="Spellbook: Party Return">
+    <set name="icon" val="icon.etc_spell_books_assistance_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="price" val="4600" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3943" type="EtcItem" name="Amulet: Pa'agrio's Heart">
+    <set name="icon" val="icon.etc_orcish_talisman_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="price" val="3850" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3944" type="EtcItem" name="Spellbook: Decrease Weight">
+    <set name="icon" val="icon.etc_spell_books_blue_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="price" val="2450" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3945" type="EtcItem" name="Boat Ticket: Talking Island to Giran">
+    <set name="icon" val="icon.etc_ticket_red_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="20" />
+    <set name="price" val="5000" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3946" type="EtcItem" name="Boat Ticket: Giran to Talking Island">
+    <set name="icon" val="icon.etc_ticket_blue_i00" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="20" />
+    <set name="price" val="5000" />
+    <set name="is_stackable" val="true" />
+  </item>
+  <item id="3947" type="EtcItem" name="Blessed Spiritshot: No Grade">
+    <set name="icon" val="icon.etc_spell_shot_white_i01" />
+    <set name="default_action" val="SPIRITSHOT" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="4" />
+    <!-- l2jtw : 603 -->
+    <set name="price" val="35" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="BlessedSpiritShot" />
+    <set name="item_skill" val="2061-1" />
+  </item>
+  <item id="3948" type="EtcItem" name="Blessed Spiritshot (D-Grade)">
+    <set name="icon" val="icon.etc_spell_shot_blue_i01" />
+    <set name="default_action" val="SPIRITSHOT" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="4" />
+    <!-- l2jtw : 603 -->
+    <set name="price" val="28" />
+    <!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="BlessedSpiritShot" />
+    <set name="item_skill" val="2160-1" />
+  </item>
+  <item id="3949" type="EtcItem" name="Blessed Spiritshot (C-Grade)">
+    <set name="icon" val="icon.etc_spell_shot_green_i01" />
+    <set name="default_action" val="SPIRITSHOT" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_type" val="C" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="2" />
+    <!-- l2jtw : 603 -->
+    <set name="price" val="42" />
+    <!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="BlessedSpiritShot" />
+    <set name="item_skill" val="2161-1" />
+  </item>
+  <item id="3950" type="EtcItem" name="Blessed Spiritshot (B-Grade)">
+    <set name="icon" val="icon.etc_spell_shot_red_i01" />
+    <set name="default_action" val="SPIRITSHOT" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_type" val="B" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="2" />
+    <!-- l2jtw : 603 -->
+    <set name="price" val="245" />
+    <!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="BlessedSpiritShot" />
+    <set name="item_skill" val="2162-1" />
+  </item>
+  <item id="3951" type="EtcItem" name="Blessed Spiritshot (A-Grade)">
+    <set name="icon" val="icon.etc_spell_shot_silver_i01" />
+    <set name="default_action" val="SPIRITSHOT" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_type" val="A" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="1" />
+    <!-- l2jtw : 603 -->
+    <set name="price" val="290" />
+    <!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="BlessedSpiritShot" />
+    <set name="item_skill" val="2163-1" />
+  </item>
+  <item id="3952" type="EtcItem" name="Blessed Spiritshot (S-Grade)">
+    <set name="icon" val="icon.etc_spell_shot_gold_i01" />
+    <set name="default_action" val="SPIRITSHOT" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_type" val="S" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="1" />
+    <!-- l2jtw : 603 -->
+    <set name="price" val="350" />
+    <!-- <set name="enchant_enabled" val="1" /> NOTE: Retail typo. -->
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="BlessedSpiritShot" />
+    <set name="item_skill" val="2164-1" />
+  </item>
+  <item id="3953" type="EtcItem" name="Recipe: Blessed Spiritshot D">
+    <set name="icon" val="icon.etc_recipe_blue_i00" />
+    <set name="default_action" val="RECIPE" />
+    <set name="etcitem_type" val="RECIPE" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="30" />
+    <set name="price" val="5000" />
+    <set name="recipe_id" val="323" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="Recipes" />
+  </item>
+  <item id="3954" type="EtcItem" name="Recipe: Blessed Spiritshot C">
+    <set name="icon" val="icon.etc_recipe_yellow_i00" />
+    <set name="default_action" val="RECIPE" />
+    <set name="etcitem_type" val="RECIPE" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="30" />
+    <set name="price" val="60000" />
+    <set name="recipe_id" val="324" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="Recipes" />
+  </item>
+  <item id="3955" type="EtcItem" name="Recipe: Blessed Spiritshot B">
+    <set name="icon" val="icon.etc_recipe_red_i00" />
+    <set name="default_action" val="RECIPE" />
+    <set name="etcitem_type" val="RECIPE" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="30" />
+    <set name="price" val="100000" />
+    <set name="recipe_id" val="325" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="Recipes" />
+  </item>
+  <item id="3956" type="EtcItem" name="Recipe: Blessed Spiritshot A">
+    <set name="icon" val="icon.etc_recipe_violet_i00" />
+    <set name="default_action" val="RECIPE" />
+    <set name="etcitem_type" val="RECIPE" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="30" />
+    <set name="price" val="150000" />
+    <set name="recipe_id" val="326" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="Recipes" />
+  </item>
+  <item id="3957" type="EtcItem" name="Recipe: Blessed Spiritshot S">
+    <set name="icon" val="icon.etc_recipe_black_i00" />
+    <set name="default_action" val="RECIPE" />
+    <set name="etcitem_type" val="RECIPE" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="LIQUID" />
+    <set name="weight" val="30" />
+    <set name="price" val="450000" />
+    <set name="recipe_id" val="327" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="Recipes" />
+  </item>
+  <item id="3958" type="EtcItem" name="Blessed Scroll of Escape - Event">
+    <set name="icon" val="icon.etc_scroll_of_return_i01" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2036-2" />
+  </item>
+  <item id="3959" type="EtcItem" name="Blessed Scroll of Resurrection - Event">
+    <set name="icon" val="icon.etc_scroll_of_resurrection_i01" />
+    <set name="default_action" val="SKILL_REDUCE" />
+    <set name="etcitem_type" val="SCROLL" />
+    <set name="material" val="PAPER" />
+    <set name="weight" val="120" />
+    <set name="is_stackable" val="true" />
+    <set name="is_oly_restricted" val="true" />
+    <set name="handler" val="ItemSkills" />
+    <set name="item_skill" val="2062-1" />
+  </item>
+  <item id="3960" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+    <set name="icon" val="icon.mticket_sword_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3961" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+    <set name="icon" val="icon.mticket_pole_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="60000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3962" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+    <set name="icon" val="icon.mticket_bow_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="70000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3963" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+    <set name="icon" val="icon.mticket_cleric_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3964" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+    <set name="icon" val="icon.mticket_wizard_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3965" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+    <set name="icon" val="icon.mticket_sword_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3966" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+    <set name="icon" val="icon.mticket_pole_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="60000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3967" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+    <set name="icon" val="icon.mticket_bow_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="70000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3968" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+    <set name="icon" val="icon.mticket_cleric_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3969" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+    <set name="icon" val="icon.mticket_wizard_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3970" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3971" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3972" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3973" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+    <set name="icon" val="icon.mticket_sword_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3974" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+    <set name="icon" val="icon.mticket_pole_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="60000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3975" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+    <set name="icon" val="icon.mticket_bow_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="70000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3976" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+    <set name="icon" val="icon.mticket_cleric_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3977" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+    <set name="icon" val="icon.mticket_wizard_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3978" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+    <set name="icon" val="icon.mticket_sword_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3979" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+    <set name="icon" val="icon.mticket_pole_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="60000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3980" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+    <set name="icon" val="icon.mticket_bow_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="70000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3981" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+    <set name="icon" val="icon.mticket_cleric_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3982" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+    <set name="icon" val="icon.mticket_wizard_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3983" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3984" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3985" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3986" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+    <set name="icon" val="icon.mticket_sword_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3987" type="EtcItem" name="Mercenary Posting Ticket (Spear/Stationary)">
+    <set name="icon" val="icon.mticket_pole_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="60000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3988" type="EtcItem" name="Mercenary Posting Ticket (Bow/Stationary)">
+    <set name="icon" val="icon.mticket_bow_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="70000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3989" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Stationary)">
+    <set name="icon" val="icon.mticket_cleric_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3990" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Stationary)">
+    <set name="icon" val="icon.mticket_wizard_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3991" type="EtcItem" name="Mercenary Posting Ticket (Sword/Mobile)">
+    <set name="icon" val="icon.mticket_sword_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3992" type="EtcItem" name="Mercenary Posting Ticket (Spear/Mobile)">
+    <set name="icon" val="icon.mticket_pole_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="60000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3993" type="EtcItem" name="Mercenary Posting Ticket (Bow/Mobile)">
+    <set name="icon" val="icon.mticket_bow_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="70000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3994" type="EtcItem" name="Mercenary Posting Ticket (Cleric/Mobile)">
+    <set name="icon" val="icon.mticket_cleric_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3995" type="EtcItem" name="Mercenary Posting Ticket (Wizard/Mobile)">
+    <set name="icon" val="icon.mticket_wizard_move_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="170000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3996" type="EtcItem" name="Mercenary Posting Ticket (Teleporter1)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3997" type="EtcItem" name="Mercenary Posting Ticket (Teleporter2)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3998" type="EtcItem" name="Mercenary Posting Ticket (Teleporter3)">
+    <set name="icon" val="icon.mticket_teleporter_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="100000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+  <item id="3999" type="EtcItem" name="Mercenary Posting Ticket (Sword/Stationary)">
+    <set name="icon" val="icon.mticket_sword_fix_i00" />
+    <set name="etcitem_type" val="CASTLE_GUARD" />
+    <set name="immediate_effect" val="true" />
+    <set name="material" val="PAPER" />
+    <set name="price" val="50000" />
+    <set name="is_stackable" val="true" />
+    <set name="handler" val="MercTicket" />
+  </item>
+</list>

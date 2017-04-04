@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="1800" type="EtcItem" name="Recipe: Piece Bone Breastplate">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="636" />
+		<set name="recipe_id" val="16" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1801" type="EtcItem" name="Recipe: Piece Bone Gaiters">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="397" />
+		<set name="recipe_id" val="17" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1802" type="EtcItem" name="Recipe: Necklace of Anguish">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="93" />
+		<set name="recipe_id" val="18" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1803" type="EtcItem" name="Recipe: Necklace of Wisdom">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="238" />
+		<set name="recipe_id" val="19" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1804" type="EtcItem" name="Recipe: Soulshot (D-Grade)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="5000" />
+		<set name="recipe_id" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1805" type="EtcItem" name="Recipe: Soulshot (C-Grade)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="60000" />
+		<set name="recipe_id" val="21" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1806" type="EtcItem" name="Recipe: Soulshot (B-Grade)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100000" />
+		<set name="recipe_id" val="22" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1807" type="EtcItem" name="Recipe: Soulshot (A-Grade)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="150000" />
+		<set name="recipe_id" val="23" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1808" type="EtcItem" name="Recipe: Soulshot (S-Grade)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="450000" />
+		<set name="recipe_id" val="24" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1809" type="EtcItem" name="Recipe: Durable Stem">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1810" type="EtcItem" name="Recipe: Wooden Frame">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1811" type="EtcItem" name="Recipe: Bark of Treant">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1812" type="EtcItem" name="Recipe: Coarse Bone Powder">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1813" type="EtcItem" name="Recipe: Refined Steel">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1814" type="EtcItem" name="Recipe: Leather">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="380" />
+		<set name="recipe_id" val="25" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1815" type="EtcItem" name="Recipe: Bowstring">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1816" type="EtcItem" name="Recipe: Steel Frame">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1817" type="EtcItem" name="Recipe: Cord">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="recipe_id" val="26" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1818" type="EtcItem" name="Recipe: Refined Bronze">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1819" type="EtcItem" name="Recipe: Treant Potion">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1820" type="EtcItem" name="Recipe: Spell Paper">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1821" type="EtcItem" name="Recipe: Flaming Oil">
+		<set name="icon" val="icon.etc_recipe_white_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1822" type="EtcItem" name="Recipe: Magic Powder">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1823" type="EtcItem" name="Recipe: Refined Mithril">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1824" type="EtcItem" name="Recipe: Reinforced Steel">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1825" type="EtcItem" name="Recipe: Oriharukon">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="2800" />
+		<set name="recipe_id" val="27" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="1826" type="EtcItem" name="Recipe: Spell Solution">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1827" type="EtcItem" name="Recipe: Metal Frame">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1828" type="EtcItem" name="Recipe: Steel of Highest Grade">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1829" type="EtcItem" name="Scroll of Escape: Clan Hall">
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2040-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="1830" type="EtcItem" name="Scroll of Escape: Castle">
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2041-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="1831" type="EtcItem" name="Antidote">
+		<set name="icon" val="icon.etc_herb_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="75" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2042-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="1832" type="EtcItem" name="Greater Antidote">
+		<set name="icon" val="icon.etc_reagent_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="180" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2043-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="1833" type="EtcItem" name="Bandage">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="75" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2044-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="1834" type="EtcItem" name="Emergency Dressing">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="180" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2045-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="1835" type="EtcItem" name="Soulshot: No Grade">
+		<set name="icon" val="icon.etc_spirit_bullet_white_i00" />
+		<set name="default_action" val="soulshot" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="4" />
+		<set name="price" val="7" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="SoulShots" />
+		<set name="item_skill" val="2039-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="1836" type="EtcItem" name="Kendell's 1st Order">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1837" type="EtcItem" name="Kendell's 2nd Order">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1838" type="EtcItem" name="Kendell's 3rd Order">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1839" type="EtcItem" name="Kendell's 4th Order">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1840" type="EtcItem" name="Kendell's 5th Order">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1841" type="EtcItem" name="Kendell's 6th Order">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1842" type="EtcItem" name="Kendell's 7th Order">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1843" type="EtcItem" name="Kendell's 8th Order">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1844" type="EtcItem" name="Kaboo Chief's 1st Torque">
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1845" type="EtcItem" name="Kaboo Chief's 2nd Torque">
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1846" type="EtcItem" name="Turek Dog Tag">
+		<set name="icon" val="icon.etc_totem_necklace_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1847" type="EtcItem" name="Turek Medallion">
+		<set name="icon" val="icon.etc_totem_necklace_green_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1848" type="EtcItem" name="Clay Urn Fragment">
+		<set name="icon" val="icon.etc_broken_crystal_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1849" type="EtcItem" name="Brass Trinket Piece">
+		<set name="icon" val="icon.etc_broken_crystal_gold_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="240" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1850" type="EtcItem" name="Bronze Mirror Piece">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="240" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1851" type="EtcItem" name="Jade Necklace Bead">
+		<set name="icon" val="icon.etc_debris_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="280" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1852" type="EtcItem" name="Ancient Clay Urn">
+		<set name="icon" val="icon.etc_oil_pot_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="1800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1853" type="EtcItem" name="Ancient Brass Tiara">
+		<set name="icon" val="icon.etc_ancient_crown_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="2100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1854" type="EtcItem" name="Ancient Bronze Mirror">
+		<set name="icon" val="icon.etc_mirror_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="2100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1855" type="EtcItem" name="Ancient Jade Necklace">
+		<set name="icon" val="icon.etc_leash_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="2550" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1856" type="EtcItem" name="Amulet: Chant of Life">
+		<set name="icon" val="icon.etc_orcish_talisman_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1857" type="EtcItem" name="Keltir Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1858" type="EtcItem" name="Keltir Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1859" type="EtcItem" name="Keltir Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1860" type="EtcItem" name="Keltir Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1861" type="EtcItem" name="Keltir Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1862" type="EtcItem" name="Keltir Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="1863" type="EtcItem" name="Map: Elmore">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="price" val="1000" />
+		<set name="handler" val="Maps" />
+	</item>
+	<item id="1864" type="EtcItem" name="Stem">
+		<set name="icon" val="icon.etc_branch_gold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1865" type="EtcItem" name="Varnish">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1866" type="EtcItem" name="Suede">
+		<set name="icon" val="icon.etc_suede_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1867" type="EtcItem" name="Animal Skin">
+		<set name="icon" val="icon.etc_leather_brown_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1868" type="EtcItem" name="Thread">
+		<set name="icon" val="icon.etc_skein_white_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1869" type="EtcItem" name="Iron Ore">
+		<set name="icon" val="icon.etc_lump_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1870" type="EtcItem" name="Coal">
+		<set name="icon" val="icon.etc_coal_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1871" type="EtcItem" name="Charcoal">
+		<set name="icon" val="icon.etc_charcoal_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1872" type="EtcItem" name="Animal Bone">
+		<set name="icon" val="icon.etc_piece_bone_white_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="150" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1873" type="EtcItem" name="Silver Nugget">
+		<set name="icon" val="icon.etc_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1874" type="EtcItem" name="Oriharukon Ore">
+		<set name="icon" val="icon.etc_oriharukon_ore_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1875" type="EtcItem" name="Stone of Purity">
+		<set name="icon" val="icon.etc_crystal_ball_white_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1876" type="EtcItem" name="Mithril Ore">
+		<set name="icon" val="icon.etc_mithril_ore_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1877" type="EtcItem" name="Adamantite Nugget">
+		<set name="icon" val="icon.etc_adamantite_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1878" type="EtcItem" name="Braided Hemp">
+		<set name="icon" val="icon.etc_braided_hemp_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1879" type="EtcItem" name="Cokes">
+		<set name="icon" val="icon.etc_oil_pot_black_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="1200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1880" type="EtcItem" name="Steel">
+		<set name="icon" val="icon.etc_lump_black_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="2000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1881" type="EtcItem" name="Coarse Bone Powder">
+		<set name="icon" val="icon.etc_powder_white_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="1500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1882" type="EtcItem" name="Leather">
+		<set name="icon" val="icon.etc_leather_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="900" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1883" type="EtcItem" name="Steel Mold">
+		<set name="icon" val="icon.etc_mold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="4500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1884" type="EtcItem" name="Cord">
+		<set name="icon" val="icon.etc_skein_gray_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="325" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1885" type="EtcItem" name="High-Grade Suede">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="2400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1886" type="EtcItem" name="Silver Mold">
+		<set name="icon" val="icon.etc_silver_mold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="13500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1887" type="EtcItem" name="Varnish of Purity">
+		<set name="icon" val="icon.etc_potion_clear_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="8100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1888" type="EtcItem" name="Synthetic Cokes">
+		<set name="icon" val="icon.etc_synthetic_cokes_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="6600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1889" type="EtcItem" name="Compound Braid">
+		<set name="icon" val="icon.etc_compound_braid_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1890" type="EtcItem" name="Mithril Alloy">
+		<set name="icon" val="icon.etc_lump_white_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="13100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1891" type="EtcItem" name="Artisan's Frame">
+		<set name="icon" val="icon.etc_artisans_frame_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="95000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1892" type="EtcItem" name="Blacksmith's Frame">
+		<set name="icon" val="icon.etc_blacksmiths_frame_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="64000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1893" type="EtcItem" name="Oriharukon">
+		<set name="icon" val="icon.etc_oriharukon_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="24600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1894" type="EtcItem" name="Crafted Leather">
+		<set name="icon" val="icon.etc_crafted_leather_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="5700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1895" type="EtcItem" name="Metallic Fiber">
+		<set name="icon" val="icon.etc_metallic_fiber_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1896" type="EtcItem" name="Necklace of Anguish Chain">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="472" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1897" type="EtcItem" name="Necklace of Wisdom Chain">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="840" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1898" type="EtcItem" name="Blue Diamond Necklace Gem">
+		<set name="icon" val="icon.etc_gem_blue_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="1947" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="1899" type="EtcItem" name="Necklace of Devotion Chain">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="1280" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="14900" type="EtcItem" name="Rune Supply Box - Magic Ornament - Grade S, A">
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2991-1" />
+	</item>
+	<item id="14901" type="EtcItem" name="Schuttgart Supply Box - Magic Ornament - Grade S, A">
+		<set name="icon" val="icon.etc_box_of_adventure_2_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2992-1" />
+	</item>
+	<item id="14902" type="EtcItem" name="Sealed Magic Rune Clip (A-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14903" type="EtcItem" name="Sealed Magic Rune Clip (S-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14904" type="EtcItem" name="Sealed Magic Ornament (A-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14905" type="EtcItem" name="Sealed Magic Ornament (S-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14906" type="EtcItem" name="Low-level Magic Rune Clip (A-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14907" type="EtcItem" name="Mid-level Magic Rune Clip (A-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14908" type="EtcItem" name="High-level Magic Rune Clip (A-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14909" type="EtcItem" name="Top-level Magic Rune Clip (A-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14910" type="EtcItem" name="Low-level Magic Rune Clip (S-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14911" type="EtcItem" name="Mid-level Magic Rune Clip (S-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14912" type="EtcItem" name="High-level Magic Rune Clip (S-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14913" type="EtcItem" name="Top-level Magic Rune Clip (S-Grade)">
+		<set name="icon" val="icon.etc_rune_clip_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14914" type="EtcItem" name="Low-grade Magic Ornament (A-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14915" type="EtcItem" name="Mid-grade Magic Ornament (A-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14916" type="EtcItem" name="High-grade Magic Ornament (A-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14917" type="EtcItem" name="Top-grade Magic Ornament (A-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14918" type="EtcItem" name="Low-grade Magic Ornament (S-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14919" type="EtcItem" name="Mid-grade Magic Ornament (S-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14920" type="EtcItem" name="High-grade Magic Ornament (S-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14921" type="EtcItem" name="Top-grade Magic Ornament (S-Grade)">
+		<set name="icon" val="icon.etc_belt_deco_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="20" />
+	</item>
+	<item id="14922" type="Armor" name="Low-grade Magic Rune Clip Iron Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8338-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14923" type="Armor" name="Ordinary Magic Rune Clip Iron Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8338-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14924" type="Armor" name="High-grade Magic Rune Clip Iron Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8338-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14925" type="Armor" name="Top-grade Magic Rune Clip Iron Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8338-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14926" type="Armor" name="Low-grade Magic Rune Clip Mithril Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8339-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14927" type="Armor" name="Ordinary Magic Rune Clip Mithril Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8339-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14928" type="Armor" name="High-grade Magic Rune Clip Mithril Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8339-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14929" type="Armor" name="Top-grade Magic Rune Clip Mithril Belt - HP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8339-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14930" type="Armor" name="Low-grade Magic Rune Clip Iron Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8340-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14931" type="Armor" name="Ordinary Magic Rune Clip Iron Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8340-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14932" type="Armor" name="High-grade Magic Rune Clip Iron Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8340-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14933" type="Armor" name="Top-grade Magic Rune Clip Iron Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="460" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8340-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14934" type="Armor" name="Low-grade Magic Rune Clip Mithril Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8341-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14935" type="Armor" name="Ordinary Magic Rune Clip Mithril Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8341-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14936" type="Armor" name="High-grade Magic Rune Clip Mithril Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8341-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14937" type="Armor" name="Top-grade Magic Rune Clip Mithril Belt - MP Recovery">
+		<set name="icon" val="icon.armor_magic_clip_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8341-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14938" type="Armor" name="Low-grade Magic Ornament Iron Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8342-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14939" type="Armor" name="Regular Magic Ornament Iron Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8342-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14940" type="Armor" name="High-grade Magic Ornament Iron Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8342-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14941" type="Armor" name="Top-grade Magic Ornament Iron Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8342-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14942" type="Armor" name="Low-grade Magic Ornament Iron Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8343-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14943" type="Armor" name="Regular Magic Ornament Iron Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8343-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14944" type="Armor" name="High-grade Magic Ornament Iron Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8343-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14945" type="Armor" name="Top-grade Magic Ornament Iron Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8343-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14946" type="Armor" name="Low-grade Magic Ornament Iron Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8344-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14947" type="Armor" name="Regular Magic Ornament Iron Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8344-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14948" type="Armor" name="High-grade Magic Ornament Iron Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8344-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14949" type="Armor" name="Top-grade Magic Ornament Iron Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="30" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="371300" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8344-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="12" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14950" type="Armor" name="Low-grade Magic Ornament Mithril Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8345-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14951" type="Armor" name="Regular Magic Ornament Mithril Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8345-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14952" type="Armor" name="High-grade Magic Ornament Mithril Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8345-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14953" type="Armor" name="Top-grade Magic Ornament Mithril Belt - PvP Physical Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8345-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14954" type="Armor" name="Low-grade Magic Ornament Mithril Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8346-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14955" type="Armor" name="Regular Magic Ornament Mithril Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8346-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14956" type="Armor" name="High-grade Magic Ornament Mithril Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8346-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14957" type="Armor" name="Top-grade Magic Ornament Mithril Belt - PvP Skill Attack">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8346-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14958" type="Armor" name="Low-grade Magic Ornament Mithril Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8347-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14959" type="Armor" name="Regular Magic Ornament Mithril Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8347-2" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14960" type="Armor" name="High-grade Magic Ornament Mithril Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8347-3" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14961" type="Armor" name="Top-grade Magic Ornament Mithril Belt - PVP Defense">
+		<set name="icon" val="icon.armor_magic_deco_belt_i01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="440" />
+		<set name="price" val="1917000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="8347-4" />
+		<for>
+			<add order="0x10" stat="pDef" val="14" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="14962" type="Armor" name="Gold Skeleton Circlet">
+		<set name="icon" val="icon.accessory_golden_skeleton_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14963" type="Armor" name="Silver Skeleton Circlet">
+		<set name="icon" val="icon.accessory_golden_skeleton_circlet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14964" type="Armor" name="Red Skeleton Circlet">
+		<set name="icon" val="icon.accessory_golden_skeleton_circlet_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14965" type="Armor" name="Black Skeleton Circlet">
+		<set name="icon" val="icon.accessory_golden_skeleton_circlet_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14966" type="Armor" name="Majestic Earring of Fortune - 30-day limited period">
+		<set name="icon" val="icon.accessary_inferno_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="63" />
+			<add order="0x40" stat="maxMp" val="25" />
+		</for>
+	</item>
+	<item id="14967" type="Armor" name="Majestic Necklace of Fortune - 30-day limited period">
+		<set name="icon" val="icon.accessary_inferno_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="85" />
+			<add order="0x40" stat="maxMp" val="33" />
+		</for>
+	</item>
+	<item id="14968" type="Armor" name="Majestic Ring of Fortune - 30-day limited period">
+		<set name="icon" val="icon.accessary_inferno_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="42" />
+			<add order="0x40" stat="maxMp" val="17" />
+		</for>
+	</item>
+	<item id="14969" type="Armor" name="Fortune Earring of Black Ore - 30-day limited period">
+		<set name="icon" val="icon.accessary_earing_of_black_ore_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="54" />
+		</for>
+	</item>
+	<item id="14970" type="Armor" name="Fortune Necklace of Black Ore - 30-day limited period">
+		<set name="icon" val="icon.accessary_necklace_of_black_ore_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="72" />
+		</for>
+	</item>
+	<item id="14971" type="Armor" name="Fortune Ring of Black Ore - 30-day limited period">
+		<set name="icon" val="icon.accessary_ring_of_black_ore_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="36" />
+		</for>
+	</item>
+	<item id="14972" type="Armor" name="Fortune Earring of Seal - 30-day limited period">
+		<set name="icon" val="icon.accessary_earing_of_binding_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="45" />
+		</for>
+	</item>
+	<item id="14973" type="Armor" name="Fortune Necklace of Seal - 30-day limited period">
+		<set name="icon" val="icon.accessary_necklace_of_binding_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="64" />
+		</for>
+	</item>
+	<item id="14974" type="Armor" name="Fortune Ring of Seal - 30-day limited period">
+		<set name="icon" val="icon.accessary_ring_of_binding_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="32" />
+		</for>
+	</item>
+	<item id="14975" type="Armor" name="Elven Earring of Fortune - 30-day limited period">
+		<set name="icon" val="icon.accessary_elven_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="34" />
+		</for>
+	</item>
+	<item id="14976" type="Armor" name="Elven Earring of Fortune - 30-day limited period">
+		<set name="icon" val="icon.accessary_elven_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="45" />
+		</for>
+	</item>
+	<item id="14977" type="Armor" name="Elven Ring of Fortune - 30-day limited period">
+		<set name="icon" val="icon.accessary_elven_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="22" />
+		</for>
+	</item>
+	<item id="14978" type="Armor" name="Dark Crystal Robe of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t76_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2450" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<add order="0x40" stat="maxMp" val="665" />
+		</for>
+	</item>
+	<item id="14979" type="Armor" name="Dark Crystal Helmet of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="570" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="69" />
+		</for>
+	</item>
+	<item id="14980" type="Armor" name="Dark Crystal Gloves of Fortune - Robe - 30-day limited period">
+		<set name="icon" val="icon.armor_t76_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="14981" type="Armor" name="Dark Crystal Boots of Fortune - Robe - 30-day limited period">
+		<set name="icon" val="icon.armor_t76_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1110" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="14982" type="Armor" name="Dark Crystal Shield of Fortune - 30-day limited period">
+		<set name="icon" val="icon.shield_dark_crystal_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1190" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="243" />
+		</for>
+	</item>
+	<item id="14983" type="Armor" name="Avadon Robe of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t59_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2540" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="127" />
+			<add order="0x40" stat="maxMp" val="561" />
+		</for>
+	</item>
+	<item id="14984" type="Armor" name="Avadon Circlet of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="leather" />
+		<set name="weight" val="590" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="62" />
+		</for>
+	</item>
+	<item id="14985" type="Armor" name="Avadon Gloves of Fortune - Robe - 30-day limited period">
+		<set name="icon" val="icon.armor_t59_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="590" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="14986" type="Armor" name="Avadon Boots of Fortune - Robe - 30-day limited period">
+		<set name="icon" val="icon.armor_t59_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="1180" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="41" />
+		</for>
+	</item>
+	<item id="14987" type="Armor" name="Avadon Shield of Fortune - 30-day limited period">
+		<set name="icon" val="icon.shield_avadon_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1210" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="216" />
+		</for>
+	</item>
+	<item id="14988" type="Armor" name="Karmian Tunic of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t53_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="1980" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="60" />
+			<add order="0x40" stat="maxMp" val="225" />
+		</for>
+	</item>
+	<item id="14989" type="Armor" name="Karmian Stockings of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t53_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="970" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="37" />
+			<add order="0x40" stat="maxMp" val="141" />
+		</for>
+	</item>
+	<item id="14990" type="Armor" name="Karmian Gloves of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t53_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="620" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+		</for>
+	</item>
+	<item id="14991" type="Armor" name="Karmian Boots of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t53_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1230" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+		</for>
+	</item>
+	<item id="14992" type="Armor" name="Mithril Tunic of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t51_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="2010" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="52" />
+			<add order="0x40" stat="maxMp" val="169" />
+		</for>
+	</item>
+	<item id="14993" type="Armor" name="Mithril Stockings of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t51_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="980" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="32" />
+			<add order="0x40" stat="maxMp" val="105" />
+		</for>
+	</item>
+	<item id="14994" type="Armor" name="Elven Mithril Gloves of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t51_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="640" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+		</for>
+	</item>
+	<item id="14995" type="Armor" name="Elven Mithril Boots of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t51_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1250" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="27" />
+		</for>
+	</item>
+	<item id="14996" type="Armor" name="Dark Crystal Leather Armor of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t75_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="4300" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="128" />
+		</for>
+	</item>
+	<item id="14997" type="Armor" name="Dark Crystal Leggings of Fortune - 30-day limited period">
+		<set name="icon" val="icon.armor_t75_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1480" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="80" />
+		</for>
+	</item>
+	<item id="14998" type="Armor" name="Dark Crystal Gloves of Fortune - Light Armor - 30-day limited period">
+		<set name="icon" val="icon.armor_t75_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+		</for>
+	</item>
+	<item id="14999" type="Armor" name="Dark Crystal Boots of Fortune - Light Armor - 30-day limited period">
+		<set name="icon" val="icon.armor_t75_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1110" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="pDef" val="46" />
+		</for>
+	</item>
+</list>

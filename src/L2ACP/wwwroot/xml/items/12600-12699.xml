@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="12600" type="EtcItem" name="Foundation Sealed Majestic Plate Armor">
+		<set name="icon" val="icon.armor_t83_ul_i02" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="9200" />
+		<set name="price" val="8804000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+		</for>
+	</item>
+	<item id="12601" type="EtcItem" name="Foundation Sealed Armor of Nightmare">
+		<set name="icon" val="icon.armor_t80_ul_i02" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="9580" />
+		<set name="price" val="8804000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+		</for>
+	</item>
+	<item id="12602" type="EtcItem" name="Foundation Sealed Gauntlet of Nightmare">
+		<set name="icon" val="icon.armor_t80_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12603" type="EtcItem" name="Foundation Sealed Leather Armor of Nightmare">
+		<set name="icon" val="icon.armor_t81_ul_i02" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5300" />
+		<set name="price" val="6603000" />
+		<for>
+			<add order="0x10" stat="pDef" val="220" />
+		</for>
+	</item>
+	<item id="12604" type="EtcItem" name="Foundation Sealed Robe of Nightmare">
+		<set name="icon" val="icon.armor_t82_ul_i02" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2300" />
+		<set name="price" val="6603000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="147" />
+			<add order="0x40" stat="maxMp" val="718" />
+		</for>
+	</item>
+	<item id="12605" type="EtcItem" name="Foundation Sealed Boots of Nightmare">
+		<set name="icon" val="icon.armor_t80_b_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12606" type="EtcItem" name="Foundation Sealed Shield of Nightmare">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1180" />
+		<set name="price" val="1422000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="256" />
+		</for>
+	</item>
+	<item id="12607" type="EtcItem" name="Foundation Sealed Helm of Nightmare">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="2032000" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+		</for>
+	</item>
+	<item id="12608" type="EtcItem" name="Foundation Armor of Nightmare">
+		<set name="icon" val="icon.armor_t80_ul_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="9580" />
+		<set name="price" val="8804000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+		</for>
+	</item>
+	<item id="12609" type="EtcItem" name="Foundation Gauntlet of Nightmare">
+		<set name="icon" val="icon.armor_t80_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12610" type="EtcItem" name="Foundation Gauntlet of Nightmare">
+		<set name="icon" val="icon.armor_t81_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12611" type="EtcItem" name="Foundation Gauntlet of Nightmare">
+		<set name="icon" val="icon.armor_t82_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12612" type="EtcItem" name="Foundation Leather Armor of Nightmare">
+		<set name="icon" val="icon.armor_t81_ul_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5300" />
+		<set name="price" val="6603000" />
+		<for>
+			<add order="0x10" stat="pDef" val="220" />
+		</for>
+	</item>
+	<item id="12613" type="EtcItem" name="Foundation Robe of Nightmare">
+		<set name="icon" val="icon.armor_t82_ul_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2300" />
+		<set name="price" val="6603000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="147" />
+			<add order="0x40" stat="maxMp" val="718" />
+		</for>
+	</item>
+	<item id="12614" type="EtcItem" name="Foundation Boots of Nightmare">
+		<set name="icon" val="icon.armor_t80_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12615" type="EtcItem" name="Foundation Boots of Nightmare">
+		<set name="icon" val="icon.armor_t81_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12616" type="EtcItem" name="Foundation Boots of Nightmare">
+		<set name="icon" val="icon.armor_t82_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="12617" type="EtcItem" name="Foundation Shield of Nightmare">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1180" />
+		<set name="price" val="1422000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="256" />
+		</for>
+	</item>
+	<item id="12618" type="EtcItem" name="Foundation Helm of Nightmare">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="2032000" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+		</for>
+	</item>
+	<item id="12619" type="EtcItem" name="Foundation Draconic Leather Gloves">
+		<set name="icon" val="icon.armor_t89_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="3195000" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12620" type="EtcItem" name="Foundation Draconic Leather Boots">
+		<set name="icon" val="icon.armor_t89_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="3195000" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12621" type="EtcItem" name="Foundation Draconic Leather Armor">
+		<set name="icon" val="icon.armor_t89_ul_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="4950" />
+		<set name="price" val="15577000" />
+	</item>
+	<item id="12622" type="EtcItem" name="Foundation Draconic Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="550" />
+		<set name="price" val="4793000" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12623" type="EtcItem" name="Foundation Major Arcana Gloves">
+		<set name="icon" val="icon.armor_t90_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12624" type="EtcItem" name="Foundation Major Arcana Robe">
+		<set name="icon" val="icon.armor_t90_ul_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="2300" />
+		<set name="price" val="15577000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="866" />
+		</for>
+	</item>
+	<item id="12625" type="EtcItem" name="Foundation Major Arcana Boots">
+		<set name="icon" val="icon.armor_t90_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12626" type="EtcItem" name="Foundation Major Arcana Circlet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="550" />
+		<set name="price" val="4793000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12627" type="EtcItem" name="Foundation Sealed Draconic Leather Gloves">
+		<set name="icon" val="icon.armor_t89_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="3195000" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12628" type="EtcItem" name="Foundation Sealed Draconic Leather Boots">
+		<set name="icon" val="icon.armor_t89_b_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="3195000" />
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12629" type="EtcItem" name="Foundation Sealed Draconic Leather Armor">
+		<set name="icon" val="icon.armor_t89_ul_i02" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="4950" />
+		<set name="price" val="15577000" />
+	</item>
+	<item id="12630" type="EtcItem" name="Foundation Sealed Draconic Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="550" />
+		<set name="price" val="4793000" />
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12631" type="EtcItem" name="Foundation Sealed Major Arcana Gloves">
+		<set name="icon" val="icon.armor_t90_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12632" type="EtcItem" name="Foundation Sealed Major Arcana Robe">
+		<set name="icon" val="icon.armor_t90_ul_i02" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="2300" />
+		<set name="price" val="15577000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="866" />
+		</for>
+	</item>
+	<item id="12633" type="EtcItem" name="Foundation Sealed Major Arcana Boots">
+		<set name="icon" val="icon.armor_t90_b_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12634" type="EtcItem" name="Foundation Sealed Major Arcana Circlet">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="550" />
+		<set name="price" val="4793000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12635" type="EtcItem" name="Foundation Sealed Imperial Crusader Gaiters">
+		<set name="icon" val="icon.armor_t88_l_i02" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="3260" />
+		<set name="price" val="7988000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12636" type="EtcItem" name="Foundation Sealed Imperial Crusader Gauntlet">
+		<set name="icon" val="icon.armor_t88_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12637" type="EtcItem" name="Foundation Sealed Imperial Crusader Boots">
+		<set name="icon" val="icon.armor_t88_b_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12638" type="EtcItem" name="Foundation Sealed Imperial Crusader Shield">
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1170" />
+		<set name="price" val="3355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+		</for>
+	</item>
+	<item id="12639" type="EtcItem" name="Foundation Sealed Imperial Crusader Helmet">
+		<set name="icon" val="icon.armor_helmet_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="550" />
+		<set name="price" val="4793000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12640" type="EtcItem" name="Foundation Sealed Imperial Crusader Breastplate">
+		<set name="icon" val="icon.armor_t88_u_i02" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7620" />
+		<set name="price" val="12781000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12641" type="EtcItem" name="Foundation Imperial Crusader Gaiters">
+		<set name="icon" val="icon.armor_t88_l_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="3260" />
+		<set name="price" val="7988000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12642" type="EtcItem" name="Foundation Imperial Crusader Gauntlet">
+		<set name="icon" val="icon.armor_t88_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12643" type="EtcItem" name="Foundation Imperial Crusader Boots">
+		<set name="icon" val="icon.armor_t88_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="3195000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="55" />
+		</for>
+	</item>
+	<item id="12644" type="EtcItem" name="Foundation Imperial Crusader Shield">
+		<set name="icon" val="icon.shield_imperial_crusader_shield_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1170" />
+		<set name="price" val="3355000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+		</for>
+	</item>
+	<item id="12645" type="EtcItem" name="Foundation Imperial Crusader Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="550" />
+		<set name="price" val="4793000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="83" />
+		</for>
+	</item>
+	<item id="12646" type="EtcItem" name="Foundation Imperial Crusader Breastplate">
+		<set name="icon" val="icon.armor_t88_u_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7620" />
+		<set name="price" val="12781000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12647" type="EtcItem" name="Foundation Dynasty Gaiters">
+		<set name="icon" val="icon.armor_t91_l_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="3210" />
+		<set name="price" val="15248000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="141" />
+		</for>
+	</item>
+	<item id="12648" type="EtcItem" name="Foundation Dynasty Gauntlet">
+		<set name="icon" val="icon.armor_t91_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="6099000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12649" type="EtcItem" name="Foundation Dynasty Gloves">
+		<set name="icon" val="icon.armor_t93_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="6099000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12650" type="EtcItem" name="Foundation Dynasty Leather Gloves">
+		<set name="icon" val="icon.armor_t92_g_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="6099000" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12651" type="EtcItem" name="Foundation Dynasty Leather Leggings">
+		<set name="icon" val="icon.armor_t92_l_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1370" />
+		<set name="price" val="11436000" />
+		<for>
+			<add order="0x10" stat="pDef" val="106" />
+		</for>
+	</item>
+	<item id="12652" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12653" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_ud_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<cond msgId="1518">
+			<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12654" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_ub_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@bow_master}}}" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12655" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_ud_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@force_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12656" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_ub_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@weapon_master}}}" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12657" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_ud_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@buff_master}}}" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12658" type="EtcItem" name="Foundation Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@summon_master}}}" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="12659" type="EtcItem" name="Foundation Dynasty Leather Boots">
+		<set name="icon" val="icon.armor_t92_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1090" />
+		<set name="price" val="6099000" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12660" type="EtcItem" name="Foundation Dynasty Leather Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="9149000" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+		</for>
+	</item>
+	<item id="12661" type="EtcItem" name="Foundation Dynasty Boots">
+		<set name="icon" val="icon.armor_t91_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1090" />
+		<set name="price" val="6099000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12662" type="EtcItem" name="Foundation Dynasty Breastplate">
+		<set name="icon" val="icon.armor_t91_u_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="24398000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+		</for>
+	</item>
+	<item id="12663" type="EtcItem" name="Foundation Dynasty Breastplate">
+		<set name="icon" val="icon.armor_t91_uk_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="24398000" />
+		<set name="equip_condition" val="{{ec_category;{@shield_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+		</for>
+	</item>
+	<item id="12664" type="EtcItem" name="Foundation Dynasty Breastplate">
+		<set name="icon" val="icon.armor_t91_uw_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="24398000" />
+		<set name="equip_condition" val="{{ec_category;{@weapon_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+		</for>
+	</item>
+	<item id="12665" type="EtcItem" name="Foundation Dynasty Breastplate">
+		<set name="icon" val="icon.armor_t91_uf_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="24398000" />
+		<set name="equip_condition" val="{{ec_category;{@force_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+		</for>
+	</item>
+	<item id="12666" type="EtcItem" name="Foundation Dynasty Breastplate">
+		<set name="icon" val="icon.armor_t91_uke_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="24398000" />
+		<set name="equip_condition" val="{{ec_category;{@bard}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="226" />
+		</for>
+	</item>
+	<item id="12667" type="EtcItem" name="Foundation Dynasty Shield">
+		<set name="icon" val="icon.shield_dynasty_shield_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1390" />
+		<set name="price" val="6404000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="321" />
+		</for>
+	</item>
+	<item id="12668" type="EtcItem" name="Foundation Dynasty Shoes">
+		<set name="icon" val="icon.armor_t93_b_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1090" />
+		<set name="price" val="6099000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12669" type="EtcItem" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="icon" val="icon.armor_t93_u_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="25255000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12670" type="EtcItem" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="icon" val="icon.armor_t93_uh_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@heal_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12671" type="EtcItem" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="icon" val="icon.armor_t93_ue_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@buff_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12672" type="EtcItem" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="icon" val="icon.armor_t93_us_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@summon_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12673" type="EtcItem" name="Foundation Dynasty Silver Satin Tunic">
+		<set name="icon" val="icon.armor_t93_uw_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@wizard_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12674" type="EtcItem" name="Foundation Dynasty Circlet">
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="9149000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+		</for>
+	</item>
+	<item id="12675" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+	</item>
+	<item id="12676" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_ud_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+		<cond msgId="1518">
+			<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+		</cond>
+	</item>
+	<item id="12677" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_ub_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@bow_master}}}" />
+	</item>
+	<item id="12678" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@force_master}}}" />
+	</item>
+	<item id="12679" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@weapon_master}}}" />
+	</item>
+	<item id="12680" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@buff_master}}}" />
+	</item>
+	<item id="12681" type="EtcItem" name="Foundation Dynasty Jewel Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="25255000" />
+		<set name="equip_condition" val="{{ec_category;{@summon_master}}}" />
+	</item>
+	<item id="12682" type="EtcItem" name="Foundation Dynasty Tunic">
+		<set name="icon" val="icon.armor_t93_u_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="18298000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12683" type="EtcItem" name="Foundation Dynasty Tunic">
+		<set name="icon" val="icon.armor_t93_uh_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@heal_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12684" type="EtcItem" name="Foundation Dynasty Tunic">
+		<set name="icon" val="icon.armor_t93_ue_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@buff_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12685" type="EtcItem" name="Foundation Dynasty Tunic">
+		<set name="icon" val="icon.armor_t93_us_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@summon_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12686" type="EtcItem" name="Foundation Dynasty Tunic">
+		<set name="icon" val="icon.armor_t93_uw_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="price" val="18298000" />
+		<set name="equip_condition" val="{{ec_category;{@wizard_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="12687" type="EtcItem" name="Foundation Dynasty Platinum Plate">
+		<set name="icon" val="icon.armor_t91_u_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="33673000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12688" type="EtcItem" name="Foundation Dynasty Platinum Plate">
+		<set name="icon" val="icon.armor_t91_uk_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="33673000" />
+		<set name="equip_condition" val="{{ec_category;{@shield_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12689" type="EtcItem" name="Foundation Dynasty Platinum Plate">
+		<set name="icon" val="icon.armor_t91_uw_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="33673000" />
+		<set name="equip_condition" val="{{ec_category;{@weapon_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12690" type="EtcItem" name="Foundation Dynasty Platinum Plate">
+		<set name="icon" val="icon.armor_t91_uf_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="33673000" />
+		<set name="equip_condition" val="{{ec_category;{@force_master}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12691" type="EtcItem" name="Foundation Dynasty Platinum Plate">
+		<set name="icon" val="icon.armor_t91_uke_i00" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="7570" />
+		<set name="price" val="33673000" />
+		<set name="equip_condition" val="{{ec_category;{@bard}}}" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+	</item>
+	<item id="12692" type="EtcItem" name="Foundation Dynasty Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="price" val="9149000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+		</for>
+	</item>
+	<item id="12693" type="EtcItem" name="Foundation Dynasty Stockings">
+		<set name="icon" val="icon.armor_t93_l_i00" />
+		<set name="armor_type" val="magic" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="860" />
+		<set name="price" val="11436000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<add order="0x40" stat="maxMp" val="370" />
+		</for>
+	</item>
+	<item id="12694" type="EtcItem" name="Foundation Sealed Dynasty Gaiters">
+		<set name="icon" val="icon.armor_t91_l_i02" />
+		<set name="armor_type" val="heavy" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="3210" />
+		<set name="price" val="15248000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="134" />
+		</for>
+	</item>
+	<item id="12695" type="EtcItem" name="Foundation Sealed Dynasty Gauntlet">
+		<set name="icon" val="icon.armor_t91_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="6099000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12696" type="EtcItem" name="Foundation Sealed Dynasty Gloves">
+		<set name="icon" val="icon.armor_t93_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="6099000" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12697" type="EtcItem" name="Foundation Sealed Dynasty Leather Gloves">
+		<set name="icon" val="icon.armor_t92_g_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="price" val="6099000" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="12698" type="EtcItem" name="Foundation Sealed Dynasty Leather Leggings">
+		<set name="icon" val="icon.armor_t92_l_i02" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1370" />
+		<set name="price" val="11436000" />
+		<for>
+			<add order="0x10" stat="pDef" val="100" />
+		</for>
+	</item>
+	<item id="12699" type="EtcItem" name="Foundation Sealed Dynasty Leather Armor">
+		<set name="icon" val="icon.armor_t92_u_i02" />
+		<set name="armor_type" val="light" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="price" val="18298000" />
+		<for>
+			<add order="0x10" stat="pDef" val="161" />
+		</for>
+	</item>
+</list>

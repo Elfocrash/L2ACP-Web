@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="17000" type="EtcItem" name="Black Ore Set of Fortune - 90-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="129600" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="16858,1,1,100;16857,2,2,100;16859,2,2,100" />
+	</item>
+	<item id="17001" type="EtcItem" name="Sealed Set of Fortune - 90-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="129600" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="16861,1,1,100;16860,2,2,100;16862,2,2,100" />
+	</item>
+	<item id="17002" type="EtcItem" name="Elven Set of Fortune - 90-day limited period">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="129600" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="16864,1,1,100;16863,2,2,100;16865,2,2,100" />
+	</item>
+	<item id="17003" type="EtcItem" name="Santa Claus's Gift - Event">
+		<set name="icon" val="icon.lucky_bag_box_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9085-1" />
+	</item>
+	<item id="17004" type="Armor" name="Agathion Seal Bracelet - Kid Rudolph - Event">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8464-1;3267-1" />
+	</item>
+	<item id="17005" type="EtcItem" name="Santa - Potion of Will - Event">
+		<set name="icon" val="icon.etc_cp_potion_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="reuse_delay" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9086-2" />
+	</item>
+	<item id="17006" type="Armor" name="Sealed Vesper Noble Breastplate">
+		<set name="icon" val="icon.armor_t94_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="2240" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="7520" />
+		<set name="price" val="46668000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="236" />
+		</for>
+	</item>
+	<item id="17007" type="Armor" name="Sealed Vesper Noble Leather Breastplate">
+		<set name="icon" val="icon.armor_t95_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1680" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="4140" />
+		<set name="price" val="35000000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="177" />
+		</for>
+	</item>
+	<item id="17008" type="Armor" name="Sealed Vesper Noble Tunic">
+		<set name="icon" val="icon.armor_t96_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1680" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1750" />
+		<set name="price" val="35000000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="118" />
+			<add order="0x40" stat="maxMp" val="637" />
+		</for>
+	</item>
+	<item id="17009" type="Armor" name="Sealed Vesper Noble Gaiters">
+		<set name="icon" val="icon.armor_t94_l_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1400" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="3170" />
+		<set name="price" val="29168000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="148" />
+		</for>
+	</item>
+	<item id="17010" type="Armor" name="Sealed Vesper Noble Gauntlet">
+		<set name="icon" val="icon.armor_t94_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="560" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="11667000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="17011" type="Armor" name="Sealed Vesper Noble Boots">
+		<set name="icon" val="icon.armor_t94_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="560" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="11667000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="17012" type="Armor" name="Sealed Vesper Noble Leather Leggings">
+		<set name="icon" val="icon.armor_t95_l_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1320" />
+		<set name="price" val="21876000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="111" />
+		</for>
+	</item>
+	<item id="17013" type="Armor" name="Sealed Vesper Noble Leather Gloves">
+		<set name="icon" val="icon.armor_t95_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="560" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="11667000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="17014" type="Armor" name="Sealed Vesper Noble Leather Boots">
+		<set name="icon" val="icon.armor_t95_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="560" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="11667000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="17015" type="Armor" name="Sealed Vesper Noble Stockings">
+		<set name="icon" val="icon.armor_t96_l_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="1050" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="850" />
+		<set name="price" val="21876000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="74" />
+			<add order="0x40" stat="maxMp" val="415" />
+		</for>
+	</item>
+	<item id="17016" type="Armor" name="Sealed Vesper Noble Gloves">
+		<set name="icon" val="icon.armor_t96_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="560" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="510" />
+		<set name="price" val="11667000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="17017" type="Armor" name="Sealed Vesper Noble Shoes">
+		<set name="icon" val="icon.armor_t96_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="560" />
+		<set name="crystal_type" val="s84" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1070" />
+		<set name="price" val="11667000" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="68" />
+		</for>
+	</item>
+	<item id="17018" type="EtcItem" name="Hot Springs Potion">
+		<set name="icon" val="icon.etc_cp_potion_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="20" />
+		<set name="price" val="2500" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9078-1" />
+	</item>
+	<item id="17019" type="EtcItem" name="Mounting Item 3 Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13121,1,1,100;14231,1,1,100;14232,1,1,100" />
+	</item>
+	<item id="17020" type="EtcItem" name="Fresh Milk Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14739,1,1,100" />
+	</item>
+	<item id="17021" type="EtcItem" name="Dimensional Experience Pack 30 - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14239,1,1,100;13082,1,1,100;13085,1,1,100" />
+	</item>
+	<item id="17022" type="EtcItem" name="Varka Karm Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13234,1,1,100" />
+	</item>
+	<item id="17023" type="EtcItem" name="Ketra Karm Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="13235,1,1,100" />
+	</item>
+	<item id="17024" type="EtcItem" name="Vitality Maintaining Potion Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="15440,5,5,100" />
+	</item>
+	<item id="17025" type="EtcItem" name="PC Points (7000 Points) Pack - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14559,1,1,100" />
+	</item>
+	<item id="17026" type="EtcItem" name="Admiral's Cap Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="8919,1,1,100" />
+	</item>
+	<item id="17027" type="EtcItem" name="Straw Hat - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="10616,1,1,100" />
+	</item>
+	<item id="17028" type="EtcItem" name="Phantom Mask Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="9208,1,1,100" />
+	</item>
+	<item id="17029" type="EtcItem" name="Black Phantom Mask Pack - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="9409,1,1,100" />
+	</item>
+	<item id="17030" type="EtcItem" name="Forgotten Scroll - Create Item Lv 10">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9087-1" />
+	</item>
+	<item id="17031" type="EtcItem" name="Freya White Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17033,1,1,100;9552,1,1,100;9553,1,1,100;9554,1,1,100;9555,1,1,100;9556,1,1,100;9557,1,1,100;14055,3,3,100" />
+	</item>
+	<item id="17032" type="EtcItem" name="Hero's Treasure Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="16852,1,1,100" />
+	</item>
+	<item id="17033" type="Armor" name="Circlet of Freeze - For Events - 30-day limited period">
+		<set name="icon" val="icon.accessory_ice_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8497-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="17034" type="EtcItem" name="Forgotten Scroll - Fighter's Will - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9090-1" />
+	</item>
+	<item id="17035" type="EtcItem" name="Forgotten Scroll - Archer's Will - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9091-1" />
+	</item>
+	<item id="17036" type="EtcItem" name="Forgotten Scroll - Magician's Will - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9092-1" />
+	</item>
+	<item id="17037" type="EtcItem" name="Forgotten Scroll - Protection of Rune - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9093-1" />
+	</item>
+	<item id="17038" type="EtcItem" name="Forgotten Scroll - Protection of Elemental - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9094-1" />
+	</item>
+	<item id="17039" type="EtcItem" name="Forgotten Scroll - Protection of Alignment - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9095-1" />
+	</item>
+	<item id="17040" type="EtcItem" name="Love Box Pack">
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17044,1,1,100" />
+	</item>
+	<item id="17041" type="EtcItem" name="Sentiment Box Pack">
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17045,1,1,100" />
+	</item>
+	<item id="17042" type="EtcItem" name="Confession Box Pack">
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17046,1,1,100" />
+	</item>
+	<item id="17043" type="EtcItem" name="Joy Box Pack">
+		<set name="icon" val="icon.etc_pi_box_joy_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17047,1,1,100" />
+	</item>
+	<item id="17044" type="EtcItem" name="Love Box">
+		<set name="icon" val="icon.etc_pi_box_love_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17051,1,1,100;17052,1,1,100;17053,1,1,100" />
+	</item>
+	<item id="17045" type="EtcItem" name="Sentiment Box">
+		<set name="icon" val="icon.etc_pi_box_belief_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17054,1,1,100;17055,1,1,100;17056,1,1,100" />
+	</item>
+	<item id="17046" type="EtcItem" name="Confession Box">
+		<set name="icon" val="icon.etc_pi_box_wish_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17057,1,1,100;17058,1,1,100;17059,1,1,100;17060,1,1,100" />
+	</item>
+	<item id="17047" type="EtcItem" name="Joy Box">
+		<set name="icon" val="icon.etc_pi_box_joy_pack" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17044,1,1,100;17045,1,1,100;17046,1,1,100;17050,1,1,100;17061,1,1,100" />
+	</item>
+	<item id="17048" type="EtcItem" name="Shiny Bracelet Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17049,1,1,100" />
+	</item>
+	<item id="17049" type="Armor" name="Shiny Bracelet">
+		<set name="icon" val="icon.accessory_shiny_bracelet" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rbracelet" />
+		<set name="material" val="gold" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="3324-1" />
+	</item>
+	<item id="17050" type="Armor" name="Shiny Couple Ring">
+		<set name="icon" val="icon.accessory_shiny_couple_ring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8510-1" />
+	</item>
+	<item id="17051" type="Armor" name="Talisman - STR">
+		<set name="icon" val="icon.etc_talisman_event_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8498-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17052" type="Armor" name="Talisman - DEX">
+		<set name="icon" val="icon.etc_talisman_event_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8499-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17053" type="Armor" name="Talisman - CON">
+		<set name="icon" val="icon.etc_talisman_event_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8500-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17054" type="Armor" name="Talisman - WIT">
+		<set name="icon" val="icon.etc_talisman_event_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8502-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17055" type="Armor" name="Talisman - INT">
+		<set name="icon" val="icon.etc_talisman_event_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8501-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17056" type="Armor" name="Talisman - MEN">
+		<set name="icon" val="icon.etc_talisman_event_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8503-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17057" type="Armor" name="Talisman - Resistance to Stun">
+		<set name="icon" val="icon.etc_talisman_event_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8504-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17058" type="Armor" name="Talisman - Resistance to Sleep">
+		<set name="icon" val="icon.etc_talisman_event_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8505-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17059" type="Armor" name="Talisman - Resistance to Hold">
+		<set name="icon" val="icon.etc_talisman_event_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8506-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17060" type="Armor" name="Talisman - Paralyze Resistance">
+		<set name="icon" val="icon.etc_talisman_event_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8507-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17061" type="Armor" name="Talisman - ALL STAT">
+		<set name="icon" val="icon.etc_talisman_event_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="material" val="gold" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="item_skill" val="8508-1" />
+		<set name="time" val="10080" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="17062" type="EtcItem" name="Event - Scroll of Summon Baby White Tiger">
+		<set name="icon" val="icon.etc_scroll_of_tiger_a" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9096-1" />
+	</item>
+	<item id="17063" type="EtcItem" name="Event - Scroll of Summon Gloomy Baby White Tiger">
+		<set name="icon" val="icon.etc_scroll_of_tiger_a" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9098-1" />
+	</item>
+	<item id="17064" type="EtcItem" name="Event - Scroll of Summon Baby White Tiger Captain">
+		<set name="icon" val="icon.etc_scroll_of_tiger_b" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9097-1" />
+	</item>
+	<item id="17065" type="EtcItem" name="Event - Scroll of Summon Gloomy Baby White Tiger Captain">
+		<set name="icon" val="icon.etc_scroll_of_tiger_b" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9099-1" />
+	</item>
+	<item id="17066" type="EtcItem" name="Event - Save the White Tiger Event Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17067,60,60,100;17068,15,15,100;17062,1,1,100;17064,1,1,100" />
+	</item>
+	<item id="17067" type="EtcItem" name="Event - Cupid's Fatigue Relief Potion">
+		<set name="icon" val="icon.etc_faitgue_relief_of_cupid_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="13" />
+		<set name="reuse_delay" val="2000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9088-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="17068" type="EtcItem" name="Event - Cupid's Powerful Fatigue Relief Potion">
+		<set name="icon" val="icon.etc_nutrients_of_cupid_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="14" />
+		<set name="reuse_delay" val="4000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9089-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="17069" type="EtcItem" name="Vesper Weapon Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9100-1" />
+	</item>
+	<item id="17070" type="EtcItem" name="Icarus Weapon Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9101-1" />
+	</item>
+	<item id="17071" type="EtcItem" name="Dynasty Weapon Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9102-1" />
+	</item>
+	<item id="17072" type="EtcItem" name="Vesper Armor Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9103-1" />
+	</item>
+	<item id="17073" type="EtcItem" name="Moirai Armor Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9104-1" />
+	</item>
+	<item id="17074" type="EtcItem" name="Dynasty Armor Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9105-1" />
+	</item>
+	<item id="17075" type="EtcItem" name="Soul Crystal - Stage 14 Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9106-1" />
+	</item>
+	<item id="17076" type="EtcItem" name="Soul Crystal - Stage 15 Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9107-1" />
+	</item>
+	<item id="17077" type="EtcItem" name="Soul Crystal - Stage 16 Box - Event">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9108-1" />
+	</item>
+	<item id="17078" type="EtcItem" name="Potion Box of Mask Type">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9109-1" />
+	</item>
+	<item id="17079" type="EtcItem" name="Potion Box of Hair Color">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9110-1" />
+	</item>
+	<item id="17080" type="EtcItem" name="Potion Box of Hair Style">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9111-1" />
+	</item>
+	<item id="17081" type="EtcItem" name="Golden Apigas Box">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9112-1" />
+	</item>
+	<item id="17082" type="EtcItem" name="Transformation Sealbook: Anakim Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="10296,1,1,100" />
+	</item>
+	<item id="17083" type="EtcItem" name="Bird Nest - For Events">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="10613,1,1,100" />
+	</item>
+	<item id="17084" type="EtcItem" name="Shadow Item - Magician Cap Pack - Blessed Escape">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="9187,1,1,100" />
+	</item>
+	<item id="17085" type="EtcItem" name="Shadow Item - Magician Cap Pack - Big Head">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="9194,1,1,100" />
+	</item>
+	<item id="17086" type="EtcItem" name="Shadow Item - Magician Cap Pack - Firework">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="9201,1,1,100" />
+	</item>
+	<item id="17087" type="EtcItem" name="Twin Coba Seed">
+		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="1000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="17088" type="EtcItem" name="Seed: Alternative Twin Coba">
+		<set name="icon" val="icon.etc_twin_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="1000" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="17089" type="EtcItem" name="Red Coba Seed">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="17090" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="17091" type="EtcItem" name="Golden Coba Seed">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="650" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="17092" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="650" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="17093" type="EtcItem" name="Vitality Maintaining Potion (10 mintues) (Event)">
+		<set name="icon" val="icon.etc_lesser_potion_blue_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9113-1" />
+	</item>
+	<item id="17094" type="EtcItem" name="Nevit's Voice">
+		<set name="icon" val="icon.etc_fish_scale_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9114-1" />
+	</item>
+	<item id="17095" type="EtcItem" name="Nevit's Hourglass - 1 hour - 1~19">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9115-1" />
+		<cond msgId="1902">
+			<player levelRange="1;19" />
+		</cond>
+	</item>
+	<item id="17096" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 1~19">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9116-1" />
+		<cond msgId="1902">
+			<player levelRange="1;19" />
+		</cond>
+	</item>
+	<item id="17097" type="EtcItem" name="Nevit's Hourglass - 2 hour - 1~19">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9117-1" />
+		<cond msgId="1902">
+			<player levelRange="1;19" />
+		</cond>
+	</item>
+	<item id="17098" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 1~19">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9118-1" />
+		<cond msgId="1902">
+			<player levelRange="1;19" />
+		</cond>
+	</item>
+	<item id="17099" type="EtcItem" name="Nevit's Hourglass - 3 hour - 1~19">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9119-1" />
+		<cond msgId="1902">
+			<player levelRange="1;19" />
+		</cond>
+	</item>
+</list>

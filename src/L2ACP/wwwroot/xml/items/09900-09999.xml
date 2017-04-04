@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="9900" type="Armor" name="Quiet Footsteps Ring">
+		<set name="icon" val="icon.accessary_ring_of_mana_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="25" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3407-1" />
+		<set name="duration" val="400" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9901" type="Weapon" name="Improved Falchion">
+		<set name="icon" val="icon.weapon_falchion_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1530" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9902" type="Weapon" name="Improved Great Spear">
+		<set name="icon" val="icon.weapon_long_spear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2120" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="item_skill" val="3599-1" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9903" type="Weapon" name="Improved Iron Hammer">
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1850" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9904" type="Weapon" name="Improved Sword Breaker">
+		<set name="icon" val="icon.weapon_sword_breaker_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1110" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="27" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9905" type="Weapon" name="Improved Viper Fang">
+		<set name="icon" val="icon.weapon_vipers_canine_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="38" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9906" type="Weapon" name="Improved Composite Bow">
+		<set name="icon" val="icon.weapon_composition_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1880" />
+		<set name="soulshots" val="7" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9907" type="Weapon" name="Improved Flanged Mace">
+		<set name="icon" val="icon.weapon_buzdygan_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9908" type="Weapon" name="Improved Mage Staff">
+		<set name="icon" val="icon.weapon_apprentices_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;46;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1050" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="enchanted" val="15" />
+		<for>
+			<set order="0x08" stat="pAtk" val="30" />
+			<set order="0x08" stat="mAtk" val="31" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9909" type="Armor" name="Agathion Seal Bracelet">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5458-1;3361-1;3267-1" />
+		<set name="duration" val="700" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9910" type="EtcItem" name="Blood Oath">
+		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9911" type="EtcItem" name="Blood Alliance">
+		<set name="icon" val="icon.etc_broken_crystal_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9912" type="EtcItem" name="Knight's Epaulette">
+		<set name="icon" val="icon.etc_shoulder_strap_of_knight_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9913" type="Armor" name="Talisman_Test">
+		<set name="icon" val="icon.etc_crystal_ball_silver_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="duration" val="60" />
+	</item>
+	<item id="9914" type="Armor" name="Blue Talisman of Power">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3271-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9915" type="Armor" name="Blue Talisman of Wild Magic">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3277-1" />
+		<set name="duration" val="75" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9916" type="Armor" name="Blue Talisman of Defense">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3285-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9917" type="Armor" name="Red Talisman of Minimum Clarity">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3281-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9918" type="Armor" name="Red Talisman of Maximum Clarity">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3282-1" />
+		<set name="duration" val="74" />
+		<set name="useSkillDisTime" val="15" />
+	</item>
+	<item id="9919" type="Armor" name="Blue Talisman of Reflection">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3410-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9920" type="Armor" name="Blue Talisman of Invisibility">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3280-1" />
+		<set name="duration" val="64" />
+		<set name="useSkillDisTime" val="3" />
+	</item>
+	<item id="9921" type="Armor" name="Blue Talisman - Shield Protection">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3274-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9922" type="Armor" name="Black Talisman - Mending">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3286-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9923" type="Armor" name="Black Talisman - Escape">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3289-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9924" type="Armor" name="Blue Talisman of Healing">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3283-1" />
+		<set name="duration" val="64" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="9925" type="Armor" name="Red Talisman of Recovery">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3273-1" />
+		<set name="duration" val="64" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="9926" type="Armor" name="Blue Talisman of Defense">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3272-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9927" type="Armor" name="Blue Talisman of Magic Defense">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3276-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9928" type="Armor" name="Red Talisman of Mental Regeneration">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3278-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9929" type="Armor" name="Blue Talisman of Protection">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3275-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9930" type="Armor" name="Blue Talisman of Evasion">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3321-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9931" type="Armor" name="Red Talisman of Meditation">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3279-1" />
+		<set name="duration" val="74" />
+		<set name="useSkillDisTime" val="15" />
+	</item>
+	<item id="9932" type="Armor" name="Blue Talisman - Divine Protection">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3284-1" />
+		<set name="duration" val="74" />
+		<set name="useSkillDisTime" val="15" />
+	</item>
+	<item id="9933" type="Armor" name="Yellow Talisman of Power">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3293-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9934" type="Armor" name="Yellow Talisman of Violent Haste">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3301-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9935" type="Armor" name="Yellow Talisman of Arcane Defense">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3296-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9936" type="Armor" name="Yellow Talisman of Arcane Power">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3294-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9937" type="Armor" name="Yellow Talisman of Arcane Haste">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3302-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9938" type="Armor" name="Yellow Talisman of Accuracy">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3297-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9939" type="Armor" name="Yellow Talisman of Defense">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3295-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9940" type="Armor" name="Yellow Talisman of Alacrity">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3313-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9941" type="Armor" name="Yellow Talisman of Speed">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3300-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9942" type="Armor" name="Yellow Talisman of Critical Reduction">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3317-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9943" type="Armor" name="Yellow Talisman of Critical Damage">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3299-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9944" type="Armor" name="Yellow Talisman of Critical Dodging">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3316-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9945" type="Armor" name="Yellow Talisman of Evasion">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3298-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9946" type="Armor" name="Yellow Talisman of Healing">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3312-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9947" type="Armor" name="Yellow Talisman of CP Regeneration">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3311-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9948" type="Armor" name="Yellow Talisman of Physical Regeneration">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3310-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9949" type="Armor" name="Yellow Talisman of Mental Regeneration">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3320-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9950" type="Armor" name="Grey Talisman of Weight Training">
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3314-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9951" type="Armor" name="Grey Talisman of Mid-Grade Fishing">
+		<set name="icon" val="icon.etc_talisman_i07" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3315-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9952" type="Armor" name="Orange Talisman - Hot Springs CP Potion">
+		<set name="icon" val="icon.etc_talisman_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="15000" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3332-1" />
+		<set name="duration" val="64" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="9953" type="Armor" name="Orange Talisman - Elixir of Life">
+		<set name="icon" val="icon.etc_talisman_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3333-1" />
+		<set name="duration" val="64" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="9954" type="Armor" name="Orange Talisman - Elixir of Mental Strength">
+		<set name="icon" val="icon.etc_talisman_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3334-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9955" type="Armor" name="Black Talisman - Vocalization">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3291-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9956" type="Armor" name="Black Talisman - Arcane Freedom">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3288-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9957" type="Armor" name="Black Talisman - Physical Freedom">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3287-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9958" type="Armor" name="Black Talisman - Rescue">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3290-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9959" type="Armor" name="Black Talisman - Free Speech">
+		<set name="icon" val="icon.etc_talisman_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3292-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="9960" type="Armor" name="White Talisman of Bravery">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3306-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9961" type="Armor" name="White Talisman of Motion">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3307-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9962" type="Armor" name="White Talisman of Grounding">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3305-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9963" type="Armor" name="White Talisman of Attention">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3304-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9964" type="Armor" name="White Talisman of Bandages">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3303-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9965" type="Armor" name="White Talisman of Protection">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3309-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9966" type="Armor" name="White Talisman of Freedom">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3308-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="9967" type="EtcItem" name="Recipe - Dynasty Sword (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="872" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9968" type="EtcItem" name="Recipe - Dynasty Blade (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="873" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9969" type="EtcItem" name="Recipe - Dynasty Phantom (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="874" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9970" type="EtcItem" name="Recipe - Dynasty Bow (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="875" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9971" type="EtcItem" name="Recipe - Dynasty Knife (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="876" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9972" type="EtcItem" name="Recipe - Dynasty Halberd (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="877" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9973" type="EtcItem" name="Recipe - Dynasty Cudgel (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="878" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9974" type="EtcItem" name="Recipe - Dynasty Mace (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="879" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9975" type="EtcItem" name="Recipe - Dynasty Bagh-Nakh (60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="880" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9976" type="EtcItem" name="Recipe - Dynasty Sword (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9977" type="EtcItem" name="Recipe - Dynasty Blade (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9978" type="EtcItem" name="Recipe - Dynasty Phantom (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9979" type="EtcItem" name="Recipe - Dynasty Bow (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9980" type="EtcItem" name="Recipe - Dynasty Knife (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9981" type="EtcItem" name="Recipe - Dynasty Halberd (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9982" type="EtcItem" name="Recipe - Dynasty Cudgel (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9983" type="EtcItem" name="Recipe - Dynasty Mace (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9984" type="EtcItem" name="Recipe - Dynasty Bagh-Nakh (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9985" type="EtcItem" name="Recipe - Sealed Dynasty Earrings (70%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="243700" />
+		<set name="recipe_id" val="897" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9986" type="EtcItem" name="Recipe - Sealed Dynasty Necklace (70%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="324920" />
+		<set name="recipe_id" val="898" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9987" type="EtcItem" name="Recipe - Sealed Dynasty Ring (70%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="162460" />
+		<set name="recipe_id" val="899" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="9988" type="EtcItem" name="Recipe - Sealed Dynasty Earrings (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="243700" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9989" type="EtcItem" name="Recipe - Sealed Dynasty Necklace (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="324920" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9990" type="EtcItem" name="Recipe - Sealed Dynasty Ring (100%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="162460" />
+		<set name="recipe_id" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9991" type="EtcItem" name="Sealed Dynasty Earring Gemstone">
+		<set name="icon" val="icon.etc_crystal_ball_gold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="56866" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9992" type="EtcItem" name="Sealed Dynasty Necklace Gemstone">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="74095" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9993" type="EtcItem" name="Sealed Dynasty Ring Gemstone">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="40464" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9994" type="EtcItem" name="Map of Hellbound">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="9995" type="Weapon" name="Hand Crossbow">
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="915" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1850" />
+		<set name="price" val="495500" />
+		<set name="change_weaponId" val="276" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="32" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9996" type="Weapon" name="Hand Crossbow">
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="400" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="915" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1850" />
+		<set name="price" val="495500" />
+		<set name="change_weaponId" val="277" />
+		<set name="soulshots" val="4" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="reuse_delay" val="400" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="64" />
+			<set order="0x08" stat="mAtk" val="32" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+			<set order="0x08" stat="pAtkSpd" val="303" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9997" type="EtcItem" name="Fire Potion">
+		<set name="icon" val="icon.etc_fire_potion_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2335-1" />
+	</item>
+	<item id="9998" type="EtcItem" name="Water Potion">
+		<set name="icon" val="icon.etc_water_potion_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2336-1" />
+	</item>
+	<item id="9999" type="EtcItem" name="Earth Potion">
+		<set name="icon" val="icon.etc_earth_potion_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2338-1" />
+	</item>
+</list>

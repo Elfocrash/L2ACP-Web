@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="8400" type="EtcItem" name="Spellbook: Turn Undead">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="6250" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8401" type="EtcItem" name="Spellbook: Major Heal">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="6250" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8402" type="EtcItem" name="Spellbook: Major Group Heal">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="6750" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8403" type="EtcItem" name="Small Nimble Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="138" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-1" />
+	</item>
+	<item id="8404" type="EtcItem" name="Small Ugly Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="141" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-2" />
+	</item>
+	<item id="8405" type="EtcItem" name="Small Pudgy Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="153" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-3" />
+	</item>
+	<item id="8406" type="EtcItem" name="Nimble Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="167" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-4" />
+	</item>
+	<item id="8407" type="EtcItem" name="Ugly Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="187" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-5" />
+	</item>
+	<item id="8408" type="EtcItem" name="Pudgy Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="208" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-6" />
+	</item>
+	<item id="8409" type="EtcItem" name="Large Nimble Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="225" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-7" />
+	</item>
+	<item id="8410" type="EtcItem" name="Large Ugly Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="248" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-8" />
+	</item>
+	<item id="8411" type="EtcItem" name="Large Pudgy Green Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i07" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="265" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2261-9" />
+	</item>
+	<item id="8412" type="EtcItem" name="Small Jade Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="285" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-1" />
+	</item>
+	<item id="8413" type="EtcItem" name="Small Jade Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="295" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-2" />
+	</item>
+	<item id="8414" type="EtcItem" name="Small Jade Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="310" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-3" />
+	</item>
+	<item id="8415" type="EtcItem" name="Jade Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="325" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-4" />
+	</item>
+	<item id="8416" type="EtcItem" name="Jade Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="340" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-5" />
+	</item>
+	<item id="8417" type="EtcItem" name="Jade Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="355" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-6" />
+	</item>
+	<item id="8418" type="EtcItem" name="Large Jade Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="365" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-7" />
+	</item>
+	<item id="8419" type="EtcItem" name="Large Jade Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="375" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-8" />
+	</item>
+	<item id="8420" type="EtcItem" name="Large Jade Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i06" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="385" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2262-9" />
+	</item>
+	<item id="8421" type="EtcItem" name="Small Blue Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="395" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-1" />
+	</item>
+	<item id="8422" type="EtcItem" name="Small Blue Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-2" />
+	</item>
+	<item id="8423" type="EtcItem" name="Small Blue Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="410" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-3" />
+	</item>
+	<item id="8424" type="EtcItem" name="Blue Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="415" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-4" />
+	</item>
+	<item id="8425" type="EtcItem" name="Blue Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="418" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-5" />
+	</item>
+	<item id="8426" type="EtcItem" name="Blue Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="420" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-6" />
+	</item>
+	<item id="8427" type="EtcItem" name="Large Blue Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="425" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-7" />
+	</item>
+	<item id="8428" type="EtcItem" name="Large Blue Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="431" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-8" />
+	</item>
+	<item id="8429" type="EtcItem" name="Large Blue Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="435" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2263-9" />
+	</item>
+	<item id="8430" type="EtcItem" name="Small Yellow Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="442" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-1" />
+	</item>
+	<item id="8431" type="EtcItem" name="Small Yellow Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="447" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-2" />
+	</item>
+	<item id="8432" type="EtcItem" name="Small Yellow Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="452" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-3" />
+	</item>
+	<item id="8433" type="EtcItem" name="Yellow Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="540" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-4" />
+	</item>
+	<item id="8434" type="EtcItem" name="Yellow Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="553" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-5" />
+	</item>
+	<item id="8435" type="EtcItem" name="Yellow Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="568" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-6" />
+	</item>
+	<item id="8436" type="EtcItem" name="Large Yellow Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="580" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-7" />
+	</item>
+	<item id="8437" type="EtcItem" name="Large Yellow Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="594" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-8" />
+	</item>
+	<item id="8438" type="EtcItem" name="Large Yellow Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i02" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="608" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2264-9" />
+	</item>
+	<item id="8439" type="EtcItem" name="Small Orange Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="622" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-1" />
+	</item>
+	<item id="8440" type="EtcItem" name="Small Orange Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="635" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-2" />
+	</item>
+	<item id="8441" type="EtcItem" name="Small Orange Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="649" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-3" />
+	</item>
+	<item id="8442" type="EtcItem" name="Orange Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="663" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-4" />
+	</item>
+	<item id="8443" type="EtcItem" name="Orange Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="776" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-5" />
+	</item>
+	<item id="8444" type="EtcItem" name="Orange Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="792" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-6" />
+	</item>
+	<item id="8445" type="EtcItem" name="Large Orange Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="816" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-7" />
+	</item>
+	<item id="8446" type="EtcItem" name="Large Orange Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="840" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-8" />
+	</item>
+	<item id="8447" type="EtcItem" name="Large Orange Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i08" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="858" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2265-9" />
+	</item>
+	<item id="8448" type="EtcItem" name="Small Purple Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="875" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-1" />
+	</item>
+	<item id="8449" type="EtcItem" name="Small Purple Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="893" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-2" />
+	</item>
+	<item id="8450" type="EtcItem" name="Small Purple Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="910" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-3" />
+	</item>
+	<item id="8451" type="EtcItem" name="Purple Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="930" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-4" />
+	</item>
+	<item id="8452" type="EtcItem" name="Purple Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="948" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-5" />
+	</item>
+	<item id="8453" type="EtcItem" name="Purple Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1090" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-6" />
+	</item>
+	<item id="8454" type="EtcItem" name="Large Purple Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1111" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-7" />
+	</item>
+	<item id="8455" type="EtcItem" name="Large Purple Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1133" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-8" />
+	</item>
+	<item id="8456" type="EtcItem" name="Large Purple Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1157" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2266-9" />
+	</item>
+	<item id="8457" type="EtcItem" name="Small Red Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1277" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-1" />
+	</item>
+	<item id="8458" type="EtcItem" name="Small Red Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1301" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-2" />
+	</item>
+	<item id="8459" type="EtcItem" name="Small Red Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1326" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-3" />
+	</item>
+	<item id="8460" type="EtcItem" name="Red Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1351" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-4" />
+	</item>
+	<item id="8461" type="EtcItem" name="Red Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1376" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-5" />
+	</item>
+	<item id="8462" type="EtcItem" name="Red Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1402" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-6" />
+	</item>
+	<item id="8463" type="EtcItem" name="Large Red Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1577" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-7" />
+	</item>
+	<item id="8464" type="EtcItem" name="Large Red Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1608" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-8" />
+	</item>
+	<item id="8465" type="EtcItem" name="Large Red Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i03" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1715" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2267-9" />
+	</item>
+	<item id="8466" type="EtcItem" name="Small White Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1747" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-1" />
+	</item>
+	<item id="8467" type="EtcItem" name="Small White Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1781" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-2" />
+	</item>
+	<item id="8468" type="EtcItem" name="Small White Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1814" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-3" />
+	</item>
+	<item id="8469" type="EtcItem" name="White Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1849" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-4" />
+	</item>
+	<item id="8470" type="EtcItem" name="White Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1887" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-5" />
+	</item>
+	<item id="8471" type="EtcItem" name="White Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1923" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-6" />
+	</item>
+	<item id="8472" type="EtcItem" name="Large White Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="1961" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-7" />
+	</item>
+	<item id="8473" type="EtcItem" name="Large White Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-8" />
+	</item>
+	<item id="8474" type="EtcItem" name="Large White Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2039" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2268-9" />
+	</item>
+	<item id="8475" type="EtcItem" name="Small Black Nimble Fish: Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2081" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-1" />
+	</item>
+	<item id="8476" type="EtcItem" name="Small Black Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2123" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-2" />
+	</item>
+	<item id="8477" type="EtcItem" name="Small Black Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2166" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-3" />
+	</item>
+	<item id="8478" type="EtcItem" name="Black Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2309" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-4" />
+	</item>
+	<item id="8479" type="EtcItem" name="Black Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2357" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-5" />
+	</item>
+	<item id="8480" type="EtcItem" name="Black Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2403" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-6" />
+	</item>
+	<item id="8481" type="EtcItem" name="Large Black Nimble Fish - Upper Grade">
+		<set name="icon" val="icon.etc_tuna_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2452" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-7" />
+	</item>
+	<item id="8482" type="EtcItem" name="Large Black Ugly Fish - Upper Grade">
+		<set name="icon" val="icon.etc_angler_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2502" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-8" />
+	</item>
+	<item id="8483" type="EtcItem" name="Large Black Fat Fish - Upper Grade">
+		<set name="icon" val="icon.etc_bream_i05" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="price" val="2552" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2269-9" />
+	</item>
+	<item id="8484" type="EtcItem" name="Prize-Winning Fishing Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="4" />
+		<set name="price" val="240" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8485" type="EtcItem" name="Prize-Winning Night Fishing Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="4" />
+		<set name="price" val="240" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8486" type="EtcItem" name="Prize-Winning Novice Fishing Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8487" type="EtcItem" name="Recipe: Destroyer Hammer (60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="366000" />
+		<set name="recipe_id" val="812" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="8488" type="EtcItem" name="Engraved Hammer">
+		<set name="icon" val="icon.weapon_big_hammer_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8489" type="EtcItem" name="Daimon's Eyes">
+		<set name="icon" val="icon.etc_eyeball_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8490" type="EtcItem" name="Hestia's Fairy Stone">
+		<set name="icon" val="icon.etc_crystal_gold_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8491" type="EtcItem" name="Nucleus of Lesser Golem">
+		<set name="icon" val="icon.etc_bead_white_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8492" type="EtcItem" name="Falston's Fang">
+		<set name="icon" val="icon.etc_fang_ivory_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8493" type="EtcItem" name="Shaid's Talon">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8494" type="EtcItem" name="Nucleus of Flamestone Giant">
+		<set name="icon" val="icon.etc_bead_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8495" type="EtcItem" name="Book of Grey Star">
+		<set name="icon" val="icon.etc_memopad_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8496" type="EtcItem" name="Gludio Luminous Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="price" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8497" type="EtcItem" name="Dion's Luminous Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="4" />
+		<set name="price" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8498" type="EtcItem" name="Giran's Luminous Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="3" />
+		<set name="price" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="8499" type="EtcItem" name="Oren's Luminous Lure">
+		<set name="icon" val="icon.etc_gludio_fish_lure_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="price" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

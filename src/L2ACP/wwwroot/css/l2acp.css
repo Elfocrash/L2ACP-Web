@@ -1,0 +1,25 @@
+﻿.invcontainer {
+    background-image: url('/images/gameIcons/inventory.png');
+        height: 341px;
+    width: 260px;
+    position: relative;
+}
+
+.equippedinv {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    width: 240px;
+    height: 279px;
+    top: 49px;
+    left: 11px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.invimage {
+    left: -1px;
+    position: relative;
+    top: 0px;
+    padding-left: 2px;
+    padding-top: 3px;
+}

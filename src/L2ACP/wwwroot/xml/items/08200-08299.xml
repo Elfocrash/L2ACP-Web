@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="8200" type="EtcItem" name="Fisherman's Potion - White">
+		<set name="icon" val="icon.etc_oblivion_white_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="100" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2274-8" />
+	</item>
+	<item id="8201" type="EtcItem" name="Fisherman's Potion - Black">
+		<set name="icon" val="icon.etc_oblivion_black_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="100" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="8202" type="EtcItem" name="Fisherman's Potion">
+		<set name="icon" val="icon.etc_oblivion_black_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="100" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2275-1" />
+	</item>
+	<item id="8203" type="Weapon" name="Monster Only (Venom Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8204" type="Weapon" name="Monster Only (Follower of Frintezza Calibur)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8205" type="Weapon" name="Monster Only (Heretic Priest Sigil)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1920" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8206" type="Weapon" name="Monster Only (Heretic Priest Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="2080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8207" type="Weapon" name="Monster Only (Heretic Private Axe)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8208" type="Weapon" name="Monster Only (Heretic Private Staff)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8209" type="Weapon" name="Monster Only (Lidia Von Helmann Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8210" type="Armor" name="Monster Only (Monk Warrior Shield)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="4800" />
+		<set name="for_npc" val="true" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="230" />
+		</for>
+	</item>
+	<item id="8211" type="Weapon" name="Monster Only (Monk Warrior Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8212" type="Weapon" name="Monster Only (Solina Brother Mace)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="1570" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8213" type="Weapon" name="Monster Only (Solina Father Mace)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="1570" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8214" type="Weapon" name="Monster Only (Solina Priest Pole)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1920" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8215" type="Weapon" name="Monster Only (Zombie Enlisted Man Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="2090" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8216" type="Weapon" name="Monster Only (Zombie Enlisted Man Claw)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;32;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1350" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8217" type="Weapon" name="Monster Only (Zombie Gateguard Spear)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8218" type="Weapon" name="Monster Only (Zombie Laborer Axe)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="chrysolite" />
+		<set name="weight" val="1570" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8219" type="Weapon" name="Monster Only (Zombie Laborer Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8220" type="Weapon" name="Monster Only (Grail Apostle Bow)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="500" />
+		<set name="damage_range" val="0;0;10;0" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1950" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="mp_consume" val="1" />
+		<set name="reuse_delay" val="1500" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="8221" type="Weapon" name="Monster Only (Grail Apostle Spear)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1920" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="8222" type="Weapon" name="Monster Only (Follower of Frintezza Tran Calibur)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1560" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="8223" type="EtcItem" name="Seed: Twin Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8224" type="EtcItem" name="Seed: Great Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="75" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8225" type="EtcItem" name="Seed: Desert Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8226" type="EtcItem" name="Seed: Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8227" type="EtcItem" name="Seed: Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8228" type="EtcItem" name="Seed: Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="650" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8229" type="EtcItem" name="Seed: Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="750" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8230" type="EtcItem" name="Seed: Alternative Twin Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8231" type="EtcItem" name="Seed: Alternative Great Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="75" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8232" type="EtcItem" name="Seed: Alternative Desert Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8233" type="EtcItem" name="Seed: Alternative Blue Coba">
+		<set name="icon" val="icon.etc_blue_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8234" type="EtcItem" name="Seed: Alternative Red Coba">
+		<set name="icon" val="icon.etc_red_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8235" type="EtcItem" name="Seed: Alternative Golden Coba">
+		<set name="icon" val="icon.etc_golden_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="650" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8236" type="EtcItem" name="Seed: Alternative Desert Coba">
+		<set name="icon" val="icon.etc_desert_coba_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="750" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8237" type="EtcItem" name="Seed: Dark Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8238" type="EtcItem" name="Seed: Red Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8239" type="EtcItem" name="Seed: Chilly Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8240" type="EtcItem" name="Seed: Blue Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8241" type="EtcItem" name="Seed: Golden Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8242" type="EtcItem" name="Seed: Lute Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8243" type="EtcItem" name="Seed: Desert Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8244" type="EtcItem" name="Seed: Red Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8245" type="EtcItem" name="Seed: Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="25" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8246" type="EtcItem" name="Seed: Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8247" type="EtcItem" name="Seed: Thorn Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8248" type="EtcItem" name="Seed: Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8249" type="EtcItem" name="Seed: Great Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8250" type="EtcItem" name="Seed: Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8251" type="EtcItem" name="Seed: Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8252" type="EtcItem" name="Seed: Chilly Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8253" type="EtcItem" name="Seed: Blue Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8254" type="EtcItem" name="Seed: Twin Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8255" type="EtcItem" name="Seed: Alternative Dark Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8256" type="EtcItem" name="Seed: Alternative Red Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8257" type="EtcItem" name="Seed: Alternative Chilly Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8258" type="EtcItem" name="Seed: Alternative Blue Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8259" type="EtcItem" name="Seed: Alternative Golden Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8260" type="EtcItem" name="Seed: Alternative Lute Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="30" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8261" type="EtcItem" name="Seed: Alternative Desert Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="8262" type="EtcItem" name="Seed: Alternative Red Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8263" type="EtcItem" name="Seed: Alternative Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="25" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8264" type="EtcItem" name="Seed: Alternative Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8265" type="EtcItem" name="Seed: Alternative Thorn Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8266" type="EtcItem" name="Seed: Alternative Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8267" type="EtcItem" name="Seed: Alternative Great Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="8268" type="EtcItem" name="Seed: Alternative Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8269" type="EtcItem" name="Seed: Alternative Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8270" type="EtcItem" name="Seed: Alternative Chilly Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8271" type="EtcItem" name="Seed: Alternative Blue Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8272" type="EtcItem" name="Seed: Alternative Twin Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="8273" type="EtcItem" name="Anteroom Key">
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2235-1" />
+	</item>
+	<item id="8274" type="EtcItem" name="Chapel Key">
+		<set name="icon" val="icon.etc_old_key_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2236-1" />
+	</item>
+	<item id="8275" type="EtcItem" name="Key of Darkness">
+		<set name="icon" val="icon.etc_old_key_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2237-1" />
+	</item>
+	<item id="8276" type="EtcItem" name="Sekina's Scale">
+		<set name="icon" val="icon.etc_scale_of_medusa_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8277" type="EtcItem" name="Themis' Scale">
+		<set name="icon" val="icon.etc_scale_of_medusa_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8278" type="EtcItem" name="Vermilion Shard">
+		<set name="icon" val="icon.etc_bark_gold_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8279" type="EtcItem" name="Nucleus of Hekaton Prime">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8280" type="EtcItem" name="Tiphon Shard">
+		<set name="icon" val="icon.etc_gargoyle_claw_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8281" type="EtcItem" name="Glaki's Necleus">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8282" type="EtcItem" name="Rahha's Fang">
+		<set name="icon" val="icon.etc_fang_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8283" type="EtcItem" name="Giant Poison Bee's Sting">
+		<set name="icon" val="icon.etc_sting_a_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8284" type="EtcItem" name="Cloudy Gem">
+		<set name="icon" val="icon.etc_oriharukon_ore_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8285" type="EtcItem" name="Talon of Young Araneid">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8286" type="EtcItem" name="Fairy Breath">
+		<set name="icon" val="icon.etc_dragons_blood_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8287" type="EtcItem" name="Starstone">
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8288" type="EtcItem" name="Yumi's Letter">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8289" type="EtcItem" name="Starstone">
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8290" type="EtcItem" name="Flower of Pavel">
+		<set name="icon" val="icon.etc_flower_i02" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8291" type="EtcItem" name="Heart of Atlanta">
+		<set name="icon" val="icon.etc_inf_ore_medium_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8292" type="EtcItem" name="Wendy's Necklace">
+		<set name="icon" val="icon.accessary_necklace_of_devotion_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8293" type="EtcItem" name="Trainer License">
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="8294" type="EtcItem" name="Recipe: Steel Sword (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="8180" />
+		<set name="recipe_id" val="783" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="8295" type="EtcItem" name="Recipe: Titan Sword (100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="28000" />
+		<set name="recipe_id" val="785" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="8296" type="EtcItem" name="Recipe: Pa'agrian Sword (100%)">
+		<set name="icon" val="icon.etc_recipe_yellow_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="86000" />
+		<set name="recipe_id" val="789" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="8297" type="EtcItem" name="Recipe: Guardian's Sword (100%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="811" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="8298" type="EtcItem" name="Recipe: Guardian's Sword (60%)">
+		<set name="icon" val="icon.etc_recipe_red_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="262000" />
+		<set name="recipe_id" val="810" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="8299" type="EtcItem" name="Recipe: Infernal Master (100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="366000" />
+		<set name="recipe_id" val="815" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+</list>

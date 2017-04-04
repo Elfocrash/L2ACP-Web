@@ -78,32 +78,57 @@
         </div>
         <div class="row  border-bottom white-bg dashboard-header">
 
-            <div class="col-md-3">
+            <div class="col-md-9">
                 <h2>Welcome @Context.GetUsername()</h2>
-                <select class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" name="account">
+                <select id="charsSelect" class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" name="account">
                     <option selected="selected" disabled="disabled">Please select a character</option>
                 </select>
-            </div>
-            <div class="col-md-6">
-            </div>
-            <div class="col-md-3">
-
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="wrapper wrapper-content">
-                    
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-3">
+                            <div id="charinfo"></div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div id="inventory"></div>
+                        </div>
+                        </div>
                 </div>
-                <div class="footer">
-                    <div>
-                        <strong>Copyright</strong> L2ACP &copy; 2017
+                <div class="col-md-3">
+
+                </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="wrapper wrapper-content">
+
+                        </div>
+                        <div class="footer">
+                            <div>
+                                <strong>Copyright</strong> L2ACP &copy; 2017
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-    </div>
+            </div>
 
 </div>
+
+
+@section Scripts{
+    <script>
+        $('#charsSelect').change(function() {
+            var charName = $("#charsSelect option:selected").val();
+            $.get("/getinventory/" + charName,
+                function(data) {
+                    $('#inventory').html(data);
+                });
+
+            $.get("/getplayerinfo/" + charName,
+                function (data) {
+                    $('#charinfo').html(data);
+                });
+        });
+    </script>
+}

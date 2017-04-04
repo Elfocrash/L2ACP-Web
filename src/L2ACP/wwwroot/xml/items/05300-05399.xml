@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="5300" type="Armor" name="Sealed Boots of Underworld">
+		<set name="icon" val="icon.armor_t10_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5301" type="Armor" name="Sealed Tallum Leather Armor">
+		<set name="icon" val="icon.armor_t78_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="347" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5400" />
+		<set name="price" val="4341000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="209" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5302" type="Armor" name="Sealed Gust Bracer">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="580" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5303" type="Armor" name="Sealed Gust Boots">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1120" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5304" type="Armor" name="Sealed Tallum Tunic">
+		<set name="icon" val="icon.armor_t79_u_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="214" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1860" />
+		<set name="price" val="2671000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="86" />
+			<add order="0x40" stat="maxMp" val="409" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5305" type="Armor" name="Sealed Tallum Stockings">
+		<set name="icon" val="icon.armor_t79_l_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="134" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="920" />
+		<set name="price" val="1670000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="53" />
+			<add order="0x40" stat="maxMp" val="256" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5306" type="Armor" name="Sealed Gloves of Black Ore">
+		<set name="icon" val="icon.armor_t14_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="570" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5307" type="Armor" name="Sealed Red Flame Boots">
+		<set name="icon" val="icon.armor_t14_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1120" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5308" type="Armor" name="Sealed Dark Crystal Robe">
+		<set name="icon" val="icon.armor_t76_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="347" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2450" />
+		<set name="price" val="4341000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="139" />
+			<add order="0x40" stat="maxMp" val="665" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5309" type="Armor" name="Sealed Phoenix Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="570" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5310" type="Armor" name="Sealed Phoenix Boots">
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="92" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1120" />
+		<set name="price" val="890000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="45" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5311" type="Armor" name="Sealed Armor of Nightmare">
+		<set name="icon" val="icon.armor_t80_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="9580" />
+		<set name="price" val="8804000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5312" type="Armor" name="Sealed Helm of Nightmare">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="163" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="2032000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5313" type="Armor" name="Sealed Gauntlets of Nightmare">
+		<set name="icon" val="icon.armor_t80_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="108" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5314" type="Armor" name="Sealed Boots of Nightmare">
+		<set name="icon" val="icon.armor_t80_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="108" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5315" type="Armor" name="Sealed Shield of Nightmare">
+		<set name="icon" val="icon.shield_shield_of_nightmare_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="114" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1180" />
+		<set name="price" val="1422000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="256" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="5316" type="Armor" name="Sealed Majestic Plate Armor">
+		<set name="icon" val="icon.armor_t83_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="heavy" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="704" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="9200" />
+		<set name="price" val="8804000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="293" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5317" type="Armor" name="Sealed Majestic Circlet">
+		<set name="icon" val="icon.armor_leather_helmet_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="163" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="2032000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="73" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5318" type="Armor" name="Sealed Majestic Gauntlets">
+		<set name="icon" val="icon.armor_t83_g_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="108" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5319" type="Armor" name="Sealed Majestic Boots">
+		<set name="icon" val="icon.armor_t83_b_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="108" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="blood_steel" />
+		<set name="weight" val="1110" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5320" type="Armor" name="Sealed Leather Armor of Nightmare">
+		<set name="icon" val="icon.armor_t81_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="528" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5300" />
+		<set name="price" val="6603000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="220" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5321" type="Armor" name="Sealed Dark Legion Gloves">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5322" type="Armor" name="Sealed Dark Legion Boots">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1120" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5323" type="Armor" name="Sealed Majestic Leather Armor">
+		<set name="icon" val="icon.armor_t84_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="528" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="5350" />
+		<set name="price" val="6603000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="220" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5324" type="Armor" name="Sealed Gloves of Phantom">
+		<set name="icon" val="icon.armor_t45_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="560" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5325" type="Armor" name="Sealed Boots of Phantom">
+		<set name="icon" val="icon.armor_t45_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1120" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5326" type="Armor" name="Sealed Robe of Nightmare">
+		<set name="icon" val="icon.armor_t82_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="528" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2300" />
+		<set name="price" val="6603000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="147" />
+			<add order="0x40" stat="maxMp" val="718" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5327" type="Armor" name="Sealed Cerberus Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="540" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5328" type="Armor" name="Sealed Cerberus Boots">
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1120" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5329" type="Armor" name="Sealed Majestic Robe">
+		<set name="icon" val="icon.armor_t85_ul_i02" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="onepiece" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="528" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="2330" />
+		<set name="price" val="6603000" />
+		<set name="enchant_enabled" val="1" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="147" />
+			<add order="0x40" stat="maxMp" val="718" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5330" type="Armor" name="Sealed Dasparion's Gloves">
+		<set name="icon" val="icon.armor_t44_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="550" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5331" type="Armor" name="Sealed Dasparion's Boots">
+		<set name="icon" val="icon.armor_t44_b_i00" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="140" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1100" />
+		<set name="price" val="1355000" />
+		<set name="enchant_enabled" val="1" />
+		<for>
+			<add order="0x10" stat="pDef" val="48" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="5332" type="EtcItem" name="Recipe: Sealed Dark Crystal Leather Armor(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="69400" />
+		<set name="recipe_id" val="513" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5333" type="EtcItem" name="Recipe: Sealed Dark Crystal Leather Armor(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="69400" />
+		<set name="recipe_id" val="514" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5334" type="EtcItem" name="Recipe: Sealed Tallum Leather Armor(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="101600" />
+		<set name="recipe_id" val="515" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5335" type="EtcItem" name="Recipe: Sealed Tallum Leather Armor(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="101600" />
+		<set name="recipe_id" val="516" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5336" type="EtcItem" name="Recipe: Sealed Leather Armor of Nightmare(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="517" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5337" type="EtcItem" name="Recipe: Sealed Leather Armor of Nightmare(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="518" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5338" type="EtcItem" name="Recipe: Sealed Majestic Leather Armor(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="519" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5339" type="EtcItem" name="Recipe: Sealed Majestic Leather Armor(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="520" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5340" type="EtcItem" name="Recipe: Sealed Dark Crystal Leggings(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="43400" />
+		<set name="recipe_id" val="521" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5341" type="EtcItem" name="Recipe: Sealed Dark Crystal Leggings(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="43400" />
+		<set name="recipe_id" val="522" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5342" type="EtcItem" name="Echo Crystal - Sad Song">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="44000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2584-1" />
+	</item>
+	<item id="5343" type="EtcItem" name="Echo Crystal - Holy Song">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="44000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2585-1" />
+	</item>
+	<item id="5344" type="EtcItem" name="Recipe: Inferno Earring(70%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5345" type="EtcItem" name="Recipe: Inferno Earring(70%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5346" type="EtcItem" name="Recipe: Sealed Tallum Tunic(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="69400" />
+		<set name="recipe_id" val="523" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5347" type="EtcItem" name="Recipe: Sealed Tallum Tunic(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="69400" />
+		<set name="recipe_id" val="524" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5348" type="EtcItem" name="Recipe: Sealed Dark Crystal Robe(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="101600" />
+		<set name="recipe_id" val="525" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5349" type="EtcItem" name="Recipe: Sealed Dark Crystal Robe(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="101600" />
+		<set name="recipe_id" val="526" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5350" type="EtcItem" name="Recipe: Sealed Robe of Nightmare(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="527" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5351" type="EtcItem" name="Recipe: Sealed Robe of Nightmare(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="528" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5352" type="EtcItem" name="Recipe: Sealed Majestic Robe(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="529" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5353" type="EtcItem" name="Recipe: Sealed Majestic Robe(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="154600" />
+		<set name="recipe_id" val="530" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5354" type="EtcItem" name="Recipe: Sealed Tallum Stockings(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="43400" />
+		<set name="recipe_id" val="531" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5355" type="EtcItem" name="Recipe: Sealed Tallum Stockings(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="43400" />
+		<set name="recipe_id" val="532" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5356" type="EtcItem" name="(Not in Use) Recipe: Phoenix Necklace(70%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5357" type="EtcItem" name="(Not in Use) Recipe: Phoenix Necklace(100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5358" type="EtcItem" name="(Not in Use) Recipe: Inferno Necklace(70%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5359" type="EtcItem" name="(Not in Use) Recipe: Inferno Necklace(100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5360" type="EtcItem" name="(Not in Use) Recipe: Phoenix Ring(70%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5361" type="EtcItem" name="(Not in Use) Recipe: Phoenix Ring(100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5362" type="EtcItem" name="(Not in Use) Recipe: Inferno Ring(70%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5363" type="EtcItem" name="(Not in Use) Recipe: Inferno Ring(100%)">
+		<set name="icon" val="icon.etc_recipe_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="5364" type="EtcItem" name="Recipe: Sealed Dark Crystal Shield(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="24400" />
+		<set name="recipe_id" val="533" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5365" type="EtcItem" name="Recipe: Sealed Dark Crystal Shield(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="24400" />
+		<set name="recipe_id" val="534" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5366" type="EtcItem" name="Recipe: Sealed Shield of Nightmare(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="37000" />
+		<set name="recipe_id" val="535" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5367" type="EtcItem" name="Recipe: Sealed Shield of Nightmare(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="37000" />
+		<set name="recipe_id" val="536" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5368" type="EtcItem" name="Recipe: Sealed Dark Crystal Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="537" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5369" type="EtcItem" name="Recipe: Sealed Dark Crystal Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="538" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5370" type="EtcItem" name="Recipe: Sealed Tallum Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="539" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5371" type="EtcItem" name="Recipe: Sealed Tallum Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="540" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5372" type="EtcItem" name="Recipe: Sealed Boots of Underworld(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5373" type="EtcItem" name="Recipe: Sealed Boots of Underworld(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5374" type="EtcItem" name="Recipe: Sealed Gust Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5375" type="EtcItem" name="Recipe: Sealed Gust Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5376" type="EtcItem" name="Recipe: Sealed Red Flame Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5377" type="EtcItem" name="Recipe: Sealed Red Flame Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5378" type="EtcItem" name="Recipe: Sealed Phoenix Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5379" type="EtcItem" name="Recipe: Sealed Phoenix Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5380" type="EtcItem" name="Recipe: Sealed Boots of Nightmare(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="recipe_id" val="541" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5381" type="EtcItem" name="Recipe: Sealed Boots of Nightmare(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="recipe_id" val="542" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5382" type="EtcItem" name="Recipe: Sealed Majestic Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="recipe_id" val="543" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5383" type="EtcItem" name="Recipe: Sealed Majestic Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="recipe_id" val="544" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5384" type="EtcItem" name="Recipe: Sealed Dark Legion Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5385" type="EtcItem" name="Recipe: Sealed Dark Legion Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5386" type="EtcItem" name="Recipe: Sealed Boots of Phantom(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5387" type="EtcItem" name="Recipe: Sealed Boots of Phantom(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5388" type="EtcItem" name="Recipe: Sealed Cerberus Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5389" type="EtcItem" name="Recipe: Sealed Cerberus Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5390" type="EtcItem" name="Recipe: Sealed Dasparion's Boots Boots(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5391" type="EtcItem" name="Recipe: Sealed Dasparion's Boots Boots(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="35200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5392" type="EtcItem" name="Recipe: Sealed Dark Crystal Gloves(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="545" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5393" type="EtcItem" name="Recipe: Sealed Dark Crystal Gloves(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="546" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5394" type="EtcItem" name="Recipe: Sealed Tallum Gloves(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="547" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5395" type="EtcItem" name="Recipe: Sealed Tallum Gloves(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="recipe_id" val="548" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5396" type="EtcItem" name="Recipe: Sealed Gloves of Underworld(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5397" type="EtcItem" name="Recipe: Sealed Gloves of Underworld(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5398" type="EtcItem" name="Recipe: Sealed Gust Bracer(60%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+	<item id="5399" type="EtcItem" name="Recipe: Sealed Gust Bracer(100%)">
+		<set name="icon" val="icon.etc_recipe_violet_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="23200" />
+		<set name="is_stackable" val="true" />
+		<for>
+			<add order="0x10" stat="pDef" val="49" />
+		</for>
+	</item>
+</list>

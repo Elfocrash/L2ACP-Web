@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="7000" type="EtcItem" name="Recipe: Greater Dye of WIT(Wit+3 Int-3) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="18000" />
+		<set name="recipe_id" val="760" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7001" type="EtcItem" name="Recipe: Greater Dye of WIT(Wit+3 Men-3) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="18000" />
+		<set name="recipe_id" val="761" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7002" type="EtcItem" name="Recipe: Greater Dye of STR (Str+4 Con-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="762" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7003" type="EtcItem" name="Recipe: Greater Dye of STR (Str+4 Dex-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="763" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7004" type="EtcItem" name="Recipe: Greater Dye of CON (Con+4 Str-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="764" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7005" type="EtcItem" name="Recipe: Greater Dye of CON (Con+4 Dex-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="765" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7006" type="EtcItem" name="Recipe: Greater Dye of DEX (Dex+4 Str-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="766" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7007" type="EtcItem" name="Recipe: Greater Dye of DEX (Dex+4 Con-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="767" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7008" type="EtcItem" name="Recipe: Greater Dye of INT (Int+4 Men-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="768" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7009" type="EtcItem" name="Recipe: Greater Dye of INT (Int+4 Wit-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="769" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7010" type="EtcItem" name="Recipe: Greater Dye of MEN (Men+4 Int-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="770" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7011" type="EtcItem" name="Recipe: Greater Dye of MEN (Men+4 Wit-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="771" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7012" type="EtcItem" name="Recipe: Greater Dye of WIT(Wit+4 Int-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="772" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7013" type="EtcItem" name="Recipe: Greater Dye of WIT(Wit+4 Men-4) (100%)">
+		<set name="icon" val="icon.etc_recipe_green_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="29000" />
+		<set name="recipe_id" val="773" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="7014" type="Armor" name="Monster Only (Shield of Dark Dragon)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="4800" />
+		<set name="price" val="845000" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="230" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="7015" type="Armor" name="Shield of Castle Pledge">
+		<set name="icon" val="icon.shield_pledge_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bone" />
+		<set name="weight" val="1380" />
+		<set name="price" val="9900" />
+		<cond msgId="1518">
+			<and>
+				<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+				<player castle="-1" />
+			</and>
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="90" />
+			<enchant val="0" order="0x0C" stat="sDef" />
+		</for>
+	</item>
+	<item id="7016" type="EtcItem" name="Seed: Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7017" type="EtcItem" name="Seed: Blue Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7018" type="EtcItem" name="Seed: Blue Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7019" type="EtcItem" name="Seed: Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="25" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7020" type="EtcItem" name="Seed: Chilly Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="7021" type="EtcItem" name="Seed: Chilly Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7022" type="EtcItem" name="Seed: Chilly Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7023" type="EtcItem" name="Seed: Desert Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7024" type="EtcItem" name="Seed: Desert Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7025" type="EtcItem" name="Seed: Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7026" type="EtcItem" name="Seed: Golden Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="7027" type="EtcItem" name="Seed: Great Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7028" type="EtcItem" name="Seed: Great Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="75" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7029" type="EtcItem" name="Seed: Great Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="75" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7030" type="EtcItem" name="Seed: Alternative Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7031" type="EtcItem" name="Seed: Alternative Blue Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7032" type="EtcItem" name="Seed: Alternative Blue Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7033" type="EtcItem" name="Seed: Alternative Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="25" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7034" type="EtcItem" name="Seed: Alternative Chilly Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="5" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="7035" type="EtcItem" name="Seed: Alternative Chilly Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7036" type="EtcItem" name="Seed: Alternative Chilly Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7037" type="EtcItem" name="Seed: Alternative Desert Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7038" type="EtcItem" name="Seed: Alternative Desert Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7039" type="EtcItem" name="Seed: Alternative Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7040" type="EtcItem" name="Seed: Alternative Golden Coda">
+		<set name="icon" val="icon.etc_coda_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-1" />
+	</item>
+	<item id="7041" type="EtcItem" name="Seed: Alternative Great Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7042" type="EtcItem" name="Seed: Alternative Great Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="75" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7043" type="EtcItem" name="Seed: Alternative Great Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="75" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7044" type="EtcItem" name="Seed: Alternative Red Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7045" type="EtcItem" name="Seed: Alternative Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7046" type="EtcItem" name="Seed: Alternative Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7047" type="EtcItem" name="Seed: Alternative Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7048" type="EtcItem" name="Seed: Alternative Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7049" type="EtcItem" name="Seed: Alternative Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7050" type="EtcItem" name="Seed: Alternative Twin Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed2" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7051" type="EtcItem" name="Seed: Red Cobol">
+		<set name="icon" val="icon.etc_cobol_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="20" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-2" />
+	</item>
+	<item id="7052" type="EtcItem" name="Seed: Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7053" type="EtcItem" name="Seed: Red Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="40" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7054" type="EtcItem" name="Seed: Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7055" type="EtcItem" name="Seed: Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7056" type="EtcItem" name="Seed: Sea Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7057" type="EtcItem" name="Seed: Twin Codran">
+		<set name="icon" val="icon.etc_codran_seed_i00" />
+		<set name="default_action" val="seed" />
+		<set name="etcitem_type" val="seed" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Seed" />
+		<set name="item_skill" val="2097-3" />
+	</item>
+	<item id="7058" type="Weapon" name="Chrono Darbuka">
+		<set name="icon" val="icon.weapon_chrono_darbuka_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;44;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="7059" type="Armor" name="Golden Festival Mask">
+		<set name="icon" val="icon.accessory_taiwan_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="7060" type="Armor" name="Tateossian Hairband">
+		<set name="icon" val="icon.accessory_tateossian_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="7061" type="EtcItem" name="Echo Crystal - Theme of Birthday">
+		<set name="icon" val="icon.etc_echo_crystal_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="20000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2073-1" />
+	</item>
+	<item id="7062" type="EtcItem" name="Echo Crystal - Theme of Wedding">
+		<set name="icon" val="icon.etc_echo_crystal_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="20000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2230-1" />
+	</item>
+	<item id="7063" type="EtcItem" name="Map - Forest of the Dead">
+		<set name="icon" val="icon.etc_map_ivory_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7064" type="EtcItem" name="Lidia's Diary">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7065" type="EtcItem" name="Lidia's Letter">
+		<set name="icon" val="icon.etc_letter_red_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7066" type="EtcItem" name="Contract">
+		<set name="icon" val="icon.etc_permit_card_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7067" type="EtcItem" name="Special Bait 1">
+		<set name="icon" val="icon.etc_ultra_bomb_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7068" type="EtcItem" name="Special Bait 2">
+		<set name="icon" val="icon.etc_ultra_bomb_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7069" type="EtcItem" name="Special Bait 3">
+		<set name="icon" val="icon.etc_ultra_bomb_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7070" type="EtcItem" name="Special Bait 4">
+		<set name="icon" val="icon.etc_ultra_bomb_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="lure" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7071" type="EtcItem" name="Special Fish 1">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7072" type="EtcItem" name="Special Fish 2">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7073" type="EtcItem" name="Special Fish 3">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7074" type="EtcItem" name="Special Fish 4">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7075" type="EtcItem" name="Entrance Pass to the Sepulcher">
+		<set name="icon" val="icon.etc_memopad_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7076" type="EtcItem" name="Mysterious Cloth">
+		<set name="icon" val="icon.etc_piece_of_cloth_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7077" type="EtcItem" name="Jewel Box">
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7078" type="EtcItem" name="Sewing Kit">
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7079" type="EtcItem" name="Dimensional Fragment">
+		<set name="icon" val="icon.etc_broken_crystal_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="7080" type="EtcItem" name="Ice Crystal">
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="price" val="20000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="7081" type="EtcItem" name="Divine Stone of Wisdom">
+		<set name="icon" val="icon.etc_stone_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="10000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="7082" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7083" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7084" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7085" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7086" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_magic_book_red_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7087" type="EtcItem" name="Tattered Book">
+		<set name="icon" val="icon.etc_spellbook_gray_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7088" type="EtcItem" name="Tattered Book">
+		<set name="icon" val="icon.etc_spellbook_gray_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7089" type="EtcItem" name="Tattered Book">
+		<set name="icon" val="icon.etc_spellbook_gray_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7090" type="EtcItem" name="Tattered Book">
+		<set name="icon" val="icon.etc_spellbook_gray_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7091" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7092" type="EtcItem" name="Guild Report">
+		<set name="icon" val="icon.etc_scroll_white_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7093" type="EtcItem" name="Sculpture of the Fallen Knight">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7094" type="EtcItem" name="Record of Mother Tree Guardian">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7095" type="EtcItem" name="Criticism of Biel's Song">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7096" type="EtcItem" name="The Last Days of Swordsman Iron">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7097" type="EtcItem" name="Contemplation of White Wing Army">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7098" type="EtcItem" name="Record of Traitor Muhark">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+	<item id="7099" type="EtcItem" name="Secret Book of Khavatari">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="default_action" val="show_html" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="Book" />
+	</item>
+</list>

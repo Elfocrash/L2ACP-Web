@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="21800" type="Armor" name="Dynasty Leather Armor of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t92_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="4180" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="170" />
+		</for>
+	</item>
+	<item id="21801" type="Armor" name="Dynasty Leather Leggings of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t92_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1370" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="106" />
+		</for>
+	</item>
+	<item id="21802" type="Armor" name="Dynasty Leather Helmet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+		</for>
+	</item>
+	<item id="21803" type="Armor" name="Dynasty Leather Gloves of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t92_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="21804" type="Armor" name="Dynasty Leather Boots of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t92_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1090" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="21805" type="EtcItem" name="Dynasty Leather Mail of Fortune Set Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire a Dynasty Leather Mail of Fortune Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+	</item>
+	<item id="21806" type="Armor" name="Dynasty Tunic of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t93_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="chest" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="1780" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="113" />
+			<add order="0x40" stat="maxMp" val="592" />
+		</for>
+	</item>
+	<item id="21807" type="Armor" name="Dynasty Stockings of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t93_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="legs" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="scale_of_dragon" />
+		<set name="weight" val="860" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<add order="0x10" stat="pDef" val="71" />
+			<add order="0x40" stat="maxMp" val="370" />
+		</for>
+	</item>
+	<item id="21808" type="Armor" name="Dynasty Circlet of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_circlet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bone" />
+		<set name="weight" val="530" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="92" />
+		</for>
+	</item>
+	<item id="21809" type="Armor" name="Dynasty Gloves of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t93_g_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="gloves" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="520" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="21810" type="Armor" name="Dynasty Shoes of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.armor_t93_b_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="feet" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1090" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="61" />
+		</for>
+	</item>
+	<item id="21811" type="Armor" name="Dynasty Sickle of Fortune - 90-day limited period">
+		<!-- Description: Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.dynasty_sigil_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="930" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="pDef" val="15" />
+		</for>
+	</item>
+	<item id="21812" type="EtcItem" name="Dynasty Tunic of Fortune Set Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire a Dynasty Robe of Fortune Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_equip_item_box_i02" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+	</item>
+	<item id="21813" type="Armor" name="Tateossian Earring of Fortune - 90-day limited period">
+		<!-- Description: The effect is MP +31. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_tateossian_earring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="21814" type="Armor" name="Tateossian Ring of Fortune - 90-day limited period">
+		<!-- Description: The effect is MP +21. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_tateossian_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="21815" type="Armor" name="Tateossian Necklace of Fortune - 90-day limited period">
+		<!-- Description: The effect is MP +42. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_tateossian_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="21816" type="EtcItem" name="Tateossian Accessory of Fortune Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire a Tateossian Accessory Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+	</item>
+	<item id="21817" type="Armor" name="Dynasty Earrings of Fortune - 90-day limited period">
+		<!-- Description: The effect is MP +35. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessary_dynasty_earing_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="mDef" val="79" />
+			<add order="0x40" stat="maxMp" val="35" />
+		</for>
+	</item>
+	<item id="21818" type="Armor" name="Dynasty Necklace of Fortune - 90-day limited period">
+		<!-- Description: The effect is MP +46. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessary_dynasty_necklace_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="mDef" val="106" />
+			<add order="0x40" stat="maxMp" val="46" />
+		</for>
+	</item>
+	<item id="21819" type="Armor" name="Dynasty Ring of Fortune - 90-day limited period">
+		<!-- Description: The effect is MP +23. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessary_dynasty_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<add order="0x10" stat="mDef" val="60" />
+			<add order="0x40" stat="maxMp" val="23" />
+		</for>
+	</item>
+	<item id="21820" type="EtcItem" name="Dynasty Accessory of Fortune Pack (S-Grade) - 90-day limited period">
+		<!-- Description: When used, you acquire a Dynasty Accessory Set. Expires after 90 days if not used. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+	</item>
+	<item id="21821" type="Weapon" name="Arcana Mace of Fortune - 90-day limited period">
+		<!-- Description: Increases Magic Casting Spd. by 15%, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_arcana_mace_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="225" />
+			<set order="0x08" stat="mAtk" val="175" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="21822" type="Weapon" name="Angel Slayer of Fortune - 90-day limited period">
+		<!-- Description: During Critical, increases P. Atk. by 265, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_angel_slayer_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="950" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="246" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="21823" type="Weapon" name="Draconic Bow of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 88, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_draconic_bow_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1650" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="581" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="21824" type="Weapon" name="Basalt Battlehammer of Fortune - 90-day limited period">
+		<!-- Description: Increases Maximum HP by 25%, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_basalt_battlehammer_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1570" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="281" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="21825" type="Weapon" name="Forgotten Blade of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 84, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_forgotten_blade_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="281" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="21826" type="Weapon" name="Heaven's Divider of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 84, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_heavens_divider_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1380" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="342" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21827" type="Weapon" name="Demon Splinter of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 80, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_demon_splinter_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1350" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="342" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21828" type="Weapon" name="Tallum Blade*Dark Legion's Edge of Fortune - 90-day limited period">
+		<!-- Description: Increases Max HP +15%, Max MP +20%, and Max CP +30%. Increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="2080" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="342" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21829" type="Weapon" name="Saint Spear of Fortune - 90-day limited period">
+		<!-- Description: Increases Atk. Spd. by about 7%, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_saint_spear_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="281" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21830" type="Weapon" name="Gram of Fortune - 90-day limited period">
+		<!-- Description: Kamael exclusive weapon. Increases Critical by 84, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_gram_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="304" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="21831" type="Weapon" name="Laevateinn of Fortune - 90-day limited period">
+		<!-- Description: Kamael exclusive weapon. Increases Critical by 84. Increases damage inflicted during PvP. During Critical, party members including yourself will receive increased attack power, magic power, and healing capacity by a fixed rate. But decreased MP consumption per skill during a critical attack. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_leavatein_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1300" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="255" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="21832" type="Weapon" name="Sarunga of Fortune - 90-day limited period">
+		<!-- Description: Kamael exclusive weapon. Increases Critical by 88, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_sarnga_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1600" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="356" />
+			<set order="0x08" stat="mAtk" val="132" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="21833" type="Weapon" name="Dynasty Phantom of Fortune - 90-day limited period">
+		<!-- Description: Increases Magic Casting Spd. by 15%, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_magic_sword_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="267" />
+			<set order="0x08" stat="mAtk" val="202" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="21834" type="Weapon" name="Dynasty Knife of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 116, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_dagger_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="291" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="433" />
+		</for>
+	</item>
+	<item id="21835" type="Weapon" name="Dynasty Bow of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 116, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_bow_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="654" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="293" />
+		</for>
+	</item>
+	<item id="21836" type="Weapon" name="Dynasty Cudgel of Fortune - 90-day limited period">
+		<!-- Description: Increases Maximum HP by 25%, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_hammer_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="20" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="333" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="21837" type="Weapon" name="Dynasty Sword of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 111, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_blade_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="333" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="21838" type="Weapon" name="Dynasty Blade of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 111, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_twohand_sword_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1740" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21839" type="Weapon" name="Dynasty Bagh-Nakh of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 106, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_jamadhr_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1550" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21840" type="Weapon" name="Dynasty Dualsword of Fortune - 90-day limited period">
+		<!-- Description: Increases Critical by 109, Maximum HP by 10%, and damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21841" type="Weapon" name="Dynasty Halberd of Fortune - 90-day limited period">
+		<!-- Description: During Critical, increases stun effect with 48% rate and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_spear_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2010" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="333" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="21842" type="Weapon" name="Dynasty Ancient Sword of Fortune - 90-day limited period">
+		<!-- Description: Kamael exclusive weapon. Increases Critical by 111, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_ancient_sword_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="15" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="pAtk" val="361" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="350" />
+		</for>
+	</item>
+	<item id="21843" type="Weapon" name="Dynasty Rapier of Fortune - 90-day limited period">
+		<!-- Description: Kamael exclusive weapon. Increases Critical by 111. Increases damage inflicted during PvP. During Critical, party members including yourself will receive increased attack power, magic power, and healing capacity by a fixed rate. But decreased MP consumption per skill during a critical attack. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_rapier_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="40" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1280" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="302" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="406" />
+		</for>
+	</item>
+	<item id="21844" type="Weapon" name="Dynasty Crossbow of Fortune - 90-day limited period">
+		<!-- Description: Kamael exclusive weapon. Increases Critical by 116, and increases damage inflicted during PvP. Cannot be exchanged or dropped. Can be stored in a private warehouse. Can be assigned an attribute. -->
+		<set name="icon" val="icon.weapon_dynasty_crossbow_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="129600" />
+		<for>
+			<set order="0x08" stat="pAtk" val="401" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1" /> <!-- Truncated value. -->
+			<set order="0x08" stat="pAtkSpd" val="303" />
+		</for>
+	</item>
+	<item id="21845" type="EtcItem" name="Mysterious Soulshot (No-Grade)">
+		<!-- Description: Soulshot containing the light of Sprites; instantly inflicts a powerful attack on the enemy. It can be used for none grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spirit_bullet_white_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21846" type="EtcItem" name="Mysterious Soulshot (D-Grade)">
+		<!-- Description: Soulshot containing the light of Sprites; instantly inflicts a powerful attack on the enemy. It can be used for D-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spirit_bullet_blue_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21847" type="EtcItem" name="Mysterious Soulshot (C-Grade)">
+		<!-- Description: Soulshot containing the light of Sprites; instantly inflicts a powerful attack on the enemy. It can be used for C-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spirit_bullet_green_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21848" type="EtcItem" name="Mysterious Soulshot (B-Grade)">
+		<!-- Description: Soulshot containing the light of Sprites; instantly inflicts a powerful attack on the enemy. It can be used for B-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spirit_bullet_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21849" type="EtcItem" name="Mysterious Soulshot (A-Grade)">
+		<!-- Description: Soulshot containing the light of Sprites; instantly inflicts a powerful attack on the enemy. It can be used for A-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spirit_bullet_silver_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21850" type="EtcItem" name="Mysterious Soulshot (S-Grade)">
+		<!-- Description: Soulshot containing the light of Sprites; instantly inflicts a powerful attack on the enemy. It can be used for S-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spirit_bullet_gold_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21851" type="EtcItem" name="Mysterious Blessed Spiritshot (No-Grade)">
+		<!-- Description: Spiritshot containing the light of Sprites; it instantly and greatly increases the power of magic. It can be used for none grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_white_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21852" type="EtcItem" name="Mysterious Blessed Spiritshot (D-Grade)">
+		<!-- Description: Spiritshot containing the light of Sprites; it instantly and greatly increases the power of magic. It can be used for D-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_blue_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21853" type="EtcItem" name="Mysterious Blessed Spiritshot (C-Grade)">
+		<!-- Description: Spiritshot containing the light of Sprites; it instantly and greatly increases the power of magic. It can be used for C-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_green_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21854" type="EtcItem" name="Mysterious Blessed Spiritshot (B-Grade)">
+		<!-- Description: Spiritshot containing the light of Sprites; it instantly and greatly increases the power of magic. It can be used for B-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_red_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21855" type="EtcItem" name="Mysterious Blessed Spiritshot (A-Grade)">
+		<!-- Description: Spiritshot containing the light of Sprites; it instantly and greatly increases the power of magic. It can be used for A-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_silver_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21856" type="EtcItem" name="Mysterious Blessed Spiritshot (S-Grade)">
+		<!-- Description: Spiritshot containing the light of Sprites; it instantly and greatly increases the power of magic. It can be used for S-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_gold_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21857" type="EtcItem" name="Hero's Gold Chest - 90-day limited period">
+		<!-- Description: Hero's Gold Chest. Gift box containing 1 each of a Hero's Treasure Box, Dimensional Support Pack, Potion Support Pack, and Supplies Support Pack. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="21858" type="EtcItem" name="Dimensional Support Pack - 90-day limited period">
+		<!-- Description: Dimensional support pack. Gift box containing 2 high quality hunting helper exchange coupon, 3 feathers of blessing, 5 Kamaloka (Near Kamaloka, Hall of the Abyss, Labyrinth of the Abyss) entrance passes, and 3 Vitality Replenishing Beverages. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="21859" type="EtcItem" name="Potion Support Pack - 90-day limited period">
+		<!-- Description: Potion support pack. Gift box containing 20 highest power temporary healing potion, 50 greater healing potions, 5 fresh milks, and 5 energy of sprouts. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="21860" type="EtcItem" name="Supplies Support Pack - 90-day limited period">
+		<!-- Description: Supplies support pack. Gift box containing 200,000 mysterious soulshots and spirits according to grade. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="21861" type="EtcItem" name="PC Vitality - 1 hour">
+		<!-- Description: When used, for 1 hour(s), energy is replenished when Exp. is acquired through hunting. Re-use time is 60 minutes. Can only be used at levels 1~75. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21862" type="EtcItem" name="PC Vitality Pack">
+		<!-- Description: PC cafe energy pack. Gift box containing 3 PC cafe energies. When used, duration can receive a 1~4 hour PC Cafe Energy with a certain rate of chance. Can only be used at levels 1~75. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21863" type="EtcItem" name="PC Blessing">
+		<!-- Description: When used, for 20 minute(s), energy is replenished for party members, including the user, when Exp. is acquired through hunting. Re-use time is 60 minutes. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_flag_of_bookmark_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21864" type="EtcItem" name="PC Blessing Pack">
+		<!-- Description: PC cafe blessing pack. Gift box containing 1 PC cafe blessing. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21865" type="EtcItem" name="PC Vitality - 2 hour">
+		<!-- Description: When used, for 2 hour(s), energy is replenished when Exp. is acquired through hunting. Re-use time is 60 minutes. Can only be used at levels 1~75. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21866" type="EtcItem" name="PC Vitality - 3 hour">
+		<!-- Description: When used, for 3 hour(s), energy is replenished when Exp. is acquired through hunting. Re-use time is 60 minutes. Can only be used at levels 1~75. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21867" type="EtcItem" name="PC Vitality - 4 hour">
+		<!-- Description: When used, for 4 hour(s), energy is replenished when Exp. is acquired through hunting. Re-use time is 60 minutes. Can only be used at levels 1~75. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21868" type="EtcItem" name="Joy of Halloween">
+		<!-- Description: Gift provided for Halloween. When used, can obtain 20 Belldandy Summon Scrolls. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21869" type="EtcItem" name="Hero's Gold Chest Pack">
+		<!-- Description: Hero's Gold Chest Pack. A gift box that contains a Hero's Gold Chest. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21870" type="Armor" name="Agathion Seal Bracelet - Neolithica - 14-day limited period">
+		<!-- Description: A bracelet that can summon a Neolithic Agathion. Requires room in inventory and weight limit to receive a New Year gift from a Neolithic Agathion. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8314-1;6124-1" />
+	</item>
+	<item id="21871" type="EtcItem" name="Hero Assistance Package">
+		<!-- Description: A coupon for an item set that helps a hero to grow stronger. Bestows an Equipment Set 7-Day Pak, a Button-Eyed Bear Doll Agathion 7-Day Pack, a Quick Healing Potion, and a Steam Beatle Mount Bracelet 7-Day Pack. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21872" type="EtcItem" name="Fresh Herb">
+		<!-- Description: Herb that Rudolph likes. When the seal on Rudolph is removed, Rudolph automatically eats for 10 minutes. -->
+		<set name="icon" val="icon.etc_herb_green_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21873" type="EtcItem" name="Santa Claus's Treasure Box - Event">
+		<!-- Description: Santa Claus's treasure box. When used, you can receive Santa Claus's gift. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21874" type="EtcItem" name="Medal of Glory">
+		<!-- Description: Item for obtaining Fame. If you bring it to the Olympiad Manager, you can exchange it for 100 Fame points. -->
+		<set name="icon" val="icon.etc_badge_gold_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21875" type="EtcItem" name="Campfire Flint">
+		<!-- Description: You can use this item if you have gathered 30 tree branches to start a campfire. A campfire near a battlefield can help to raise HP, MP, and CP recovery rate. You can only make campfires when you are away from towns. You can only receive the recovery bonus while near the campfire. . Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.g_campfire_flint" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21876" type="EtcItem" name="Pa'agrio's Christmas Package">
+		<!-- Description: Dimensional item. Gift box containing 1 each of Pa'agrio's Warm Breeze - 4 hour pack, Nevit's Hourglass - 4 hour pack, party cake, and shiny party hat. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21877" type="EtcItem" name="Pa'agrio's Christmas Package - Event">
+		<!-- Description: Dimensional item. Gift box containing 1 each of Pa'agrio's Warm Breeze - 4 hour pack, Nevit's Hourglass - 4 hour pack, party cake, and shiny party hat. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21878" type="EtcItem" name="Pa'agrio's Warm Breeze - 4 hour pack">
+		<!-- Description: Dimensional item pack. Gift box containing 15 Pa'agrio's warm breezes. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21879" type="EtcItem" name="Nevit's Hourglass - 4 hour pack">
+		<!-- Description: Dimensional pack. Gift box containing 15 Nevit's Hourglasses - 4 hours. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21880" type="EtcItem" name="Pa'agrio's Warm Breeze - 4 hour">
+		<!-- Description: Dimensional item. When used, you can feel the vitality recovery herb's effect for 4 hour(s). But there will be no effect when the "Birthday Joy" effect is applied. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.Icon.pi_wind_of_paagrio" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21881" type="EtcItem" name="Party Cake">
+		<!-- Description: Dimensional item. Summons a party cake that maintains vitality for 20 minutes. It'll be effective only when summoned away at a certain distance from the town. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_birthday_cake_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21882" type="Armor" name="Shiny Party Hat - Blessed Body - 90-day limited period">
+		<!-- Description: Dimensional item. Shiny party hat. When equipped, can use the Blessed Body skill. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_party_hat_gold_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="21883" type="EtcItem" name="(Not In Use)">
+		<!-- Description: (Not In Use) -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21884" type="EtcItem" name="(Not In Use)">
+		<!-- Description: (Not In Use) -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21885" type="EtcItem" name="Valentine's Day Rose Spirit Exchange Coupon Pack">
+		<!-- Description: Dimensional item pack. Gift box containing 2 improved rose spirit exchange tickets. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21886" type="EtcItem" name="Valentine's Day Rose Spirit Set Pack">
+		<!-- Description: Dimensional item. Gift box containing 1 Valentine's Day Rose Spirit Exchange Coupon and 1 Sweet Chocolate Box. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21887" type="EtcItem" name="Valentine's Day Rose Spirit Exchange Ticket">
+		<!-- Description: Coupon that can be exchanged for a necklace (5 hour) that summons an Improved Rose Spirit. Can be exchanged through the Dimensional Merchant. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21888" type="EtcItem" name="Sweet Chocolate Box">
+		<!-- Description: Gift box containing 3 sweet chocolates and 50 rose essences. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21889" type="EtcItem" name="Sweet Chocolate - 4 hour">
+		<!-- Description: When used, you can feel the vitality recovery herb's effect for 4 hour(s). But there will be no effect when the "Birthday Joy" effect is applied. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21890" type="EtcItem" name="Valentine's Day Rose Spirit Exchange Coupon Pack - Event">
+		<!-- Description: Dimensional item pack. Gift box containing 2 improved rose spirit exchange tickets. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21891" type="EtcItem" name="Valentine's Day Rose Spirit Set Pack - Event">
+		<!-- Description: Dimensional item. Gift box containing 1 Valentine's Day Rose Spirit Exchange Coupon and 1 Sweet Chocolate Box. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="21892" type="Armor" name="Pirate King Hat">
+		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="6000000" />
+	</item>
+	<item id="21893" type="Armor" name="Halisha's Helmet">
+		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="6000000" />
+	</item>
+	<item id="21894" type="Armor" name="Ice Queen's Tiara">
+		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="6000000" />
+	</item>
+	<item id="21895" type="EtcItem" name="Scroll: Valakas Call">
+		<!-- Description: One-time use scroll that teleports you to Watcher of Valakas Klein in the Hall of Flames. -->
+		<set name="icon" val="BranchSys2.icon.call_of_fire_dragon" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21896" type="EtcItem" name="Jewel of Valakas">
+		<!-- Description: Mysterious jewel that teleports you to Watcher of Valakas Klein in the Hall of Flames. Re-use time is 60 minutes. -->
+		<set name="icon" val="BranchSys2.icon.orb_of_fire_dragon" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21897" type="EtcItem" name="Scroll: Antharas Call">
+		<!-- Description: One-time use scroll that teleports you to the entrance to Antharas's Lair. -->
+		<set name="icon" val="BranchSys2.icon.call_of_earth_dragon" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21898" type="EtcItem" name="Jewel of Antharas">
+		<!-- Description: Mysterious jewel that teleports you to the entrance to Antharas's Lair. Re-use time is 60 minutes. -->
+		<set name="icon" val="BranchSys2.icon.orb_of_earth_dragon" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="21899" type="EtcItem" name="Totem of Body">
+		<!-- Description: Summons a totem that increases HP recovery speed by 30% and decreases damage from the topography by 80%. Totem duration is 30 minutes. Can only be used inside the lairs of Valakas and Antharas. Re-use time is 10 minutes. -->
+		<set name="icon" val="BranchSys2.icon.totem_of_body" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="1" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="22294-1" />
+		<cond msgId="113" addName="1">
+			<player insideZoneId="12010, 12001" />
+		</cond>
+	</item>
+</list>

@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="9600" type="EtcItem" name="Hidden First Page">
+		<set name="icon" val="icon.etc_hidden_1st_page_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9601" type="EtcItem" name="Hidden Second Page">
+		<set name="icon" val="icon.etc_hidden_2nd_page_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9602" type="EtcItem" name="Demon Contract Fragment">
+		<set name="icon" val="icon.etc_old_evil_book_piece_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9603" type="EtcItem" name="Hellbound Item 5">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9604" type="EtcItem" name="Hellbound Item 6">
+		<set name="icon" val="icon.etc_talisman_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9605" type="Armor" name="Agathion Seal Bracelet - Rainbow Clan Hall">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="7000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5414-1;3269-1;3267-1" />
+		<set name="equip_condition" val="{{ec_agit;1};{ec_agit_num;{62}}}" />
+		<cond msgId="1518">
+			<player clanHall="65" />
+		</cond>
+	</item>
+	<item id="9606" type="Armor" name="Agathion Seal Bracelet - Wild Beast Reserve">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="7000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5413-1;3270-1;3267-1" />
+		<set name="equip_condition" val="{{ec_agit;1};{ec_agit_num;{63}}}" />
+		<cond msgId="1518">
+			<player clanHall="63" />
+		</cond>
+	</item>
+	<item id="9607" type="Armor" name="Agathion Seal Bracelet - Gludio">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{1}}}" />
+		<cond msgId="1518">
+			<player castle="1" />
+		</cond>
+	</item>
+	<item id="9608" type="Armor" name="Agathion Seal Bracelet - Dion">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{2}}}" />
+		<cond msgId="1518">
+			<player castle="2" />
+		</cond>
+	</item>
+	<item id="9609" type="Armor" name="Agathion Seal Bracelet - Giran">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{3}}}" />
+		<cond msgId="1518">
+			<player castle="3" />
+		</cond>
+	</item>
+	<item id="9610" type="Armor" name="Agathion Seal Bracelet - Oren">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{4}}}" />
+		<cond msgId="1518">
+			<player castle="4" />
+		</cond>
+	</item>
+	<item id="9611" type="Armor" name="Agathion Seal Bracelet - Aden">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{5}}}" />
+		<cond msgId="1518">
+			<player castle="5" />
+		</cond>
+	</item>
+	<item id="9612" type="Armor" name="Agathion Seal Bracelet - Innadril">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{6}}}" />
+		<cond msgId="1518">
+			<player castle="6" />
+		</cond>
+	</item>
+	<item id="9613" type="Armor" name="Agathion Seal Bracelet - Goddard">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{7}}}" />
+		<cond msgId="1518">
+			<player castle="7" />
+		</cond>
+	</item>
+	<item id="9614" type="Armor" name="Agathion Seal Bracelet - Rune">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{8}}}" />
+		<cond msgId="1518">
+			<player castle="8" />
+		</cond>
+	</item>
+	<item id="9615" type="Armor" name="Agathion Seal Bracelet - Schuttgart">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="price" val="30000000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5415-1;3268-1;3267-1" />
+		<set name="equip_condition" val="{{ec_castle;1};{ec_castle_num;{9}}}" />
+		<cond msgId="1518">
+			<player castle="9" />
+		</cond>
+	</item>
+	<item id="9616" type="EtcItem" name="Dynasty Sword Piece">
+		<set name="icon" val="icon.etc_sword_body_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="239800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9617" type="EtcItem" name="Dynasty Blade Piece">
+		<set name="icon" val="icon.etc_sword_body_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="239800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9618" type="EtcItem" name="Dynasty Phantom Piece">
+		<set name="icon" val="icon.etc_sword_body_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="239800" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9619" type="EtcItem" name="Dynasty Bow Piece">
+		<set name="icon" val="icon.etc_branch_gold_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="238200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9620" type="EtcItem" name="Dynasty Knife Piece">
+		<set name="icon" val="icon.etc_sword_body_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="240000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9621" type="EtcItem" name="Dynasty Halberd Piece">
+		<set name="icon" val="icon.etc_squares_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="238700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9622" type="EtcItem" name="Dynasty Cudgel Piece">
+		<set name="icon" val="icon.etc_squares_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="247700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9623" type="EtcItem" name="Dynasty Mace Piece">
+		<set name="icon" val="icon.etc_squares_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="247700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9624" type="EtcItem" name="Dynasty Bagh-Nakh Piece">
+		<set name="icon" val="icon.etc_squares_silver_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="247700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9625" type="EtcItem" name="Giant's Codex - Oblivion">
+		<set name="icon" val="icon.etc_codex_of_giant_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9626" type="EtcItem" name="Giant's Codex - Discipline">
+		<set name="icon" val="icon.etc_codex_of_giant_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9627" type="EtcItem" name="Giant's Codex - Mastery">
+		<set name="icon" val="icon.etc_codex_of_giant_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9628" type="EtcItem" name="Leonard">
+		<set name="icon" val="icon.etc_high_gem_black_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="25500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9629" type="EtcItem" name="Adamantine">
+		<set name="icon" val="icon.etc_adamantium_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="46000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9630" type="EtcItem" name="Orichalcum">
+		<set name="icon" val="icon.etc_oricalcum_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="38000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9631" type="EtcItem" name="Tough Leather">
+		<set name="icon" val="icon.etc_hightes_leather_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="2" />
+		<set name="price" val="90000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9632" type="EtcItem" name="Wooden Bolt">
+		<set name="icon" val="icon.etc_wooden_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="6" />
+		<set name="price" val="2" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9633" type="EtcItem" name="Bone Bolt">
+		<set name="icon" val="icon.etc_bone_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="bone" />
+		<set name="weight" val="5" />
+		<set name="price" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9634" type="EtcItem" name="Steel Bolt">
+		<set name="icon" val="icon.etc_fine_steel_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="4" />
+		<set name="price" val="5" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9635" type="EtcItem" name="Silver Bolt">
+		<set name="icon" val="icon.etc_silver_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="silver" />
+		<set name="weight" val="4" />
+		<set name="price" val="7" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9636" type="EtcItem" name="Mithril Bolt">
+		<set name="icon" val="icon.etc_mithril_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="3" />
+		<set name="price" val="8" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9637" type="EtcItem" name="Shining Bolt">
+		<set name="icon" val="icon.etc_shining_bolt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="etcitem_type" val="bolt" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="adamantaite" />
+		<set name="weight" val="3" />
+		<set name="price" val="10" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9638" type="Weapon" name="Tears r1">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;300;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9639" type="Weapon" name="Tears r2">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;300;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9640" type="Weapon" name="Tears r3">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;300;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9641" type="Weapon" name="Tears l1">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;300;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9642" type="Weapon" name="Tears l2">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;300;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9643" type="Weapon" name="Tears l3">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="5" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;300;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="743" />
+		<set name="crystal_type" val="d" />
+		<set name="material" val="steel" />
+		<set name="weight" val="300" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="5" />
+			<set order="0x08" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="433" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="9644" type="Weapon" name="For NPC (Crossbow)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1530" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="9645" type="Weapon" name="For NPC (Sword)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1530" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="9646" type="Weapon" name="For NPC (Rapier)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="1530" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="31" />
+			<set order="0x08" stat="mAtk" val="21" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="9647" type="EtcItem" name="Scroll of Escape: Kamael Village">
+		<set name="icon" val="icon.etc_scroll_of_return_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="price" val="35000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2213-22" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="9648" type="EtcItem" name="Transformation Sealbook: Onyx Beast">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9649" type="EtcItem" name="Transformation Sealbook: Death Blader">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="18000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9650" type="EtcItem" name="Transformation Sealbook: Grail Apostle">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9651" type="EtcItem" name="Transformation Sealbook: Unicorn">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9652" type="EtcItem" name="Transformation Sealbook: Lilim Knight">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9653" type="EtcItem" name="Transformation Sealbook: Golem Guardian">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9654" type="EtcItem" name="Transformation Sealbook: Inferno Drake">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9655" type="EtcItem" name="Transformation Sealbook: Dragon Bomber">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="21600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9656" type="Weapon" name="Enchanted Wolf Fang">
+		<set name="icon" val="icon.etc_wolf_r_d_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="3676000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="233" />
+			<add order="0x10" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="9657" type="Weapon" name="Enchanted Coyote Fang">
+		<set name="icon" val="icon.etc_wolf_r_d_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="6809000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="289" />
+			<add order="0x10" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="9658" type="Weapon" name="Enchanted Saltydog Fang">
+		<set name="icon" val="icon.etc_wolf_r_d_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="12758000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="350" />
+			<add order="0x10" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="9659" type="Weapon" name="Enchanted Cerberus Fang">
+		<set name="icon" val="icon.etc_wolf_r_d_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="21159000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="413" />
+			<add order="0x10" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="9660" type="Weapon" name="Orichalcum Fang">
+		<set name="icon" val="icon.etc_wolf_r_d_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="37752000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="477" />
+			<add order="0x10" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="9661" type="Weapon" name="Enchanted Fenrir Fang">
+		<set name="icon" val="icon.etc_wolf_r_d_01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="68638000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="pAtk" val="537" />
+			<add order="0x10" stat="mAtk" val="5" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="277" />
+		</for>
+	</item>
+	<item id="9662" type="Armor" name="Great Wolf Scale Armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="1877000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="112" />
+		</for>
+	</item>
+	<item id="9663" type="Armor" name="Great Wolf Bronze Armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="3620000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="124" />
+		</for>
+	</item>
+	<item id="9664" type="Armor" name="Great Wolf Plate Armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="7126000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="136" />
+		</for>
+	</item>
+	<item id="9665" type="Armor" name="Great Wolf Mithril Armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="12563000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="148" />
+		</for>
+	</item>
+	<item id="9666" type="Armor" name="Great Wolf Oriharukon Armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="24236000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="160" />
+		</for>
+	</item>
+	<item id="9667" type="Armor" name="Great Wolf Orichalcum Armor">
+		<set name="icon" val="icon.etc_wolf_r_a_01" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="160" />
+		<set name="price" val="48879000" />
+		<set name="equip_condition" val="{{ec_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+		<for>
+			<add order="0x10" stat="mDef" val="14" />
+			<add order="0x10" stat="pDef" val="171" />
+		</for>
+	</item>
+	<item id="9668" type="EtcItem" name="Great Wolf Food">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="PetFood" />
+		<set name="item_skill" val="2361-1" />
+		<set name="use_condition" val="{{uc_category;{@grown_up_wolf_group}}}" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="9669" type="Armor" name="Native Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="70" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="619-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="33" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9670" type="Armor" name="Native Tunic">
+		<set name="icon" val="icon.armor_t34_u_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="4720" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="619-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="53" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9671" type="Armor" name="Native Pants">
+		<set name="icon" val="icon.armor_t34_l_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1700" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="619-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="29" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="9672" type="EtcItem" name="Magic Bottle">
+		<set name="icon" val="icon.etc_magical_bottle_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="1500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2359-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="9673" type="EtcItem" name="Holy Water">
+		<set name="icon" val="icon.etc_holy_water_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="1500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2358-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="9674" type="EtcItem" name="Darion's Badge">
+		<set name="icon" val="icon.etc_hs_agit_war_joining_certificate_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9675" type="EtcItem" name="Prayer Fragment">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="1500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9676" type="EtcItem" name="Mark of Betrayal">
+		<set name="icon" val="icon.etc_ketra_friendship_2_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9677" type="Armor" name="Ring of Wind Mastery">
+		<set name="icon" val="icon.accessary_ring_of_mana_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="price" val="616000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3319-1" />
+		<for>
+			<add order="0x10" stat="mDef" val="36" />
+			<enchant order="0x0C" stat="mDef" val="0" />
+		</for>
+	</item>
+	<item id="9678" type="EtcItem" name="Magic Gem">
+		<set name="icon" val="icon.etc_magical_stone_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="price" val="50000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9679" type="EtcItem" name="Steel Citadel Blueprints">
+		<set name="icon" val="icon.etc_plan_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9680" type="EtcItem" name="Dim Life Force">
+		<set name="icon" val="icon.etc_magic_energy_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9681" type="EtcItem" name="Life Force">
+		<set name="icon" val="icon.etc_magic_energy_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9682" type="EtcItem" name="Contained Life Force">
+		<set name="icon" val="icon.etc_magic_energy_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9683" type="EtcItem" name="Sand Worm Tooth">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9684" type="EtcItem" name="Native Treasure">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9685" type="EtcItem" name="Gate Key: Darkness">
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2354-1" />
+	</item>
+	<item id="9686" type="EtcItem" name="Gate Key: Destruction">
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2355-1" />
+	</item>
+	<item id="9687" type="EtcItem" name="Gate Key: Blood">
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2356-1" />
+	</item>
+	<item id="9688" type="EtcItem" name="Ballista Bomb">
+		<set name="icon" val="icon.etc_dynamite_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="1500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2342-1" />
+		<cond msgId="113" addName="1">
+			<player SiegeZone="126" />
+		</cond>
+	</item>
+	<item id="9689" type="EtcItem" name="Spirit of the Lake">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="1500" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2368-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="9690" type="EtcItem" name="Contaminated Crystal">
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9691" type="EtcItem" name="Water Dragon Scale">
+		<set name="icon" val="icon.etc_water_dragon_scale_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2369-1" />
+	</item>
+	<item id="9692" type="EtcItem" name="Red Coral">
+		<set name="icon" val="icon.etc_red_coral_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9693" type="EtcItem" name="Crystal Fragment">
+		<set name="icon" val="icon.etc_crystal_piece_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9694" type="EtcItem" name="Secret Key">
+		<set name="icon" val="icon.etc_old_key_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2065-8" />
+	</item>
+	<item id="9695" type="EtcItem" name="Blue Crystal">
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9696" type="EtcItem" name="Red Crystal">
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9697" type="EtcItem" name="Clear Crystal">
+		<set name="icon" val="icon.etc_crystal_cave_crystal_i0" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="9698" type="EtcItem" name="Blue Coral Key">
+		<set name="icon" val="icon.etc_crystal_cave_key_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="PaganKeys" />
+		<set name="item_skill" val="2366-1" />
+	</item>
+	<item id="9699" type="EtcItem" name="Red Coral Key">
+		<set name="icon" val="icon.etc_crystal_cave_key_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="PaganKeys" />
+		<set name="item_skill" val="2367-1" />
+	</item>
+</list>

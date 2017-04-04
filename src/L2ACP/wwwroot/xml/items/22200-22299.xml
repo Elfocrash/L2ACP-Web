@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="22200" type="Armor" name="Agathion Seal Bracelet - Lantern - 33-day limited period (event)">
+		<!-- Description: A bracelet that can summon a Lantern Agathion. The Lantern Agathion's gift cannot be received if there is no room in the inventory and carried item weight. Cannot be exchanged, dropped, or destroyed. Item that can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.event_agathion_han_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="time" val="47520" />
+	</item>
+	<item id="22201" type="EtcItem" name="Lantern Agathion Pack - Event">
+		<!-- Description: Double-click to receive a Lantern Agathion. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22202" type="EtcItem" name="S84 Weapon Box - Event">
+		<!-- Description: Box containing an S84 high-grade weapon. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22203" type="EtcItem" name="Vorpal Armor Box - Event">
+		<!-- Description: Box containing a Vorpal armor. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22204" type="EtcItem" name="Attribute Stone Box - Event">
+		<!-- Description: Box containing an Attribute Ore. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22205" type="EtcItem" name="Attribute Crystal Box - Event">
+		<!-- Description: Box containing an Attribute Crystal. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22206" type="EtcItem" name="Soul Crystal - Stage 17 Box - Event">
+		<!-- Description: Box containing a Soul Crystal - Step 17. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22207" type="EtcItem" name="Soul Crystal - Stage 18 Box - Event">
+		<!-- Description: Box containing a Soul Crystal - Step 18. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22208" type="EtcItem" name="Angry Bunny Necklace Box - Event">
+		<!-- Description: Box containing a 7 day or 30 day Bad Bunny's Necklace. Which one could it be? It will be automatically deleted after the regular maintenance on 2/23/2011 (Wed). -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22209" type="EtcItem" name="Angry Bunny Earring Box - Event">
+		<!-- Description: Box containing a 7 day or 30 day Bad Bunny's Earring. Which one could it be? It will be automatically deleted after the regular maintenance on 2/23/2011 (Wed). -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22210" type="EtcItem" name="Angry Bunny Ring Box - Event">
+		<!-- Description: Box containing a 7 day or 30 day Bad Bunny's Ring. Which one could it be? It will be automatically deleted after the regular maintenance on 2/23/2011 (Wed). -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22211" type="Armor" name="Angry Bunny Necklace - 7-day limited period (event)">
+		<!-- Description: Its effects are MP+300, HP+500, CP+1035, increased P. Atk., increased M. Atk., wild magic effect, and increased Critical attack power. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_necklace" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="125" />
+			<add order="0x40" stat="maxMp" val="50" />
+		</for>
+	</item>
+	<item id="22212" type="Armor" name="Angry Bunny Earring - 7-day limited period (event)">
+		<!-- Description: Its effects are MP+37, HP+250, Vampiric Rage effect, increased accuracy, decreased re-use time for magic skills, and decreased MP consumption for magic skills. When two identical earrings are equipped, only one effect is applied. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_earring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="37" />
+		</for>
+	</item>
+	<item id="22213" type="Armor" name="Angry Bunny Ring - 7-day limited period (event)">
+		<!-- Description: Its effects are MP+25, increased Atk. Spd., and increased Casting Spd. When two identical rings are equipped, only one effect is applied. Can be used for 7 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_ring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="62" />
+			<add order="0x40" stat="maxMp" val="25" />
+		</for>
+	</item>
+	<item id="22214" type="Armor" name="Angry Bunny Necklace - 30-day limited period (event)">
+		<!-- Description: Its effects are MP+300, HP+500, CP+1035, increased P. Atk., increased M. Atk., wild magic effect, and increased Critical attack power. Can be used for 30 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_necklace" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="125" />
+			<add order="0x40" stat="maxMp" val="50" />
+		</for>
+	</item>
+	<item id="22215" type="Armor" name="Angry Bunny Earring - 30-day limited period (event)">
+		<!-- Description: Its effects are MP+37, HP+250, Vampiric Rage effect, increased accuracy, decreased re-use time for magic skills, and decreased MP consumption for magic skills. When two identical earrings are equipped, only one effect is applied. Can be used for 30 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_earring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="37" />
+		</for>
+	</item>
+	<item id="22216" type="Armor" name="Angry Bunny Ring - 30-day limited period (event)">
+		<!-- Description: Its effects are MP+25, increased Atk. Spd., and increased Casting Spd. When two identical rings are equipped, only one effect is applied. Can be used for 30 days. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="branchsys2.icon2.g_accessory_event_ring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="silver" />
+		<set name="weight" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="62" />
+			<add order="0x40" stat="maxMp" val="25" />
+		</for>
+	</item>
+	<item id="22217" type="EtcItem" name="Lantern Agathion's Gift Set - Event">
+		<!-- Description: When used, you can receive 2~5 Lantern Agathion's gifts) Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22218" type="EtcItem" name="Scroll: Enchant Destruction Box - Event">
+		<!-- Description: Gift box containing one Scroll: Enchant Weapon of Destruction (S-Grade). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22219" type="EtcItem" name="Scroll: Destruction Enchant S-Grade Set - Event">
+		<!-- Description: Gift box containing 3 Scrolls: Enchant Weapon of Destruction (S-Grade) and 3 Scrolls: Enchant Armor of Destruction (S-Grade). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22220" type="EtcItem" name="Lantern Agathion's Gift - Event">
+		<!-- Description: Lantern Agathion's gift. Double-click to get a random item. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22221" type="EtcItem" name="Scroll: Enchant Weapon of Destruction (S-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Atk. by 5 for S-Grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. Increases P. Atk. by 6 for two-handed swords, two-handed blunts, dualswords, and hand-to-hand combat weapons. Increases P. Atk. by 10 for bows. Increases P. Atk. by 4 for all weapons. From +4, P. Atk. and M. Atk. increase by 2 times. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. Cannot be used on weapons that are +15 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22359-1" />
+	</item>
+	<item id="22222" type="EtcItem" name="Scroll: Enchant Armor of Destruction (S-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Def. by 1 for S-Grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. When armor is enchanted up to +4, HP increases according to the enchant value. Cannot be used on armor that are +6 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22360-1" />
+	</item>
+	<item id="22223" type="EtcItem" name="Scroll: Enchant Weapon of Destruction (A-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Atk. by 4 for A-Grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. Increases P. Atk. by 5 for two-handed swords, two-handed blunts, dualswords, and hand-to-hand combat weapons. Increases P. Atk. by 8 for bows. Increases P. Atk. by 3 for all weapons. From +4, P. Atk. and M. Atk. increase by 2 times. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. Cannot be used on weapons that are +15 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22361-1" />
+	</item>
+	<item id="22224" type="EtcItem" name="Scroll: Enchant Armor of Destruction (A-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Def. by 1 for A-Grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. When armor is enchanted up to +4, HP increases according to the enchant value. Cannot be used on armor that are +6 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22362-1" />
+	</item>
+	<item id="22225" type="EtcItem" name="Scroll: Enchant Weapon of Destruction (B-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Atk. by 3 for B-Grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. Increases P. Atk. by 4 for two-handed swords, two-handed blunts, dualswords, and hand-to-hand combat weapons. Increases P. Atk. by 6 for bows. Increases P. Atk. by 3 for all weapons. From +4, P. Atk. and M. Atk. increase by 2 times. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. Cannot be used on weapons that are +15 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22363-1" />
+	</item>
+	<item id="22226" type="EtcItem" name="Scroll: Enchant Armor of Destruction (B-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Def. by 1 for B-Grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. When armor is enchanted up to +4, HP increases according to the enchant value. Cannot be used on armor that are +6 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22364-1" />
+	</item>
+	<item id="22227" type="EtcItem" name="Scroll: Enchant Weapon of Destruction (C-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Atk. by 3 for C-Grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. Increases P. Atk. by 4 for two-handed swords, two-handed blunts, dualswords, and hand-to-hand combat weapons. Increases P. Atk. by 6 for bows. Increases P. Atk. by 3 for all weapons. From +4, P. Atk. and M. Atk. increase by 2 times. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. Cannot be used on weapons that are +15 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22365-1" />
+	</item>
+	<item id="22228" type="EtcItem" name="Scroll: Enchant Armor of Destruction (C-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Def. by 1 for C-Grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. When armor is enchanted up to +4, HP increases according to the enchant value. Cannot be used on armor that are +6 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22366-1" />
+	</item>
+	<item id="22229" type="EtcItem" name="Scroll: Enchant Weapon of Destruction (D-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Atk. by 2 for D-Grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. Increases P. Atk. by 2 for two-handed swords, two-handed blunts, dualswords, and hand-to-hand combat weapons. Increases P. Atk. by 4 for bows. Increases P. Atk. by 2 for all weapons. From +4, P. Atk. and M. Atk. increase by 2 times. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. Cannot be used on weapons that are +15 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01" />
+		<set name="etcitem_type" val="scrl_enchant_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="EnchantScrolls" />
+		<set name="item_skill" val="22367-1" />
+	</item>
+	<item id="22230" type="EtcItem" name="Scroll: Enchant Armor of Destruction (D-Grade) - Event">
+		<!-- Description: When enchanted, increases P. Def. by 1 for D-Grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When enchant fails, the item is not crystallized by the power of the goddess of destruction, and the existing enchant value is maintained. When armor is enchanted up to +4, HP increases according to the enchant value. Cannot be used on armor that are +6 or above. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22231" type="EtcItem" name="Mysterious Blessed Spiritshot (S-Grade) - Event">
+		<!-- Description: High-level spirit light is infused into a weapon, instantly and greatly increasing its magic power. Can be used on S-grade weapons. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_spell_shot_gold_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22232" type="EtcItem" name="Mysterious Soulshot Pack (S-Grade) - Event">
+		<!-- Description: Double-click to receive 1,000 rounds of Mysterious Soulshot (S-Grade). -->
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_soulshot_s_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22233" type="EtcItem" name="Mysterious Blessed Spiritshot Pack (S-Grade) - Event">
+		<!-- Description: Double-click to receive 1,000 rounds of Mysterious Blessed Spiritshot (S-Grade). -->
+		<set name="icon" val="br_cashtex.item.br_cash_pack_of_blessed_spiritshot_s_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22234" type="EtcItem" name="Sweet Chocolate Box">
+		<!-- Description: Dimensional item. Gift box containing 3 Sweet Chocolates and 1 Valentine's Day Love Pouch. Cannot be dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22235" type="EtcItem" name="Sweet Chocolate">
+		<!-- Description: Dimensional item. When used, for 30 minute(s), energy is replenished when Exp. is acquired through hunting. Cannot be used when the same effect is already being received. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22236" type="EtcItem" name="Valentine's Day Love Pouch">
+		<!-- Description: Dimensional item. When used, can receive 1 of the following: Formal Wear - 14-day limited period, Agathion Seal Bracelet - Juju (14-day limited period), Wild Rose Pig Candy - 14-day limited period, and Scroll: Enchant Hair Accessory (warrior or wizard use). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_lucky_bag_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22237" type="Armor" name="Shiny Couple Ring">
+		<!-- Description: Dimensional item. Summons another player. Both the summoner and the one being summoned must have it equipped. Re-use waiting time is 1 hour. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_shiny_couple_ring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="7" />
+		</for>
+	</item>
+	<item id="22238" type="EtcItem" name="Scroll: Hair Accessory - Warrior Use">
+		<!-- Description: Dimensional item. A scroll to add the options for a Warrior to a hair accessory. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_scroll_of_transformation_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22239" type="EtcItem" name="Scroll: Hair Accessory - Wizard Use">
+		<!-- Description: Dimensional item. A scroll to add the options for a Mystic to a hair accessory. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_scroll_of_transformation_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22240" type="EtcItem" name="Improved Rose Spirit Exchange Ticket - 5 hours - Event">
+		<!-- Description: Dimensional item. Exchange coupon that can be exchanged for a necklace (5 hour) that summons an improved rose spirit. Can be exchanged through the Dimensional Merchant. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_ticket_red_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22241" type="EtcItem" name="Sweet Chocolate Box - Event">
+		<!-- Description: Dimensional item. Gift box containing 3 Sweet Chocolates and 1 Valentine's Day Love Pouch. Cannot be dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22242" type="EtcItem" name="Sweet Chocolate - Event">
+		<!-- Description: Dimensional item. When used, for 30 minute(s), energy is replenished when Exp. is acquired through hunting. Cannot be used when the same effect is already being received. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22243" type="Armor" name="(Not In Use) - Event">
+		<!-- Description: Not In Use -->
+		<set name="icon" val="icon.accessory_shiny_couple_ring" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<for>
+			<add order="0x10" stat="mDef" val="7" />
+		</for>
+	</item>
+	<item id="22244" type="EtcItem" name="Mysterious Soulshot (C-Grade)">
+		<!-- Description: Dimensional item. Spirit light is infused into a weapon, instantly inflicting a powerful attack on the enemy. Can be used on C-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spirit_bullet_green_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22245" type="EtcItem" name="Mysterious Soulshot (B-Grade)">
+		<!-- Description: Dimensional item. Spirit light is infused into a weapon, instantly inflicting a powerful attack on the enemy. Can be used on B-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spirit_bullet_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22246" type="EtcItem" name="Mysterious Soulshot (A-Grade)">
+		<!-- Description: Dimensional item. Spirit light is infused into a weapon, instantly inflicting a powerful attack on the enemy. Can be used on A-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spirit_bullet_silver_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22247" type="EtcItem" name="Mysterious Soulshot (S-Grade)">
+		<!-- Description: Dimensional item. Spirit light is infused into a weapon, instantly inflicting a powerful attack on the enemy. Can be used on S-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spirit_bullet_gold_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22248" type="EtcItem" name="Mysterious Soulshot Pack">
+		<!-- Description: Dimensional item. When used, you can obtain 10,000 each of Mysterious Soulshots C~S grades. Cannot be exchanged or dropped. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22249" type="EtcItem" name="Mysterious Blessed Spiritshot (C-Grade)">
+		<!-- Description: Dimensional item. High-level spirit light is infused into a weapon, instantly and greatly increasing its magic power. Can be used on C-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spell_shot_green_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22250" type="EtcItem" name="Mysterious Blessed Spiritshot (B-Grade)">
+		<!-- Description: Dimensional item. High-level spirit light is infused into a weapon, instantly and greatly increasing its magic power. Can be used on B-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spell_shot_red_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22251" type="EtcItem" name="Mysterious Blessed Spiritshot (A-Grade)">
+		<!-- Description: Dimensional item. High-level spirit light is infused into a weapon, instantly and greatly increasing its magic power. Can be used on A-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spell_shot_silver_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22252" type="EtcItem" name="Mysterious Blessed Spiritshot (S-Grade)">
+		<!-- Description: Dimensional item. High-level spirit light is infused into a weapon, instantly and greatly increasing its magic power. Can be used on S-grade weapons. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.etc_spell_shot_gold_i01" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22253" type="EtcItem" name="Mysterious Blessed Spiritshot Pack">
+		<!-- Description: Dimensional item. When used, you can obtain 10,000 each of Mysterious Blessed Spiritshots C~S grades. Cannot be exchanged or dropped. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22254" type="Armor" name="Mysterious Friend Summon Bracelet - 30-day limited period">
+		<!-- Description: Dimensional item. Summons another player. Both the summoner and the one being summoned must have it equipped. Can be used for 30 days. Re-use waiting time is 1 hour. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_ring_of_friendship_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="silver" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="22255" type="EtcItem" name="Mysterious Friend Summon Bracelet 30 day Pack">
+		<!-- Description: Dimensional item. When used, you can receive 1 Mysterious Friend Summon Bracelet (30-day limited period). Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22256" type="Armor" name="Chic Silver Chapeau">
+		<!-- Description: Chic Silver Chapeau. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_silverchaperon" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22257" type="Armor" name="Fancy Flower Hat">
+		<!-- Description: Fancy Flower Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_flowerhat_for_lady" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22258" type="Armor" name="Unicorn Horn Circlet">
+		<!-- Description: Unicorn Horn Circlet. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_horncirclet_of_unicorn" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22259" type="Armor" name="Forest Forget-me-not Hat">
+		<!-- Description: Forest Forget-me-not Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_forgetmenot_cap" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22260" type="Armor" name="White Uniform Hat">
+		<!-- Description: White Uniform Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_navy_cap" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22261" type="Armor" name="Golden Viking Circlet">
+		<!-- Description: Golden Viking Circlet. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_vikingcirclet_gold" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22262" type="Armor" name="Mischievous Bee Hat">
+		<!-- Description: Mischievous Bee Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_bee_cap" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22263" type="Armor" name="Chic Silver Chapeau  - Event">
+		<!-- Description: Chic Silver Chapeau. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_silverchaperon" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22264" type="Armor" name="Fancy Flower Hat - Event">
+		<!-- Description: Fancy Flower Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_flowerhat_for_lady" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22265" type="Armor" name="Unicorn Horn Circlet - Event">
+		<!-- Description: Unicorn Horn Circlet. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_horncirclet_of_unicorn" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22266" type="Armor" name="Forest Forget-me-not Hat - Event">
+		<!-- Description: Forest Forget-me-not Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_forgetmenot_cap" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22267" type="Armor" name="White Uniform Hat - Event">
+		<!-- Description: White Uniform Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_navy_cap" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22268" type="Armor" name="Golden Viking Circlet - Event">
+		<!-- Description: Golden Viking Circlet. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_vikingcirclet_gold" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22269" type="Armor" name="Mischievous Bee Hat - Event">
+		<!-- Description: Mischievous Bee Hat. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon2.pi_bee_cap" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22270" type="EtcItem" name="Pathfinder Supplies (Level 42)">
+		<!-- Description: Faded box of supplies. Double-click for a chance to receive an item. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22271" type="EtcItem" name="Pathfinder Supplies (Level 43)">
+		<!-- Description: Faded box of supplies. Double-click for a chance to receive an item. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22272" type="EtcItem" name="Pathfinder Supplies (Level 44)">
+		<!-- Description: Faded box of supplies. Double-click for a chance to receive an item. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22273" type="EtcItem" name="Infected Kanabion Tissue Research Paper">
+		<!-- Description: Research report about the infected kanabion. Deliver it to the Pathfinder in Rune Castle. -->
+		<set name="icon" val="icon.etc_scroll_gray_i00" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22274" type="EtcItem" name="PC Transformation Scroll Box - Event">
+		<!-- Description: Gift that can be received after accumulating two hours worth of PC Points. The box contains 1 random Transformation Scroll. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22275" type="EtcItem" name="PC Gift Box - Event">
+		<!-- Description: Gift that can be received after accumulating one hour worth of PC Points. Double click to receive a special gift. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22276" type="EtcItem" name="PC Transformation Stick Box - Event">
+		<!-- Description: Double click to receive a transformation stick. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22277" type="EtcItem" name="PC Hair Accessory Box - Event">
+		<!-- Description: Double click to receive a hair accessory. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22278" type="EtcItem" name="PC Luxury Gift Box - Event">
+		<!-- Description: Double click to receive a special gift. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22279" type="EtcItem" name="PC Vitality - 1 hour - Event">
+		<!-- Description: Upon use, for 1 hour(s), energy is replenished when Exp. is acquired through hunting. Re-use time is 60 minutes. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pccafe_point_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22280" type="EtcItem" name="PC Blessing - 1 hour - Event">
+		<!-- Description: When used, HP Recovery Bonus, Max MP, and Critical Rate +20%, and you can feel the effects of Prophecy of Water, Might, Haste, Empower, Acumen, Wind Walk, Vampiric Rage, Berserker Spirit, Shield, Focus, Death Whisper, Guidance, Clarity, Wild Magic, and Concentration for 1 hour. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_xmas_miracle_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22281" type="Weapon" name="Sujin Transformation Stick - 7-day limited period (event)">
+		<!-- Description: Stick that transforms you into the Blessed Child Sujin. The transformation ends when you de-equip the item. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. Special skill re-use delay is 4 hour(s). -->
+		<set name="icon" val="BranchSys2.icon.br_blessed_taigirl_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="22282" type="EtcItem" name="Sujin Transformation Stick 7-Day Pack - Event">
+		<!-- Description: It contains a stick that transforms you into the Blessed Child Sujin. -->
+		<set name="icon" val="BranchSys2.icon.br_blessed_taiboy_i00" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22283" type="Weapon" name="Trejuo Transformation Stick - 7-day limited period (event)">
+		<!-- Description: Stick that transforms you into the Blessed Child Trejuo. The transformation ends when you de-equip the item. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. Special skill re-use delay is 4 hour(s). -->
+		<set name="icon" val="BranchSys2.icon.br_blessed_taiboy_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="22284" type="EtcItem" name="Trejuo Transformation Stick 7-Day Pack - Event">
+		<!-- Description: It contains a stick that transforms you into the Blessed Child Trejuo. -->
+		<set name="icon" val="BranchSys2.icon.br_blessed_taiboy_i00" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22285" type="Armor" name="Eva's Circlet - Event">
+		<!-- Description: Circlet containing the mysterious power of Eva. Uses 2 accessory slots. Cannot be exchanged, dropped, or sold. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_circlet_of_eva_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="22286" type="EtcItem" name="Jewelry Box - Talisman">
+		<!-- Description: Jewelry box that may contain precious treasure. When used, there is a chance you can obtain a Talisman. -->
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="material" val="crystal" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22287" type="Armor" name="Agathion Seal Bracelet - Juju - 33-day limited period (event)">
+		<!-- Description: A bracelet that can summon a Juju Agathion. Requires room in the inventory and the weight limit to receive a gift from the Juju Agathion. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.high_agathion_bracelet_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="time" val="47520" />
+	</item>
+	<item id="22288" type="EtcItem" name="Juju Agathion Pack - Event">
+		<!-- Description: Double click to receive a Juju Agathion. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22289" type="EtcItem" name="Juju Agathion's Gift - Event">
+		<!-- Description: Juju Agathion's gift. Double click to receive one random item. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i03" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22290" type="EtcItem" name="Recipe: Happy Cake - Event">
+		<!-- Description: The recipe for a Happy Cake. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_recipe_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22291" type="EtcItem" name="Happy Cake - Event">
+		<!-- Description: A sweet but yet incomplete Happy Cake. With a little more care, you might be able to make a Decoratioin Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_1_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22292" type="EtcItem" name="Decoratioin Happy Cake - Event">
+		<!-- Description: A sweet but yet incomplete Happy Cake. With a little more care, you might be able to make a Gorgeous Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_2_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22293" type="EtcItem" name="Gorgeous Happy Cake - Event">
+		<!-- Description: A sweet but yet incomplete Happy Cake. With a little more care, you might be able to make a Perfect Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_3_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22294" type="EtcItem" name="Perfect Happy Cake - Event">
+		<!-- Description: A complete Happy Cake. Take this along with Premium Cake Decorations to the Valentine Messenger Queen of Hearts to receive a Miracle Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_4_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22295" type="EtcItem" name="Miracle Happy Cake - 30-day limited period (event)">
+		<!-- Description: Valentine cake containing fresh energy that is received from the Valentine Messenger Queen of Hearts. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cake_5_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="22296" type="EtcItem" name="Cake Ingredient: Dark Chocolate - Event">
+		<!-- Description: Ingredient for making a Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_darkchoco_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22297" type="EtcItem" name="Cake Ingredient: White Chocolate - Event">
+		<!-- Description: Ingredient for making a Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_whitechoco_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22298" type="EtcItem" name="Cake Ingredient: Creme Fraiche - Event">
+		<!-- Description: Ingredient for making a Happy Cake. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cream_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22299" type="EtcItem" name="Miracle Happy Cake - Decoration Pack - Event">
+		<!-- Description: Wrapped pack containing Miracle Happy Cake - Decoration Pack. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

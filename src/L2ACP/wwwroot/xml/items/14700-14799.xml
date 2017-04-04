@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="14700" type="EtcItem" name="Greater Healing Potion">
+		<set name="icon" val="icon.etc_reagent_white_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2863-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="14701" type="EtcItem" name="Greater Quick Healing Potion">
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="180" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2864-1" />
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="14702" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Weapon (D-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i00" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2515-1" />
+	</item>
+	<item id="14703" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Weapon (C-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i01" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2516-1" />
+	</item>
+	<item id="14704" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Weapon (B-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i02" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2517-1" />
+	</item>
+	<item id="14705" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Weapon (A-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i03" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2518-1" />
+	</item>
+	<item id="14706" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Weapon (S-Grade)">
+		<set name="icon" val="icon.ench_wp_stone_i04" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_wp" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2519-1" />
+	</item>
+	<item id="14707" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Armor (D-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i00" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2520-1" />
+	</item>
+	<item id="14708" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Armor (C-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i01" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2521-1" />
+	</item>
+	<item id="14709" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Armor (B-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i02" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2522-1" />
+	</item>
+	<item id="14710" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Armor (A-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i03" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2523-1" />
+	</item>
+	<item id="14711" type="EtcItem" name="Agathion Auxiliary Stone: Enchant Armor (S-Grade)">
+		<set name="icon" val="icon.ench_am_stone_i04" />
+		<set name="etcitem_type" val="scrl_inc_enchant_prop_am" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2524-1" />
+	</item>
+	<item id="14712" type="Armor" name="Cow Hair Accessory">
+		<set name="icon" val="icon.Accessory2_cow_of_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="14713" type="EtcItem" name="Greater Elixir Gift Box (No-Grade)">
+		<set name="icon" val="icon.etc_treasure_box_i02" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14682,3,3,100;14688,3,3,100;14694,3,3,100" />
+	</item>
+	<item id="14714" type="EtcItem" name="Greater Elixir Gift Box (D-Grade)">
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14683,3,3,100;14689,3,3,100;14695,3,3,100" />
+	</item>
+	<item id="14715" type="EtcItem" name="Greater Elixir Gift Box (C-Grade)">
+		<set name="icon" val="icon.etc_treasure_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14684,3,3,100;14690,3,3,100;14696,3,3,100" />
+	</item>
+	<item id="14716" type="EtcItem" name="Greater Elixir Gift Box (B-Grade)">
+		<set name="icon" val="icon.etc_treasure_box_i03" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14685,2,2,100;14691,2,2,100;14697,2,2,100" />
+	</item>
+	<item id="14717" type="EtcItem" name="Greater Elixir Gift Box (A-Grade)">
+		<set name="icon" val="icon.etc_treasure_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14686,2,2,100;14692,2,2,100;14698,2,2,100" />
+	</item>
+	<item id="14718" type="EtcItem" name="Greater Elixir Gift Box (S-Grade)">
+		<set name="icon" val="icon.etc_treasure_box_i05" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14687,2,2,100;14693,2,2,100;14699,2,2,100" />
+	</item>
+	<item id="14719" type="EtcItem" name="Full Vitality Event Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_premium" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14675,1,1,100" />
+	</item>
+	<item id="14720" type="EtcItem" name="Event - Apiga">
+		<set name="icon" val="icon.etc_pig_adena_i01" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14721" type="EtcItem" name="Event - Golden Apiga">
+		<set name="icon" val="icon.etc_pig_adena_i00" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14722" type="EtcItem" name="Event - Cupid's Fatigue Recovery Potion">
+		<set name="icon" val="icon.etc_faitgue_relief_of_cupid_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="13" />
+		<set name="reuse_delay" val="2000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2867-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="14723" type="EtcItem" name="Event - Cupid's Powerful Fatigue Recovery Potion">
+		<set name="icon" val="icon.etc_nutrients_of_cupid_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="14" />
+		<set name="reuse_delay" val="5000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2868-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="14724" type="EtcItem" name="Event - Milk Cow Summon Scroll">
+		<set name="icon" val="icon.etc_scroll_of_milkcattle_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2869-1" />
+	</item>
+	<item id="14725" type="EtcItem" name="Event - Head Milk Cow Summon Scroll">
+		<set name="icon" val="icon.etc_scroll_of_milkcattle_b_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2870-1" />
+	</item>
+	<item id="14726" type="EtcItem" name="Event - Gloomy Milk Cow Summon Scroll">
+		<set name="icon" val="icon.etc_scroll_of_milkcattle_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2880-1" />
+	</item>
+	<item id="14727" type="EtcItem" name="Event - Gloomy Head Milk Cow Summon Scroll">
+		<set name="icon" val="icon.etc_scroll_of_milkcattle_b_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2881-1" />
+	</item>
+	<item id="14728" type="EtcItem" name="Event - Orr Cube - 30-day limited period">
+		<set name="icon" val="icon.etc_ore_cube_event_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="elixir" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2510-1" />
+		<set name="time" val="43200" />
+	</item>
+	<item id="14729" type="EtcItem" name="Event - Crystal Cube">
+		<set name="icon" val="icon.etc_crystal_cube_event_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="100" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2882-1" />
+	</item>
+	<item id="14730" type="EtcItem" name="Event - Gold Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_golden_ore_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14731" type="EtcItem" name="Event - Silver Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_silver_ore_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14732" type="EtcItem" name="Event - Bronze Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_cupreous_ore_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14733" type="EtcItem" name="Event - Black Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_earthen_ore_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14734" type="EtcItem" name="Event - Clear Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_clear_crystal_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14735" type="EtcItem" name="Event - Purple Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_violet_crystal_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14736" type="EtcItem" name="Event - Pink Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_pink_crystal_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14737" type="EtcItem" name="Event - Dark Brown Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_dkbrown_crystal_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14738" type="EtcItem" name="Event - Black Crystal Cube Fragment">
+		<set name="icon" val="icon.etc_black_crystal_cube_pc_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14739" type="EtcItem" name="Event - Fresh Milk">
+		<set name="icon" val="icon.etc_fresh_milk_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="is_freightable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2873-1;2874-1;2875-1;2876-1;2877-1;2878-1;2879-1;2885-1;2886-1;2887-1;2888-1;2889-1;2890-1;2891-6" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="14740" type="EtcItem" name="Event - Save the Cow Event Pack">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14722,60,60,100;14723,15,15,100;14724,1,1,100;14725,1,1,100" />
+	</item>
+	<item id="14741" type="EtcItem" name="Event - Vitality Replenishing Herb Tea 5 minutes">
+		<set name="icon" val="icon.etc_hot_spring_sulfur_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14742" type="EtcItem" name="Event - Vitality Replenishing Herb Tea 10 minutes">
+		<set name="icon" val="icon.etc_hot_spring_nectar_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2883-1" />
+	</item>
+	<item id="14743" type="EtcItem" name="Event - Vitality Replenishing Herb Tea 20 minutes">
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2884-1" />
+	</item>
+	<item id="14744" type="EtcItem" name="Event - Vitality Replenishing Herb Tea 30 minutes">
+		<set name="icon" val="icon.etc_hot_spring_sulfur_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9166-1" />
+	</item>
+	<item id="14745" type="EtcItem" name="Event - Vitality Replenishing Herb Tea 60 minutes">
+		<set name="icon" val="icon.etc_hot_spring_sulfur_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="14746" type="Armor" name="For Events - Refined Chick Hat">
+		<set name="icon" val="icon.accessory_chicken_cap2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="14747" type="Armor" name="For Events - Refined Black Feather Mask">
+		<set name="icon" val="icon.accessory_black_feather_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="14748" type="Armor" name="For Events - Refined Carnival Circlet">
+		<set name="icon" val="icon.accessory_carnival_circlet2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="14749" type="Armor" name="Afro Perm Wig">
+		<set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14750" type="Armor" name="Bamboo Hat">
+		<set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14751" type="Armor" name="Smart Glasses">
+		<set name="icon" val="icon.accessory_pig_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="2000000" />
+	</item>
+	<item id="14752" type="Armor" name="For Events - Refined Medieval Style Party Mask">
+		<set name="icon" val="icon.accessory_middle_age_party_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="14753" type="Armor" name="Shadow Item - Refined Chick Hat - Blessed Escape">
+		<set name="icon" val="icon.accessory_chicken_cap2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3264-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="30" />
+	</item>
+	<item id="14754" type="Armor" name="Shadow Item - Refined Chick Hat - Big Head">
+		<set name="icon" val="icon.accessory_chicken_cap2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3265-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="10" />
+	</item>
+	<item id="14755" type="Armor" name="Shadow Item - Refined Chick Hat - Firework">
+		<set name="icon" val="icon.accessory_chicken_cap2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3266-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="14756" type="Armor" name="Shadow Item - Refined Black Feather Mask - Blessed Escape">
+		<set name="icon" val="icon.accessory_black_feather_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3264-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="30" />
+	</item>
+	<item id="14757" type="Armor" name="Shadow Item - Refined Black Feather Mask - Big Head">
+		<set name="icon" val="icon.accessory_black_feather_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3265-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="10" />
+	</item>
+	<item id="14758" type="Armor" name="Shadow Item - Refined Black Feather Mask - Firework">
+		<set name="icon" val="icon.accessory_black_feather_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3266-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="14759" type="Armor" name="Shadow Item - Refined Carnival Circlet - Blessed Escape">
+		<set name="icon" val="icon.accessory_carnival_circlet2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3264-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="30" />
+	</item>
+	<item id="14760" type="Armor" name="Shadow Item - Refined Carnival Circlet - Big Head">
+		<set name="icon" val="icon.accessory_carnival_circlet2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3265-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="10" />
+	</item>
+	<item id="14761" type="Armor" name="Shadow Item - Refined Carnival Circlet - Firework">
+		<set name="icon" val="icon.accessory_carnival_circlet2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3266-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="14762" type="Armor" name="Shadow Item - Refined Medieval Style Party Mask - Blessed Escape">
+		<set name="icon" val="icon.accessory_middle_age_party_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3264-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="30" />
+	</item>
+	<item id="14763" type="Armor" name="Shadow Item - Refined Medieval Style Party Mask - Big Head">
+		<set name="icon" val="icon.accessory_middle_age_party_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3265-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="10" />
+	</item>
+	<item id="14764" type="Armor" name="Shadow Item - Refined Medieval Style Party Mask - Firework">
+		<set name="icon" val="icon.accessory_middle_age_party_mask2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="3266-1" />
+		<set name="duration" val="360" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="14765" type="EtcItem" name="For Events - Extra Entrance Pass - Rim Kamaloka">
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2892-1" />
+		<set name="time" val="1440" />
+	</item>
+	<item id="14766" type="EtcItem" name="Special White Day Candy Basket">
+		<set name="icon" val="icon.etc_candy_basket_i01" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2895-1" />
+	</item>
+	<item id="14767" type="EtcItem" name="White Day Candy Basket">
+		<set name="icon" val="icon.etc_candy_basket_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2896-1" />
+	</item>
+	<item id="14768" type="EtcItem" name="White Day Solo Package">
+		<set name="icon" val="icon.etc_treasure_box_i08" />
+		<set name="default_action" val="peel" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14770,1,1,100;14774,1,1,80" />
+	</item>
+	<item id="14769" type="EtcItem" name="White Day Candy">
+		<set name="icon" val="icon.etc_whiteday_candy_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2894-1" />
+	</item>
+	<item id="14770" type="EtcItem" name="Solo Escape Petition">
+		<set name="icon" val="icon.etc_candle_yellow_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2893-1" />
+	</item>
+	<item id="14771" type="Armor" name="Kat the Cat Hat - 14-day limited period">
+		<set name="icon" val="icon.accessory_cat_the_cat_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="20160" />
+	</item>
+	<item id="14772" type="Armor" name="Coronet">
+		<set name="icon" val="icon.accessory_flower_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="14773" type="Armor" name="Suit - 14-day limited period">
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="magic" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="cloth" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="time" val="20160" />
+		<for>
+			<add order="0x40" stat="maxMp" val="15" />
+		</for>
+	</item>
+	<item id="14774" type="Weapon" name="Wild Rose Pig Candy - 14-day limited period">
+		<set name="icon" val="icon.etc_pig_candy_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="item_skill" val="8325-1;8326-1" />
+		<set name="time" val="20160" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="14775" type="Armor" name="Agathion Seal Bracelet - Love - 14-day limited period">
+		<set name="icon" val="icon.etc_rbracelet_aga_agit_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="5763-1;8245-1;3267-1" />
+		<set name="time" val="20160" />
+	</item>
+	<item id="14776" type="Armor" name="Agathion Seal Bracelet - Juju - 14-day limited period">
+		<set name="icon" val="icon.high_agathion_bracelet_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="silver" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="6136-1;8327-1;3267-1;6137-1;6138-1" />
+		<set name="time" val="20160" />
+	</item>
+	<item id="14777" type="EtcItem" name="Baguette's Herb">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2897-1" />
+	</item>
+	<item id="14778" type="EtcItem" name="Fresh Cream Herb">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2898-1" />
+	</item>
+	<item id="14779" type="EtcItem" name="Cheesecake Herb">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2899-1" />
+	</item>
+	<item id="14780" type="Weapon" name="Baguette's Bread Sword">
+		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="damascus" />
+		<set name="weight" val="1350" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+		</for>
+	</item>
+	<item id="14781" type="Weapon" name="Baguette's Dagger">
+		<set name="icon" val="icon.weapon_dagger_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dagger" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1130" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+		</for>
+	</item>
+	<item id="14782" type="Weapon" name="Baguette's Two-handed Sword">
+		<set name="icon" val="icon.weapon_two_handed_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="2" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="2250" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+		</for>
+	</item>
+	<item id="14783" type="Weapon" name="Baguette's Mace">
+		<set name="icon" val="icon.weapon_iron_hammer_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="3" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1640" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+		</for>
+	</item>
+	<item id="14784" type="Weapon" name="Baguette's Two-handed Hammer">
+		<set name="icon" val="icon.weapon_barakiel_axe_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="4" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="2080" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+		</for>
+	</item>
+	<item id="14785" type="Weapon" name="Baguette's Spear">
+		<set name="icon" val="icon.weapon_short_spear_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="5" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bronze" />
+		<set name="weight" val="2120" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+		</for>
+	</item>
+	<item id="14786" type="Weapon" name="Baguette's Bow">
+		<set name="icon" val="icon.weapon_short_bow_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="6" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="1790" />
+		<set name="soulshots" val="8" />
+		<set name="spiritshots" val="2" />
+		<set name="mp_consume" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+		</for>
+	</item>
+	<item id="14787" type="Weapon" name="Baguette's Fist">
+		<set name="icon" val="icon.weapon_foxs_nail_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualfist" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="7" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+		</for>
+	</item>
+	<item id="14788" type="Weapon" name="Baguette's Magic Sword">
+		<set name="icon" val="icon.weapon_samurai_longsword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="8" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="mithril" />
+		<set name="weight" val="830" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+		</for>
+	</item>
+	<item id="14789" type="Weapon" name="Baguette's Staff">
+		<set name="icon" val="icon.weapon_apprentices_wand_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="blunt" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="9" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="990" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+		</for>
+	</item>
+	<item id="14790" type="Weapon" name="Baguette's Two-handed Staff">
+		<set name="icon" val="icon.weapon_willow_staff_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="10" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="340" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="duration" val="600" />
+		<for>
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+		</for>
+	</item>
+	<item id="14791" type="Armor" name="Baguette's Shield">
+		<set name="icon" val="icon.shield_leather_shield_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="attack_range" val="11" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="bone" />
+		<set name="weight" val="460" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="duration" val="600" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="90" />
+		</for>
+	</item>
+	<item id="14792" type="Weapon" name="Baguette's Rapier">
+		<set name="icon" val="icon.weapon_rapier_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="rapier" />
+		<set name="bodypart" val="rhand" />
+		<set name="attack_range" val="12" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="2" />
+		<set name="spiritshots" val="2" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+		</for>
+	</item>
+	<item id="14793" type="Weapon" name="Baguette's Ancient Sword">
+		<set name="icon" val="icon.weapon_tulwar_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="ancientsword" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="13" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1800" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="2" />
+		</for>
+	</item>
+	<item id="14794" type="Weapon" name="Baguette's Crossbow">
+		<set name="icon" val="icon.weapon_hunting_gun_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="crossbow" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="14" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1580" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Kamael" />
+		</cond>
+		<for>
+			<set order="0x08" stat="rCrit" val="10" />
+			<add order="0x10" stat="accCombat" val="-1.5" />
+		</for>
+	</item>
+	<item id="14795" type="Weapon" name="Baguette's Dualsword">
+		<set name="icon" val="icon.weapon_dual_sword_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dual" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="15" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="1520" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<for>
+			<set order="0x08" stat="rCrit" val="8" />
+		</for>
+	</item>
+	<item id="14796" type="Armor" name="Baguette's Sigil">
+		<set name="icon" val="icon.dynasty_sigil_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="sigil" />
+		<set name="bodypart" val="lhand" />
+		<set name="attack_range" val="16" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="930" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player races="Human,Elf,DarkElf,Orc,Dwarf" />
+		</cond>
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+		</for>
+	</item>
+	<item id="14797" type="Weapon" name="Baguette's Two-handed Dagger">
+		<set name="icon" val="icon.dual_dagger_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="dualdagger" />
+		<set name="bodypart" val="lrhand" />
+		<set name="attack_range" val="17" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="2150" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<and>
+				<player level="81" />
+				<player class_id_restriction="93, 101, 108, 117" /> <!-- Dagger Masters -->
+				<player subclass="false" /> <!-- TEMP FIX only for customs subclass 80+ -->
+			</and>
+		</cond>
+		<for>
+			<set order="0x08" stat="rCrit" val="12" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+		</for>
+	</item>
+	<item id="14798" type="Armor" name="Afro Perm Wig - Black">
+		<set name="icon" val="icon.accessory_captain_cap_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="14799" type="Armor" name="Afro Perm Wig - Gold">
+		<set name="icon" val="icon.accessory_captain_cap_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="for_npc" val="true" />
+	</item>
+</list>

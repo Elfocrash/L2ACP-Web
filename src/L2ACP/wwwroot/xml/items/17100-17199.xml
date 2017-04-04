@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="17100" type="EtcItem" name="Nevit's Hourglass - 1 hour - 20~39">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9120-1" />
+		<cond msgId="1902">
+			<player levelRange="20;39" />
+		</cond>
+	</item>
+	<item id="17101" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 20~39">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9121-1" />
+		<cond msgId="1902">
+			<player levelRange="20;39" />
+		</cond>
+	</item>
+	<item id="17102" type="EtcItem" name="Nevit's Hourglass - 2 hour - 20~39">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9122-1" />
+		<cond msgId="1902">
+			<player levelRange="20;39" />
+		</cond>
+	</item>
+	<item id="17103" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 20~39">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9123-1" />
+		<cond msgId="1902">
+			<player levelRange="20;39" />
+		</cond>
+	</item>
+	<item id="17104" type="EtcItem" name="Nevit's Hourglass - 3 hour - 20~39">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9124-1" />
+		<cond msgId="1902">
+			<player levelRange="20;39" />
+		</cond>
+	</item>
+	<item id="17105" type="EtcItem" name="Nevit's Hourglass - 1 hour - 40~51">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9125-1" />
+		<cond msgId="1902">
+			<player levelRange="40;51" />
+		</cond>
+	</item>
+	<item id="17106" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 40~51">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9126-1" />
+		<cond msgId="1902">
+			<player levelRange="40;51" />
+		</cond>
+	</item>
+	<item id="17107" type="EtcItem" name="Nevit's Hourglass - 2 hour - 40~51">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9127-1" />
+		<cond msgId="1902">
+			<player levelRange="40;51" />
+		</cond>
+	</item>
+	<item id="17108" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 40~51">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9128-1" />
+		<cond msgId="1902">
+			<player levelRange="40;51" />
+		</cond>
+	</item>
+	<item id="17109" type="EtcItem" name="Nevit's Hourglass - 3 hour - 40~51">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9129-1" />
+		<cond msgId="1902">
+			<player levelRange="40;51" />
+		</cond>
+	</item>
+	<item id="17110" type="EtcItem" name="Nevit's Hourglass - 1 hour - 52~60">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9130-1" />
+		<cond msgId="1902">
+			<player levelRange="52;60" />
+		</cond>
+	</item>
+	<item id="17111" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 52~60">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9131-1" />
+		<cond msgId="1902">
+			<player levelRange="52;60" />
+		</cond>
+	</item>
+	<item id="17112" type="EtcItem" name="Nevit's Hourglass - 2 hour - 52~60">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9132-1" />
+		<cond msgId="1902">
+			<player levelRange="52;60" />
+		</cond>
+	</item>
+	<item id="17113" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 52~60">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9133-1" />
+		<cond msgId="1902">
+			<player levelRange="52;60" />
+		</cond>
+	</item>
+	<item id="17114" type="EtcItem" name="Nevit's Hourglass - 3 hour - 52~60">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9134-1" />
+		<cond msgId="1902">
+			<player levelRange="52;60" />
+		</cond>
+	</item>
+	<item id="17115" type="EtcItem" name="Nevit's Hourglass - 1 hour - 61~75">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9135-1" />
+		<cond msgId="1902">
+			<player levelRange="61;75" />
+		</cond>
+	</item>
+	<item id="17116" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 61~75">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9136-1" />
+		<cond msgId="1902">
+			<player levelRange="61;75" />
+		</cond>
+	</item>
+	<item id="17117" type="EtcItem" name="Nevit's Hourglass - 2 hour - 61~75">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9137-1" />
+		<cond msgId="1902">
+			<player levelRange="61;75" />
+		</cond>
+	</item>
+	<item id="17118" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 61~75">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9138-1" />
+		<cond msgId="1902">
+			<player levelRange="61;75" />
+		</cond>
+	</item>
+	<item id="17119" type="EtcItem" name="Nevit's Hourglass - 3 hour - 61~75">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9139-1" />
+		<cond msgId="1902">
+			<player levelRange="61;75" />
+		</cond>
+	</item>
+	<item id="17120" type="EtcItem" name="Nevit's Hourglass - 1 hour - 76~79">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9140-1" />
+		<cond msgId="1902">
+			<player levelRange="76;79" />
+		</cond>
+	</item>
+	<item id="17121" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 76~79">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9141-1" />
+		<cond msgId="1902">
+			<player levelRange="76;79" />
+		</cond>
+	</item>
+	<item id="17122" type="EtcItem" name="Nevit's Hourglass - 2 hour - 76~79">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9142-1" />
+		<cond msgId="1902">
+			<player levelRange="76;79" />
+		</cond>
+	</item>
+	<item id="17123" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 76~79">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9143-1" />
+		<cond msgId="1902">
+			<player levelRange="76;79" />
+		</cond>
+	</item>
+	<item id="17124" type="EtcItem" name="Nevit's Hourglass - 3 hour - 76~79">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9144-1" />
+		<cond msgId="1902">
+			<player levelRange="76;79" />
+		</cond>
+	</item>
+	<item id="17125" type="EtcItem" name="Nevit's Hourglass - 1 hour - 80~85">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9145-1" />
+		<cond msgId="1902">
+			<player levelRange="80;85" />
+		</cond>
+	</item>
+	<item id="17126" type="EtcItem" name="Nevit's Hourglass - 1.5 hour - 80~85">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9146-1" />
+		<cond msgId="1902">
+			<player levelRange="80;85" />
+		</cond>
+	</item>
+	<item id="17127" type="EtcItem" name="Nevit's Hourglass - 2 hour - 80~85">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9147-1" />
+		<cond msgId="1902">
+			<player levelRange="80;85" />
+		</cond>
+	</item>
+	<item id="17128" type="EtcItem" name="Nevit's Hourglass - 2.5 hour - 80~85">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9148-1" />
+		<cond msgId="1902">
+			<player levelRange="80;85" />
+		</cond>
+	</item>
+	<item id="17129" type="EtcItem" name="Nevit's Hourglass - 3 hour - 80~85">
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="material" val="liquid" />
+		<set name="shared_reuse_group" val="16" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9149-1" />
+		<cond msgId="1902">
+			<player levelRange="80;85" />
+		</cond>
+	</item>
+	<item id="17130" type="EtcItem" name="Freesia Bouquet (Event)">
+		<set name="icon" val="icon.etc_flower_bouquet_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9150-1" />
+	</item>
+	<item id="17131" type="EtcItem" name="Baby Breath Bouquet (Event)">
+		<set name="icon" val="icon.etc_flower_bouquet_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9151-1" />
+	</item>
+	<item id="17132" type="EtcItem" name="Pink Lady (Event)">
+		<set name="icon" val="icon.etc_fruit_cocktail_i02" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9152-1" />
+	</item>
+	<item id="17133" type="EtcItem" name="June Bug (Event)">
+		<set name="icon" val="icon.etc_fruit_cocktail_i03" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9153-1" />
+	</item>
+	<item id="17134" type="EtcItem" name="Soft Cheesecake (Event)">
+		<set name="icon" val="icon.etc_herb_of_cheesecake" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9154-1" />
+	</item>
+	<item id="17135" type="EtcItem" name="Freshly-Baked Baguette (Event)">
+		<set name="icon" val="icon.etc_herb_of_baguette" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9155-1" />
+	</item>
+	<item id="17136" type="EtcItem" name="Sweet Cream Bun (Event)">
+		<set name="icon" val="icon.etc_herb_of_cream" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9156-1" />
+	</item>
+	<item id="17137" type="EtcItem" name="White Day Candy (Event)">
+		<set name="icon" val="icon.etc_whiteday_candy_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9157-1" />
+	</item>
+	<item id="17138" type="EtcItem" name="Freya's Gift">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9158-1" />
+	</item>
+	<item id="17139" type="EtcItem" name="Transformation Scroll: Anakim">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9159-1" />
+	</item>
+	<item id="17140" type="EtcItem" name="Transformation Scroll: Zaken">
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9160-1" />
+	</item>
+	<item id="17141" type="Armor" name="Ribbon Hairband - Promotion">
+		<set name="icon" val="icon.accessory_ev_ribbon_band_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<cond msgId="1518">
+			<player sex="1" />
+		</cond>
+	</item>
+	<item id="17142" type="Armor" name="Refined Wizard Hat - Promotion">
+		<set name="icon" val="icon.accessory_magician_cap2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17143" type="Armor" name="Refined Jester Hat - Promotion">
+		<set name="icon" val="icon.accessory_jester_cap_2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17144" type="Armor" name="Refined Romantic Chapeau - Promotion">
+		<set name="icon" val="icon.accessory_archer_hat2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17145" type="Armor" name="Refined Dapper Cap - Promotion">
+		<set name="icon" val="icon.accessory_dandy_cap2_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17146" type="Armor" name="Refined Angel Ring - Promotion">
+		<set name="icon" val="icon.accessory_angel_ring_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17147" type="Armor" name="Popped-Out Eye - Promotion">
+		<set name="icon" val="icon.accessory_beetle_eye_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17148" type="Armor" name="Bird Nest - Promotion">
+		<set name="icon" val="icon.accessory_nest_hat_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17149" type="Armor" name="Varka Karm (used by Varka Silenos) - Promotion">
+		<set name="icon" val="icon.accessory_barka_karm_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17150" type="Armor" name="Ketra Karm (used by Ketra Orcs) - Promotion">
+		<set name="icon" val="icon.accessory_ketra_karm_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17151" type="Armor" name="Puffy Hat of Friendship - Promotion">
+		<set name="icon" val="icon.accessory_globefish_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17152" type="Armor" name="Arrow-Pierced Apple - Promotion">
+		<set name="icon" val="icon.accessory_arrow_apple_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17153" type="Armor" name="Fish Hat - Promotion">
+		<set name="icon" val="icon.accessory_fish_cap_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17154" type="Armor" name="Purple Viking Circlet - Promotion">
+		<set name="icon" val="icon.accessory_viking_circlet_violet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17155" type="Armor" name="Golden Viking Circlet - Promotion">
+		<set name="icon" val="icon.accessory_viking_circlet_gold_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17156" type="Armor" name="White Sheep Hat - Promotion">
+		<set name="icon" val="icon.accessory_sheep_cap_white_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17157" type="Armor" name="Black Sheep Hat - Promotion">
+		<set name="icon" val="icon.accessory_sheep_cap_black_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+	</item>
+	<item id="17158" type="EtcItem" name="Vesper's Mighty Power">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9161-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="17159" type="EtcItem" name="Vesper's Critical Damage">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9162-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="17160" type="EtcItem" name="Invincible Vesper">
+		<set name="immediate_effect" val="1" />
+		<set name="ex_immediate_effect" val="true" />
+		<set name="material" val="paper" />
+		<set name="is_depositable" val="false" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9163-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="17161" type="EtcItem" name="Special Gift of April Fool's Day (Event)">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="fish" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9164-1" />
+	</item>
+	<item id="17162" type="EtcItem" name="Golem Shard Piece">
+		<set name="icon" val="icon.etc_coal_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+		<set name="is_oly_restricted" val="true" />
+	</item>
+	<item id="17163" type="EtcItem" name="Event - Leaf of Appreciation">
+		<set name="icon" val="icon.etc_leaf_green_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="potion" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="reuse_delay" val="3000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="9165-1" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="17164" type="EtcItem" name="Event - Pack of Energy of Sprout">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="17163,3,3,100" />
+	</item>
+	<item id="17165" type="EtcItem" name="Event - Vitality Replenishing Herb Tea 30 minutes">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14744,5,5,100" />
+	</item>
+	<item id="17166" type="EtcItem" name="Pack of 10 Noble Enhancement Stones">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="14052,10,10,100" />
+	</item>
+	<item id="17167" type="EtcItem" name="Scroll: Enchant Weapon (S-Grade) Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="959,1,1,100" />
+	</item>
+	<item id="17168" type="EtcItem" name="Lesser Giant's Codex - Mastery Pack">
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="9627,1,1,100" />
+	</item>
+	<item id="17169" type="EtcItem" name="Olympiad Treasure Chest">
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="default_action" val="peel" />
+		<set name="material" val="fish" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items" val="6622,1,1,100" />
+	</item>
+	<item id="17170" type="Armor" name="Soccer Ball Afro Hair - White">
+		<!-- Description: Afro hair that has been dyed like a white soccer ball. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_hair_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="17171" type="Armor" name="Soccer Ball Afro Hair - Blue">
+		<!-- Description: Afro hair that has been dyed like a blue soccer ball. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_hair_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="17172" type="Armor" name="Soccer Ball Afro Hair - Red">
+		<!-- Description: Afro hair that has been dyed like a red soccer ball. When equipped, you can receive the blessing of victory effect that raises Speed by 2%. Uses 2 hair accessory slots. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_hair_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="17173" type="Armor" name="Mark of Victory - Korea">
+		<!-- Description: Mark that wishes for victory by the Korean team. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_face_deco_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="17174" type="Armor" name="Mark of Cheers">
+		<!-- Description: Mark containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_face_deco_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="material" val="wood" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="17175" type="Weapon" name="Balloon Stick of Cheers - Red">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17176" type="Weapon" name="Balloon Stick of Cheers - Orange">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17177" type="Weapon" name="Balloon Stick of Cheers - Yellow">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i02" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17178" type="Weapon" name="Balloon Stick of Cheers - Green">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i03" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17179" type="Weapon" name="Balloon Stick of Cheers - Blue">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i04" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17180" type="Weapon" name="Balloon Stick of Cheers - Indigo Blue">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i05" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17181" type="Weapon" name="Balloon Stick of Cheers - Purple">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i06" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17182" type="Weapon" name="Balloon Stick of Cheers - Black">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i07" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17183" type="Weapon" name="Balloon Stick of Cheers - White">
+		<!-- Description: Balloon stick containing a cheering heart. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_worldcup_stick_i08" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="1" />
+		<set name="material" val="blood_steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+		</for>
+	</item>
+	<item id="17184" type="EtcItem" name="500,000 SP scroll">
+		<!-- Description: Scroll that replenishes 500,000 SP. -->
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17185" type="EtcItem" name="1,000,000 SP scroll">
+		<!-- Description: Scroll that replenishes 1,000,000 SP. -->
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17186" type="Armor" name="National Representative Warrior's Ring - 3-day limited period">
+		<!-- Description: National Representative Warrior's Ring. Limited time item available for 3 days. MP+ 21; Resistance to Hold +30%; a chance of Hold attack +30%; increases Accuracy and Critical Damage. Only one effect is applied even when two identical rings are worn. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="17187" type="Armor" name="National Representative Warrior's Necklace - 3-day limited period">
+		<!-- Description: National Representative Warrior's Necklace. Limited time item available for 3 days. MP+ 42, Sleep/Paralysis/Shock Resistance increase by 15%. Sleep/Paralysis/Shock attack rate increase by 15%. Decreased skill reuse delay and damage shield effects. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="17188" type="Armor" name="National Representative Warrior's Earring - 3-day limited period">
+		<!-- Description: National Representative Warrior's Earring. Limited-time item that can be worn for 3 days. It has effects of MP +31, shock/mind attack resistance +20%, Shock/Mental attack rate +20% and Vampiric Rage. When equipped with two identical earrings, the effect of only one earring will be applied. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="17189" type="Armor" name="National Representative Warrior's Ring - 7-day limited period">
+		<!-- Description: National Representative Warrior's Ring. Limited time item available for 7 days. MP+ 21; Resistance to Hold +30%; a chance of Hold attack +30%; increases Accuracy and Critical Damage. Only one effect is applied even when two identical rings are worn. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="17190" type="Armor" name="National Representative Warrior's Necklace - 7-day limited period">
+		<!-- Description: National Representative Warrior's Necklace. Limited time item available for 7 days. MP+ 42, Sleep/Paralysis/Shock Resistance increase by 15%. Sleep/Paralysis/Shock attack rate increase by 15%. Decreased skill reuse delay and damage shield effects. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="17191" type="Armor" name="National Representative Warrior's Earring - 7-day limited period">
+		<!-- Description: National Representative Warrior's Earring. Limited-time item that can be worn for 7 days. It has effects of MP +31, shock/mind attack resistance +20%, Shock/Mental attack rate +20% and Vampiric Rage. When equipped with two identical earrings, the effect of only one earring will be applied. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="17192" type="Armor" name="National Representative Warrior's Ring - 10-day limited period">
+		<!-- Description: National Representative Warrior's Ring. Limited time item available for 10 days. MP+ 21; Resistance to Hold +30%; a chance of Hold attack +30%; increases Accuracy and Critical Damage. Only one effect is applied even when two identical rings are worn. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="14400" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="17193" type="Armor" name="National Representative Warrior's Necklace - 10-day limited period">
+		<!-- Description: National Representative Warrior's Necklace. Limited time item available for 10 days. MP+ 42, Sleep/Paralysis/Shock Resistance increase by 15%. Sleep/Paralysis/Shock attack rate increase by 15%. Decreased skill reuse delay and damage shield effects. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="14400" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="17194" type="Armor" name="National Representative Warrior's Earring - 10-day limited period">
+		<!-- Description: National Representative Warrior's Earring. Limited-time item that can be worn for 10 days. It has effects of MP +31, shock/mind attack resistance +20%, Shock/Mental attack rate +20% and Vampiric Rage. When equipped with two identical earrings, the effect of only one earring will be applied. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="14400" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="17195" type="Armor" name="National Representative Warrior's Ring - 30-day limited period">
+		<!-- Description: National Representative Warrior's Ring. Limited time item available for 30 days. MP+ 21; Resistance to Hold +30%; a chance of Hold attack +30%; increases Accuracy and Critical Damage. Only one effect is applied even when two identical rings are worn. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="17196" type="Armor" name="National Representative Warrior's Necklace - 30-day limited period">
+		<!-- Description: National Representative Warrior's Necklace. Limited time item available for 30 days. MP+ 42, Sleep/Paralysis/Shock Resistance increase by 15%. Sleep/Paralysis/Shock attack rate increase by 15%. Decreased skill reuse delay and damage shield effects. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+	<item id="17197" type="Armor" name="National Representative Warrior's Earring - 30-day limited period">
+		<!-- Description: National Representative Warrior's Earring. Limited-time item that can be worn for 30 days. It has effects of MP +31, shock/mind attack resistance +20%, Shock/Mental attack rate +20% and Vampiric Rage. When equipped with two identical earrings, the effect of only one earring will be applied. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="43200" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="17198" type="Armor" name="National Representative Warrior's Ring">
+		<!-- Description: National Representative Warrior's Ring. MP+ 21; Resistance to Hold +30%; a chance of Hold attack +30%; increases Accuracy and Critical Damage. Only one effect is applied even when two identical rings are worn. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_ring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="17199" type="Armor" name="National Representative Warrior's Necklace">
+		<!-- Description: National Representative Warrior's Necklace. MP+ 42, Sleep/Paralysis/Shock Resistance increase by 15%. Sleep/Paralysis/Shock attack rate increase by 15%. Decreased skill reuse delay and damage shield effects. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_necklace_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="neck" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="95" />
+			<add order="0x40" stat="maxMp" val="42" />
+		</for>
+	</item>
+</list>

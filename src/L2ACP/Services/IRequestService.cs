@@ -11,5 +11,7 @@ namespace L2ACP.Services
         Task<L2Response> RegisterUser(string username, string password);
 
         Task<L2Response> GetAllCharNames(string getUsername);
+
+        Task<L2Response> GetInventory(string player);
     }
 }

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="17200" type="Armor" name="National Representative Warrior's Earring">
+		<!-- Description: National Representative Warrior's Earring. It has effects of MP +31, shock/mind attack resistance +20%, Shock/Mental attack rate +20% and Vampiric Rage. Only one effect is applied even when the two identical earrings are worn. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.accessory_earring_of_hero_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<add order="0x10" stat="mDef" val="71" />
+			<add order="0x40" stat="maxMp" val="31" />
+		</for>
+	</item>
+	<item id="17201" type="EtcItem" name="Proof of Cheers">
+		<!-- Description: National Representative Warrior's tenacity. Mark needed to use the Spell of Blessing and Energy of Victory skill. Cannot be exchanged or dropped. -->
+		<set name="icon" val="BranchSys2.icon.br_cheer_symbol_i00" />
+		<set name="material" val="paper" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17202" type="EtcItem" name="Proof of Cheers 10 Pack">
+		<!-- Description: Wrapped pack containing 10 proofs of cheers. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17203" type="Armor" name="Agathion Seal Bracelet - Ball Trapping Gnosian">
+		<!-- Description: Bracelet that summons a ball trapping Gnosian. It wears a red uniform. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_male_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8515-1;23236-1;23237-1" />
+	</item>
+	<item id="17204" type="Armor" name="Agathion Seal Bracelet - Ball Trapping Orodriel">
+		<!-- Description: Bracelet that summons a ball trapping Orodriel. It wears a red uniform. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_female_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8516-1;23236-1;23237-1" />
+	</item>
+	<item id="17205" type="Armor" name="Agathion Seal Bracelet - Penalty Kick">
+		<!-- Description: Bracelet that summons a Gnosian and Orodriel who are practicing penalty kicks. All are wearing red uniforms. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys2.icon.br_aga_kball_kick_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="unequip_skill" val="3267-1" />
+		<set name="item_skill" val="8517-1;23236-1;23237-1" />
+	</item>
+	<item id="17206" type="EtcItem" name="Nevit's Hourglass - 1 hour">
+		<!-- Description: Hourglass that increases Nevit's blessing time by 1 hour. Can be used regardless of level. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17207" type="EtcItem" name="Nevit's Hourglass - 1.5 hour">
+		<!-- Description: Hourglass that increases Nevit's blessing time by 1.5 hour. Can be used regardless of level. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17208" type="EtcItem" name="Nevit's Hourglass - 2 hour">
+		<!-- Description: Hourglass that increases Nevit's blessing time by 2 hour. Can be used regardless of level. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17209" type="EtcItem" name="Nevit's Hourglass - 2.5 hour">
+		<!-- Description: Hourglass that increases Nevit's blessing time by 2.5 hour. Can be used regardless of level. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17210" type="EtcItem" name="Nevit's Hourglass - 3 hour">
+		<!-- Description: Hourglass that increases Nevit's blessing time by 3 hour. Can be used regardless of level. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17211" type="EtcItem" name="Nevit's Hourglass - 4 hour">
+		<!-- Description: Hourglass that increases Nevit's blessing time by 4 hour. Can be used regardless of level. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17212" type="EtcItem" name="Nevit's Voice">
+		<!-- Description: Seashell containing Nevit's voice. Item that raises your evaluation value by 10. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_fish_scale_i01" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17213" type="EtcItem" name="Solina's Biography">
+		<!-- Description: A biography containing the life story of Solina, a saintess of the Elmore-Aden kingdom. This text has been banned throughout the kingdom and is incredibly difficult to find and intact copy. Double click for more information. -->
+		<set name="icon" val="icon.etc_old_evil_book_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17214" type="EtcItem" name="Kaerun's Memoir">
+		<!-- Description: A complete copy of Kaerun's Memoir. It is a detailed look at Solina's life written by Kaerun from his perspective. This book was never circulated but it's original print has been archived inside the monastery. Double click for more information. -->
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17215" type="EtcItem" name="Kaerun's Memoir Part 1">
+		<!-- Description: An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information. -->
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17216" type="EtcItem" name="Kaerun's Memoir Part 2">
+		<!-- Description: An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information. -->
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17217" type="EtcItem" name="Kaerun's Memoir Part 3">
+		<!-- Description: An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information. -->
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17218" type="EtcItem" name="Kaerun's Memoir Part 4">
+		<!-- Description: An incomplete portion of Kaerun's Memoir. This is only part of Solina's life story as written by Kaerun. The book is divided into 4 parts and is kept inside the Monastery of Silence. Double click for more information. -->
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17219" type="EtcItem" name="Eris's Chronicle">
+		<!-- Description: A book chronicling the early life and events of Solina written by Eris, the abbot of the Monastery of Silence. Double click for more information. -->
+		<set name="icon" val="icon.etc_spell_books_red_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17220" type="EtcItem" name="Catalog Card">
+		<!-- Description: Librarian Sophia has given the catalog card containing the location of the book. Double click for more information. -->
+		<set name="icon" val="icon.etc_roll_of_paper_black_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="10" />
+	</item>
+	<item id="17221" type="EtcItem" name="Key to the Passageway">
+		<!-- Description: Key that opens the passageway gate to the Seal of the Saintess entrance. You can enter the passageway with this key. -->
+		<set name="icon" val="icon.etc_old_key_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17222" type="EtcItem" name="Key to the Tomb">
+		<!-- Description: Key that opens the door to the Tomb inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Tomb without this key. -->
+		<set name="icon" val="icon.etc_old_key_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17223" type="EtcItem" name="Key to the Library">
+		<!-- Description: Key that opens the door to the Library inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Library without this key. -->
+		<set name="icon" val="icon.etc_old_key_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17224" type="EtcItem" name="Key to the Warehouse">
+		<!-- Description: Key that opens the door to the Warehouse inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Warehouse without this key. -->
+		<set name="icon" val="icon.etc_old_key_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17225" type="EtcItem" name="Key to the Armory">
+		<!-- Description: Key that opens the door to the Armory inside the Relic Safehouse of the Seal of the Saintess. You cannot enter the Armory without this key. -->
+		<set name="icon" val="icon.etc_old_key_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17226" type="EtcItem" name="Elcadia's Mark">
+		<!-- Description: Rune mark created by magic for Elcadia's test. -->
+		<set name="icon" val="icon.etc_fire_mantra_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17227" type="EtcItem" name="Elcadia's Token">
+		<!-- Description: Rune token created by magic for Elcadia's test. -->
+		<set name="icon" val="icon.etc_fire_rune_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17228" type="EtcItem" name="Scroll of Abstinence">
+		<!-- Description: One of the relics stored inside the Seal of the Saintess. This scroll emanates an unusual energy. The scroll is very old and worn. It must be handled with care. -->
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17229" type="EtcItem" name="Shield of Sacrifice">
+		<!-- Description: One of the relics stored inside the Seal of the Saintess. This shield emanates an unusual energy. But it is very worn and large. It is fragile and cannot be used in battle. -->
+		<set name="icon" val="icon.shield_shrnoens_shield_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17230" type="EtcItem" name="Sword of Holy Spirit">
+		<!-- Description: One of the relics stored inside the Seal of the Saintess. The sword emanates an unusual energy. But it is very worn and large. It is fragile and cannot be used in battle. -->
+		<set name="icon" val="icon.weapon_raid_sword_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17231" type="EtcItem" name="Staff of Blessing">
+		<!-- Description: One of the relics stored inside the Seal of the Saintess. This staff emanates an unusual energy. But it is very worn and heavy. It is fragile cannot be used in battle. -->
+		<set name="icon" val="icon.weapon_mace_of_prayer_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17232" type="EtcItem" name="Ball Trapping Gnosian Agathion Pack">
+		<!-- Description: Wrapped pack containing a Ball Trapping Gnosian Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17233" type="EtcItem" name="Ball Trapping Orodriel Agathion Pack">
+		<!-- Description: Wrapped pack containing a Ball Trapping Orodriel Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17234" type="EtcItem" name="Penalty Kick Agathion Pack">
+		<!-- Description: Wrapped pack containing a Penalty Kick Agathion. Cannot be exchanged or dropped. Cannot use a private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17235" type="EtcItem" name="World Cup Special Gift">
+		<!-- Description: Special gift in commemoration of the World Cup. Can obtain various items by using it. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17236" type="EtcItem" name="Gift of Victory Box">
+		<!-- Description: Gift in commemoration of the World Cup victory. Can obtain Nevit's Hourglass and Voice by using it. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17237" type="EtcItem" name="Luxury Gift of Victory Box">
+		<!-- Description: Gift in commemoration of the World Cup victory. Can obtain Nevit's Hourglass and Voice by using it. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17238" type="EtcItem" name="Olympiad Match 3 Participation Certificate">
+		<!-- Description: Document that proves participation in the Olympiad Match 3. Take this document to the Olympiad Operator to receive the minimum reward. -->
+		<set name="icon" val="icon.mercenary_certification_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17239" type="EtcItem" name="Olympiad Match 5 Participation Certificate">
+		<!-- Description: Document that proves participation in the Olympiad Match 5. Take this document to the Olympiad Operator to receive an incomplete reward. -->
+		<set name="icon" val="icon.mercenary_certification_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17240" type="EtcItem" name="Olympiad Match 10 Participation Certificate">
+		<!-- Description: Document that proves participation in the Olympiad Match 10. Take this document to the Olympiad Operator to receive a whole reward. -->
+		<set name="icon" val="icon.mercenary_certification_i02" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17241" type="EtcItem" name="Olympiad Team Event Certificate">
+		<!-- Description: Certificate that proves participation in the Olympiad team event 5 matches. Take the certificate to the Olympiad Operator. If you take it with the class-free and class battle certificates, you can expect a greater reward. -->
+		<set name="icon" val="icon.scroll_of_verification_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17242" type="EtcItem" name="Olympiad Class-Free Battle Certificate">
+		<!-- Description: Certificate that proves participation in the Olympiad class-free battle 5 matches. Take the certificate to the Olympiad Operator. If you take it with the team event and class battle certificates, you can expect a greater reward. -->
+		<set name="icon" val="icon.scroll_of_verification_i03" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17243" type="EtcItem" name="Olympiad Class Battle Certificate">
+		<!-- Description: Certificate that proves participation in the Olympiad class battle 5 matches. Take the certificate to the Olympiad Operator. If you take it with the team event and class-free battle certificates, you can expect a greater reward. -->
+		<set name="icon" val="icon.scroll_of_verification_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17244" type="EtcItem" name="Olympiad 2 Consecutive Wins Confirmation">
+		<!-- Description: Document needed to confirm 2 consecutive wins in the Olympiad. Take this confirmation to the Olympiad Operator to receive the minimum reward. -->
+		<set name="icon" val="icon.etc_charm_of_courage_i01" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17245" type="EtcItem" name="Olympiad 5 Consecutive Wins Confirmation">
+		<!-- Description: Document needed to confirm 5 consecutive wins in the Olympiad. Take this document to the Olympiad Operator to receive an incomplete reward. -->
+		<set name="icon" val="icon.etc_charm_of_courage_i02" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17246" type="EtcItem" name="Olympiad 10 Consecutive Wins Confirmation">
+		<!-- Description: Document needed to confirm 10 consecutive wins in the Olympiad. Take this document to the Olympiad Operator to receive a whole reward. -->
+		<set name="icon" val="icon.etc_charm_of_courage_i03" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17247" type="EtcItem" name="Party Vitality Herb">
+		<!-- Description: Herb that brings Vitality to stage 4 for 10 minutes upon use. Effect works for all party members. -->
+		<set name="material" val="paper" />
+	</item>
+	<item id="17248" type="EtcItem" name="Large Dragon Bone">
+		<!-- Description: A summoning item, you can call a raid monster at a certain location in the Dragon Valley. But if the raid monster has already been summoned, it cannot be called. -->
+		<set name="icon" val="icon.big_dragon_bone_summon" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17249" type="EtcItem" name="Large Dragon Skull">
+		<!-- Description: Dragon Skull obtained after finishing off the raid monster that lives in the Dragon Valley. After obtaining the dragon skulls from all 7 different raid monsters, bring them to Gilmore. -->
+		<set name="icon" val="icon.etc_fang_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17250" type="EtcItem" name="Large Baby Dragon">
+		<!-- Description: Baby Dragon obtained after finishing off the raid monster that lives in the Dragon Valley. After obtaining the baby dragon, bring it to the separated soul in the Dragon Valley. -->
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17251" type="EtcItem" name="Drake Lord's Essence">
+		<!-- Description: Drake Lord's essence. Bring it to Theodric. -->
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17252" type="EtcItem" name="Behemoth Leader's Essence">
+		<!-- Description: Behemoth Leader's Essence. Bring it to Theodric. -->
+		<set name="icon" val="icon.etc_crystal_green_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17253" type="EtcItem" name="Dragon Beast's Essence">
+		<!-- Description: Dragon Beast's Essence. Bring it to Theodric. -->
+		<set name="icon" val="icon.etc_crystal_gold_i00" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17254" type="EtcItem" name="Box of Theodric">
+		<!-- Description: Old and tattered box. You can hear a rattling sound when you shake it. -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17255" type="EtcItem" name="Blessed Scroll: Enchant Weapon (A-Grade) - Event">
+		<!-- Description: When enchanted, P. Atk. increases by 4 for A-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 5 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 8 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17256" type="EtcItem" name="Blessed Scroll: Enchant Armor (A-Grade) - Event">
+		<!-- Description: When enchanted, P. Def. increases by 1 for A-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17257" type="EtcItem" name="Blessed Scroll: Enchant Weapon (B-Grade) - Event">
+		<!-- Description: When enchanted, P. Atk. increases by 3 for B-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 4 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 6 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17258" type="EtcItem" name="Blessed Scroll: Enchant Armor (B-Grade) - Event">
+		<!-- Description: When enchanted, P. Def. increases by 1 for B-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17259" type="EtcItem" name="Blessed Scroll: Enchant Weapon (C-Grade) - Event">
+		<!-- Description: When enchanted, P. Atk. increases by 3 for C-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 4 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 6 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17260" type="EtcItem" name="Blessed Scroll: Enchant Armor (C-Grade) - Event">
+		<!-- Description: When enchanted, P. Def. increases by 1 for C-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_c_i02" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17261" type="EtcItem" name="Blessed Scroll: Enchant Weapon (D-Grade) - Event">
+		<!-- Description: When enchanted, P. Atk. increases by 2 for all D-grade weapons with the exception of bow, which will increase by 4. M. Atk. increases by 2 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_d_i01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17262" type="EtcItem" name="Blessed Scroll: Enchant Armor (D-Grade) - Event">
+		<!-- Description: When enchanted, P. Def. increases by 1 for D-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_d_i01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17263" type="EtcItem" name="Blessed Scroll: Enchant Weapon (S-Grade) - Event">
+		<!-- Description: When enchanted, P. Atk. increases by 5 for S-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 6 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 10 for bows. M. Atk. increases by 4 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Enchanting is safe up to +3. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17264" type="EtcItem" name="Blessed Scroll: Enchant Armor (S-Grade) - Event">
+		<!-- Description: When enchanted, P. Def. increases by 1 for S-grade armor and accessories. Starting at +4, P. Def. increases by 3 and a HP bonus is granted. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17265" type="EtcItem" name="Certificate of Dawn">
+		<!-- Description: A certificate received from the Witness of Dawn Franz. It says that if you show this certificate to Priest Wood, he will exchange it for an occupation specific Forgotten Scroll that can be learned at level 81. -->
+		<set name="icon" val="icon.etc_charm_of_courage_i05" />
+		<set name="material" val="paper" />
+	</item>
+	<item id="17266" type="EtcItem" name="Will of Antharas">
+		<!-- Description: A command stone made by Antharas embedded in his high commanding minions so he will always have control over them. Used to create Antharas Blood Crystal. Bring it to a Separated Soul. -->
+		<set name="icon" val="icon.etc_unholy_potion_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17267" type="EtcItem" name="Sealed Blood Crystal">
+		<!-- Description: Small crystal particles made from the blood of Antharas. After his blood was spilt, the land absorbed the blood and acted as a filter that separated the poison from the blood creating a pure form of his blood that crystallized over time. Used to create an Atharas's Blood Crystal. Bring it to a Separated Soul. -->
+		<set name="icon" val="icon.etc_powder_red_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17268" type="EtcItem" name="Antharas Blood Crystal">
+		<!-- Description: Using the power held within the blood of Antharas, this crystal can revive and fully restore EXP of all dead characters in the Command Channel. Can only be used while inside the Lair of Antharas. Reuse time is 1 hour. -->
+		<set name="icon" val="icon.etc_fire_crystal_1_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17269" type="Armor" name="Agathion Seal Bracelet - Antharas">
+		<!-- Description: Bracelet that summons a cute Antharas Agathion. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="17270" type="Armor" name="Agathion Seal Bracelet - Nevit's Messenger Kanna">
+		<!-- Description: Bracelet that summons a Nevit's messenger Kanna Agathion. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="17271" type="Armor" name="Agathion Seal Bracelet - Guardian of the Dawn Kallesin">
+		<!-- Description: Bracelet that summons a Guardian of the Dawn Kallesin Agathion. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.pi_high_agathion_bracelet_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lbracelet" />
+		<set name="material" val="silver" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="17272" type="EtcItem" name="Antharas Agathion PAck">
+		<!-- Description: Special gift that commemorates the conquest of Dragon Valley. When used, you can obtain an Antharas Agathion seal bracelet. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17273" type="EtcItem" name="Nevit's Messenger Kanna Agathion Pack">
+		<!-- Description: Special gift that commemorates the completion of the Seven Sign quest. When used, you can obtain a Nevit's Messenger Kanna Agathion seal bracelet. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17274" type="EtcItem" name="Guardian of the Dawn Kallesin Agathion Pack">
+		<!-- Description: Special gift that commemorates the completion of the Seven Sign quest. When used, you can obtain a Guardian of the Dawn Kallesin Agathion seal bracelet. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17275" type="EtcItem" name="Strider Pet Exchange Coupon">
+		<!-- Description: Certificate that shows receipt of a Strider pet. You can exchange the exchange coupon for the Strider pet through the News Informer. Cannot be exchanged, dropped, or put in private store. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_ticket_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="20" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17276" type="EtcItem" name="5,000,000 SP scroll">
+		<!-- Description: Scroll that replenishes 5,000,000 SP. -->
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17277" type="EtcItem" name="100,000,000 SP scroll">
+		<!-- Description: Scroll that replenishes 100,000,000 SP. -->
+		<set name="icon" val="icon.etc_sp_scroll3_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="30" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17278" type="EtcItem" name="Strider Pet Exchange Pack">
+		<!-- Description: Dimensional item pack. Wrapped pack containing a Strider pet exchange coupon. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17279" type="EtcItem" name="Transformation Scroll: Anakim Pack">
+		<!-- Description: Gift box containing 1 Anakim Transformation Scroll. When used, you can obtain a Transformation Scroll: Anakim. Cannot be exchanged, dropped, or destroyed. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17280" type="EtcItem" name="Transformation Sealbook: Anakim Pack">
+		<!-- Description: Gift box containing 1 Anakim Transformation Sealbook. When used, you can obtain a Transformation Sealbook: Anakim. Cannot be exchanged, dropped, or destroyed. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17281" type="EtcItem" name="Delivery Box">
+		<!-- Description: Box that Isabel Silvershadow in Hunters Village asks you to deliver. Bring it to Valley Trader Kitzka in Dragon's Valley. -->
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="material" val="paper" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17282" type="EtcItem" name="2010 Summer Special Pack">
+		<!-- Description: Dimensional Item Pack. Gift box containing Nevit's Hourglass, Freya's Refreshing Breeze, and Ice Watermelon Hat. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17283" type="EtcItem" name="Nevit's Hourglass - 4 hour">
+		<!-- Description: Dimensional item. Hourglass that increases Nevit's blessing time by 4 hour(s). Can be used regardless of the level. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="17284" type="EtcItem" name="Nevit's Hourglass - 4 hour - Event">
+		<!-- Description: Dimensional item. Hourglass that increases Nevit's blessing time by 4 hour(s). Can be used regardless of the level. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_dragons_blood_i03" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="17285" type="EtcItem" name="Freya's Refreshing Breeze">
+		<!-- Description: Dimensional item. When used, you can feel the Vitality recovery herb's effect for 4 hour(s). But there will be no effect when the "Birthday Joy" effect is applied. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17286" type="EtcItem" name="Freya's Refreshing Breeze - Event">
+		<!-- Description: Dimensional item. When used, you can feel the Vitality recovery herb's effect for 4 hour(s). But there will be no effect when the "Birthday Joy" effect is applied. Re-use time is 60 minutes. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_hot_spring_mineral_i00" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="1" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17287" type="EtcItem" name="2010 Summer Special Pack - Event">
+		<!-- Description: Dimensional Item Pack. Gift box containing Nevit's Hourglass, Freya's Refreshing Breeze, and Ice Watermelon Hat. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="17288" type="Armor" name="Ice Watermelon Hat - Event">
+		<!-- Description: Dimensional item. Hat that looks like a watermelon. Just looking at it is refreshing. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_watermelon_cap_a_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+	<item id="17289" type="Armor" name="Ice Watermelon Hat">
+		<!-- Description: Dimensional item. Hat that looks like a watermelon. Just looking at it is refreshing. Uses 2 hair accessory slots. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_watermelon_cap_a_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hairall" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+</list>

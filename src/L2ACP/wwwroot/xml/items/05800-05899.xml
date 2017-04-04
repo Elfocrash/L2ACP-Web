@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="5800" type="Weapon" name="Nephilim Lord">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1380" />
+		<set name="price" val="6130000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="5801" type="Weapon" name="For NPC (Dusk)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1380" />
+		<set name="price" val="6130000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="5802" type="Weapon" name="For NPC (Dawn)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="sword" />
+		<set name="bodypart" val="rhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="oriharukon" />
+		<set name="weight" val="1380" />
+		<set name="price" val="6130000" />
+		<set name="soulshots" val="3" />
+		<set name="spiritshots" val="3" />
+		<set name="enchant_enabled" val="1" />
+		<set name="for_npc" val="true" />
+		<for>
+			<set order="0x08" stat="pAtk" val="156" />
+			<set order="0x08" stat="mAtk" val="83" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<set order="0x08" stat="pAtkSpd" val="379" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="5803" type="EtcItem" name="Lucky Charm (D-Grade)">
+		<set name="icon" val="icon.etc_charm_of_luck_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="330" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2168-2" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5804" type="EtcItem" name="Lucky Charm (C-Grade)">
+		<set name="icon" val="icon.etc_charm_of_luck_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="660" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2168-3" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5805" type="EtcItem" name="Lucky Charm (B-Grade)">
+		<set name="icon" val="icon.etc_charm_of_luck_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="1300" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2168-4" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5806" type="EtcItem" name="Lucky Charm (A-Grade)">
+		<set name="icon" val="icon.etc_charm_of_luck_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="2700" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2168-5" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5807" type="EtcItem" name="Lucky Charm (S-Grade)">
+		<set name="icon" val="icon.etc_charm_of_luck_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="price" val="5000" />
+		<set name="reuse_delay" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2168-6" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5808" type="Armor" name="Party Mask">
+		<set name="icon" val="icon.etc_party_mask_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="hair" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="wood" />
+		<set name="weight" val="10" />
+		<set name="price" val="500000" />
+	</item>
+	<item id="5809" type="EtcItem" name="Spellbook: Aqua Splash">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="6750" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5810" type="EtcItem" name="Spellbook: Rain of Fire">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="6750" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5811" type="EtcItem" name="Spellbook: Mass Slow">
+		<set name="icon" val="icon.etc_spell_books_black_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="7700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5812" type="EtcItem" name="Spellbook: Servitor Empowerment">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="5400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5813" type="EtcItem" name="Spellbook: Servitor Cure">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="3200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5814" type="EtcItem" name="Spellbook: Servitor Blessing">
+		<set name="icon" val="icon.etc_spell_books_summon_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="7700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5815" type="EtcItem" name="Spellbook: Wild Magic">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="7700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5816" type="EtcItem" name="Spellbook: Advanced Block">
+		<set name="icon" val="icon.etc_spell_books_assistance_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="6750" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5817" type="Weapon" name="Chrono Campana">
+		<set name="icon" val="icon.weapon_chrono_campana_i00" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="pole" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="10" />
+		<set name="attack_range" val="80" />
+		<set name="damage_range" val="0;0;66;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="is_dropable" val="false" />
+		<set name="item_skill" val="3599-1" />
+		<for>
+			<set order="0x08" stat="pAtk" val="1" />
+			<set order="0x08" stat="mAtk" val="1" />
+			<set order="0x08" stat="rCrit" val="8" />
+			<add order="0x10" stat="accCombat" val="-3.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+		</for>
+	</item>
+	<item id="5818" type="EtcItem" name="Alternative Dark Coda">
+		<set name="icon" val="icon.etc_coda_i08" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5819" type="EtcItem" name="Alternative Red Coda">
+		<set name="icon" val="icon.etc_coda_i03" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5820" type="EtcItem" name="Alternative Chilly Coda">
+		<set name="icon" val="icon.etc_coda_i00" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5821" type="EtcItem" name="Alternative Blue Coda">
+		<set name="icon" val="icon.etc_coda_i02" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5822" type="EtcItem" name="Alternative Golden Coda">
+		<set name="icon" val="icon.etc_coda_i04" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5823" type="EtcItem" name="Alternative Lute Coda">
+		<set name="icon" val="icon.etc_coda_i06" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5824" type="EtcItem" name="Alternative Desert Coda">
+		<set name="icon" val="icon.etc_coda_i05" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5825" type="EtcItem" name="Alternative Red Cobol">
+		<set name="icon" val="icon.etc_cobol_i03" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5826" type="EtcItem" name="Alternative Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_i00" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="250" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5827" type="EtcItem" name="Alternative Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_i02" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5828" type="EtcItem" name="Alternative Thorn Cobol">
+		<set name="icon" val="icon.etc_cobol_i07" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5829" type="EtcItem" name="Alternative Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_i04" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5830" type="EtcItem" name="Alternative Great Cobol">
+		<set name="icon" val="icon.etc_cobol_i09" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5831" type="EtcItem" name="Alternative Red Codran">
+		<set name="icon" val="icon.etc_codran_i03" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5832" type="EtcItem" name="Alternative Sea Codran">
+		<set name="icon" val="icon.etc_codran_i06" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5833" type="EtcItem" name="Alternative Chilly Codran">
+		<set name="icon" val="icon.etc_codran_i00" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5834" type="EtcItem" name="Alternative Blue Codran">
+		<set name="icon" val="icon.etc_codran_i02" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5835" type="EtcItem" name="Alternative Twin Codran">
+		<set name="icon" val="icon.etc_codran_i07" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5836" type="EtcItem" name="Alternative Great Codran">
+		<set name="icon" val="icon.etc_codran_i09" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="750" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5837" type="EtcItem" name="Alternative Desert Codran">
+		<set name="icon" val="icon.etc_codran_i05" />
+		<set name="etcitem_type" val="crop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="2" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5838" type="EtcItem" name="Mature Alternative Dark Coda">
+		<set name="icon" val="icon.etc_coda_i08" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5839" type="EtcItem" name="Mature Alternative Red Coda">
+		<set name="icon" val="icon.etc_coda_i03" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5840" type="EtcItem" name="Mature Alternative Chilly Coda">
+		<set name="icon" val="icon.etc_coda_i00" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="50" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5841" type="EtcItem" name="Mature Alternative Blue Coda">
+		<set name="icon" val="icon.etc_coda_i02" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5842" type="EtcItem" name="Mature Alternative Golden Coda">
+		<set name="icon" val="icon.etc_coda_i04" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5843" type="EtcItem" name="Mature Alternative Lute Coda">
+		<set name="icon" val="icon.etc_coda_i06" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="300" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5844" type="EtcItem" name="Mature Alternative Desert Coda">
+		<set name="icon" val="icon.etc_coda_i05" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5845" type="EtcItem" name="Mature Alternative Red Cobol">
+		<set name="icon" val="icon.etc_cobol_i03" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5846" type="EtcItem" name="Mature Alternative Chilly Cobol">
+		<set name="icon" val="icon.etc_cobol_i00" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="250" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5847" type="EtcItem" name="Mature Alternative Blue Cobol">
+		<set name="icon" val="icon.etc_cobol_i02" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5848" type="EtcItem" name="Mature Alternative Thorn Cobol">
+		<set name="icon" val="icon.etc_cobol_i07" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5849" type="EtcItem" name="Mature Alternative Golden Cobol">
+		<set name="icon" val="icon.etc_cobol_i04" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5850" type="EtcItem" name="Mature Alternative Great Cobol">
+		<set name="icon" val="icon.etc_cobol_i09" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5851" type="EtcItem" name="Mature Alternative Red Codran">
+		<set name="icon" val="icon.etc_codran_i03" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5852" type="EtcItem" name="Mature Alternative Sea Codran">
+		<set name="icon" val="icon.etc_codran_i06" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5853" type="EtcItem" name="Mature Alternative Chilly Codran">
+		<set name="icon" val="icon.etc_codran_i00" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="400" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5854" type="EtcItem" name="Mature Alternative Blue Codran">
+		<set name="icon" val="icon.etc_codran_i02" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5855" type="EtcItem" name="Mature Alternative Twin Codran">
+		<set name="icon" val="icon.etc_codran_i07" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5856" type="EtcItem" name="Mature Alternative Great Codran">
+		<set name="icon" val="icon.etc_codran_i09" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="750" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5857" type="EtcItem" name="Mature Alternative Desert Codran">
+		<set name="icon" val="icon.etc_codran_i05" />
+		<set name="etcitem_type" val="maturecrop" />
+		<set name="material" val="paper" />
+		<set name="weight" val="1" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="5858" type="EtcItem" name="Blessed Scroll of Escape: Clan Hall">
+		<set name="icon" val="icon.etc_scroll_of_return_agit_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="100000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2177-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5859" type="EtcItem" name="Blessed Scroll of Escape: Castle">
+		<set name="icon" val="icon.etc_scroll_of_return_castle_i01" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scroll" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="80000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2178-1" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="False" />
+		</cond>
+	</item>
+	<item id="5860" type="EtcItem" name="Lienrik Egg">
+		<set name="icon" val="icon.etc_dragon_egg_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5861" type="EtcItem" name="Lienrik Egg">
+		<set name="icon" val="icon.etc_dragon_egg_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5862" type="EtcItem" name="Stone of Contract">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5863" type="EtcItem" name="Alligator Tooth">
+		<set name="icon" val="icon.etc_fang_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5864" type="EtcItem" name="Mysterious Map Piece">
+		<set name="icon" val="icon.etc_map_piece_ivory_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5865" type="EtcItem" name="Carnivore Spore">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5866" type="EtcItem" name="Herbivorous Spore">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5867" type="EtcItem" name="Jade Crystal">
+		<set name="icon" val="icon.etc_gem_green_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5868" type="EtcItem" name="Snake Scale">
+		<set name="icon" val="icon.etc_scale_of_medusa_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5869" type="EtcItem" name="Remains of Aden Residents">
+		<set name="icon" val="icon.etc_ashes_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5870" type="EtcItem" name="Receipt of Supply">
+		<set name="icon" val="icon.etc_piece_of_paper_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5871" type="EtcItem" name="Suspicious Document Piece">
+		<set name="icon" val="icon.etc_piece_of_report_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5872" type="EtcItem" name="Supply Items">
+		<set name="icon" val="icon.etc_squares_wood_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5873" type="EtcItem" name="Pirate's Treasure Chest">
+		<set name="icon" val="icon.etc_jewel_box_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5874" type="EtcItem" name="Sairon's Silver Hair">
+		<set name="icon" val="icon.etc_pouch_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5875" type="EtcItem" name="Titan Lamp">
+		<set name="icon" val="icon.etc_bead_gold_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5876" type="EtcItem" name="Titan Lamp">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5877" type="EtcItem" name="Titan Lamp">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5878" type="EtcItem" name="Titan Lamp">
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5879" type="EtcItem" name="Titan Lamp">
+		<set name="icon" val="icon.etc_bead_white_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5880" type="EtcItem" name="Broken Titan Lamp">
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5881" type="EtcItem" name="Blade Stakato Fang">
+		<set name="icon" val="icon.etc_claw_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5882" type="EtcItem" name="Flare Shard">
+		<set name="icon" val="icon.etc_echo_crystal_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5883" type="EtcItem" name="Freezing Shard">
+		<set name="icon" val="icon.etc_echo_crystal_i01" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5884" type="EtcItem" name="Cave Beast Tooth">
+		<set name="icon" val="icon.etc_fang_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5885" type="EtcItem" name="Death Wave Light">
+		<set name="icon" val="icon.etc_crystal_ball_green_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5886" type="EtcItem" name="Sealed Mysterious Stone">
+		<set name="icon" val="icon.etc_dragon_egg_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5887" type="EtcItem" name="Mysterious Stone">
+		<set name="icon" val="icon.etc_dragon_egg_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5888" type="EtcItem" name="Karik Horn">
+		<set name="icon" val="icon.etc_horn_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5889" type="EtcItem" name="Cave Howler Skull">
+		<set name="icon" val="icon.etc_skull_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5890" type="EtcItem" name="Mysterious Book">
+		<set name="icon" val="icon.etc_spellbook_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5891" type="EtcItem" name="Ancient Language Dictionary: Basic Level">
+		<set name="icon" val="icon.etc_spellbook_gray_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5892" type="EtcItem" name="Ancient Language Dictionary: Intermediate Level">
+		<set name="icon" val="icon.etc_spellbook_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5893" type="EtcItem" name="Leaf of Eucalyptus">
+		<set name="icon" val="icon.etc_herb_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5894" type="EtcItem" name="Stone of Chill">
+		<set name="icon" val="icon.etc_crystal_ball_blue_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5895" type="EtcItem" name="Ritron's Fruit">
+		<set name="icon" val="icon.etc_cobol_i05" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5896" type="EtcItem" name="Moon Face Flower">
+		<set name="icon" val="icon.etc_flower_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5897" type="EtcItem" name="Leech Fluids">
+		<set name="icon" val="icon.etc_reagent_red_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5898" type="EtcItem" name="Royal Membership">
+		<set name="icon" val="icon.etc_royal_membership_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="5899" type="EtcItem" name="Kail's Coin">
+		<set name="icon" val="icon.etc_magic_coin_blood_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="crystal" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+</list>

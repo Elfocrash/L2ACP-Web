@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="10500" type="Armor" name="Mithril Shirt - HP">
+		<set name="icon" val="icon.etc_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="86" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="1800000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3457-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10501" type="Armor" name="Mithril Shirt - MP">
+		<set name="icon" val="icon.etc_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="86" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="1800000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3458-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10502" type="Armor" name="Mithril Shirt - CP">
+		<set name="icon" val="icon.etc_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="86" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="1800000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3459-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="28" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10503" type="Armor" name="Striped Silk Shirt - HP">
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="60" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="180000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3463-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10504" type="Armor" name="Striped Silk Shirt - MP">
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="60" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="180000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3464-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10505" type="Armor" name="Striped Silk Shirt - CP">
+		<set name="icon" val="icon.etc_stripe_shirts_c_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="60" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="180000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3465-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="19" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10506" type="Armor" name="Thin Striped Leather Shirt - HP">
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="400000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3469-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="22" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10507" type="Armor" name="Thin Striped Leather Shirt - MP">
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="400000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3470-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="22" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10508" type="Armor" name="Thin Striped Leather Shirt - CP">
+		<set name="icon" val="icon.etc_stripe_shirts_b_i03" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="44" />
+		<set name="crystal_type" val="b" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="400000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3471-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="22" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10509" type="Armor" name="Striped Scale Shirt - HP">
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="59" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="880000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3475-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="26" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10510" type="Armor" name="Striped Scale Shirt - MP">
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="59" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="880000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3476-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="26" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10511" type="Armor" name="Striped Scale Shirt - CP">
+		<set name="icon" val="icon.etc_stripe_shirts_a_i04" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="59" />
+		<set name="crystal_type" val="a" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="880000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3477-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="26" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10512" type="Armor" name="Striped Mithril Shirt - HP">
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="122" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="2540000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3481-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="30" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10513" type="Armor" name="Striped Mithril Shirt - MP">
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="122" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="2540000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3482-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="30" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10514" type="Armor" name="Striped Mithril Shirt - CP">
+		<set name="icon" val="icon.etc_stripe_shirts_s_i05" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="122" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="crystal" />
+		<set name="weight" val="130" />
+		<set name="price" val="2540000" />
+		<set name="enchant_enabled" val="1" />
+		<set name="enchant4_skill" val="3483-1" />
+		<for>
+			<add order="0x10" stat="pDef" val="30" />
+			<enchant order="0x0C" stat="pDef" val="0" />
+		</for>
+	</item>
+	<item id="10515" type="EtcItem" name="Beast Soulshot Compressed Pack">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2500-1" />
+	</item>
+	<item id="10516" type="EtcItem" name="Beast Spiritshot Compressed Pack">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="20000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2501-1" />
+	</item>
+	<item id="10517" type="EtcItem" name="Blessed Beast Spiritshot Compressed Pack">
+		<set name="icon" val="icon.etc_pouch_yellow_i00" />
+		<set name="default_action" val="capsule" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="price" val="50000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2502-1" />
+	</item>
+	<item id="10518" type="Armor" name="Red Talisman - Life Force">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3429-1" />
+		<set name="duration" val="70" />
+		<set name="useSkillDisTime" val="30" />
+	</item>
+	<item id="10519" type="Armor" name="White Talisman - Earth">
+		<set name="icon" val="icon.etc_talisman_i06" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3434-1" />
+		<set name="duration" val="80" />
+		<set name="useSkillDisTime" val="10" />
+	</item>
+	<item id="10520" type="EtcItem" name="Echo Crystal - Kuraki Mai">
+		<set name="icon" val="icon.etc_echo_crystal_i04" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="reuse_delay" val="20000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2487-1" />
+	</item>
+	<item id="10521" type="EtcItem" name="Rough Fire Ore">
+		<set name="icon" val="icon.etc_fire_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_attr" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="25000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="item_skill" val="2329-1" />
+	</item>
+	<item id="10522" type="EtcItem" name="Rough Water Ore">
+		<set name="icon" val="icon.etc_water_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_attr" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="25000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="item_skill" val="2330-1" />
+	</item>
+	<item id="10523" type="EtcItem" name="Rough Earth Ore">
+		<set name="icon" val="icon.etc_earth_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_attr" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="25000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="item_skill" val="2332-1" />
+	</item>
+	<item id="10524" type="EtcItem" name="Rough Wind Ore">
+		<set name="icon" val="icon.etc_wind_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_attr" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="25000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="item_skill" val="2331-1" />
+	</item>
+	<item id="10525" type="EtcItem" name="Rough Dark Ore">
+		<set name="icon" val="icon.etc_unholy_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_attr" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="25000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="item_skill" val="2334-1" />
+	</item>
+	<item id="10526" type="EtcItem" name="Rough Holy Ore">
+		<set name="icon" val="icon.etc_holy_stone_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="etcitem_type" val="scrl_enchant_attr" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="25000" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="EnchantAttribute" />
+		<set name="item_skill" val="2333-1" />
+	</item>
+	<item id="10527" type="Weapon" name="Dynasty Staff - Mana Up">
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3597" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="74946000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3014-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="325" />
+			<set order="0x08" stat="mAtk" val="222" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="10528" type="Weapon" name="Dynasty Staff - Conversion">
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3597" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="74946000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3048-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="325" />
+			<set order="0x08" stat="mAtk" val="222" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="10529" type="Weapon" name="Dynasty Staff - Acumen">
+		<set name="icon" val="icon.weapon_dynasty_twohand_staff_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3597" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="wood" />
+		<set name="weight" val="1080" />
+		<set name="price" val="74946000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="is_magic_weapon" val="true" />
+		<set name="item_skill" val="3047-2" />
+		<for>
+			<set order="0x08" stat="pAtk" val="325" />
+			<set order="0x08" stat="mAtk" val="222" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="10530" type="Weapon" name="Dynasty Crusher - Anger">
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3597" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="74946000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3057-4" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="10531" type="Weapon" name="Dynasty Crusher - Health">
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3597" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="74946000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3013-3" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="10532" type="Weapon" name="Dynasty Crusher - Rsk. Focus">
+		<set name="icon" val="icon.weapon_dynasty_crusher_i01" />
+		<set name="default_action" val="equip" />
+		<set name="weapon_type" val="bigblunt" />
+		<set name="bodypart" val="lrhand" />
+		<set name="random_damage" val="20" />
+		<set name="attack_range" val="40" />
+		<set name="damage_range" val="0;0;40;120" />
+		<set name="immediate_effect" val="1" />
+		<set name="crystal_count" val="3597" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="fine_steel" />
+		<set name="weight" val="1740" />
+		<set name="price" val="74946000" />
+		<set name="soulshots" val="1" />
+		<set name="spiritshots" val="1" />
+		<set name="element_enabled" val="true" />
+		<set name="enchant_enabled" val="1" />
+		<set name="item_skill" val="3027-7" />
+		<for>
+			<set order="0x08" stat="pAtk" val="405" />
+			<set order="0x08" stat="mAtk" val="151" />
+			<set order="0x08" stat="rCrit" val="4" />
+			<add order="0x10" stat="accCombat" val="4.75" />
+			<set order="0x08" stat="pAtkSpd" val="325" />
+			<enchant val="0" order="0x0C" stat="pAtk" />
+			<enchant val="0" order="0x0C" stat="mAtk" />
+		</for>
+	</item>
+	<item id="10533" type="Armor" name="Blue Talisman - P. Atk.">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3487-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="10534" type="Armor" name="Blue Talisman - Shield Defense">
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="equip_reuse_delay" val="30" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3488-1" />
+		<set name="duration" val="65" />
+		<set name="useSkillDisTime" val="6" />
+	</item>
+	<item id="10535" type="Armor" name="Yellow Talisman - P. Def.">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3490-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10536" type="Armor" name="Yellow Talisman - M. Atk.">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3489-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10537" type="Armor" name="Yellow Talisman - Evasion">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3491-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10538" type="Armor" name="Yellow Talisman - Healing Power">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3495-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10539" type="Armor" name="Yellow Talisman - CP Recovery Rate">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3494-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10540" type="Armor" name="Yellow Talisman - HP Recovery Rate">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3493-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10541" type="Armor" name="Yellow Talisman - Low Grade MP Recovery Rate">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3497-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10542" type="Armor" name="Red Talisman - HP/CP Recovery">
+		<set name="icon" val="icon.etc_talisman_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3496-1" />
+		<set name="duration" val="64" />
+		<set name="useSkillDisTime" val="5" />
+	</item>
+	<item id="10543" type="Armor" name="Yellow Talisman - Speed">
+		<set name="icon" val="icon.etc_talisman_i02" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="deco1" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="item_skill" val="3492-1" />
+		<set name="duration" val="60" />
+		<set name="useSkillDisTime" val="1" />
+	</item>
+	<item id="10544" type="EtcItem" name="Recipe - Dynasty Staff(60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="909" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="10545" type="EtcItem" name="Recipe - Dynasty Crusher(60%)">
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="recipe" />
+		<set name="etcitem_type" val="recipe" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="30" />
+		<set name="price" val="1493000" />
+		<set name="recipe_id" val="910" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+	<item id="10546" type="EtcItem" name="Dynasty Staff Fragment">
+		<set name="icon" val="icon.etc_sword_body_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="239000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10547" type="EtcItem" name="Dynasty Crusher Fragment">
+		<set name="icon" val="icon.etc_sword_body_i00" />
+		<set name="etcitem_type" val="material" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="60" />
+		<set name="price" val="239000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10548" type="Weapon" name="Monster Only (Transparent Shield)">
+		<set name="icon" val="icon.weapon_monster_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="leather" />
+		<set name="weight" val="1430" />
+		<set name="price" val="39" />
+		<set name="for_npc" val="true" />
+		<for>
+			<sub order="0x10" stat="rEvas" val="8" />
+			<set order="0x08" stat="rShld" val="20" />
+			<set order="0x08" stat="sDef" val="47" />
+		</for>
+	</item>
+	<item id="10549" type="EtcItem" name="Forgotten Scroll - Protection of Rune">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2441-1" />
+	</item>
+	<item id="10550" type="EtcItem" name="Forgotten Scroll - Protection of Elemental">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2442-1" />
+	</item>
+	<item id="10551" type="EtcItem" name="Forgotten Scroll - Protection of Alignment">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2443-1" />
+	</item>
+	<item id="10552" type="EtcItem" name="Forgotten Scroll - Fighter's Will">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2444-1" />
+	</item>
+	<item id="10553" type="EtcItem" name="Forgotten Scroll - Archer's Will">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2445-1" />
+	</item>
+	<item id="10554" type="EtcItem" name="Forgotten Scroll - Anti-Magic Armor">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2446-1" />
+	</item>
+	<item id="10555" type="EtcItem" name="Forgotten Scroll - Seed of Revenge">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2447-1" />
+	</item>
+	<item id="10556" type="EtcItem" name="Forgotten Scroll - Hell Scream">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2448-1" />
+	</item>
+	<item id="10557" type="EtcItem" name="Forgotten Scroll - Song of Windstorm">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="11600" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2449-1" />
+	</item>
+	<item id="10558" type="EtcItem" name="Forgotten Scroll - Dance of Blade Storm">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="11600" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2450-1" />
+	</item>
+	<item id="10559" type="EtcItem" name="Forgotten Scroll - Sixth Sense">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2451-1" />
+	</item>
+	<item id="10560" type="EtcItem" name="Forgotten Scroll - Expose Weak Point">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2452-1" />
+	</item>
+	<item id="10561" type="EtcItem" name="Forgotten Scroll - Exciting Adventure">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2453-1" />
+	</item>
+	<item id="10562" type="EtcItem" name="Forgotten Scroll - Wind Riding">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2454-1" />
+	</item>
+	<item id="10563" type="EtcItem" name="Forgotten Scroll - Ghost Walking">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2455-1" />
+	</item>
+	<item id="10564" type="EtcItem" name="Forgotten Scroll - Flame Hawk">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2456-1" />
+	</item>
+	<item id="10565" type="EtcItem" name="Forgotten Scroll - Arrow Rain">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2457-1" />
+	</item>
+	<item id="10566" type="EtcItem" name="Forgotten Scroll - Ghost Piercing">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2458-1" />
+	</item>
+	<item id="10567" type="EtcItem" name="Forgotten Scroll - Dread Pool">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2459-1" />
+	</item>
+	<item id="10568" type="EtcItem" name="Forgotten Scroll - Weapon Blockade">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2460-1" />
+	</item>
+	<item id="10569" type="EtcItem" name="Forgotten Scroll - Force of Destruction">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2461-1" />
+	</item>
+	<item id="10570" type="EtcItem" name="Forgotten Scroll - Demolition Impact">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2462-1" />
+	</item>
+	<item id="10571" type="EtcItem" name="Forgotten Scroll - Golem Armor">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2463-1" />
+	</item>
+	<item id="10572" type="EtcItem" name="Forgotten Scroll - Flame Armor">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2464-1" />
+	</item>
+	<item id="10573" type="EtcItem" name="Forgotten Scroll - Frost Armor">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2465-1" />
+	</item>
+	<item id="10574" type="EtcItem" name="Forgotten Scroll - Hurricane Armor">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2466-1" />
+	</item>
+	<item id="10575" type="EtcItem" name="Forgotten Scroll - Vampiric Mist">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2467-1" />
+	</item>
+	<item id="10576" type="EtcItem" name="Forgotten Scroll - Servitor Barrier">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2468-1" />
+	</item>
+	<item id="10577" type="EtcItem" name="Forgotten Scroll - Excessive Loyalty">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2469-1" />
+	</item>
+	<item id="10578" type="EtcItem" name="Forgotten Scroll - Mutual Response">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2470-1" />
+	</item>
+	<item id="10579" type="EtcItem" name="Forgotten Scroll - Improve Combat">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="9300" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2471-1" />
+	</item>
+	<item id="10580" type="EtcItem" name="Forgotten Scroll - Improve Magic">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2472-1" />
+	</item>
+	<item id="10581" type="EtcItem" name="Forgotten Scroll - Improve Condition">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="9650" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2473-1" />
+	</item>
+	<item id="10582" type="EtcItem" name="Forgotten Scroll - Improve Critical Attack">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2474-1" />
+	</item>
+	<item id="10583" type="EtcItem" name="Forgotten Scroll - Improve Shield Defense">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="9300" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2475-1" />
+	</item>
+	<item id="10584" type="EtcItem" name="Forgotten Scroll - Improve Movement">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="9650" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2476-1" />
+	</item>
+	<item id="10585" type="EtcItem" name="Forgotten Scroll - Sublime Self Sacrifice">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2477-1" />
+	</item>
+	<item id="10586" type="EtcItem" name="Forgotten Scroll - Blessing of Eva">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2478-1" />
+	</item>
+	<item id="10587" type="EtcItem" name="Forgotten Scroll - Lord of Vampire">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2479-1" />
+	</item>
+	<item id="10588" type="EtcItem" name="Forgotten Scroll - Thorn Root">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2480-1" />
+	</item>
+	<item id="10589" type="EtcItem" name="Forgotten Scroll - Seal of Limit">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2481-1" />
+	</item>
+	<item id="10590" type="EtcItem" name="Spellbook - Summon Smart Cubic">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="40000" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10591" type="EtcItem" name="Forgotten Scroll - Spirit of Phoenix/Flame Icon">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2482-1" />
+	</item>
+	<item id="10592" type="EtcItem" name="Forgotten Scroll - Eva's Will">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2483-1" />
+	</item>
+	<item id="10593" type="EtcItem" name="Forgotten Scroll - Pain of Shilen / Spirit of Shilen">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2484-1" />
+	</item>
+	<item id="10594" type="EtcItem" name="Forgotten Scroll - Wild Shot">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2488-1" />
+	</item>
+	<item id="10595" type="EtcItem" name="Forgotten Scroll - Lightning Shock">
+		<set name="icon" val="icon.etc_spell_books_element_i00" />
+		<set name="default_action" val="skill_reduce" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="120000" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2489-1" />
+	</item>
+	<item id="10596" type="EtcItem" name="Battle Manual - Soul Cleanse">
+		<set name="icon" val="icon.etc_kamael_skill_book_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="8700" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10597" type="EtcItem" name="Battle Manual - Curse of Life Flow">
+		<set name="icon" val="icon.etc_kamael_skill_book_i02" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="7200" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10598" type="EtcItem" name="Battle Manual - Soul Vortex">
+		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="11600" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="10599" type="EtcItem" name="Battle Manual - Soul Vortex Extinction">
+		<set name="icon" val="icon.etc_kamael_skill_book_i03" />
+		<set name="immediate_effect" val="1" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="price" val="30000" />
+		<set name="is_stackable" val="true" />
+	</item>
+</list>

@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="items.xsd">
+	<item id="22300" type="EtcItem" name="Miracle Happy Cake - Decoration - 15-day limited period (event)">
+		<!-- Description: Take this along with a Perfect Happy Cake to the Valentine Messenger Queen of Hearts to complete a Miracle Happy Cake. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_deco_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="10" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="21600" />
+	</item>
+	<item id="22301" type="EtcItem" name="Sweet Chocolate Cookie - Event">
+		<!-- Description: When used, energy is replenished by 5000 points. Re-use time is 60 minutes. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="BranchSys.icon.br_valentine_cookie_i00" />
+		<set name="material" val="liquid" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22302" type="Armor" name="Antharas's Earring - 3-day limited period (event)">
+		<!-- Description: MP +37, resistance to Bleed +40%, Bleed attack rate +40%, increases heal amount, vampiric rage effect, resistance to Stun/Mental attacks +30%, Stun/Mental attack rate +30%, decreases MP consumption, and increases heal amount and resistance to Earth. Only one effect is applied when two of the same earrings are equipped. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="37" />
+		</for>
+	</item>
+	<item id="22303" type="Armor" name="Antharas's Earring - 7-day limited period (event)">
+		<!-- Description: MP +37, resistance to Bleed +40%, Bleed attack rate +40%, increases heal amount, vampiric rage effect, resistance to Stun/Mental attacks +30%, Stun/Mental attack rate +30%, decreases MP consumption, and increases heal amount and resistance to Earth. Only one effect is applied when two of the same earrings are equipped. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_earring_of_antaras_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rear;lear" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="94" />
+			<add order="0x40" stat="maxMp" val="37" />
+		</for>
+	</item>
+	<item id="22304" type="Armor" name="Baium's Ring - 3-day limited period (event)">
+		<!-- Description: MP +21, resistance to Poison +40%, Poison attack rate +40%, resistance to Hold +30%, Hold attack rate +30%, and increases Accuracy, Critical Damage, P. Atk., and Casting Spd. Only one effect is applied when two of the same ring are equipped. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.accessory_ring_of_baium_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="time" val="4320" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="22305" type="Armor" name="Baium's Ring - 7-day limited period (event)">
+		<!-- Description: MP +21, resistance to Poison +40%, Poison attack rate +40%, resistance to Hold +30%, Hold attack rate +30%, and increases Accuracy, Critical Damage, P. Atk., and Casting Spd. Only one effect is applied when two of the same ring are equipped. -->
+		<set name="icon" val="icon.accessory_ring_of_baium_i00" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="rfinger;lfinger" />
+		<set name="crystal_type" val="s" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="time" val="10080" />
+		<for>
+			<add order="0x10" stat="mDef" val="48" />
+			<add order="0x40" stat="maxMp" val="21" />
+		</for>
+	</item>
+	<item id="22306" type="EtcItem" name="Scroll: Enchant Weapon (S-Grade) - Event">
+		<!-- Description: Increases P. Atk. by 5 for S-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 6 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 10 for bow weapons. Increases M. Atk. by 4 for all weapons. P. Atk./M. Atk. increase by double starting at +4. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i05" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22307" type="EtcItem" name="Scroll: Enchant Weapon (A-Grade) - Event">
+		<!-- Description: Increases P. Atk. by 4 for A-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 5 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 8 for bow weapons. Increases M. Atk. by 3 for all weapons. P. Atk./M. Atk. increase by double starting at +4. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22308" type="EtcItem" name="Scroll: Enchant Armor (S-Grade) - Event">
+		<!-- Description: Increases P. Def. by 1 for S-grade armor and accessories when enchanted. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When armor is enchanted above +4, HP also increases depending on the enchant value. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i05" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22309" type="EtcItem" name="Scroll: Enchant Armor (A-Grade) - Event">
+		<!-- Description: Increases P. Def. by 1 for A-grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When armor is enchanted above +4, HP also increases depending on the enchant value. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22310" type="EtcItem" name="Allegra Box">
+		<!-- Description: There is a chance of obtaining a high-grade transformation scroll, Blessed Scroll: Enchant Weapon, and Scroll: Enchant Weapon. -->
+		<set name="icon" val="Branchsys2.icon2.g_alegra_box" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22311" type="EtcItem" name="Latus Box">
+		<!-- Description: A Divine Weapon Enchant Crystal and a high grade Ancient Weapon Enchant Crystal can be acquired at a constant rate. -->
+		<set name="icon" val="Branchsys2.icon2.g-latus_box" />
+		<set name="material" val="steel" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22312" type="Armor" name="Top-Grade Magic Pin Cloth Belt">
+		<!-- Description: Weight +6000. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.armor_magic_pin_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="10" />
+		</for>
+	</item>
+	<item id="22313" type="Armor" name="Top-Grade Magic Pouch Cloth Belt">
+		<!-- Description: Inventory Slot +18. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.armor_magic_pouch_belt_i00" />
+		<set name="default_action" val="equip" />
+		<set name="armor_type" val="light" />
+		<set name="bodypart" val="waist" />
+		<set name="crystal_type" val="c" />
+		<set name="material" val="cloth" />
+		<set name="weight" val="500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<for>
+			<add order="0x10" stat="pDef" val="10" />
+		</for>
+	</item>
+	<item id="22314" type="EtcItem" name="Blessed Scroll: Enchant Weapon (S-Grade)">
+		<!-- Description: Increases P. Atk. by 5 for S-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 6 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 10 for bow weapons. Increases M. Atk. by 4 for all weapons. Starting at +4, P. Atk./M. Atk. increases by double. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_s_i05" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22315" type="EtcItem" name="Blessed Scroll: Enchant Armor (S-Grade)">
+		<!-- Description: Increases P. Def. by 1 for S-grade armor and accessories when enchanted. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. When armor is enchanted above +4, HP also increases depending on the enchant value. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_s_i05" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22316" type="EtcItem" name="Blessed Scroll: Enchant Weapon (A-Grade)">
+		<!-- Description: Increases P. Atk. by 4 for A-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 5 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 8 for bow weapons. Increases M. Atk. by 3 for all weapons. P. Atk./M. Atk. increase by double starting at +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_a_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22317" type="EtcItem" name="Blessed Scroll: Enchant Weapon (B-Grade)">
+		<!-- Description: Increases P. Atk. by 3 for B-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 4 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 6 for bow weapons. Increases M. Atk. by 3 for all weapons. Starting at +4, P. Atk./M. Atk. increases by double. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_b_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22318" type="EtcItem" name="Blessed Scroll: Enchant Armor (A-Grade)">
+		<!-- Description: Increases P. Def. by 1 for A-grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. When armor is enchanted above +4, HP also increases depending on the enchant value. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_a_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22319" type="EtcItem" name="Blessed Scroll: Enchant Armor (B-Grade)">
+		<!-- Description: Increases P. Def. by 1 for B-grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. When armor is enchanted above +4, HP also increases depending on the enchant value. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_am_b_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22320" type="EtcItem" name="Scroll: Enchant Weapon (A-Grade)">
+		<!-- Description: Increases P. Atk. by 4 for A-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 5 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 8 for bow weapons. Increases M. Atk. by 3 for all weapons. P. Atk./M. Atk. increase by double starting at +4. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22321" type="EtcItem" name="Scroll: Enchant Weapon (B-Grade)">
+		<!-- Description: Increases P. Atk. by 3 for B-grade one-handed sword, one-handed blunt, dagger, spear, and other weapons when enchanted. Increases P. Atk. by 4 for two-handed sword, two-handed blunt, dualsword, and two-handed combat weapon. Increases P. Atk. by 6 for bow weapons. Increases M. Atk. by 3 for all weapons. P. Atk./M. Atk. increase by double starting at +4. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22322" type="EtcItem" name="Scroll: Enchant Armor (A-Grade)">
+		<!-- Description: Increases P. Def. by 1 for A-grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When armor is enchanted above +4, HP also increases depending on the enchant value. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i04" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22323" type="EtcItem" name="Scroll: Enchant Armor (B-Grade)">
+		<!-- Description: Increases P. Def. by 1 for B-grade armor and accessories. Increases by 3 starting from +4. It can safely be enchanted up to +3. For one-piece armor, it can safely be enchanted up to +4. When armor is enchanted above +4, HP also increases depending on the enchant value. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i03" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22324" type="EtcItem" name="Transformation Scroll: Ranku">
+		<!-- Description: Transformation scroll that transform you into Ranku for 30 minute(s). No effect if used while transformed. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22325" type="EtcItem" name="Transformation Scroll: Zaken">
+		<!-- Description: Transformation scroll that transform you into Zaken for 30 minute(s). No effect if used while transformed. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_trans_4f_s_b_01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22326" type="Armor" name="Blue Talisman - Buff Cancel">
+		<!-- Description: Cancels the buffs of nearby enemies upon use. Only one effect is applies when you wear two of the same talismans. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22327" type="Armor" name="Blue Talisman - Buff Steal">
+		<!-- Description: Stealsthe target's abnormal status upon use. Only one effect is applies when you wear two of the same talismans. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_talisman_i01" />
+		<set name="default_action" val="equip" />
+		<set name="bodypart" val="underwear" />
+		<set name="material" val="gold" />
+		<set name="weight" val="150" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22328" type="EtcItem" name="Territory Health Recovery Potion">
+		<!-- Description: Recovers HP upon use. It can only be used by characters between levels 61-75. Can only be used on the battlefield. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_super_hp_potion_i05" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22329" type="EtcItem" name="Territory Mana Recovery Potion">
+		<!-- Description: Recovers MP upon use. It can only be used by characters between levels 61-75. Can only be used on the battlefield. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_super_mp_potion_i05" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22330" type="EtcItem" name="Territory CP Recovery Potion">
+		<!-- Description: Recovers CP upon use. It can only be used by characters between levels 61-75. Can only be used on the battlefield. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="icon.etc_super_cp_potion_i05" />
+		<set name="material" val="liquid" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22331" type="EtcItem" name="7th Anniversary Pack">
+		<!-- Description: Dimensional Item. Celebrating the Lineage II 7th anniversary, this pack contains various items that you should find useful. Cannot be exchanged or dropped. Can be destroyed. Can be shared between characters on the same account through the Dimensional Merchant. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22332" type="EtcItem" name="7th Anniversary Bonus Pack">
+		<!-- Description: Dimensional Item. Celebrating the Lineage II 7th anniversary, this bonus pack contains various items that you should find useful. Cannot be exchanged or dropped. Can be destroyed. Can be shared between characters on the same account through the Dimensional Merchant. -->
+		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22333" type="EtcItem" name="Hero's Treasure Chest">
+		<!-- Description: Dimensional Item. Chest containing an equipment set pack which can be used for 90 days. Cannot be exchanged or dropped. Can be shared between characters within an account through the Dimensional Merchant. -->
+		<set name="icon" val="icon.event_hero_treasure_box_i00" />
+		<set name="material" val="steel" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_freightable" val="true" />
+	</item>
+	<item id="22334" type="EtcItem" name="Rune of Experience Points 50% - 1 hours limited time">
+		<!-- Description: Ancient characters that bestow a mysterious ability when possessed in the inventory. Increases acquired Exp. by 50%. The remaining period decreases even while logged off. Cannot be exchanged or dropped. Can be destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_exp_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+	</item>
+	<item id="22335" type="EtcItem" name="Essence of Destruction">
+		<!-- Description: An item filled with the essence of Shilen's followers that you have defeated. -->
+		<set name="icon" val="icon.etc_crystal_blue_i00" />
+		<set name="material" val="leather" />
+		<set name="weight" val="10" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22336" type="EtcItem" name="Pathfinder's Reward - Contributor">
+		<!-- Description: A gift for adventurers who have a high contributions level in discovering the cause of the plague. -->
+		<set name="icon" val="icon.etc_bead_silver_i00" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22337" type="EtcItem" name="Extra Entrance Pass - Rim Kamaloka">
+		<!-- Description: Entrance pass that allows you five addtional admissions. Can cancel the limit on entry if used while a limit on entry to Rim Kamaloka exists. Can only be used once per day from outside the instant zone. After use, the effect disappears at the corresponding instant dungeon's reset time. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.ticket_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="5" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22338" type="EtcItem" name="Extra Entrance Pass - Rim Kamaloka 1 Sheet Pack">
+		<!-- Description: Wrapped pack containing an entrance pass that lets you enter Rim Kamaloka. -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22339" type="EtcItem" name="S84 Top-grade Weapon Chest - Event">
+		<!-- Description: The chest contains 1 S84 top-grade weapon. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22340" type="EtcItem" name="Elegia Armor Chest - Event">
+		<!-- Description: The chest contains 1 Elegia armor. Which one could it be? -->
+		<set name="icon" val="icon.etc_pi_gift_box_i04" />
+		<set name="material" val="cotton" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22341" type="EtcItem" name="Scroll: Enchant Weapon - C Grade">
+		<!-- Description: When enchanted, P. Atk. increases by 3 for C-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 4 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 6 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. If enchanting fails, the item will not be crystallized but the enchant value will be reset to 0. Can be exchanged, dropped, and destroyed. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="icon.etc_blessed_scrl_of_ench_wp_c_i02" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22342" type="EtcItem" name="Scroll: Enchant Weapon - C Grade">
+		<!-- Description: When enchanted, P. Atk. increases by 3 for C-grade one-handed swords, one-handed blunts, daggers, spears, and other weapons. P. Atk. increases by 4 for two-handed swords, two-handed blunts, dualswords, and two-handed combat weapons. P. Atk. increases by 6 for bows. M. Atk. increases by 3 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Can be exchanged, dropped, and destroyed. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i02" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22343" type="EtcItem" name="Scroll: Enchant Armor - C Grade">
+		<!-- Description: When enchanted, P. Def. increases by 1 for C-grade armor and accessories. Starting at +4, P. Def. increases by 3. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. Increases HP according to enchant level when armor is enchanted +4 or above. Cannot be exchanged or dropped. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i02" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22344" type="EtcItem" name="Scroll: Enchant Weapon - D Grade">
+		<!-- Description: When enchanted, P. Atk. increases by 2 for D-grade one-handed swords, one-handed blunts, daggers, spears, two-handed swords, two-handed blunts, dualswords, two-handed combat weapons, and other weapons. P. Atk. increases by 4 for bows. M. Atk. increases by 2 for all weapons. Starting at +4, P. Atk. / M. Atk. bonus double. Can be exchanged, dropped, and destroyed. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_weapon_i01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22345" type="EtcItem" name="Scroll: Enchant Armor - D Grade">
+		<!-- Description: When enchanted, P. Def. increases by 1 for D-grade armor and accessories. Starting at +4, P. Def. increases by 3. Enchanting is safe up to +3, but one-piece body armor can be safely enchanted up to +4. Increases HP according to enchant level when armor is enchanted +4 or above. Cannot be exchanged or dropped. Can be stored in a Private Warehouse. -->
+		<set name="icon" val="icon.etc_scroll_of_enchant_armor_i01" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22346" type="EtcItem" name="Enchantment Tool Box">
+		<!-- Description: A box of enchantment-related itmes. Double-click for a chance to receive an item. Cannot be exchanged or dropped. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="material" val="steel" />
+		<set name="weight" val="100" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="22347" type="EtcItem" name="Rune of Fate">
+		<!-- Description: Ancient characters which bestow a mysterious ability if it is possessed in the inventory. It increases acquired XP and SP by 200%. It will be removed from the inventory on June 15, 2011 when the event ends. Cannot be exchanged, dropped, or destroyed. Can be stored in a private warehouse. -->
+		<set name="icon" val="br_cashtex.item.br_cash_rune_of_feather_i00" />
+		<set name="material" val="paper" />
+		<set name="weight" val="120" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_destroyable" val="false" />
+	</item>
+</list>
