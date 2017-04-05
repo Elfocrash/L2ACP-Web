@@ -40,17 +40,21 @@ namespace L2ACP.Services
                     int id = int.Parse(node.Attributes["id"].InnerText);
                     string name = node.Attributes["name"].InnerText;
                     string icon = string.Empty;
+                    bool enchantable = false;
                     foreach (XmlNode child in node.ChildNodes)
-                    {
+                    {//enchant_enabled
                         if (child?.Attributes?["name"]?.InnerText == "icon")
                         {
-                            icon = child.Attributes["val"].InnerText.Replace("icon.",String.Empty);
-                            break;
+                            icon = child.Attributes["val"].InnerText.Replace("icon.",string.Empty);
+                        }
+                        if (child?.Attributes?["name"]?.InnerText == "enchant_enabled")
+                        {
+                            enchantable = child.Attributes["val"].InnerText == "1";
                         }
                     }
                     var item = new L2Item
                     {
-                        ItemId = id, Name = name, Image = icon
+                        ItemId = id, Name = name, Image = icon, Enchantable = enchantable
                     };
                     items.Add(id,item);
                 }

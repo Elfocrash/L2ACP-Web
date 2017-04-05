@@ -1,5 +1,6 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
+using L2ACP.Extensions;
 using L2ACP.Models;
 using L2ACP.Requests;
 using L2ACP.Responses;
@@ -9,7 +10,7 @@ namespace L2ACP.Services
 {
     public class RequestService : IRequestService
     {
-        private const string ApiUrl = "http://localhost:8000/api";
+        
         public async Task<L2Response> LoginUser(string username, string password)
         {
             var loginRequest = new LoginRequest
@@ -17,12 +18,7 @@ namespace L2ACP.Services
                 Username = username,
                 Password = password
             };
-
-            var request = await new HttpClient().PostAsync("http://localhost:8000/api", new JsonContent(loginRequest));
-
-            var result = await request.Content.ReadAsStringAsync();
-
-            var responseObject = JsonConvert.DeserializeObject<L2Response>(result);
+            var responseObject = await loginRequest.SendPostRequest<L2Response>();
 
             return responseObject;
         }
@@ -34,12 +30,7 @@ namespace L2ACP.Services
                 Username = username,
                 Password = password
             };
-
-            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(loginRequest));
-
-            var result = await request.Content.ReadAsStringAsync();
-
-            var responseObject = JsonConvert.DeserializeObject<L2Response>(result);
+            var responseObject = await loginRequest.SendPostRequest<L2Response>();
 
             return responseObject;
         }
@@ -51,27 +42,43 @@ namespace L2ACP.Services
                 Username = username
             };
 
-            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(loginRequest));
-
-            var result = await request.Content.ReadAsStringAsync();
-
-            var responseObject = JsonConvert.DeserializeObject<GetAllCharsResponse>(result);
+            var responseObject = await loginRequest.SendPostRequest<GetAllCharsResponse>();
 
             return responseObject;
         }
 
         public async Task<L2Response> GetInventory(string player)
         {
-            var loginRequest = new GetInventoryRequest()
+            var inventoryRequest = new GetInventoryRequest()
             {
                 Username = player
             };
+            var responseObject = await inventoryRequest.SendPostRequest<GetInventoryResponse>();
 
-            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(loginRequest));
+            return responseObject;
+        }
 
-            var result = await request.Content.ReadAsStringAsync();
+        public async Task<L2Response> GetPlayerInfo(string playerName)
+        {
+            var playerInfo = new GetPlayerInfoRequest()
+            {
+                Username = playerName
+            };
 
-            var responseObject = JsonConvert.DeserializeObject<GetInventoryResponse>(result);
+            var responseObject = await playerInfo.SendPostRequest<GetPlayerInfoResponse>();
+
+            return responseObject;
+        }
+
+        public async Task<L2Response> EnchantItem(string playerName, int objId, int itemEnch)
+        {
+            var enchantRequest = new EnchantItemRequest
+            {
+                ObjectId = objId,
+                Username = playerName,
+                Enchant = itemEnch
+            };
+            var responseObject = await enchantRequest.SendPostRequest<L2Response>();
 
             return responseObject;
         }

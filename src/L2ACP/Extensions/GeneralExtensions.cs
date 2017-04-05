@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Linq;
+using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading.Tasks;
+using L2ACP.Requests;
+using L2ACP.Responses;
 using Microsoft.AspNetCore.Http;
+using Newtonsoft.Json;
 
 namespace L2ACP.Extensions
 {
     public static class GeneralExtensions
     {
+        private const string ApiUrl = "http://localhost:8000/api";
         public static string ToL2Password(this string str)
         {
             SHA1 shA1 = SHA1.Create();
@@ -23,6 +29,16 @@ namespace L2ACP.Extensions
                 return context.User.Claims.FirstOrDefault(x => x.Type == "username").Value;
             }
             return string.Empty;
+        }
+
+        public static async Task<T> SendPostRequest<T>(this L2Request req) where T : L2Response
+        {
+            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(req));
+
+            var result = await request.Content.ReadAsStringAsync();
+
+            var responseObject = JsonConvert.DeserializeObject<T>(result);
+            return responseObject;
         }
     }
 }
