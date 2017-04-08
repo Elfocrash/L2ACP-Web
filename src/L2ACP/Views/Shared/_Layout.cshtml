@@ -15,6 +15,23 @@
     <link rel="stylesheet" href="/css/animate.css" />
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    
+    <environment names="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
 </head>
 <body class="pace-done @ViewData["ExtraClass"]">
 
@@ -37,6 +54,7 @@
                             </span>
                         </a>
                         <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a data-toggle="modal" data-target="#changePassModal" href="javascript:void(0)">Change password</a></li>
                             <li><a href="/logout">Logout</a></li>
                         </ul>
                     </div>
@@ -141,25 +159,94 @@
         </div>
 
     </div>
+
+
+    <div class="modal inmodal" id="changePassModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content animated bounceInRight">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <i class="fa fa-laptop modal-icon"></i>
+                    <h4 class="modal-title">Change password</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Here you can change your password</strong>
+                    </p>
+                    <div class="form-group">
+                        <label>Current password</label> <input type="password" id="currentPass" placeholder="Enter your current password" class="form-control">
+                        <label>New password</label> <input type="password" id="newPass" placeholder="Enter your new password" class="form-control">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                    <button type="button" id="changePass" class="btn btn-primary">Change password</button>
+                </div>
+            </div>
+        </div>
+        <script>
+
+            $('#changePass').click(function() {
+                var currentPass = $('#currentPass').val();
+                var newPass = $('#newPass').val();
+                toastr.options = {
+                    "closeButton": true,
+                    "debug": false,
+                    "progressBar": true,
+                    "preventDuplicates": false,
+                    "positionClass": "toast-top-right",
+                    "onclick": null,
+                    "showDuration": "400",
+                    "hideDuration": "1000",
+                    "timeOut": "4000",
+                    "extendedTimeOut": "1000",
+                    "showEasing": "swing",
+                    "hideEasing": "linear",
+                    "showMethod": "fadeIn",
+                    "hideMethod": "fadeOut"
+                }
+                if (newPass.trim().length == 0) {
+                    return false;
+                }
+
+                var jsonObj = { CurrentPassword: currentPass, NewPassword: newPass };
+                $.ajax({
+                    url: "/changepass",
+                    type: "POST",
+                    data: JSON.stringify(jsonObj),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        if (response == "ok") {
+                            toastr["success"]("Successfully changed the password");
+                        } else {
+                            toastr["error"](response.responseText);
+                        }
+                        $('#changePassModal').modal('hide');
+                        $('#currentPass').val('');
+                        $('#newPass').val('');
+                    },
+                    error: function (response) {
+                        if (response.responseText == "ok") {
+                            toastr["success"]("Successfully changed the password");
+                            $('#changePassModal').modal('hide');
+                        } else {
+                            toastr["error"](response.responseText);
+                            $('#changePassModal').modal('hide');
+                        }
+                        $('#changePassModal').modal('hide');
+                        $('#currentPass').val('');
+                        $('#newPass').val('');
+                    }
+                });
+            });
+            
+        </script>
+    </div>
 }
     </div>
 </div>
-            <environment names="Development">
-                <script src="~/lib/jquery/dist/jquery.js"></script>
-                <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-                <script src="~/js/site.js" asp-append-version="true"></script>
-            </environment>
-            <environment names="Staging,Production">
-                <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
-                        asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                        asp-fallback-test="window.jQuery">
-                </script>
-                <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.6/bootstrap.min.js"
-                        asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                        asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal">
-                </script>
-                <script src="~/js/site.min.js" asp-append-version="true"></script>
-            </environment>
+            
 
             @RenderSection("scripts", required: false)
 

@@ -97,5 +97,19 @@ namespace L2ACP.Services
 
             return responseObject;
         }
+
+        public async Task<L2Response> ChangePassword(string username, string currentPass, string newPass)
+        {
+            var changePassRequest = new ChangePassRequest
+            {
+                Username = username,
+                CurrentPassword = currentPass,
+                NewPassword = newPass
+            };
+
+            var responseObject = await changePassRequest.SendPostRequest<L2Response>();
+
+            return responseObject;
+        }
     }
 }

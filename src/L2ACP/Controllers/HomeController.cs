@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using L2ACP.Extensions;
+using L2ACP.Models;
 using L2ACP.Responses;
 using L2ACP.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -95,6 +96,25 @@ namespace L2ACP.Controllers
                 }
                 
                 return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpPost]
+        [Route("changepass")]
+        public async Task<IActionResult> ChangePassword([FromBody] ChangePassViewmodel model)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var accountName = HttpContext.GetUsername();
+
+                var response = await _requestService.ChangePassword(accountName, model.CurrentPassword.ToL2Password(), model.NewPassword.ToL2Password());
+                if (response.ResponseCode == 200)
+                {
+                    return Content("ok");
+                }
+                return Content(response.ResponseMessage);
+
             }
             return Unauthorized();
         }
