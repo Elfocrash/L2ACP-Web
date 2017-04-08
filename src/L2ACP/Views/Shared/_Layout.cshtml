@@ -18,41 +18,48 @@
 </head>
 <body class="pace-done @ViewData["ExtraClass"]">
 
-    <div id="wrapper">
+<div id="wrapper">
+    
+    @if ((string) ViewContext.RouteData.Values["controller"] != "Account")
+    {
+  
+
         <nav class="navbar-default navbar-static-side" role="navigation">
-            <div class="sidebar-collapse">
-                <ul class="nav metismenu" id="side-menu">
-                    <li class="nav-header">
-                        <div class="dropdown profile-element">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="clear">
-                                    <span class="block m-t-xs">
-                                        <strong class="font-bold">@Context.GetUsername()</strong>
-                                    </span> <span class="text-muted text-xs block">Options <b class="caret"></b></span>
-                                </span>
-                            </a>
-                            <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="/logout">Logout</a></li>
-                            </ul>
-                        </div>
-                        <div class="logo-element">
-                            L2ACP
-                        </div>
-                    </li>
-                    <li class="@((string) ViewContext.RouteData.Values["action"] == "Index" ? "active" : string.Empty)">
-                        <a asp-action="Index" asp-controller="Home"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
-                    </li>
-                    <li class="@((string) ViewContext.RouteData.Values["action"] == "Services" ? "active" : string.Empty)">
-                        <a asp-action="Services" asp-controller="Home"><i class="fa fa-briefcase"></i> <span class="nav-label">Services</span></a>
-                    </li>
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear">
+                                <span class="block m-t-xs">
+                                    <strong class="font-bold">@Context.GetUsername()</strong>
+                                </span> <span class="text-muted text-xs block">Options <b class="caret"></b></span>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="/logout">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        L2ACP
+                    </div>
+                </li>
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "Index" ? "active" : string.Empty)">
+                    <a asp-action="Index" asp-controller="Home"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
+                </li>
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "Services" ? "active" : string.Empty)">
+                    <a asp-action="Services" asp-controller="Home"><i class="fa fa-briefcase"></i> <span class="nav-label">Services</span></a>
+                </li>
 
-                </ul>
+            </ul>
 
-            </div>
-        </nav>
+        </div>
+    </nav>
+    }
 
-
-        <div id="page-wrapper" class="gray-bg dashbard-1">
+    <div id="page-wrapper" class="gray-bg dashbard-1">
+        @if ((string) ViewContext.RouteData.Values["controller"] != "Account")
+        {
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header">
@@ -62,20 +69,10 @@
                         <li>
                             <span class="m-r-sm text-muted welcome-message">Welcome to L2ACP</span>
                         </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
-                                <i class="fa fa-bell"></i>  <span class="label label-primary">8</span>
-                            </a>
-                            <ul class="dropdown-menu dropdown-alerts">
-                                <li>
-                                    <div class="text-center link-block">
-                                        <a href="notifications.html">
-                                            <strong>See All Alerts</strong>
-                                            <i class="fa fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
+                        <li>
+                            <button type="button" class="btn label label-primary" data-toggle="modal" data-target="#donateModal">
+                                Donate Points (@Context.GetAccountInfo()?.DonatePoints)
+                            </button>
                         </li>
 
 
@@ -89,10 +86,64 @@
 
                 </nav>
             </div>
-            @RenderBody()
+        }
 
+        @RenderBody()
+        
+@if ((string) ViewContext.RouteData.Values["controller"] != "Account")
+{
+    <div class="modal inmodal" id="donateModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content animated bounceInRight">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                    <i class="fa fa-laptop modal-icon"></i>
+                    <h4 class="modal-title">Donate</h4>
+                    <small class="font-bold">You are about to donate to L2ACP</small>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <strong>Lorem Ipsum is simply dummy</strong> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged.
+                    </p>
+                    <div class="form-group">
+
+                        <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="hosted_button_id" value="9SZRWQMP44DYJ">
+                            <table>
+                                <tr><td><input type="hidden" name="on0" value="Items">Items</td></tr>
+                                <tr>
+                                    <td>
+                                        <select name="os0">
+                                            <option value="10 Donate Points">10 Donate Points €10.00 EUR</option>
+                                            <option value="20 Donate Points">20 Donate Points €20.00 EUR</option>
+                                            <option value="30 Donate Points">30 Donate Points €30.00 EUR</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                            </table>
+                            <input type="hidden" name="currency_code" value="EUR">
+                            <input type="hidden" name="custom" maxlength="200" value="@Context.GetUsername()" readonly="">
+                            
+                            <input type="image" src="https://www.sandbox.paypal.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.sandbox.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
+
     </div>
+}
+    </div>
+</div>
             <environment names="Development">
                 <script src="~/lib/jquery/dist/jquery.js"></script>
                 <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>

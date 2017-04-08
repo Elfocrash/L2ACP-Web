@@ -35,14 +35,14 @@ namespace L2ACP.Services
             return responseObject;
         }
 
-        public async Task<L2Response> GetAllCharNames(string username)
+        public async Task<L2Response> GetAccountInfo(string username)
         {
-            var loginRequest = new GetAllCharsRequest
+            var loginRequest = new GetAccountInfoRequest
             {
                 Username = username
             };
 
-            var responseObject = await loginRequest.SendPostRequest<GetAllCharsResponse>();
+            var responseObject = await loginRequest.SendPostRequest<GetAccountInfoResponse>();
 
             return responseObject;
         }
@@ -79,6 +79,21 @@ namespace L2ACP.Services
                 Enchant = itemEnch
             };
             var responseObject = await enchantRequest.SendPostRequest<L2Response>();
+
+            return responseObject;
+        }
+
+        public async Task<L2Response> SendDonation(string accountName, int amount, string transactionId, string verifySign)
+        {
+            var donateRequest = new DonateRequest
+            {
+                AccountName = accountName,
+                Amount = amount,
+                TransactionId = transactionId,
+                VerificationSign = verifySign
+            };
+
+            var responseObject = await donateRequest.SendPostRequest<L2Response>();
 
             return responseObject;
         }

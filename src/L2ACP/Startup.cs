@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using L2ACP.Repositories;
+using L2ACP.Extensions;
 using L2ACP.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -55,7 +55,7 @@ namespace L2ACP
             }
 
             app.UseStaticFiles();
-
+            
             app.UseCookieAuthentication(new CookieAuthenticationOptions()
             {
                 AuthenticationScheme = "Auth",
@@ -70,6 +70,8 @@ namespace L2ACP
                 var assetManager = serviceScope.ServiceProvider.GetService<AssetManager>();
                 assetManager.Initialize();
             }
+
+            app.UseInfoMiddleware();
 
             app.UseMvc(routes =>
             {

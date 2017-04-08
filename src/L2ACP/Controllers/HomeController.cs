@@ -25,9 +25,10 @@ namespace L2ACP.Controllers
                 return RedirectToAction("Login", "Account");
             IndexViewModel model = new IndexViewModel();
 
-            var chars = await _requestService.GetAllCharNames(HttpContext.GetUsername());
-            var getAllCharsResponse = chars as GetAllCharsResponse;
-            if (getAllCharsResponse != null) model.CharacterNames = getAllCharsResponse.AccountNames;
+            var allCharsResponse = HttpContext.GetAccountInfo();
+            if (allCharsResponse == null)
+                return BadRequest();
+            model.CharacterNames = allCharsResponse.AccountNames;
             return View(model);
         }
 
@@ -38,9 +39,11 @@ namespace L2ACP.Controllers
                 return RedirectToAction("Login", "Account");
             IndexViewModel model = new IndexViewModel();
 
-            var chars = await _requestService.GetAllCharNames(HttpContext.GetUsername());
-            var getAllCharsResponse = chars as GetAllCharsResponse;
-            if (getAllCharsResponse != null) model.CharacterNames = getAllCharsResponse.AccountNames;
+            var allCharsResponse = HttpContext.GetAccountInfo();
+            if (allCharsResponse == null)
+                return BadRequest();
+
+            model.CharacterNames = allCharsResponse.AccountNames;
             return View(model);
         }
 
@@ -59,16 +62,16 @@ namespace L2ACP.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                var chars = await _requestService.GetAllCharNames(HttpContext.GetUsername());
-                var allCharsResponse = chars as GetAllCharsResponse;
-                if (allCharsResponse?.ResponseCode == 200)
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
-                    if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
-                    {
-                        var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
-                        return PartialView("_Inventory", inventory);
-                    }
+                    var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
+                    return PartialView("_Inventory", inventory);
                 }
+                
                 return BadRequest();
             }
             return Unauthorized();
@@ -81,16 +84,16 @@ namespace L2ACP.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                var chars = await _requestService.GetAllCharNames(HttpContext.GetUsername());
-                var allCharsResponse = chars as GetAllCharsResponse;
-                if (allCharsResponse?.ResponseCode == 200)
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
-                    if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
-                    {
-                        var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
-                        return PartialView("_EnchantableItems", inventory);
-                    }
+                    var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
+                    return PartialView("_EnchantableItems", inventory);
                 }
+                
                 return BadRequest();
             }
             return Unauthorized();
@@ -102,11 +105,10 @@ namespace L2ACP.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                var chars = await _requestService.GetAllCharNames(HttpContext.GetUsername());
-                var allCharsResponse = chars as GetAllCharsResponse;
-                if (allCharsResponse?.ResponseCode == 200)
-                {
-                    if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                     {
                         var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
                         var contains = inventory?.InventoryInfo.Select(x => x.ObjectId).Contains(objId);
@@ -125,7 +127,7 @@ namespace L2ACP.Controllers
                             return BadRequest();
                         }
                         
-                    }
+                    
                 }
                 return BadRequest();
             }
@@ -138,16 +140,16 @@ namespace L2ACP.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                var chars = await _requestService.GetAllCharNames(HttpContext.GetUsername());
-                var allCharsResponse = chars as GetAllCharsResponse;
-                if (allCharsResponse?.ResponseCode == 200)
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
-                    if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
-                    {
-                        var playerInfo = await _requestService.GetPlayerInfo(playerName) as GetPlayerInfoResponse;
-                        return PartialView("_PlayerInfo", playerInfo);
-                    }
+                    var playerInfo = await _requestService.GetPlayerInfo(playerName) as GetPlayerInfoResponse;
+                    return PartialView("_PlayerInfo", playerInfo);
                 }
+                
                 return BadRequest();
             }
             return Unauthorized();

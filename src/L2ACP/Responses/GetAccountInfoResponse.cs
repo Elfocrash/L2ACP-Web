@@ -2,8 +2,9 @@
 
 namespace L2ACP.Responses
 {
-    public class GetAllCharsResponse : L2Response
+    public class GetAccountInfoResponse : L2Response
     {
         public string[] AccountNames;
+        public int DonatePoints;
     }
 }
