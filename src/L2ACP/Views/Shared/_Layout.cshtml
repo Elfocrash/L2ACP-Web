@@ -74,6 +74,13 @@
                 <li>
                     <a  data-toggle="modal" data-target="#donateModal" href="javascript:void(0)"><i class="fa fa-money"></i> <span class="nav-label">Donate</span></a>
                 </li>
+                @if (Context.GetAccountInfo()?.AccessLevel > 100)
+                {
+                    <li>
+                        <a asp-action="Index" asp-controller="Admin"><i class="fa fa-users"></i> <span class="nav-label">Admin Area</span></a>
+                    </li>
+                }
+                
             </ul>
 
         </div>

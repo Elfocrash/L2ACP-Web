@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using L2ACP.Cryptography;
 using L2ACP.Requests;
 using L2ACP.Responses;
 using L2ACP.Services;
@@ -37,7 +38,7 @@ namespace L2ACP.Extensions
         {
             var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(req));
 
-            var result = await request.Content.ReadAsStringAsync();
+            var result = AesCrypto.DecryptRijndael(await request.Content.ReadAsStringAsync(), Constants.Salt);
 
             var responseObject = JsonConvert.DeserializeObject<T>(result);
             return responseObject;
