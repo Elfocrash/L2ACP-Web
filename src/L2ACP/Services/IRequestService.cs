@@ -21,5 +21,11 @@ namespace L2ACP.Services
         Task<L2Response> EnchantItem(string playerName, int objId, int itemEnch);
 
         Task<L2Response> SendDonation(string accountName, int amount, string transactionId, string verifySign);
+
+        Task<L2Response> GetBuyList();
+
+        Task<L2Response> BuyItem(string accountName, string modelUsername, int modelItemId, int modelItemCount, int modelEnchant, int modelPrice);
+
+        Task<L2Response> GetTopStats();
     }
 }

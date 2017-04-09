@@ -111,5 +111,34 @@ namespace L2ACP.Services
 
             return responseObject;
         }
+
+        public async Task<L2Response> GetBuyList()
+        {
+            var responseObject = await new GetBuyListRequest().SendPostRequest<GetBuyListResponse>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> BuyItem(string accountName, string modelUsername, int modelItemId, int modelItemCount, int modelEnchant,
+            int modelPrice)
+        {
+            var buyItemRequest = new BuyItemRequest
+            {
+                AccountName = accountName,
+                Username = modelUsername,
+                ItemId = modelItemId,
+                ItemCount = modelItemCount,
+                Enchant = modelEnchant,
+                Price = modelPrice
+            };
+
+            var responseObject = await buyItemRequest.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> GetTopStats()
+        {
+            var responseObject = await new GetStatsRequest().SendPostRequest<GetStatsResponse>();
+            return responseObject;
+        }
     }
 }

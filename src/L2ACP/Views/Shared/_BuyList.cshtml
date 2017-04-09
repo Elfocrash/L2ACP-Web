@@ -1,0 +1,63 @@
+﻿@using L2ACP.Models
+@using L2ACP.Services
+@inject AssetManager AssetManager
+
+<div class="table-responsive">
+    <table class="table table-striped table-hover">
+        <tbody>
+        <tr>
+            <th>Item Icon</th>
+            <th>Item Name</th>
+            <th>Price</th>
+        </tr>
+        @foreach (BuyListItem item in Model)
+        {
+            L2Item currentItem = AssetManager.GetItems().FirstOrDefault(x => x.Key == item.ItemId).Value;
+            <tr>
+                <td><img alt="image" src="/images/gameIcons/@(currentItem.Image).png"> </td>
+                <td>@currentItem.Name @(item.Enchant > 0 ? "+"+ item.Enchant : "" )@(item.ItemCount > 1 ? "(" + item.ItemCount + ")" : "" )</td>
+                <td><button class="btn btn-primary buyItem" data-itemid="@item.ItemId" data-itemcount="@item.ItemCount" data-enchant="@item.Enchant" data-price="@item.Price" type="button">Buy (@item.Price)</button></td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+</div>
+
+<script>
+    $('.buyItem').click(function () {
+        var clicked = $(this);
+        var price = clicked.attr('data-price');
+        var itemId = clicked.attr('data-itemid');
+        var itemCount = clicked.attr('data-itemcount');
+        var enchant = clicked.attr('data-enchant');
+        var character = $('#charsSelect').val();
+
+        var jsonObj = { Username: character, ItemId: itemId, ItemCount: itemCount, Enchant: enchant, Price: price };
+        $.ajax({
+            url: "/buyitem",
+            type: "POST",
+            data: JSON.stringify(jsonObj),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                if (response.responseText.startsWith("paid:")) {
+                    var moneySpent = response.responseText.replace("paid:", '');
+                    $('.donatepointcount').text(parseInt($('.donatepointcount').text()) - parseInt(moneySpent));
+                    toastr["success"]("Successfully purchased the item");
+                } else {
+                    toastr["error"](response.responseText);
+                }
+            },
+            error: function (response) {
+                if (response.responseText.startsWith("paid:")) {
+                    var moneySpent = response.responseText.replace("paid:", '');
+                    $('.donatepointcount').text(parseInt($('.donatepointcount').text()) - parseInt(moneySpent));
+                    toastr["success"]("Successfully purchased the item");
+                } else {
+                    toastr["error"](response.responseText);
+                }
+            }
+        });
+    });
+</script>

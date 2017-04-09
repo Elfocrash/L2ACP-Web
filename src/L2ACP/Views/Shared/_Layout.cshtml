@@ -68,14 +68,19 @@
                 <li class="@((string) ViewContext.RouteData.Values["action"] == "Services" ? "active" : string.Empty)">
                     <a asp-action="Services" asp-controller="Home"><i class="fa fa-briefcase"></i> <span class="nav-label">Services</span></a>
                 </li>
-
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "Statistics" ? "active" : string.Empty)">
+                    <a asp-action="Statistics" asp-controller="Home"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Statistics</span></a>
+                </li>
+                <li>
+                    <a  data-toggle="modal" data-target="#donateModal" href="javascript:void(0)"><i class="fa fa-money"></i> <span class="nav-label">Donate</span></a>
+                </li>
             </ul>
 
         </div>
     </nav>
     }
 
-    <div id="page-wrapper" class="gray-bg dashbard-1">
+    <div id="@((string) ViewContext.RouteData.Values["controller"] == "Account" ? string.Empty : "page-wrapper")" class="gray-bg dashbard-1">
         @if ((string) ViewContext.RouteData.Values["controller"] != "Account")
         {
             <div class="row border-bottom">
@@ -89,7 +94,7 @@
                         </li>
                         <li>
                             <button type="button" class="btn label label-primary" data-toggle="modal" data-target="#donateModal">
-                                Donate Points (@Context.GetAccountInfo()?.DonatePoints)
+                                Donate Points (<span class="donatepointcount">@Context.GetAccountInfo()?.DonatePoints</span>)
                             </button>
                         </li>
 

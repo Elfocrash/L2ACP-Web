@@ -48,6 +48,28 @@ namespace L2ACP.Controllers
             return View(model);
         }
 
+        [Route("/statistics")]
+        public async Task<IActionResult> Statistics()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+
+
+            var stats = await _requestService.GetTopStats() as GetStatsResponse;
+            if (stats != null)
+            {
+                StatsViewModel model = new StatsViewModel
+                {
+                    TopPvp = stats.TopPvp,
+                    TopPk = stats.TopPk,
+                    TopOnline = stats.TopOnline
+                };
+
+                return View(model);
+            }
+            return View();
+        }
+
         [Route("/getservices")]
         public IActionResult GetServices()
         {
@@ -100,6 +122,39 @@ namespace L2ACP.Controllers
             return Unauthorized();
         }
 
+        [HttpGet]
+        [Route("getbuylist")]
+        public async Task<IActionResult> GetBuyList()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var buyList = await _requestService.GetBuyList() as GetBuyListResponse;
+                if(buyList != null)
+                    return PartialView("_BuyList", buyList.BuyList);
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpPost]
+        [Route("buyitem")]
+        public async Task<IActionResult> BuyItem([FromBody] BuyItemViewmodel model)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var accountName = HttpContext.GetUsername();
+
+                var response = await _requestService.BuyItem(accountName, model.Username,model.ItemId,model.ItemCount,model.Enchant,model.Price);
+                if (response.ResponseCode == 200)
+                {
+                    return Content("paid:" + model.Price);
+                }
+                return Content(response.ResponseMessage);
+
+            }
+            return Unauthorized();
+        }
+
         [HttpPost]
         [Route("changepass")]
         public async Task<IActionResult> ChangePassword([FromBody] ChangePassViewmodel model)
@@ -119,40 +174,40 @@ namespace L2ACP.Controllers
             return Unauthorized();
         }
 
-        [HttpGet]
-        [Route("enchantitem/{playerName}/{objId}")]
-        public async Task<IActionResult> GetEnchantableItems(string playerName, int objId)
-        {
-            if (User.Identity.IsAuthenticated)
-            {
-                var allCharsResponse = HttpContext.GetAccountInfo();
-                if (allCharsResponse == null)
-                    return BadRequest();
-                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
-                    {
-                        var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
-                        var contains = inventory?.InventoryInfo.Select(x => x.ObjectId).Contains(objId);
-                        if (contains != null && (bool) contains)
-                        {
-                            var itemEnch = inventory.InventoryInfo.FirstOrDefault(x => x.ObjectId == objId).Enchant;
-                            var enchantResponse = await _requestService.EnchantItem(playerName, objId, itemEnch) as L2Response;
-                            if (enchantResponse.ResponseCode == 200)
-                            {
-                                return Content("ok");
-                            }
-                            return BadRequest();
-                        }
-                        else
-                        {
-                            return BadRequest();
-                        }
+        //[HttpGet]
+        //[Route("enchantitem/{playerName}/{objId}")]
+        //public async Task<IActionResult> GetEnchantableItems(string playerName, int objId)
+        //{
+        //    if (User.Identity.IsAuthenticated)
+        //    {
+        //        var allCharsResponse = HttpContext.GetAccountInfo();
+        //        if (allCharsResponse == null)
+        //            return BadRequest();
+        //        if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+        //            {
+        //                var inventory = await _requestService.GetInventory(playerName) as GetInventoryResponse;
+        //                var contains = inventory?.InventoryInfo.Select(x => x.ObjectId).Contains(objId);
+        //                if (contains != null && (bool) contains)
+        //                {
+        //                    var itemEnch = inventory.InventoryInfo.FirstOrDefault(x => x.ObjectId == objId).Enchant;
+        //                    var enchantResponse = await _requestService.EnchantItem(playerName, objId, itemEnch) as L2Response;
+        //                    if (enchantResponse.ResponseCode == 200)
+        //                    {
+        //                        return Content("ok");
+        //                    }
+        //                    return BadRequest();
+        //                }
+        //                else
+        //                {
+        //                    return BadRequest();
+        //                }
                         
                     
-                }
-                return BadRequest();
-            }
-            return Unauthorized();
-        }
+        //        }
+        //        return BadRequest();
+        //    }
+        //    return Unauthorized();
+        //}
 
         [HttpGet]
         [Route("getplayerinfo/{playerName}")]
