@@ -27,5 +27,9 @@ namespace L2ACP.Services
         Task<L2Response> BuyItem(string accountName, string modelUsername, int modelItemId, int modelItemCount, int modelEnchant, int modelPrice);
 
         Task<L2Response> GetTopStats();
+
+        Task<L2Response> GetDonateServices();
+
+        Task<L2Response> RenamePlayer(string playerName, string newName);
     }
 }

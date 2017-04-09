@@ -140,5 +140,23 @@ namespace L2ACP.Services
             var responseObject = await new GetStatsRequest().SendPostRequest<GetStatsResponse>();
             return responseObject;
         }
+
+        public async Task<L2Response> GetDonateServices()
+        {
+            var responseObject = await new GetDonateServicesRequest().SendPostRequest<GetDonateServicesResponse>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> RenamePlayer(string playerName, string newName)
+        {
+            var request = new RenamePlayerRequest
+            {
+                Username = playerName,
+                NewName = newName
+            };
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
     }
 }

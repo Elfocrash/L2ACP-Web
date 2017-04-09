@@ -1,0 +1,147 @@
+﻿@using L2ACP.Models
+@using L2ACP.Services
+@inject AssetManager AssetManager
+@model DonateService[]
+<div>
+
+    @if(Model.FirstOrDefault(x => x.ServiceId == 1).Price >= 0) //Rename player
+    { 
+        <div class="col-lg-2">
+            <div id="renamePlayer" class="widget navy-bg p-lg text-center">
+                <div class="m-b-md">
+                    <i class="fa fa-shopping-cart fa-4x"></i>
+                    <h3 class="font-bold no-margins">
+                        @Model.FirstOrDefault(x => x.ServiceId == 1).ServiceName
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal inmodal" id="renameModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content animated bounceInRight">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <i class="fa fa-laptop modal-icon"></i>
+                        <h4 class="modal-title">Rename player</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <strong>Select the new name for: <span class="renameCurPlayer"></span></strong>
+                        </p>
+                        <div class="form-group">
+                            <label>New name</label> <input type="text" id="newName" placeholder="Enter your new character name" class="form-control">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                        <button type="button" id="btnRenamePlayer" class="btn btn-primary">Rename player</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+            @if (Model.FirstOrDefault(x => x.ServiceId == 2).Price >= 0) //nobless player
+            {
+                <div class="col-lg-2">
+                    <div id="noblessPlayer" class="widget navy-bg p-lg text-center">
+                        <div class="m-b-md">
+                            <i class="fa fa-shopping-cart fa-4x"></i>
+                            <h3 class="font-bold no-margins">
+                                @Model.FirstOrDefault(x => x.ServiceId == 2).ServiceName
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (Model.FirstOrDefault(x => x.ServiceId == 3).Price >= 0) //Reset pk
+            {
+                <div class="col-lg-2">
+                    <div id="resetPk" class="widget navy-bg p-lg text-center">
+                        <div class="m-b-md">
+                            <i class="fa fa-shopping-cart fa-4x"></i>
+                            <h3 class="font-bold no-margins">
+                                @Model.FirstOrDefault(x => x.ServiceId == 3).ServiceName
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @if (Model.FirstOrDefault(x => x.ServiceId == 4).Price >= 0) //Change sex
+            {
+                <div class="col-lg-2">
+                    <div id="changeSex" class="widget navy-bg p-lg text-center">
+                        <div class="m-b-md">
+                            <i class="fa fa-shopping-cart fa-4x"></i>
+                            <h3 class="font-bold no-margins">
+                                @Model.FirstOrDefault(x => x.ServiceId == 4).ServiceName
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+@if (Model.FirstOrDefault(x => x.ServiceId == 1).Price >= 0) //Rename player
+{
+    <script>
+       
+        $('#renamePlayer').click(function () {
+            var playerName = $('#charsSelect').val();
+            $('.renameCurPlayer').text(playerName);
+            $('#renameModal').modal('show');
+        });
+        $('#btnRenamePlayer').click(function () {
+            var playerName = $('#charsSelect').val();
+            var newName = $('#newName').val();
+            $.get("/renameplayer/" + playerName + "/" + newName,
+                function (data) {
+                    if (data.startsWith("ok:")) {
+                        toastr["success"](data.replace("ok:",""));
+                        $("#charsSelect option:selected").remove();
+                        $("#charsSelect").append($('<option>', {
+                            value: newName,
+                            text: newName
+                        }));
+                        $("#charsSelect").val(newName);
+                    } else {
+                        toastr["error"](data);
+                    }
+                    $('#renameModal').modal('hide');
+                    $('#newName').val('');
+                });
+        });
+    </script>
+}
+
+@if (Model.FirstOrDefault(x => x.ServiceId == 2).Price >= 0) //Rename player
+{
+    <script>
+
+        $('#noblessPlayer').click(function () {
+            var playerName = $('#charsSelect').val();
+        });
+    </script>
+}
+
+@if (Model.FirstOrDefault(x => x.ServiceId == 3).Price >= 0) //Rename player
+{
+    <script>
+
+        $('#resetPk').click(function () {
+        });
+    </script>
+}
+
+@if (Model.FirstOrDefault(x => x.ServiceId == 4).Price >= 0) //Rename player
+{
+    <script>
+
+        $('#changeSex').click(function () {
+        });
+    </script>
+}

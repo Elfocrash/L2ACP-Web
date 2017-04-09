@@ -197,26 +197,26 @@
             </div>
         </div>
         <script>
-
+            toastr.options = {
+                "closeButton": true,
+                "debug": false,
+                "progressBar": true,
+                "preventDuplicates": false,
+                "positionClass": "toast-top-right",
+                "onclick": null,
+                "showDuration": "400",
+                "hideDuration": "1000",
+                "timeOut": "4000",
+                "extendedTimeOut": "1000",
+                "showEasing": "swing",
+                "hideEasing": "linear",
+                "showMethod": "fadeIn",
+                "hideMethod": "fadeOut"
+            }
             $('#changePass').click(function() {
                 var currentPass = $('#currentPass').val();
                 var newPass = $('#newPass').val();
-                toastr.options = {
-                    "closeButton": true,
-                    "debug": false,
-                    "progressBar": true,
-                    "preventDuplicates": false,
-                    "positionClass": "toast-top-right",
-                    "onclick": null,
-                    "showDuration": "400",
-                    "hideDuration": "1000",
-                    "timeOut": "4000",
-                    "extendedTimeOut": "1000",
-                    "showEasing": "swing",
-                    "hideEasing": "linear",
-                    "showMethod": "fadeIn",
-                    "hideMethod": "fadeOut"
-                }
+               
                 if (newPass.trim().length == 0) {
                     return false;
                 }

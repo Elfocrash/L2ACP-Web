@@ -1,33 +1,34 @@
 ﻿
-@*<div class="col-lg-2">
-    <div id="enchantItem" class="widget navy-bg p-lg text-center">
-        <div class="m-b-md">
-            <i class="fa fa-plus fa-4x"></i>
-            <h3 class="font-bold no-margins">
-                Enchant item
-            </h3>
-        </div>
-    </div>
-</div>*@
+
 <div class="col-lg-2">
     <div id="buyitems" class="widget navy-bg p-lg text-center">
         <div class="m-b-md">
             <i class="fa fa-shopping-cart fa-4x"></i>
             <h3 class="font-bold no-margins">
-                Buy items
+                Buy ingame items
+            </h3>
+        </div>
+    </div>
+</div>
+<div class="col-lg-2">
+    <div id="donateServices" class="widget navy-bg p-lg text-center">
+        <div class="m-b-md">
+            <i class="fa fa-plus fa-4x"></i>
+            <h3 class="font-bold no-margins">
+                Player services
             </h3>
         </div>
     </div>
 </div>
 
 <script>
-    //$('#enchantItem').click(function() {
-    //    var charName = $('#charsSelect').val();
-    //    $.get("/getenchantableitems/" + charName,
-    //           function (data) {
-    //               $('#mainservices').html(data);
-    //           });
-    //});
+    $('#donateServices').click(function () {
+        var charName = $('#charsSelect').val();
+        $.get("/getdonateservices",
+               function (data) {
+                   $('#mainservices').html(data);
+               });
+    });
     $('#buyitems').click(function () {
         $.get("/getbuylist",
                function (data) {

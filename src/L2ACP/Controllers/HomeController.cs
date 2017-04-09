@@ -100,6 +100,28 @@ namespace L2ACP.Controllers
             return Unauthorized();
         }
 
+        [HttpGet]
+        [Route("renameplayer/{playerName}/{newName}")]
+        public async Task<IActionResult> RenamePlayer(string playerName, string newName)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var response = await _requestService.RenamePlayer(playerName, newName);
+                    if(response.ResponseCode == 200)
+                        return Content("ok:" + response.ResponseMessage);
+                    return Content(response.ResponseMessage);
+                }
+
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
 
         [HttpGet]
         [Route("getenchantableitems/{playerName}")]
@@ -131,6 +153,20 @@ namespace L2ACP.Controllers
                 var buyList = await _requestService.GetBuyList() as GetBuyListResponse;
                 if(buyList != null)
                     return PartialView("_BuyList", buyList.BuyList);
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpGet]
+        [Route("getdonateservices")]
+        public async Task<IActionResult> GetDonateServices()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var buyList = await _requestService.GetDonateServices() as GetDonateServicesResponse;
+                if (buyList != null)
+                    return PartialView("_DonateServices", buyList.DonateServices);
                 return BadRequest();
             }
             return Unauthorized();
