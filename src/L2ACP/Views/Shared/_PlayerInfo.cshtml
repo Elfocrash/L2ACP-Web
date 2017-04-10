@@ -1,25 +1,27 @@
 ﻿@model L2ACP.Responses.GetPlayerInfoResponse
 
-<div class="contact-box center-version">
+<div class="wrapper wrapper-content animated fadeIn">
+    <div class="contact-box center-version">
 
-    <a href="javascript:void(0)">
-        
-        <img alt="image" class="img-circle" src="/images/gameIcons/@(Model.PlayerInfo.Race)_@(Model.PlayerInfo.Sex).png">
-        
-        <h3 class="m-b-xs"><strong>Name: @Model.PlayerInfo.Name</strong></h3>
+        <a href="javascript:void(0)">
 
-        <div><strong>Title: </strong>@(string.IsNullOrEmpty(Model.PlayerInfo.Title) ? "No Title" : Model.PlayerInfo.Title)</div>
-        <div><strong>PvP: </strong>@Model.PlayerInfo.Pvp</div>
-        <div><strong>PK: </strong>@Model.PlayerInfo.Pk</div>
-        <div><strong>Clan: </strong>@Model.PlayerInfo.ClanName</div>
-        <div><strong>Ally: </strong>@Model.PlayerInfo.AllyName</div>
-        <div><strong>Hero: </strong>@(Model.PlayerInfo.Hero ? "Yes" : "No" )</div>
-        <div><strong>Nobless: </strong>@(Model.PlayerInfo.Nobless ? "Yes" : "No" )</div>
-    </a>
-    @*<div class="contact-box-footer">
-        <div class="m-t-xs btn-group">
-            <a class="btn btn-xs btn-white"><i class="fa fa-user-plus"></i> Restore</a>
-        </div>
-    </div>*@
+            <img alt="image" class="img-circle" src="/images/gameIcons/@(Model.PlayerInfo.Race)_@(Model.PlayerInfo.Sex).png">
 
+            <h3 class="m-b-xs"><strong>Name: @Model.PlayerInfo.Name</strong></h3>
+
+            <div><strong>Title: </strong>@(string.IsNullOrEmpty(Model.PlayerInfo.Title) ? "No Title" : Model.PlayerInfo.Title)</div>
+            <div><strong>PvP: </strong>@Model.PlayerInfo.Pvp</div>
+            <div><strong>PK: </strong>@Model.PlayerInfo.Pk</div>
+            <div><strong>Clan: </strong>@Model.PlayerInfo.ClanName</div>
+            <div><strong>Ally: </strong>@Model.PlayerInfo.AllyName</div>
+            <div><strong>Hero: </strong>@(Model.PlayerInfo.Hero ? "Yes" : "No" )</div>
+            <div><strong>Nobless: </strong>@(Model.PlayerInfo.Nobless ? "Yes" : "No" )</div>
+        </a>
+        @*<div class="contact-box-footer">
+                <div class="m-t-xs btn-group">
+                    <a class="btn btn-xs btn-white"><i class="fa fa-user-plus"></i> Restore</a>
+                </div>
+            </div>*@
+
+    </div>
 </div>

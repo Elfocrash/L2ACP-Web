@@ -1,0 +1,100 @@
+﻿@using L2ACP.Services
+@model string[]
+@inject AssetManager AssetManager
+
+
+<div class="wrapper wrapper-content animated fadeIn">
+    <div class="row" style="margin-bottom: 15px;">
+        <div class="col-lg-12">
+            @*asp-items="new SelectList(Model.CharacterNames)"*@
+            <select id="charsSelect" class="form-control m-b" asp-items="new SelectList(Model)" name="players">
+                <option selected="selected" disabled="disabled">Please select a character</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="tabs-container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#tab-1">Give Item</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-2">Test</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane active">
+                        <div class="panel-body">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <h5>Give item</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="form-group">
+                                        <select id="items" class="form-control m-b" asp-items='new SelectList(AssetManager.GetItems().Values.Where(x => x.ItemId <= 9299 && !x.IsQuestItem).OrderBy(x => x.Name), "ItemId","Name" )' name="items">
+                                            <option selected="selected" disabled="disabled">Please select an item</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="itemCount" type="number" placeholder="Item count" class="form-control" name="itemcount" min="1" max="2147483647">
+                                    </div>
+                                    <div class="form-group">
+                                        <input id="enchant" type="number" placeholder="Enchant (If applicable)" class="form-control" name="enchant" min="0" max="65535">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" id="giveItem" class="btn btn-primary">Give item</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane">
+                        <div class="panel-body">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<script>
+    $('#items').select2();
+    $('#charsSelect').select2();
+
+    $('#giveItem').click(function () {
+        if ($('#charsSelect option:first').val() == $('#charsSelect').val()) {
+            toastr["error"]("Please select a character");
+            return false;
+        }
+
+
+        var itemId = $('#items').val();
+        var character = $('#charsSelect').val();
+        var itemCount = $('#itemCount').val();
+        var enchant = $('#enchant').val();
+
+        var jsonObj = { Username: character, ItemId: itemId, ItemCount: itemCount, Enchant: enchant };
+        $.ajax({
+            url: "/admin/giveitem",
+            type: "POST",
+            data: JSON.stringify(jsonObj),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                if (response.responseText.startsWith("ok:")) {
+                    toastr["success"]("Item given successfully");
+                } else {
+                    toastr["error"](response.responseText);
+                }
+            },
+            error: function (response) {
+                if (response.responseText.startsWith("ok:")) {
+                    toastr["success"]("Item given successfully");
+                } else {
+                    toastr["error"](response.responseText);
+                }
+            }
+        });
+    });
+</script>

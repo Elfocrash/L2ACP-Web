@@ -135,6 +135,20 @@ namespace L2ACP.Services
             return responseObject;
         }
 
+        public async Task<L2Response> GiveItem(string username, int itemId, int itemCount, int enchant)
+        {
+            var buyItemRequest = new GiveItemRequest
+            {
+                Username = username,
+                ItemId = itemId,
+                ItemCount = itemCount,
+                Enchant = enchant
+            };
+
+            var responseObject = await buyItemRequest.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
         public async Task<L2Response> GetTopStats()
         {
             var responseObject = await new GetStatsRequest().SendPostRequest<GetStatsResponse>();
@@ -189,6 +203,14 @@ namespace L2ACP.Services
             };
 
             var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> GetAllPlayers()
+        {
+            var request = new GetAllPlayerNamesRequest();
+
+            var responseObject = await request.SendPostRequest<GetAllPlayerNamesResponse>();
             return responseObject;
         }
     }

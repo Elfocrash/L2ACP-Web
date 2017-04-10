@@ -9,5 +9,7 @@
         public string Image { get; set; }
 
         public bool Enchantable { get; set; }
+
+        public bool IsQuestItem { get; set; }
     }
 }

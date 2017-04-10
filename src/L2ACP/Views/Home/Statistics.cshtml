@@ -3,147 +3,152 @@
 }
 @model L2ACP.Models.StatsViewModel
 
+<div class="wrapper wrapper-content animated fadeIn">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="tabs-container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">Top PvP</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">Top PK</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">Top Time</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane active">
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Player name</th>
+                                        <th>Level</th>
+                                        <th>Class</th>
+                                        <th>Pvp</th>
+                                        <th>Pk</th>
+                                        <th>Online time</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ int pvpCount = 1;}
+                                    @foreach (var player in Model.TopPvp)
+                                    {
+                                        <tr>
+                                            <td>@pvpCount</td>
+                                            <td>@player.CharName</td>
+                                            <td>@player.Level</td>
+                                            <td>@player.ClassName</td>
+                                            <td>@player.PvpKills</td>
+                                            <td>@player.PkKills</td>
+                                            @{
+                                                TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
+                                                var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
+                                            }
+                                            <td>@parsed[0] days @parsed[1] hours @parsed[2] mins</td>
+                                            <td>
+                                                @if (player.Online == 0)
+                                            {<span class="label label-danger">Offline</span>}
+                                            else
+                                            {<span class="label label-primary">Online</span>}
+                                        </td>
+                                    </tr>
+                                                    pvpCount++;
+                                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="tab-2" class="tab-pane">
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Player name</th>
+                                        <th>Level</th>
+                                        <th>Class</th>
+                                        <th>Pvp</th>
+                                        <th>Pk</th>
+                                        <th>Online time</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ int pkCount = 1;}
+                                    @foreach (var player in Model.TopPk)
+                                    {
+                                        <tr>
+                                            <td>@pkCount</td>
+                                            <td>@player.CharName</td>
+                                            <td>@player.Level</td>
+                                            <td>@player.ClassName</td>
+                                            <td>@player.PvpKills</td>
+                                            <td>@player.PkKills</td>
+                                            @{
+                                                TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
+                                                var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
+                                            }
+                                            <td>@parsed[0] days @parsed[1] mins @parsed[2] secs</td>
+                                            <td>
+                                                @if (player.Online == 0)
+                                                {<span class="label label-danger">Offline</span>}
+                                                else
+                                                {<span class="label label-primary">Online</span>}
+                                            </td>
+                                        </tr>
+                                                    pkCount++;
+                                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-pane">
+                        <div class="panel-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Player name</th>
+                                        <th>Level</th>
+                                        <th>Class</th>
+                                        <th>Pvp</th>
+                                        <th>Pk</th>
+                                        <th>Online time</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ int onlineCount = 1;}
+                                    @foreach (var player in Model.TopOnline)
+                                    {
+                                        <tr>
+                                            <td>@onlineCount</td>
+                                            <td>@player.CharName</td>
+                                            <td>@player.Level</td>
+                                            <td>@player.ClassName</td>
+                                            <td>@player.PvpKills</td>
+                                            <td>@player.PkKills</td>
+                                            @{
+                                                TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
+                                                var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
+                                            }
+                                            <td>@parsed[0] days @parsed[1] mins @parsed[2] secs</td>
+                                            <td>
+                                                @if (player.Online == 0)
+                                                {<span class="label label-danger">Offline</span>}
+                                                else
+                                                {<span class="label label-primary">Online</span>}
+                                            </td>
+                                        </tr>
+                                                    onlineCount++;
+                                                }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
-<div class="row">
-    <div class="col-lg-12">
-        <div class="tabs-container">
-            <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">Top PvP</a></li>
-                <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">Top PK</a></li>
-                <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">Top Time</a></li>
-            </ul>
-            <div class="tab-content">
-                <div id="tab-1" class="tab-pane active">
-                    <div class="panel-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Player name</th>
-                                    <th>Level</th>
-                                    <th>Class</th>
-                                    <th>Pvp</th>
-                                    <th>Pk</th>
-                                    <th>Online time</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            @{ int pvpCount = 1;}
-                            @foreach (var player in Model.TopPvp)
-                            {
-                                <tr>
-                                    <td>@pvpCount</td>
-                                    <td>@player.CharName</td>
-                                    <td>@player.Level</td>
-                                    <td>@player.ClassName</td>
-                                    <td>@player.PvpKills</td>
-                                    <td>@player.PkKills</td>
-                                    @{
-                                        TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
-                                        var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
-                                    }
-                                    <td>@parsed[0] days @parsed[1] hours @parsed[2] mins</td>
-                                    <td>@if (player.Online == 0){<span class="label label-danger">Offline</span>}
-                                    else{<span class="label label-primary">Online</span>}</td>
-                                </tr>
-                                pvpCount++;
-                            }
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div id="tab-2" class="tab-pane">
-                    <div class="panel-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Player name</th>
-                                    <th>Level</th>
-                                    <th>Class</th>
-                                    <th>Pvp</th>
-                                    <th>Pk</th>
-                                    <th>Online time</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @{ int pkCount = 1;}
-                                @foreach (var player in Model.TopPk)
-                                {
-                                    <tr>
-                                        <td>@pkCount</td>
-                                        <td>@player.CharName</td>
-                                        <td>@player.Level</td>
-                                        <td>@player.ClassName</td>
-                                        <td>@player.PvpKills</td>
-                                        <td>@player.PkKills</td>
-                                        @{
-                                            TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
-                                            var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
-                                        }
-                                        <td>@parsed[0] days @parsed[1] mins @parsed[2] secs</td>
-                                        <td>
-                                            @if (player.Online == 0)
-                                        {<span class="label label-danger">Offline</span>}
-                                        else
-                                        {<span class="label label-primary">Online</span>}
-                                    </td>
-                                    </tr>
-                                    pkCount++;
-                                }
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div id="tab-3" class="tab-pane">
-                    <div class="panel-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Player name</th>
-                                    <th>Level</th>
-                                    <th>Class</th>
-                                    <th>Pvp</th>
-                                    <th>Pk</th>
-                                    <th>Online time</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                @{ int onlineCount = 1;}
-                                @foreach (var player in Model.TopOnline)
-                                {
-                                    <tr>
-                                        <td>@onlineCount</td>
-                                        <td>@player.CharName</td>
-                                        <td>@player.Level</td>
-                                        <td>@player.ClassName</td>
-                                        <td>@player.PvpKills</td>
-                                        <td>@player.PkKills</td>
-                                        @{
-                                            TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
-                                            var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
-                                        }
-                                        <td>@parsed[0] days @parsed[1] mins @parsed[2] secs</td>
-                                        <td>
-                                            @if (player.Online == 0)
-                                        {<span class="label label-danger">Offline</span>}
-                                        else
-                                        {<span class="label label-primary">Online</span>}
-                                    </td>
-                                    </tr>
-                                    onlineCount++;
-                                }
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+
             </div>
-
-
         </div>
     </div>
-</div>
+    </div>

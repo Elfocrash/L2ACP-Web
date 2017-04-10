@@ -21,18 +21,3 @@
         </div>
     </div>
 </div>
-    <script>
-        $('#donateServices').click(function () {
-            var charName = $('#charsSelect').val();
-            $.get("/getdonateservices",
-                   function (data) {
-                       $('#mainservices').html(data);
-                   });
-        });
-        $('#buyitems').click(function () {
-            $.get("/getbuylist",
-                   function (data) {
-                       $('#mainservices').html(data);
-                   });
-        });
-    </script>

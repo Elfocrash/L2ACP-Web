@@ -37,5 +37,9 @@ namespace L2ACP.Services
         Task<L2Response> ChangeSex(string playerName);
 
         Task<L2Response> ResetPk(string playerName);
+
+        Task<L2Response> GetAllPlayers();
+
+        Task<L2Response> GiveItem(string username, int itemId, int itemCount, int enchant);
     }
 }

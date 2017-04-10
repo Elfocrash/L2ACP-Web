@@ -10,6 +10,7 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/l2acp.css" />
+    <link rel="stylesheet" href="~/css/select2.min.css" />
 
     
     <link rel="stylesheet" href="/css/animate.css" />
@@ -32,6 +33,9 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+    
+    <script src="~/js/select2.full.min.js"></script>
+
 </head>
 <body class="pace-done @ViewData["ExtraClass"]">
 
@@ -62,13 +66,16 @@
                         L2ACP
                     </div>
                 </li>
-                <li class="@((string) ViewContext.RouteData.Values["action"] == "Index" ? "active" : string.Empty)">
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "Index" && 
+                        (string) ViewContext.RouteData.Values["controller"] == "Home"  ? "active" : string.Empty)">
                     <a asp-action="Index" asp-controller="Home"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
                 </li>
-                <li class="@((string) ViewContext.RouteData.Values["action"] == "Services" ? "active" : string.Empty)">
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "Services" &&
+                        (string) ViewContext.RouteData.Values["controller"] == "Home" ? "active" : string.Empty)">
                     <a asp-action="Services" asp-controller="Home"><i class="fa fa-briefcase"></i> <span class="nav-label">Services</span></a>
                 </li>
-                <li class="@((string) ViewContext.RouteData.Values["action"] == "Statistics" ? "active" : string.Empty)">
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "Statistics" &&
+                        (string) ViewContext.RouteData.Values["controller"] == "Home" ? "active" : string.Empty)">
                     <a asp-action="Statistics" asp-controller="Home"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Statistics</span></a>
                 </li>
                 <li>
@@ -76,7 +83,8 @@
                 </li>
                 @if (Context.GetAccountInfo()?.AccessLevel > 100)
                 {
-                    <li>
+                    <li class="@((string) ViewContext.RouteData.Values["action"] == "Index" && 
+                        (string) ViewContext.RouteData.Values["controller"] == "Admin" ? "active" : string.Empty)">
                         <a asp-action="Index" asp-controller="Admin"><i class="fa fa-users"></i> <span class="nav-label">Admin Area</span></a>
                     </li>
                 }

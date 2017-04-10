@@ -4,47 +4,48 @@
 @model L2ACP.Responses.GetInventoryResponse
 @inject AssetManager AssetManager
 
-<div class="table-responsive">
-    <table class="table table-striped table-hover">
-        <tbody>
-        <tr>
-            <th>Item Icon</th>
-            <th>Item Name</th>
-            <th>Enchant</th>
-        </tr>
-        @foreach (InventoryInfo item in Model.InventoryInfo)
-        {
-            L2Item currentItem = AssetManager.GetItems().FirstOrDefault(x => x.Key == item.ItemId).Value;
-            if (!currentItem.Enchantable)
-            {
-                continue;
-            }
-            <tr>
-                <td><img alt="image" src="/images/gameIcons/@(currentItem.Image).png"> </td>
-                <td>@currentItem.Name +<span class="currentEnch">@item.Enchant</span></td>
-                <td><button class="btn btn-primary enchantBtn" data-objId="@item.ObjectId" type="button">+</button></td>
-            </tr>
-        }
+<div class="wrapper wrapper-content animated fadeIn">
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <tbody>
+                <tr>
+                    <th>Item Icon</th>
+                    <th>Item Name</th>
+                    <th>Enchant</th>
+                </tr>
+                @foreach (InventoryInfo item in Model.InventoryInfo)
+                {
+                    L2Item currentItem = AssetManager.GetItems().FirstOrDefault(x => x.Key == item.ItemId).Value;
+                    if (!currentItem.Enchantable)
+                    {
+                        continue;
+                    }
+                    <tr>
+                        <td><img alt="image" src="/images/gameIcons/@(currentItem.Image).png"> </td>
+                        <td>@currentItem.Name +<span class="currentEnch">@item.Enchant</span></td>
+                        <td><button class="btn btn-primary enchantBtn" data-objId="@item.ObjectId" type="button">+</button></td>
+                    </tr>
+                }
 
-        </tbody>
-    </table>
-</div>
+            </tbody>
+        </table>
+    </div>
+    </div>
+    <script>
+        $('.enchantBtn').click(function () {
+            var clicked = $(this);
+            var itemObjId = $(this).attr('data-objId');
+            var playerName = $('#charsSelect').val();
+            $.get("/enchantitem/" + playerName + "/" + itemObjId,
+                   function (data) {
+                       // $('#mainservices').html(data);
+                       if (data == "ok") {
+                           var cur = clicked.closest('tr').find('.currentEnch');
+                           cur.text(parseInt(parseInt(cur.text()) + 1));
+                       } else {
+                           alert('Something went wrong!');
+                       }
 
-<script>
-    $('.enchantBtn').click(function () {
-        var clicked = $(this);
-        var itemObjId = $(this).attr('data-objId');
-        var playerName = $('#charsSelect').val();
-        $.get("/enchantitem/" + playerName + "/" + itemObjId,
-               function (data) {
-                   // $('#mainservices').html(data);
-                   if (data == "ok") {
-                       var cur = clicked.closest('tr').find('.currentEnch');
-                       cur.text(parseInt(parseInt(cur.text()) + 1));
-                   } else {
-                       alert('Something went wrong!');
-                   }
-                   
-               });
-    });
-</script>
+                   });
+        });
+    </script>

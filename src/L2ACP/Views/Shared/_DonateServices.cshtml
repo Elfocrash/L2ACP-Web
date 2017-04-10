@@ -2,10 +2,10 @@
 @using L2ACP.Services
 @inject AssetManager AssetManager
 @model DonateService[]
-<div>
+<div class="wrapper wrapper-content animated fadeIn">
 
-    @if(Model.FirstOrDefault(x => x.ServiceId == 1).Price >= 0) //Rename player
-    { 
+    @if (Model.FirstOrDefault(x => x.ServiceId == 1).Price >= 0) //Rename player
+    {
         <div class="col-lg-2">
             <div id="renamePlayer" class="widget navy-bg p-lg text-center">
                 <div class="m-b-md">
@@ -43,19 +43,19 @@
         </div>
     }
 
-            @if (Model.FirstOrDefault(x => x.ServiceId == 2).Price >= 0) //nobless player
+    @if (Model.FirstOrDefault(x => x.ServiceId == 2).Price >= 0) //nobless player
             {
-                <div class="col-lg-2">
-                    <div id="noblessPlayer" class="widget navy-bg p-lg text-center">
-                        <div class="m-b-md">
-                            <i class="fa fa-shopping-cart fa-2x"></i>
-                            <div class="font-bold no-margins" style="font-size: 14px;">
-                                <div>@Model.FirstOrDefault(x => x.ServiceId == 2).ServiceName</div>
-                                <div>@Model.FirstOrDefault(x => x.ServiceId == 2).Price Donate Points</div>
-                            </div>
-                        </div>
+        <div class="col-lg-2">
+            <div id="noblessPlayer" class="widget navy-bg p-lg text-center">
+                <div class="m-b-md">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                    <div class="font-bold no-margins" style="font-size: 14px;">
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 2).ServiceName</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 2).Price Donate Points</div>
                     </div>
                 </div>
+            </div>
+        </div>
 
                 <div class="modal inmodal" id="noblessModal" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog">
@@ -77,21 +77,21 @@
                         </div>
                     </div>
                 </div>
-            }
+    }
 
-            @if (Model.FirstOrDefault(x => x.ServiceId == 3).Price >= 0) //Reset pk
+    @if (Model.FirstOrDefault(x => x.ServiceId == 3).Price >= 0) //Reset pk
             {
-                <div class="col-lg-2">
-                    <div id="resetPk" class="widget navy-bg p-lg text-center">
-                        <div class="m-b-md">
-                            <i class="fa fa-shopping-cart fa-2x"></i>
-                            <div class="font-bold no-margins" style="font-size: 14px;">
-                                <div>@Model.FirstOrDefault(x => x.ServiceId == 3).ServiceName</div>
-                                <div>@Model.FirstOrDefault(x => x.ServiceId == 3).Price Donate Points</div>
-                            </div>
-                        </div>
+        <div class="col-lg-2">
+            <div id="resetPk" class="widget navy-bg p-lg text-center">
+                <div class="m-b-md">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                    <div class="font-bold no-margins" style="font-size: 14px;">
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 3).ServiceName</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 3).Price Donate Points</div>
                     </div>
                 </div>
+            </div>
+        </div>
 
                 <div class="modal inmodal" id="resetPkModal" tabindex="-1" role="dialog" aria-hidden="true">
                     <div class="modal-dialog">
@@ -113,21 +113,21 @@
                         </div>
                     </div>
                 </div>
-            }
+    }
 
-            @if (Model.FirstOrDefault(x => x.ServiceId == 4).Price >= 0) //Change sex
+    @if (Model.FirstOrDefault(x => x.ServiceId == 4).Price >= 0) //Change sex
             {
-                <div class="col-lg-2">
-                    <div id="changeSex" class="widget navy-bg p-lg text-center">
-                        <div class="m-b-md">
-                            <i class="fa fa-shopping-cart fa-2x"></i>
-                            <div class="font-bold no-margins" style="font-size: 14px;">
-                                <div>@Model.FirstOrDefault(x => x.ServiceId == 4).ServiceName</div>
-                                <div>@Model.FirstOrDefault(x => x.ServiceId == 4).Price Donate Points</div>
-                            </div>
-                        </div>
+        <div class="col-lg-2">
+            <div id="changeSex" class="widget navy-bg p-lg text-center">
+                <div class="m-b-md">
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                    <div class="font-bold no-margins" style="font-size: 14px;">
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 4).ServiceName</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 4).Price Donate Points</div>
                     </div>
                 </div>
+            </div>
+        </div>
 
 
                 <div class="modal inmodal" id="changeSexModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -150,9 +150,11 @@
                         </div>
                     </div>
                 </div>
-            }
+    }
 
-        </div>
+</div>
+
+
 
 @if (Model.FirstOrDefault(x => x.ServiceId == 1).Price >= 0) //Rename player
 {

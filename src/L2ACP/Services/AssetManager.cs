@@ -41,6 +41,7 @@ namespace L2ACP.Services
                     string name = node.Attributes["name"].InnerText;
                     string icon = string.Empty;
                     bool enchantable = false;
+                    bool questItem = false;
                     foreach (XmlNode child in node.ChildNodes)
                     {//enchant_enabled
                         if (child?.Attributes?["name"]?.InnerText == "icon")
@@ -51,10 +52,15 @@ namespace L2ACP.Services
                         {
                             enchantable = child.Attributes["val"].InnerText == "1";
                         }
+
+                        if (child?.Attributes?["name"]?.InnerText == "is_questitem")
+                        {
+                            questItem = child.Attributes["val"].InnerText == "true";
+                        }
                     }
                     var item = new L2Item
                     {
-                        ItemId = id, Name = name, Image = icon, Enchantable = enchantable
+                        ItemId = id, Name = name, Image = icon, Enchantable = enchantable, IsQuestItem = questItem
                     };
                     items.Add(id,item);
                 }
