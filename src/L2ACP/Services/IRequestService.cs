@@ -31,5 +31,11 @@ namespace L2ACP.Services
         Task<L2Response> GetDonateServices();
 
         Task<L2Response> RenamePlayer(string playerName, string newName);
+
+        Task<L2Response> SetNobless(string playerName);
+
+        Task<L2Response> ChangeSex(string playerName);
+
+        Task<L2Response> ResetPk(string playerName);
     }
 }

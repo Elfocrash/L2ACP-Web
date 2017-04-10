@@ -9,10 +9,11 @@
         <div class="col-lg-2">
             <div id="renamePlayer" class="widget navy-bg p-lg text-center">
                 <div class="m-b-md">
-                    <i class="fa fa-shopping-cart fa-4x"></i>
-                    <h3 class="font-bold no-margins">
-                        @Model.FirstOrDefault(x => x.ServiceId == 1).ServiceName
-                    </h3>
+                    <i class="fa fa-shopping-cart fa-2x"></i>
+                    <div class="font-bold no-margins" style="font-size: 14px;">
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 1).ServiceName</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 1).Price Donate Points</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,10 +48,32 @@
                 <div class="col-lg-2">
                     <div id="noblessPlayer" class="widget navy-bg p-lg text-center">
                         <div class="m-b-md">
-                            <i class="fa fa-shopping-cart fa-4x"></i>
-                            <h3 class="font-bold no-margins">
-                                @Model.FirstOrDefault(x => x.ServiceId == 2).ServiceName
-                            </h3>
+                            <i class="fa fa-shopping-cart fa-2x"></i>
+                            <div class="font-bold no-margins" style="font-size: 14px;">
+                                <div>@Model.FirstOrDefault(x => x.ServiceId == 2).ServiceName</div>
+                                <div>@Model.FirstOrDefault(x => x.ServiceId == 2).Price Donate Points</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal inmodal" id="noblessModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content animated bounceInRight">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <i class="fa fa-laptop modal-icon"></i>
+                                <h4 class="modal-title">Make nobless</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <strong>Are you sure you want to make <span class="renameCurPlayer"></span> Nobless?</strong>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                <button type="button" id="btnMakeNobless" class="btn btn-primary">Make nobless</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -61,10 +84,32 @@
                 <div class="col-lg-2">
                     <div id="resetPk" class="widget navy-bg p-lg text-center">
                         <div class="m-b-md">
-                            <i class="fa fa-shopping-cart fa-4x"></i>
-                            <h3 class="font-bold no-margins">
-                                @Model.FirstOrDefault(x => x.ServiceId == 3).ServiceName
-                            </h3>
+                            <i class="fa fa-shopping-cart fa-2x"></i>
+                            <div class="font-bold no-margins" style="font-size: 14px;">
+                                <div>@Model.FirstOrDefault(x => x.ServiceId == 3).ServiceName</div>
+                                <div>@Model.FirstOrDefault(x => x.ServiceId == 3).Price Donate Points</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal inmodal" id="resetPkModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content animated bounceInRight">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <i class="fa fa-laptop modal-icon"></i>
+                                <h4 class="modal-title">Reset PK</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <strong>Are you sure you want to reset the pks of <span class="renameCurPlayer"></span>?</strong>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                <button type="button" id="btnResetPk" class="btn btn-primary">Reset PK</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -75,10 +120,33 @@
                 <div class="col-lg-2">
                     <div id="changeSex" class="widget navy-bg p-lg text-center">
                         <div class="m-b-md">
-                            <i class="fa fa-shopping-cart fa-4x"></i>
-                            <h3 class="font-bold no-margins">
-                                @Model.FirstOrDefault(x => x.ServiceId == 4).ServiceName
-                            </h3>
+                            <i class="fa fa-shopping-cart fa-2x"></i>
+                            <div class="font-bold no-margins" style="font-size: 14px;">
+                                <div>@Model.FirstOrDefault(x => x.ServiceId == 4).ServiceName</div>
+                                <div>@Model.FirstOrDefault(x => x.ServiceId == 4).Price Donate Points</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal inmodal" id="changeSexModal" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content animated bounceInRight">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <i class="fa fa-laptop modal-icon"></i>
+                                <h4 class="modal-title">Change sex</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    <strong>Are you sure you want to change the sex of <span class="renameCurPlayer"></span>?</strong>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                                <button type="button" id="btnChangeSex" class="btn btn-primary">Change Sex</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,6 +176,7 @@
                             text: newName
                         }));
                         $("#charsSelect").val(newName);
+                        $('.donatepointcount').text(parseInt($('.donatepointcount').text()) - parseInt(@Model.FirstOrDefault(x => x.ServiceId == 1).Price));
                     } else {
                         toastr["error"](data);
                     }
@@ -124,6 +193,21 @@
 
         $('#noblessPlayer').click(function () {
             var playerName = $('#charsSelect').val();
+            $('.renameCurPlayer').text(playerName);
+            $('#noblessModal').modal('show');
+        });
+        $('#btnMakeNobless').click(function () {
+            var playerName = $('#charsSelect').val();
+            $.get("/setnobless/" + playerName,
+                function (data) {
+                    if (data.startsWith("ok:")) {
+                        toastr["success"](data.replace("ok:", ""));
+                        $('.donatepointcount').text(parseInt($('.donatepointcount').text()) - parseInt(@Model.FirstOrDefault(x => x.ServiceId == 1).Price));
+                    } else {
+                        toastr["error"](data);
+                    }
+                    $('#noblessModal').modal('hide');
+                });
         });
     </script>
 }
@@ -131,8 +215,23 @@
 @if (Model.FirstOrDefault(x => x.ServiceId == 3).Price >= 0) //Rename player
 {
     <script>
-
         $('#resetPk').click(function () {
+            var playerName = $('#charsSelect').val();
+            $('.renameCurPlayer').text(playerName);
+            $('#resetPkModal').modal('show');
+        });
+        $('#btnResetPk').click(function () {
+            var playerName = $('#charsSelect').val();
+            $.get("/resetPk/" + playerName,
+                function (data) {
+                    if (data.startsWith("ok:")) {
+                        toastr["success"](data.replace("ok:", ""));
+                        $('.donatepointcount').text(parseInt($('.donatepointcount').text()) - parseInt(@Model.FirstOrDefault(x => x.ServiceId == 1).Price));
+                    } else {
+                        toastr["error"](data);
+                    }
+                    $('#resetPkModal').modal('hide');
+                });
         });
     </script>
 }
@@ -142,6 +241,22 @@
     <script>
 
         $('#changeSex').click(function () {
+            var playerName = $('#charsSelect').val();
+            $('.renameCurPlayer').text(playerName);
+            $('#changeSexModal').modal('show');
+        });
+        $('#btnChangeSex').click(function () {
+            var playerName = $('#charsSelect').val();
+            $.get("/changeSex/" + playerName,
+                function (data) {
+                    if (data.startsWith("ok:")) {
+                        toastr["success"](data.replace("ok:", ""));
+                        $('.donatepointcount').text(parseInt($('.donatepointcount').text()) - parseInt(@Model.FirstOrDefault(x => x.ServiceId == 1).Price));
+                    } else {
+                        toastr["error"](data);
+                    }
+                    $('#changeSexModal').modal('hide');
+                });
         });
     </script>
 }

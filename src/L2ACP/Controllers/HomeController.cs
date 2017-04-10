@@ -124,6 +124,75 @@ namespace L2ACP.Controllers
         }
 
         [HttpGet]
+        [Route("setnobless/{playerName}")]
+        public async Task<IActionResult> SetNobless(string playerName)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var response = await _requestService.SetNobless(playerName);
+                    if (response.ResponseCode == 200)
+                        return Content("ok:" + response.ResponseMessage);
+                    return Content(response.ResponseMessage);
+                }
+
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpGet]
+        [Route("changeSex/{playerName}")]
+        public async Task<IActionResult> ChangeSex(string playerName)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var response = await _requestService.ChangeSex(playerName);
+                    if (response.ResponseCode == 200)
+                        return Content("ok:" + response.ResponseMessage);
+                    return Content(response.ResponseMessage);
+                }
+
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpGet]
+        [Route("resetPk/{playerName}")]
+        public async Task<IActionResult> ResetPk(string playerName)
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var response = await _requestService.ResetPk(playerName);
+                    if (response.ResponseCode == 200)
+                        return Content("ok:" + response.ResponseMessage);
+                    return Content(response.ResponseMessage);
+                }
+
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpGet]
         [Route("getenchantableitems/{playerName}")]
         public async Task<IActionResult> GetEnchantableItems(string playerName)
         {

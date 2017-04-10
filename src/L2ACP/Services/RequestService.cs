@@ -158,5 +158,38 @@ namespace L2ACP.Services
             var responseObject = await request.SendPostRequest<L2Response>();
             return responseObject;
         }
+
+        public async Task<L2Response> SetNobless(string playerName)
+        {
+            var request = new SetNoblessRequest
+            {
+                Username = playerName
+            };
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> ChangeSex(string playerName)
+        {
+            var request = new ChangeSexRequest
+            {
+                Username = playerName
+            };
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> ResetPk(string playerName)
+        {
+            var request = new ResetPkRequest
+            {
+                Username = playerName
+            };
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
     }
 }
