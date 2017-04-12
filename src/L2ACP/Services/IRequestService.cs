@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using L2ACP.Models;
 using L2ACP.Responses;
+using Microsoft.Extensions.Primitives;
 
 namespace L2ACP.Services
 {
@@ -41,5 +42,7 @@ namespace L2ACP.Services
         Task<L2Response> GetAllPlayers();
 
         Task<L2Response> GiveItem(string username, int itemId, int itemCount, int enchant);
+
+        Task<L2Response> AnnounceTextAsync(string text);
     }
 }

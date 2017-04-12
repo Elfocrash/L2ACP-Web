@@ -149,6 +149,12 @@ namespace L2ACP.Services
             return responseObject;
         }
 
+        public async Task<L2Response> AnnounceTextAsync(string text)
+        {
+            var responseObject = await new AnnounceRequest(text).SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
         public async Task<L2Response> GetTopStats()
         {
             var responseObject = await new GetStatsRequest().SendPostRequest<GetStatsResponse>();

@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
 using L2ACP.Extensions;
 using L2ACP.Models;
 using L2ACP.Responses;
@@ -79,6 +80,27 @@ namespace L2ACP.Controllers
             if (response.ResponseCode == 200)
             {
                 return Content("ok:"+ response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
+
+
+        [Route("announce")]
+        [HttpPost]
+        public async Task<IActionResult> AnnounceText()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            var text = Request.Form["annText"];
+
+            var response = await _requestService.AnnounceTextAsync(text);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
             }
             return Content(response.ResponseMessage);
         }
