@@ -104,5 +104,27 @@ namespace L2ACP.Controllers
             }
             return Content(response.ResponseMessage);
         }
+
+        [Route("punish")]
+        [HttpPost]
+        public async Task<IActionResult> Punish()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            var punishId = int.Parse(Request.Form["PunishId"]);
+            var playerName = Request.Form["PlayerName"];
+            var time = int.Parse(Request.Form["Time"]);
+
+            var response = await _requestService.Punish(punishId, playerName, time);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
     }
 }

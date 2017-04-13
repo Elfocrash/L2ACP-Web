@@ -219,5 +219,13 @@ namespace L2ACP.Services
             var responseObject = await request.SendPostRequest<GetAllPlayerNamesResponse>();
             return responseObject;
         }
+
+        public async Task<L2Response> Punish(int punishId, string playerName, int time)
+        {
+            var request = new PunishRequest(punishId,playerName,time);
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
     }
 }

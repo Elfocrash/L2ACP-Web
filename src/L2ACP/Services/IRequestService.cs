@@ -44,5 +44,7 @@ namespace L2ACP.Services
         Task<L2Response> GiveItem(string username, int itemId, int itemCount, int enchant);
 
         Task<L2Response> AnnounceTextAsync(string text);
+
+        Task<L2Response> Punish(int punishId, string playerName, int time);
     }
 }

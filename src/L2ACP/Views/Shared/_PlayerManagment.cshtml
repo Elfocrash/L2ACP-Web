@@ -17,7 +17,7 @@
             <div class="tabs-container">
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#tab-1">Give Item</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-2">Test</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-2">Punish</a></li>
                 </ul>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane active">
@@ -48,7 +48,30 @@
                     </div>
                     <div id="tab-2" class="tab-pane">
                         <div class="panel-body">
-                            
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <h5>Punishments</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="form-group">
+                                        <input id="punishSeconds" type="number" placeholder="Punishment seconds (0 = Infinite)" class="form-control" min="0" max="2147483647">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" id="banAccBtn" class="btn btn-primary">Ban Account</button>
+                                        <button type="button" id="banCharBtn" class="btn btn-primary">Ban Character</button>
+                                        <button type="button" id="banChatBtn" class="btn btn-primary">Ban Chat</button>
+                                        <button type="button" id="jailBtn" class="btn btn-primary">Jail Character</button>
+                                        <button type="button" id="kickBtn" class="btn btn-primary">Kick Character</button>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" id="unbanAccBtn" class="btn btn-danger">Unban Account</button>
+                                        <button type="button" id="unbanCharBtn" class="btn btn-danger">Unban Character</button>
+                                        <button type="button" id="unbanChatBtn" class="btn btn-danger">Unban Chat</button>
+                                        <button type="button" id="unjailBtn" class="btn btn-danger">Unjail Character</button>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +85,7 @@
     $('#charsSelect').select2();
 
     $('#giveItem').click(function () {
-        if ($('#charsSelect option:first').val() == $('#charsSelect').val()) {
+        if ($('#charsSelect').val() == null) {
             toastr["error"]("Please select a character");
             return false;
         }
@@ -96,4 +119,63 @@
             }
         });
     });
+
+    $('#banAccBtn').click(function () {
+        punishChar(1);
+    });
+
+    $('#banCharBtn').click(function () {
+        punishChar(2);
+    });
+
+    $('#banChatBtn').click(function () {
+        punishChar(3);
+    });
+
+    $('#jailBtn').click(function () {
+        punishChar(4);
+    });
+
+    $('#unbanAccBtn').click(function () {
+        punishChar(5);
+    });
+
+    $('#unbanCharBtn').click(function () {
+        punishChar(6);
+    });
+
+    $('#unbanChatBtn').click(function () {
+        punishChar(7);
+    });
+
+    $('#unjailBtn').click(function () {
+        punishChar(8);
+    });
+
+    $('#kickBtn').click(function () {
+        $('#punishSeconds').val(0);
+        punishChar(9);
+    });
+
+    function punishChar(id) {
+        if ($('#charsSelect').val() == null) {
+            toastr["error"]("Please select a character");
+            return false;
+            }
+            var charName = $('#charsSelect').val();
+            var punishSecs = $('#punishSeconds').val();
+
+            if (punishSecs.trim().length == 0) {
+                toastr["error"]("You must set punishment time.");
+                return false;
+            }
+            $.post("/admin/punish", { 'PunishId': id, 'PlayerName': charName, 'Time': punishSecs}, function( data ) {
+                if (data.startsWith("ok:")) {
+                    toastr["success"](data.replace("ok:", ""));
+                } else {
+                    toastr["error"](data);
+                }
+            });
+        };
+    
 </script>
