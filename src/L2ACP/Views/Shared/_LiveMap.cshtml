@@ -1,0 +1,25 @@
+﻿
+<div class="wrapper wrapper-content animated fadeIn">
+    <div class="mapwrapper" style="position: relative;overflow-x: auto;">
+        <img src="images/map.jpg" />
+    </div>
+</div>
+
+
+<script>
+
+    function getLiveMapData() {
+        $.get("/admin/getLiveMapData", function (data) {
+            $(".mapObj").remove();
+            for (var i = 0; i < data.length; i++) {
+                var img = $('<img class="mapObj" title="' + data[i].name + '" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
+                img.attr('src', '/images/mark.gif');
+                img.appendTo('.mapwrapper');
+            }
+        });
+    }
+
+    getLiveMapData();
+    setInterval(getLiveMapData, 5000);
+
+</script>

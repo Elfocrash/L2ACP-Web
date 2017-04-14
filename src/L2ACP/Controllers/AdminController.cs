@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using L2ACP.Extensions;
 using L2ACP.Models;
@@ -65,6 +66,45 @@ namespace L2ACP.Controllers
                 return RedirectToAction("Login", "Account");
 
             return PartialView("_ServerManagment");
+        }
+
+        [Route("liveMap")]
+        public async Task<IActionResult> LiveMap()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return RedirectToAction("Login", "Account");
+
+            return PartialView("_LiveMap");
+        }
+
+        [Route("getLiveMapData")]
+        public async Task<IActionResult> LiveMapData()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return RedirectToAction("Login", "Account");
+
+            var response = await _requestService.GetAllOnlinePlayersForMap() as GetAllOnlinePlayersForMapResponse;
+
+            if (response != null && response.ResponseCode == 200)
+            {
+                var players = response.MapPlayers;
+                foreach (var player in players)
+                {
+                    player.X = (int) Math.Round((double)(116 + (player.X + 107823) / 200));
+                    player.Y = (int)Math.Round((double)(2580 + (player.Y - 255420) / 200));
+                }
+
+                return new JsonResult(players);
+            }
+            return BadRequest();
+
+          
         }
 
         [Route("giveItem")]

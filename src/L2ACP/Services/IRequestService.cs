@@ -46,5 +46,7 @@ namespace L2ACP.Services
         Task<L2Response> AnnounceTextAsync(string text);
 
         Task<L2Response> Punish(int punishId, string playerName, int time);
+
+        Task<L2Response> GetAllOnlinePlayersForMap();
     }
 }

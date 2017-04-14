@@ -3,7 +3,7 @@
 }
 
 <div class="row">
-    <div class="col-lg-2">
+    <div class="serviceswrapper col-lg-2">
         <div class="row">
             <div class="col-lg-12">
                 <div id="acpManage" class="widget navy-bg p-lg text-center">
@@ -40,8 +40,20 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="mapView" class="widget navy-bg p-lg text-center">
+                    <div class="m-b-md">
+                        <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
+                        <h3 class="font-bold no-margins">
+                            Live Map View
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-lg-10">
+    <div class="serviceContainer col-lg-10">
         <div id="adminwrapper">
         </div>
     </div>
@@ -67,6 +79,16 @@
                 $.get("/admin/serverManage", function (data) {
                     $('#adminwrapper').html(data);
                 }
+                );
+            });
+
+            $('#mapView').click(function () {
+                $.get("/admin/liveMap", function (data) {
+                        $('#adminwrapper').html(data);
+                        $('.serviceswrapper').hide();
+                        $('.pace-done').addClass('mini-navbar');
+                        $('.serviceContainer').removeClass('col-lg-10').addClass('col-lg-12');
+                    }
                 );
             });
         </script>

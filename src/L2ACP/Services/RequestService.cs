@@ -227,5 +227,11 @@ namespace L2ACP.Services
             var responseObject = await request.SendPostRequest<L2Response>();
             return responseObject;
         }
+
+        public async Task<L2Response> GetAllOnlinePlayersForMap()
+        {
+            var responseObject = await new GetAllOnlinePlayersForMapRequest().SendPostRequest<GetAllOnlinePlayersForMapResponse>();
+            return responseObject;
+        }
     }
 }
