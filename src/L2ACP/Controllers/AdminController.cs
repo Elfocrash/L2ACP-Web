@@ -145,6 +145,28 @@ namespace L2ACP.Controllers
             return Content(response.ResponseMessage);
         }
 
+        [Route("spawnnpc")]
+        [HttpPost]
+        public async Task<IActionResult> SpawnNpc()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            var npcId = int.Parse(Request.Form["NpcId"]);
+            var x = int.Parse(Request.Form["X"]);
+            var y = int.Parse(Request.Form["Y"]);
+
+            var response = await _requestService.SpawnNpc(npcId,x,y);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
+
         [Route("punish")]
         [HttpPost]
         public async Task<IActionResult> Punish()

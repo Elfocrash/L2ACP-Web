@@ -233,5 +233,18 @@ namespace L2ACP.Services
             var responseObject = await new GetAllOnlinePlayersForMapRequest().SendPostRequest<GetAllOnlinePlayersForMapResponse>();
             return responseObject;
         }
+
+        public async Task<L2Response> SpawnNpc(int npcId, int x, int y)
+        {
+            var request = new SpawnNpcRequest
+            {
+                NpcId = npcId,
+                X = x,
+                Y = y
+            };
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
     }
 }

@@ -48,5 +48,7 @@ namespace L2ACP.Services
         Task<L2Response> Punish(int punishId, string playerName, int time);
 
         Task<L2Response> GetAllOnlinePlayersForMap();
+
+        Task<L2Response> SpawnNpc(int npcId, int x, int y);
     }
 }

@@ -1,12 +1,50 @@
-﻿
+﻿@using L2ACP.Services
+@inject AssetManager AssetManager
+@{
+    var data = AssetManager.GetNpcs().Select(x => x.Value).ToList();
+}
+
+
 <div class="wrapper wrapper-content animated fadeIn">
-    <div class="mapwrapper" style="position: relative;overflow-x: auto;">
-        <img src="images/map.jpg" />
+    <div class="row" style="margin-bottom: 15px;">
+        <div class="col-lg-12">
+            <select id="npcsSelect" class="form-control m-b" asp-items='new SelectList(data, "NpcId","Name")' name="npcs">
+                <option selected="selected" disabled="disabled">Please select an NPC to spawn</option>
+            </select>
+        </div>
+    </div>
+    <div class="mapwrapper" style="position: relative; overflow-x: auto;">
+        <img src="images/map.jpg"/>
     </div>
 </div>
 
 
 <script>
+    $('#npcsSelect').select2();
+
+    $('.mapwrapper').click(function (e) {
+        if ($('#npcsSelect').val() == null) {
+            toastr["error"]("Select an npc if you want to spawn it.");
+            return false;
+        }
+
+
+        var offset = $(this).offset();
+        var ingameX = 200 * ((e.pageX - offset.left) - 116) - 107823;
+        var ingameY = 200 * ((e.pageY - offset.top) - 2580) + 255420;
+        var npcId = $('#npcsSelect').val();
+        console.log(ingameX);
+        console.log(ingameY);
+        $.post("/admin/spawnnpc", { 'NpcId': npcId, 'X': ingameX, 'Y': ingameY}, function( data ) {
+            if (data.startsWith("ok:")) {
+                toastr["success"](data.replace("ok:", ""));
+            } else {
+                toastr["error"](data);
+            }
+        });
+    });
+
+    
 
     function getLiveMapData() {
         $.get("/admin/getLiveMapData", function (data) {
