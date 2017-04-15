@@ -1,23 +1,150 @@
-﻿
+﻿@using L2ACP.Models
+@using L2ACP.Services
+@model AcpManageViewmodel
+@inject AssetManager AssetManager
+
 <div class="wrapper wrapper-content animated fadeIn">
-    <div class="col-lg-2">
-        <div id="buyitems" class="widget navy-bg p-lg text-center">
-            <div class="m-b-md">
-                <i class="fa fa-shopping-cart fa-4x"></i>
-                <h3 class="font-bold no-margins">
-                    Buy ingame items
-                </h3>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-2">
-        <div id="donateServices" class="widget navy-bg p-lg text-center">
-            <div class="m-b-md">
-                <i class="fa fa-plus fa-4x"></i>
-                <h3 class="font-bold no-margins">
-                    Player services
-                </h3>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Donate item list</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <select id="items" class="form-control m-b" asp-items='new SelectList(AssetManager.GetItems().Values.Where(x => x.ItemId <= 9299 && !x.IsQuestItem).OrderBy(x => x.Name), "ItemId","Name" )' name="items">
+                        <option selected="selected" disabled="disabled">Please select an item</option>
+                    </select>
+                    <div class="table-responsive">
+                        <table id="itemsTable" class="table table-striped table-hover">
+                            <tbody>
+                            <tr class="theader">
+                                <th>Item</th>
+                                <th>Item Enchant</th>
+                                <th>Item Count</th>
+                                <th>Donate points</th>
+                                <th>Actions</th>
+                            </tr>
+                            <tr class="duperow" data-itemid="" data-itemcount="" data-enchant="" data-price="" style="display: none;">
+                                <td><img class="itemimg" alt="image" src=""><span class="itemname"></span></td>
+                                <td><input class="form-control itemenchant" type="number" min="1" max="65535" /></td>
+                                <td><input class="form-control itemcount" type="number" min="1" max="2147483647"/></td>
+                                <td><input class="form-control itemprice" type="number" min="1" max="5000" /></td>
+                                <td><button class="btn btn-danger removeItem" type="button">Remove</button></td>
+                            </tr>
+                            @foreach (BuyListItem item in Model.BuyListItems)
+                            {
+                                L2Item currentItem = AssetManager.GetItems().FirstOrDefault(x => x.Key == item.ItemId).Value;
+                                <tr data-itemid="@item.ItemId" data-itemcount="@item.ItemCount" data-enchant="@item.Enchant" data-price="@item.Price">
+                                    <td><img class="itemimg" alt="image" src="/images/gameIcons/@(currentItem.Image).png"><span class="itemname">@currentItem.Name</span></td>
+                                    <td><input class="form-control itemenchant" type="number" min="1" max="65535" value="@item.Enchant" /></td>
+                                    <td><input class="form-control itemcount" type="number" min="1" max="2147483647" value="@item.ItemCount"/></td>
+                                    <td><input class="form-control itemprice" type="number" min="1" max="5000" value="@item.Price"/></td>
+                                    <td><button class="btn btn-danger removeItem" type="button">Remove</button></td>
+                                </tr>
+                            }
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <button id="saveDonateList" class="btn btn-primary">Save items</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<script>
+    $('#items').select2();
+    var model = [];
+    @foreach (var item in AssetManager.GetItems().Values.Where(x => x.ItemId <= 9299 && !x.IsQuestItem).OrderBy(x => x.Name))
+        {
+            @:model.push({
+                @:itemid: '@item.ItemId',
+                @:itemname: '@item.Name',
+                @:icon: '@item.Image'
+            @:});
+        }
+    $('.removeItem').click(function(e) {
+        $(this).closest('tr').remove();
+    });
+
+    $('#items').change(function(e) {
+        console.log(e);
+        var item = $("option:selected", this);
+        console.log(item.val());
+
+        var cloned = $('.duperow').clone(true, true);
+        $('#itemsTable tbody').append(cloned);
+        cloned.show();
+        cloned.removeClass('duperow');
+
+
+        var itemId = model.find(x => x.itemid === item.val()).itemid;
+        var itemname = model.find(x => x.itemid === item.val()).itemname;
+        var icon = model.find(x => x.itemid === item.val()).icon;
+        cloned.attr('data-itemId', itemId);
+        cloned.attr('data-itemcount', 1);
+        cloned.attr('data-enchant', 0);
+        cloned.attr('data-price', 1);
+        cloned.find('.itemimg').attr('src', '/images/gameIcons/' + icon + '.png');
+        cloned.find('.itemname').text(itemname);
+        cloned.find('.itemenchant').val(0);
+        cloned.find('.itemcount').val(1);
+        cloned.find('.itemprice').val(1);
+    });
+
+    $('#saveDonateList').click(function(e) {
+        var table = document.getElementById("itemsTable");
+        var itemList = [];
+        for (var i = 0, row; row = table.rows[i]; i++) {
+            //iterate through rows
+            //rows would be accessed using the "row" variable assigned in the for loop
+
+            if ($(row).hasClass('duperow') || $(row).hasClass('theader')) {
+                continue;
+            }
+
+            var itemId = $(row).attr('data-itemid');
+            var itemCount = $(row).find('.itemcount').val();
+            var itemEnchant = $(row).find('.itemenchant').val();
+            var itemPrice = $(row).find('.itemprice').val();
+
+            itemList.push({
+                itemid: itemId,
+                itemcount: itemCount,
+                itemenchant: itemEnchant,
+                itemprice: itemPrice
+            });
+        }
+
+        $.ajax({
+            url: "/admin/setdonatelist",
+            type: "POST",
+            data: JSON.stringify(itemList),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+
+            success: function (response) {
+                if (response.responseText.startsWith("ok:")) {
+                    toastr["success"](response.responseText.replace("ok:", ""));
+                } else {
+                    toastr["error"](response.responseText);
+                }
+            },
+            error: function (response) {
+                if (response.responseText.startsWith("ok:")) {
+                    toastr["success"](response.responseText.replace("ok:", ""));
+                } else {
+                    toastr["error"](response.responseText);
+                }
+            }
+        });
+    });
+
+</script>

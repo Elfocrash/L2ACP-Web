@@ -246,5 +246,13 @@ namespace L2ACP.Services
             var responseObject = await request.SendPostRequest<L2Response>();
             return responseObject;
         }
+
+        public async Task<L2Response> SetDonateList(AdminDonateListViewmodel[] items)
+        {
+            var request = new SetDonateListRequest(items);
+
+            var responseObject = await request.SendPostRequest<L2Response>();
+            return responseObject;
+        }
     }
 }

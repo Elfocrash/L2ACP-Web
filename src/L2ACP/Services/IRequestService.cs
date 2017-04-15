@@ -50,5 +50,7 @@ namespace L2ACP.Services
         Task<L2Response> GetAllOnlinePlayersForMap();
 
         Task<L2Response> SpawnNpc(int npcId, int x, int y);
+
+        Task<L2Response> SetDonateList(AdminDonateListViewmodel[] items);
     }
 }

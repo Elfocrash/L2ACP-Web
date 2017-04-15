@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using L2ACP.Extensions;
@@ -10,6 +11,8 @@ using Microsoft.AspNetCore.Routing;
 
 namespace L2ACP.Controllers
 {
+
+
     [Route("admin")]
     public class AdminController : Controller
     {
@@ -39,7 +42,15 @@ namespace L2ACP.Controllers
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
                 return RedirectToAction("Login", "Account");
 
-            return PartialView("_ACPManagment");
+            var getBuyList = await _requestService.GetBuyList() as GetBuyListResponse;
+            var getServiceList = await _requestService.GetDonateServices() as GetDonateServicesResponse;
+
+            var viewModel = new AcpManageViewmodel
+            {
+                BuyListItems = getBuyList?.BuyList,
+                DonateServices = getServiceList?.DonateServices
+            };
+            return PartialView("_ACPManagment", viewModel);
         }
 
         [Route("playerManage")]
@@ -138,6 +149,24 @@ namespace L2ACP.Controllers
             var text = Request.Form["annText"];
 
             var response = await _requestService.AnnounceTextAsync(text);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
+
+        [Route("setdonatelist")]
+        [HttpPost]
+        public async Task<IActionResult> SetDonateList([FromBody]AdminDonateListViewmodel[] items)
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            var response = await _requestService.SetDonateList(items);
             if (response.ResponseCode == 200)
             {
                 return Content("ok:" + response.ResponseMessage);
