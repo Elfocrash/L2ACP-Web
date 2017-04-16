@@ -254,5 +254,11 @@ namespace L2ACP.Services
             var responseObject = await request.SendPostRequest<L2Response>();
             return responseObject;
         }
+
+        public async Task<L2Response> RestartServer(int seconds)
+        {
+            var responseObject = await new RestartServerRequest(seconds).SendPostRequest<L2Response>();
+            return responseObject;
+        }
     }
 }

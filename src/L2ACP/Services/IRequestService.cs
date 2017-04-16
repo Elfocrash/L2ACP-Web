@@ -52,5 +52,7 @@ namespace L2ACP.Services
         Task<L2Response> SpawnNpc(int npcId, int x, int y);
 
         Task<L2Response> SetDonateList(AdminDonateListViewmodel[] items);
+
+        Task<L2Response> RestartServer(int seconds);
     }
 }

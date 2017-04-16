@@ -96,6 +96,13 @@
         var itemCount = $('#itemCount').val();
         var enchant = $('#enchant').val();
 
+        if (enchant == "" || enchant == null) {
+            enchant = 0;
+        }
+        if (itemCount == "" || itemCount == null) {
+            enchant = 1;
+        }
+
         var jsonObj = { Username: character, ItemId: itemId, ItemCount: itemCount, Enchant: enchant };
         $.ajax({
             url: "/admin/giveitem",

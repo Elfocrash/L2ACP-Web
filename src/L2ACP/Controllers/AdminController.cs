@@ -156,6 +156,27 @@ namespace L2ACP.Controllers
             return Content(response.ResponseMessage);
         }
 
+        [Route("serverrestart")]
+        [HttpPost]
+        public async Task<IActionResult> ServerRestart()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            if (!int.TryParse(Request.Form["restartseconds"], out int seconds))
+                return Content("Invalid value provided");
+
+            var response = await _requestService.RestartServer(seconds);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
+
         [Route("setdonatelist")]
         [HttpPost]
         public async Task<IActionResult> SetDonateList([FromBody]AdminDonateListViewmodel[] items)
