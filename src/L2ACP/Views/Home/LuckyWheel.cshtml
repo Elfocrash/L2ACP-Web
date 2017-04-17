@@ -1,0 +1,288 @@
+﻿@using L2ACP.Controllers
+@using L2ACP.Extensions
+@using L2ACP.Models
+@using L2ACP.Services
+@{
+    ViewData["Title"] = "Lucky Wheel";
+}
+@inject AssetManager AssetManager
+@model L2ACP.Models.LuckyWheelViewmodel
+
+<div class="row  border-bottom white-bg dashboard-header">
+    <div class="wrapper wrapper-content animated fadeIn" style="padding: 0px 10px 40px;">
+        <div class="col-md-12">
+            <h3>Welcome @Context.GetUsername()</h3>
+            @*<select id="charsSelect" class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" name="account">
+                <option selected="selected" disabled="disabled">Please select a character</option>
+            </select>*@
+
+            <div class="col-md-10">
+            <div class="body">
+            <div class="block">
+            <div class="block-info">
+            <div id="lucky-wheel">
+                <div class="wheel-popup">
+                    <div class="win-popup" hidden="">
+                        <div class="win-img"><img src="/images/win.png" alt=""></div>
+                        <div class="win-item-img"></div>
+                        <div class="win-item-name">Item name</div>
+                        <div class="wheel-btn">
+                            <button class="wheel-start-btn" onclick="ContinueGame()">Play again</button>
+                        </div>
+                    </div>
+                    <div class="start-popup">
+                        <div class="wheel-title">Lucky wheel</div>
+                        <div class="wheel-info">
+                            Test your luck and win valuable prizes!
+                            <br><br>
+                            <span class="badge badge-success">One spin costs <span id="spincost">5</span> Donate Points.</span>
+                            <br><br>
+                            Simply select the character what you would like the prize to go to and press the spin button.
+                            <br><br>
+                            Good luck!
+                        </div>
+                        <select id="char_name" class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" onchange="ShowWheelBtn()" name="account">
+                            <option selected="selected"  value="no_char" disabled="disabled">Please select a character</option>
+                        </select>
+                        <br><br><br><br>
+                        <div class="wheel-btn" style="display: none;">
+                            <button class="wheel-start-btn" onclick="WheelStart()">Start game</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="wheel-text" hidden="" style="display: none;">
+                    <div class="wheel-char">Character: </div>
+
+                </div>
+                <div class="wheel-count"></div>
+                <div class="wheel-buttonoff" hidden=""></div>
+                <div class="wheel-button" onclick="spin()"></div>
+                <div class="wheel-main"></div>
+                <div class="wheel-border"></div>
+                <div class="wheel-bg"></div>
+                <div class="wheel-gear gospin3">
+
+                    @for (int i = 0; i < 12; i++)
+                    {
+                        {
+                            try
+                            {
+                                L2Item current = AssetManager.GetItems()[Model.Items[i].ItemId];
+                                <div class="gear-item @("gear-item"+(i+1))">
+                                    <div class="wheel-prize-name">@current.Name @("x" + Model.Items[i].Count)</div>
+                                    <div class="wheel-prize"><img src="/images/gameIcons/@(current.Image).png" alt=""></div>
+                                </div>
+                            }
+                            catch (ArgumentOutOfRangeException)
+                            {
+                                <div class="gear-item @("gear-item"+(i+1))">
+                                    <div class="wheel-prize-name">No item found</div>
+                                    <div class="wheel-prize"><img src="/images/gameIcons/noimage.png" alt=""></div>
+                                </div>
+                            }
+
+                        }
+
+                    }
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+
+            <div id="prize-block" style="padding: 0px; width: 180px;">
+                    
+                <div class="jspContainer" style="width: 180px; height: 832px;"><div class="jspPane" style="padding: 0px; top: 0px; left: 0px; width: 180px;"><div class="slimScrollDiv" style="position: relative; width: auto; height: 832px;"><div id="feed" class="feed" style="width: auto; height: 832px;">
+
+                    @foreach (LuckyWheelItem item in Model.Items)
+                    {
+                        {
+                            L2Item current = AssetManager.GetItems()[item.ItemId];
+                            <div class="prize-item">
+                                <div class="prize-item_img"><img src="/images/gameIcons/@(current.Image).png" alt=""></div>
+                                <div class="prize-item_name">@current.Name @("x" + item.Count)</div>
+                            </div>
+                        }
+                    }
+
+
+                </div><div class="slimScrollBar ui-draggable" style="background: rgb(0, 0, 0); width: 5px; position: absolute; top: 616px; opacity: 0.4; display: block; border-radius: 5px; z-index: 99; right: 1px; height: 215.646px;"></div><div class="slimScrollRail" style="width: 5px; height: 100%; position: absolute; top: 0px; display: block; border-radius: 5px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div></div></div></div>
+            <div id="wheel-faq">
+            </div>
+            <div style="clear:both;"></div>
+            </div>
+            </div>
+            </div>
+
+
+            <script>
+
+                $("#feed").slimscroll({
+                    height: 'auto',
+                    size: '5px',
+                    alwaysVisible: true,
+                    railVisible: true
+                });
+
+                $("html, body").animate({ scrollTop: 120 }, 200);
+                function ShowWheelBtn(){
+                    if($('#char_name').val()!=null) {
+                        $('.wheel-btn').show();
+                    } else {
+                        $('.wheel-btn').hide();
+                    }
+                }
+                function WheelStart() {
+                    var currentDonateCount = parseInt($('.donatepointcount').text());
+                    var cost = parseInt($('#spincost').text());
+                    if (currentDonateCount < cost) {
+                        toastr["error"]("You don't have enough donate points.");
+                    }else if($('#char_name').val()==null){
+                        toastr["error"]("Please select a character");
+                        return false;
+                    } else {
+                        $('.start-popup').hide();
+                        $('.wheel-popup').fadeOut(800);
+                        $('.wheel-char').text('Character: ' + $( "#char_name option:selected" ).text());
+                        $('.wheel-text').fadeIn(200);
+                    }
+                }
+                function ContinueGame(){
+                    $('.start-popup').hide();
+                    $('.wheel-popup').fadeOut(500);
+                }
+                function spin() {
+                    $('.wheel-gear').removeClass('gospin3');
+                    setTimeout(function() {
+                        $('.wheel-gear').addClass('gospin');
+                        $('.wheel-buttonoff').show();
+                        setTimeout(function() {
+                            $.post("/luckyspin", { char_name : $('#char_name').val()}, function(data){
+                                if (data.status =='error') {
+                                    toastr["error"](data.message);
+                                } else if (data.status == 'success') {
+                                    var currentDonateCount = parseInt($('.donatepointcount').text());
+                                    var cost = parseInt($('#spincost').text());
+                                    $('.donatepointcount').text(currentDonateCount - cost);
+                                    var Prize = data;
+                                    $('.wheel-gear').removeClass('gospin');
+                                    setTimeout(function () {
+                                        $('.wheel-gear').addClass('gospin2');
+                                    }, 50);
+                                    setTimeout(function () {
+                                        $('.gear-item1').find('.wheel-prize').html('<img src="/images/gameIcons/' + Prize.itemImg + '.png" alt="">');
+                                        $('.gear-item1').find('.wheel-prize-name').text(Prize.itemName + ' x' + Prize.count);
+                                        if ($('.gear-item1').find('.wheel-prize-name').text() == $('.gear-item2').find('.wheel-prize-name').text()) {
+                                            var tempName = $('.gear-item2').find('.wheel-prize-name').text();
+                                            var tempImg = $('.gear-item2').find('.wheel-prize').html();
+                                            $('.gear-item2').find('.wheel-prize-name').text($('.gear-item7').find('.wheel-prize-name').text());
+                                            $('.gear-item2').find('.wheel-prize').html($('.gear-item7').find('.wheel-prize').html());
+                                            $('.gear-item7').find('.wheel-prize-name').text(tempName);
+                                            $('.gear-item7').find('.wheel-prize').html(tempImg);
+                                        }
+                                    }, 1000);
+                                    setTimeout(function () {
+                                        $('.wheel-gear').removeClass('gospin2');
+                                        $('.wheel-glow-effect').fadeIn(100).delay(50).fadeOut(100).delay(50).fadeIn(100).delay(50).fadeOut(100).delay(50).fadeIn(100).delay(50).fadeOut(100);
+                                        setTimeout(function () {
+                                            $('.wheel-buttonoff').hide();
+                                            $('.win-item-name').text(Prize.itemName + ' x' + Prize.count);
+                                            $('.wheel-popup').show();
+                                            $('.win-popup').fadeIn(500);
+                                            $('.win-item-img').html('<img src="/images/gameIcons/' + Prize.itemImg + '.png" alt="">');
+                                            ReverseItems();
+                                        }, 1000);
+                                    }, 4000);
+                                }
+                            });
+                        }, 5000);
+                    }, 100);
+                }
+
+                $(function(){
+                    readyLoadImg = [ false, false, false, false ];
+                    initProcess();
+                    function initProcess() {
+                        $( "<img />" ).hide()
+                            .load( function() {
+                                readyLoadImg[ 0 ] = true;
+                                $( this ).remove();
+                            } )
+                            .attr( "src", function() {
+                                var imgUrl = $( ".wheel-gear" ).css( "background-image" );
+                                return imgUrl.substring( 4, imgUrl.length - 1 ).replace( /\"/g, "" ).replace( /\'/g, "" );
+                            } );
+                        $( "<img />" ).hide()
+                            .load( function() {
+                                readyLoadImg[ 1 ] = true;
+                                $( this ).remove();
+                            } )
+                            .attr( "src", function() {
+                                var imgUrl = $( ".wheel-main" ).css( "background-image" );
+                                return imgUrl.substring( 4, imgUrl.length - 1 ).replace( /\"/g, "" ).replace( /\'/g, "" );
+                            } );
+                        $( "<img />" ).hide()
+                            .load( function() {
+                                readyLoadImg[ 2 ] = true;
+                                $( this ).remove();
+                            } )
+                            .attr( "src", function() {
+                                var imgUrl = $( ".wheel-bg" ).css( "background-image" );
+                                return imgUrl.substring( 4, imgUrl.length - 1 ).replace( /\"/g, "" ).replace( /\'/g, "" );
+                            } );
+                        $( "<img />" ).hide()
+                            .load( function() {
+                                readyLoadImg[ 3 ] = true;
+                                $( this ).remove();
+                            } )
+                            .attr( "src", function() {
+                                var imgUrl = $( ".wheel-button" ).css( "background-image" );
+                                return imgUrl.substring( 4, imgUrl.length - 1 ).replace( /\"/g, "" ).replace( /\'/g, "" );
+                            } );
+                        triggerIntro();
+                    }
+                    function triggerIntro() {
+                        setTimeout( function() {
+                            var cs = "";
+                            for( var i = 0, l = readyLoadImg.length; i < l; i++ ) {
+                                cs += readyLoadImg[ i ] + ",";
+                            }
+                            if( cs == "true,true,true,true," ) {
+                                aniPlayIntro();
+                            } else {
+                                triggerIntro();
+                            }
+                        }, 500 );
+                    }
+                    function aniPlayIntro() {
+                        $('.wheel-load').fadeOut(500);
+                    }
+                });
+
+                function ReverseItems(){
+                    var i = 2;
+                    var tempName = '';
+                    var tempImg = '';
+                    var num=1;
+                    while(i<=12){
+                        num = Math.floor(Math.random()*10)+2;
+                        tempName = $('.gear-item'+i).find('.wheel-prize-name').text();
+                        tempImg = $('.gear-item'+i).find('.wheel-prize').html();
+                        $('.gear-item'+i).find('.wheel-prize-name').text( $('.gear-item'+num).find('.wheel-prize-name').text() );
+                        $('.gear-item'+i).find('.wheel-prize').html( $('.gear-item'+num).find('.wheel-prize').html() );
+                        $('.gear-item'+num).find('.wheel-prize-name').text( tempName );
+                        $('.gear-item'+num).find('.wheel-prize').html( tempImg );
+                        i++;
+                    }
+                }
+
+            </script>
+        
+            </div>
+        
+
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+   
+}

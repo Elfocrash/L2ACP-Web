@@ -260,5 +260,18 @@ namespace L2ACP.Services
             var responseObject = await new RestartServerRequest(seconds).SendPostRequest<L2Response>();
             return responseObject;
         }
+
+
+        public async Task<L2Response> GetLuckyWheelList()
+        {
+            var responseObject = await new LuckyWheelListRequest().SendPostRequest<LuckyWheelListResponse>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> SpinLuckyWheel(string playername)
+        {
+            var responseObject = await new LuckyWheelSpinRequest{PlayerName = playername}.SendPostRequest<LuckyWheelSpinResponse>();
+            return responseObject;
+        }
     }
 }

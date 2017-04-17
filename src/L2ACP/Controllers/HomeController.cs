@@ -15,9 +15,11 @@ namespace L2ACP.Controllers
     public class HomeController : Controller
     {
         private readonly IRequestService _requestService;
-        public HomeController(IRequestService requestService)
+        private readonly AssetManager _assetManager;
+        public HomeController(IRequestService requestService, AssetManager assetManager)
         {
             _requestService = requestService;
+            _assetManager = assetManager;
         }
 
         public async Task<IActionResult> Index()
@@ -45,6 +47,25 @@ namespace L2ACP.Controllers
                 return BadRequest();
 
             model.CharacterNames = allCharsResponse.AccountNames;
+            return View(model);
+        }
+
+        [Route("/luckywheel")]
+        public async Task<IActionResult> LuckyWheel()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+
+            var allCharsResponse = HttpContext.GetAccountInfo();
+            if (allCharsResponse == null)
+                return BadRequest();
+
+            LuckyWheelViewmodel model = new LuckyWheelViewmodel();
+            var wheelItems = await _requestService.GetLuckyWheelList() as LuckyWheelListResponse;
+
+            model.Items = wheelItems?.Items.ToList();
+            model.CharacterNames = allCharsResponse.AccountNames;
+
             return View(model);
         }
 
@@ -142,6 +163,42 @@ namespace L2ACP.Controllers
                 }
 
                 return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [Route("luckyspin")]
+        [HttpPost]
+        public async Task<IActionResult> LuckySpin()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                var playerName = Request.Form["char_name"].ToString();
+
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var response = await _requestService.SpinLuckyWheel(playerName) as LuckyWheelSpinResponse;
+                    if (response != null && response.ResponseCode == 200)
+                    {
+                        var winItem = response.Item;
+                        L2Item item = _assetManager.GetItems()[winItem.ItemId];
+
+                        return Json(new
+                        {
+                            status = "success",
+                            ItemImg = item.Image,
+                            ItemName = item.Name,
+                            Count = winItem.Count
+                        });
+                    }
+                        
+                    return Json(new {status = "error", message = response?.ResponseMessage});
+                }
+                return Json(new { status = "error", message = "This is not your character" });
             }
             return Unauthorized();
         }

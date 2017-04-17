@@ -54,5 +54,9 @@ namespace L2ACP.Services
         Task<L2Response> SetDonateList(AdminDonateListViewmodel[] items);
 
         Task<L2Response> RestartServer(int seconds);
+
+        Task<L2Response> GetLuckyWheelList();
+
+        Task<L2Response> SpinLuckyWheel(string playername);
     }
 }
