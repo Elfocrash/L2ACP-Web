@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Analytics";
+}
+@using Microsoft.AspNetCore.Html
+@using Newtonsoft.Json
+@model L2ACP.Models.AnalyticsViewmodel
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>Online players <small> Displays what the server traffic is during the day</small></h5>
+                <div class="ibox-tools">
+                    <a class="collapse-link">
+                        <i class="fa fa-chevron-up"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="ibox-content" style="position: relative">
+                <div id="morris-area-chart" style="position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="/js/morris/morris.js"></script>
+    <script>
+
+        Morris.Area({
+            element: 'morris-area-chart',
+            data: @(new HtmlString(JsonConvert.SerializeObject(Model.OnlinePlayers))),
+            xkey: 'Timestamp',
+            ykeys: ['Count'],
+            labels: ['Online Players'],
+            pointSize: 1,
+            hideHover: 'auto',
+            resize: true,
+            lineColors: ['#87d6c6'],
+            lineWidth:2
+        });
+    </script>
+}
+
+
+@section css{
+    <link href="/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+}

@@ -58,5 +58,7 @@ namespace L2ACP.Services
         Task<L2Response> GetLuckyWheelList();
 
         Task<L2Response> SpinLuckyWheel(string playername);
+
+        Task<L2Response> GetAnalyticsPlayers();
     }
 }

@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\css\plugins\morris\morris-0.4.3.min.css" />
     <Content Include="wwwroot\images\0.gif" />
     <Content Include="wwwroot\images\background.png" />
     <Content Include="wwwroot\images\border.png" />
@@ -26,6 +27,8 @@
     <Content Include="wwwroot\images\Popup_bg.png" />
     <Content Include="wwwroot\images\win.png" />
     <Content Include="wwwroot\images\Win_Effect.png" />
+    <Content Include="wwwroot\js\morris\morris.js" />
+    <Content Include="wwwroot\js\morris\raphael-2.1.0.min.js" />
     <Content Include="wwwroot\xml\npcs\12000-12999.xml" />
     <Content Include="wwwroot\xml\npcs\13000-13999.xml" />
     <Content Include="wwwroot\xml\npcs\14000-14999.xml" />

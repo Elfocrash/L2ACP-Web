@@ -33,6 +33,22 @@ namespace L2ACP.Controllers
             return View();
         }
 
+        [Route("analytics")]
+        public async Task<IActionResult> Analytics()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return RedirectToAction("Login", "Account");
+
+            var playersData = await _requestService.GetAnalyticsPlayers() as GetAnalyticsPlayersResponse;
+            var viewmodel = new AnalyticsViewmodel();
+            viewmodel.OnlinePlayers = playersData?.PlayerData;
+
+            return View(viewmodel);
+        }
+
         [Route("acpManage")]
         public async Task<IActionResult> AcpManage()
         {
