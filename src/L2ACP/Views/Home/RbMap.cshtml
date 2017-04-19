@@ -1,0 +1,51 @@
+﻿@using L2ACP.Controllers
+@using L2ACP.Extensions
+@{
+    ViewData["Title"] = "Live boss map";
+}
+
+<div class="row  border-bottom white-bg dashboard-header">
+    <div class="wrapper wrapper-content animated fadeIn">
+        <div class="col-md-12">
+            <h2>Live bosses</h2>
+            <div class="rbmapwrapper" style="position: relative; overflow-x: auto;">
+                <img src="images/map.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="wrapper wrapper-content">
+
+                </div>
+                <div class="footer">
+                    <div>
+                        <strong>Copyright</strong> L2ACP &copy; 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+@section Scripts{
+    <script>
+        function getLiveRbMapData() {
+            $.get("/getRbData", function (data) {
+                console.log(data[0]);
+                $(".mapObj").remove();
+                for (var i = 0; i < data.length; i++) {
+                    var percentage = Math.round((100 * (parseInt(data[i].currentHp) / parseInt(data[i].maxHp))) * 100) /
+                        100;
+                    var img = $('<img class="mapObj" data-toggle="tooltip" data-html="true" title="' + data[i].name + ' <br/>Level: ' + data[i].level + '<br/>HP: ' + percentage +'%" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
+                    img.attr('src', '/images/mark.gif');
+                    img.appendTo('.rbmapwrapper');
+                }
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });
+        }
+
+        getLiveRbMapData();
+        
+        setInterval(getLiveRbMapData, 15000);
+    </script>
+}

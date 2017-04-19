@@ -50,10 +50,11 @@
         $.get("/admin/getLiveMapData", function (data) {
             $(".mapObj").remove();
             for (var i = 0; i < data.length; i++) {
-                var img = $('<img class="mapObj" title="' + data[i].name + '" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
+                var img = $('<img class="mapObj"  data-toggle="tooltip" data-html="true" title="Name: ' + data[i].name + '" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
                 img.attr('src', '/images/mark.gif');
                 img.appendTo('.mapwrapper');
             }
+            $('[data-toggle="tooltip"]').tooltip(); 
         });
     }
 

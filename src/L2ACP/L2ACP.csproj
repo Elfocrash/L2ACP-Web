@@ -83,4 +83,8 @@
     <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.2.301" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\BusinessModels\" />
+  </ItemGroup>
+
 </Project>

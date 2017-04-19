@@ -50,6 +50,43 @@ namespace L2ACP.Controllers
             return View(model);
         }
 
+        [Route("/raidbossmap")]
+        public async Task<IActionResult> RbMap()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+            var allCharsResponse = HttpContext.GetAccountInfo();
+            if (allCharsResponse == null)
+                return BadRequest();
+            return View();
+        }
+
+        [Route("getRbData")]
+        public async Task<IActionResult> LiveMapData()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return RedirectToAction("Login", "Account");
+            var allCharsResponse = HttpContext.GetAccountInfo();
+            if (allCharsResponse == null)
+                return BadRequest();
+
+            var response = await _requestService.GetAllBossesForMap() as GetLiveRbsForMapResponse;
+
+            if (response != null && response.ResponseCode == 200)
+            {
+                var mobs = response.MapMobs;
+                foreach (var mob in mobs)
+                {
+                    mob.X = (int)Math.Round((double)(116 + (mob.X + 107823) / 200));
+                    mob.Y = (int)Math.Round((double)(2580 + (mob.Y - 255420) / 200));
+                }
+
+                return new JsonResult(mobs);
+            }
+            return BadRequest();
+        }
+
+
         [Route("/luckywheel")]
         public async Task<IActionResult> LuckyWheel()
         {

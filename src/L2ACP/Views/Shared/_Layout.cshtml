@@ -88,6 +88,10 @@
                              (string) ViewContext.RouteData.Values["controller"] == "Home" ? "active" : string.Empty)">
                     <a asp-action="Statistics" asp-controller="Home"><i class="fa fa-bar-chart-o"></i> <span class="nav-label">Statistics</span></a>
                 </li>
+                <li class="@((string) ViewContext.RouteData.Values["action"] == "RbMap" &&
+                             (string) ViewContext.RouteData.Values["controller"] == "Home" ? "active" : string.Empty)">
+                    <a asp-action="RbMap" asp-controller="Home"><i class="fa fa-map-marker" aria-hidden="true"></i> <span class="nav-label">Raid Boss Live Map</span></a>
+                </li>
                 <li class="@((string) ViewContext.RouteData.Values["action"] == "LuckyWheel" &&
                              (string) ViewContext.RouteData.Values["controller"] == "Home" ? "active" : string.Empty)">
                     <a asp-action="LuckyWheel" asp-controller="Home"><i class="fa fa-cog" aria-hidden="true"></i> <span class="nav-label">Lucky Wheel</span></a>

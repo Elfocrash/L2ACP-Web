@@ -234,6 +234,12 @@ namespace L2ACP.Services
             return responseObject;
         }
 
+        public async Task<L2Response> GetAllBossesForMap()
+        {
+            var responseObject = await new GetLiveRbsForMapRequest().SendPostRequest<GetLiveRbsForMapResponse>();
+            return responseObject;
+        }
+
         public async Task<L2Response> SpawnNpc(int npcId, int x, int y)
         {
             var request = new SpawnNpcRequest
