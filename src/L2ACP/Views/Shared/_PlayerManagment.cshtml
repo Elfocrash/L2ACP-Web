@@ -18,6 +18,7 @@
                 <ul class="nav nav-tabs">
                     <li class="active"><a data-toggle="tab" href="#tab-1">Give Item</a></li>
                     <li class=""><a data-toggle="tab" href="#tab-2">Punish</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3">Player stats</a></li>
                 </ul>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane active">
@@ -85,6 +86,24 @@
                             </div>
                         </div>
                     </div>
+                    <div id="tab-3" class="tab-pane">
+                        <div class="panel-body">
+                            <div class="ibox float-e-margins">
+                                <div class="ibox-title">
+                                    <h5>Set level</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="form-group">
+                                        <input id="playerlevel" type="number" placeholder="New level" class="form-control" min="1" max="85">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" id="playerlevelBtn" class="btn btn-primary">Set level</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,6 +157,31 @@
         });
     });
 
+
+    $('#playerlevelBtn').click(function () {
+        if ($('#charsSelect').val() == null) {
+            toastr["error"]("Please select a character");
+            return false;
+        }
+
+        var character = $('#charsSelect').val();
+        var level = $('#playerlevel').val();
+
+        if (level == "" || level == null) {
+            toastr["error"]("Please specify the level");
+            return false;
+        }
+
+        var jsonObj = { Username: character, Level: level };
+        $.post("/admin/setplayerlevel", jsonObj, function (data) {
+            if (data.startsWith("ok:")) {
+                toastr["success"]("Level set successfully");
+            } else {
+                toastr["error"](data);
+            }
+        });
+
+    });
 
     $('#giveDonatePointsBtn').click(function () {
         if ($('#charsSelect').val() == null) {

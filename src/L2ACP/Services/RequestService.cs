@@ -161,6 +161,12 @@ namespace L2ACP.Services
             return responseObject;
         }
 
+        public async Task<L2Response> SetPlayerLevel(string playerName, int level)
+        {
+            var responseObject = await new SetPlayerLevelRequest(playerName, level).SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
         public async Task<L2Response> GetTopStats()
         {
             var responseObject = await new GetStatsRequest().SendPostRequest<GetStatsResponse>();

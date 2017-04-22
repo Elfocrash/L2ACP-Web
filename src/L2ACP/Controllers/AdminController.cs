@@ -193,6 +193,27 @@ namespace L2ACP.Controllers
             return Content(response.ResponseMessage);
         }
 
+        [Route("setplayerlevel")]
+        [HttpPost]
+        public async Task<IActionResult> SetPlayerLevel()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            var playerName = Request.Form["Username"];
+            var level = int.Parse(Request.Form["Level"]);
+
+            var response = await _requestService.SetPlayerLevel(playerName, level);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
+
         [Route("serverrestart")]
         [HttpPost]
         public async Task<IActionResult> ServerRestart()

@@ -46,6 +46,7 @@
 
     @section Scripts{
         <script>
+
             $('#charsSelect').change(function () {
                 var charName = $("#charsSelect option:selected").val();
                 $.get("/getinventory/" + charName,
@@ -58,5 +59,8 @@
                         $('#charinfo').html(data);
                     });
             });
+
+            $('#charsSelect').val($("#charsSelect option:nth-child(2)").val());
+            $('#charsSelect').change();
         </script>
     }

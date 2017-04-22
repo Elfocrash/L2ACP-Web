@@ -64,5 +64,7 @@ namespace L2ACP.Services
         Task<L2Response> GetAllBossesForMap();
 
         Task<L2Response> GiveDonatePoints(string playerName, int donatePoints);
+
+        Task<L2Response> SetPlayerLevel(string playerName, int level);
     }
 }
