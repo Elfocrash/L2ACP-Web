@@ -42,6 +42,17 @@
                                         <button type="button" id="giveItem" class="btn btn-primary">Give item</button>
                                     </div>
                                 </div>
+                                <div class="ibox-title">
+                                    <h5>Give donate points</h5>
+                                </div>
+                                <div class="ibox-content">
+                                    <div class="form-group">
+                                        <input id="donatepointscount" type="number" placeholder="Donate points" class="form-control" name="itemcount" min="1" max="2147483647">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="button" id="giveDonatePointsBtn" class="btn btn-primary">Give donate points</button>
+                                    </div>
+                                </div>
 
                             </div>
                         </div>
@@ -126,6 +137,34 @@
             }
         });
     });
+
+
+    $('#giveDonatePointsBtn').click(function () {
+        if ($('#charsSelect').val() == null) {
+            toastr["error"]("Please select a character");
+            return false;
+        }
+
+        var character = $('#charsSelect').val();
+        var points = $('#donatepointscount').val();
+
+        if (points == "" || points == null) {
+            toastr["error"]("Please specify the donate points");
+            return false;
+        }
+
+        var jsonObj = { Username: character, Points: points };
+        $.post("/admin/givedonatepoints", jsonObj, function(data) {
+            if (data.startsWith("ok:")) {
+                toastr["success"]("Donate points given successfully");
+            } else {
+                toastr["error"](data);
+            }
+        });
+           
+    });
+
+
 
     $('#banAccBtn').click(function () {
         punishChar(1);

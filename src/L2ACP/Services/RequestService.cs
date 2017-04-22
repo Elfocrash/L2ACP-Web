@@ -155,6 +155,12 @@ namespace L2ACP.Services
             return responseObject;
         }
 
+        public async Task<L2Response> GiveDonatePoints(string playerName, int donatePoints)
+        {
+            var responseObject = await new GiveDonatePointsRequest(playerName, donatePoints).SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
         public async Task<L2Response> GetTopStats()
         {
             var responseObject = await new GetStatsRequest().SendPostRequest<GetStatsResponse>();

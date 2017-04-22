@@ -172,6 +172,27 @@ namespace L2ACP.Controllers
             return Content(response.ResponseMessage);
         }
 
+        [Route("givedonatepoints")]
+        [HttpPost]
+        public async Task<IActionResult> GiveDonatePoints()
+        {
+            if (!User.Identity.IsAuthenticated)
+                return Content("You need to be logged in");
+
+            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+                return Content("Oh fuck off");
+
+            var playerName = Request.Form["Username"];
+            var donatePoints = int.Parse(Request.Form["Points"]);
+
+            var response = await _requestService.GiveDonatePoints(playerName, donatePoints);
+            if (response.ResponseCode == 200)
+            {
+                return Content("ok:" + response.ResponseMessage);
+            }
+            return Content(response.ResponseMessage);
+        }
+
         [Route("serverrestart")]
         [HttpPost]
         public async Task<IActionResult> ServerRestart()
