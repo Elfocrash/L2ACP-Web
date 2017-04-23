@@ -11,6 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\css\plugins\footable\fonts\footable.eot" />
+    <Content Include="wwwroot\css\plugins\footable\fonts\footable.svg" />
+    <Content Include="wwwroot\css\plugins\footable\fonts\footable.ttf" />
+    <Content Include="wwwroot\css\plugins\footable\fonts\footable.woff" />
+    <Content Include="wwwroot\css\plugins\footable\footable.core.css" />
     <Content Include="wwwroot\css\plugins\morris\morris-0.4.3.min.css" />
     <Content Include="wwwroot\images\0.gif" />
     <Content Include="wwwroot\images\background.png" />
@@ -25,8 +30,11 @@
     <Content Include="wwwroot\images\map.jpg" />
     <Content Include="wwwroot\images\mark.gif" />
     <Content Include="wwwroot\images\Popup_bg.png" />
+    <Content Include="wwwroot\images\privatebuy.png" />
+    <Content Include="wwwroot\images\privatesell.png" />
     <Content Include="wwwroot\images\win.png" />
     <Content Include="wwwroot\images\Win_Effect.png" />
+    <Content Include="wwwroot\js\footable\footable.all.min.js" />
     <Content Include="wwwroot\js\morris\morris.js" />
     <Content Include="wwwroot\js\morris\raphael-2.1.0.min.js" />
     <Content Include="wwwroot\xml\npcs\12000-12999.xml" />

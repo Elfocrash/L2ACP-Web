@@ -118,6 +118,18 @@ namespace L2ACP.Services
             return responseObject;
         }
 
+        public async Task<L2Response> GetBuyPrivateStoreList()
+        {
+            var responseObject = await new GetBuyPrivateStoreItemsRequest().SendPostRequest<GetBuyPrivateStoreItemsResponse>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> GetSellPrivateStoreList()
+        {
+            var responseObject = await new GetSellPrivateStoreItemsRequest().SendPostRequest<GetSellPrivateStoreItemsResponse>();
+            return responseObject;
+        }
+
         public async Task<L2Response> BuyItem(string accountName, string modelUsername, int modelItemId, int modelItemCount, int modelEnchant,
             int modelPrice)
         {
@@ -132,6 +144,34 @@ namespace L2ACP.Services
             };
 
             var responseObject = await buyItemRequest.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> SellPrivateStoreItem(int objectId, int buyerId, int count, string sellerName)
+        {
+            var sellRequest = new SellPrivateStoreItemRequest
+            {
+                ObjectId = objectId,
+                BuyerId = buyerId,
+                Count = count,
+                SellerName = sellerName
+            };
+
+            var responseObject = await sellRequest.SendPostRequest<L2Response>();
+            return responseObject;
+        }
+
+        public async Task<L2Response> BuyPrivateStoreItem(int objectId, int sellerId, int count, string buyerName)
+        {
+            var sellRequest = new BuyPrivateStoreItemRequest
+            {
+                ObjectId = objectId,
+                SellerId = sellerId,
+                Count = count,
+                BuyerName = buyerName
+            };
+
+            var responseObject = await sellRequest.SendPostRequest<L2Response>();
             return responseObject;
         }
 

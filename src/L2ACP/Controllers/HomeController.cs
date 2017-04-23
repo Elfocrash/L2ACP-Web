@@ -322,6 +322,103 @@ namespace L2ACP.Controllers
         }
 
         [HttpGet]
+        [Route("buyprivatestores")]
+        public async Task<IActionResult> BuyPrivateStores()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var buyList = await _requestService.GetBuyPrivateStoreList() as GetBuyPrivateStoreItemsResponse;
+                if (buyList != null)
+                {
+                    ViewBag.CharacterNames = HttpContext.GetAccountInfo().AccountNames;
+                    return View("BuyPrivateStore", buyList.BuyList);
+                }
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+
+        [Route("sellitemprivate")]
+        [HttpPost]
+        public async Task<IActionResult> SellItemPrivate()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                var playerName = Request.Form["SellerName"].ToString();
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var objectId = int.Parse(Request.Form["ObjectId"]);
+                    var sellerId = int.Parse(Request.Form["BuyerId"]);
+                    var count = int.Parse(Request.Form["Count"]);
+                    var buyerName = Request.Form["SellerName"].ToString();
+
+                    var response = await _requestService.SellPrivateStoreItem(objectId, sellerId, count,buyerName);
+                    if (response.ResponseCode == 200)
+                    {
+                        return Content("ok:" + response.ResponseMessage);
+                    }
+                    return Content(response.ResponseMessage);
+                }
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+
+        [HttpGet]
+        [Route("sellprivatestores")]
+        public async Task<IActionResult> SellPrivateStores()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var buyList = await _requestService.GetSellPrivateStoreList() as GetSellPrivateStoreItemsResponse;
+                if (buyList != null)
+                {
+                    ViewBag.CharacterNames = HttpContext.GetAccountInfo().AccountNames;
+                    return View("SellPrivateStore", buyList.SellList);
+                }
+                    
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [Route("buyitemprivate")]
+        [HttpPost]
+        public async Task<IActionResult> BuyItemPrivate()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var allCharsResponse = HttpContext.GetAccountInfo();
+                if (allCharsResponse == null)
+                    return BadRequest();
+
+                var playerName = Request.Form["BuyerName"].ToString();
+                if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
+                {
+                    var objectId = int.Parse(Request.Form["ObjectId"]);
+                    var buyerId = int.Parse(Request.Form["SellerId"]);
+                    var count = int.Parse(Request.Form["Count"]);
+                    var sellerName = Request.Form["BuyerName"].ToString();
+
+                    var response = await _requestService.BuyPrivateStoreItem(objectId, buyerId, count, sellerName);
+                    if (response.ResponseCode == 200)
+                    {
+                        return Content("ok:" + response.ResponseMessage);
+                    }
+                    return Content(response.ResponseMessage);
+                }
+                return BadRequest();
+            }
+            return Unauthorized();
+        }
+
+        [HttpGet]
         [Route("getdonateservices")]
         public async Task<IActionResult> GetDonateServices()
         {

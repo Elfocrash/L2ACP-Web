@@ -1,0 +1,107 @@
+﻿@using L2ACP.Models
+@using L2ACP.Services
+@inject AssetManager AssetManager
+@model TradeItemAcp[]
+
+@{
+    ViewData["Title"] = "Private Stores: Sell";
+}
+
+<div class="wrapper wrapper-content animated fadeIn">
+    <div class="table-responsive">
+        <h3>These are all the items that people are selling ingame. Example: <img src="/images/privatesell.png" /></h3>
+        <select id="charsSelect" class="form-control m-b" asp-items="new SelectList(ViewBag.CharacterNames)" name="account">
+            <option selected="selected" disabled="disabled">Please select a character</option>
+        </select>
+        <input type="text" class="form-control input-sm m-b-xs" id="filter" placeholder="Search">
+        <table class="table sellstoretable table-striped table-hover" data-page-size="25" data-filter="#filter">
+            <tbody>
+                <tr>
+                    <th>Seller</th>
+                    <th>Item</th>
+                    <th>Count</th>
+                    <th>Price (Adena)</th>
+                </tr>
+                @foreach (TradeItemAcp item in Model)
+            {
+                L2Item currentItem = AssetManager.GetItems().FirstOrDefault(x => x.Key == item.ItemId).Value;
+                    <tr>
+                        <td>@item.PlayerName</td>
+                        <td><img alt="image" src="/images/gameIcons/@(currentItem.Image).png"> @currentItem.Name @(item.Enchant > 0 ? "+" + item.Enchant : "") <span style="@(item.Count == 1 ? "display: none": string.Empty  )" class="countwrapper">(<span class="itemcounttext">@item.Count</span>)</span></td>
+                        <td><input data-priceforone="@item.Price" type="number" min="1" max="@item.Count" value="1" class="itemcount form-control" /></td>
+                        <td><button class="btn btn-primary buyStoreItem" data-sellerid="@item.PlayerId" data-itemobjid="@item.ObjectId" type="button">@item.Price</button></td>
+                    </tr>
+            }
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5" class="footable-visible">
+                        <ul class="pagination pull-right"></ul>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/footable/footable.all.min.js"></script>
+    <script>
+        $('.sellstoretable').footable();
+
+        $('.itemcount').on('input',
+            function () {
+                var newval = parseInt($(this).val());
+                var currentVal = parseInt($(this).attr('data-priceforone'));
+                if (newval > parseInt($(this).closest('tr').find('.itemcounttext').text())) {
+                    $(this).val($(this).closest('tr').find('.itemcounttext').text());
+                }
+                if (newval <= 0) {
+                    $(this).val(1);
+                }
+                newval = parseInt($(this).val());
+                $(this).closest('tr').find('.buyStoreItem').text(newval * currentVal);
+            });
+
+        $('.buyStoreItem').click(function () {
+            if ($('#charsSelect').val() == null) {
+                toastr["error"]("Please select the char you want to buy with.");
+                return false;
+            }
+
+
+            var objId = $(this).attr('data-itemobjid');
+            var sellerId = $(this).attr('data-sellerid');
+            var roottr = $(this).closest('tr');
+            var count = parseInt(roottr.find('.itemcount').val());
+            var playerName = $('#charsSelect').val();
+
+            if ((parseInt(roottr.find('.itemcounttext')) - count) < 0) {
+                count = parseInt(roottr.find('.itemcounttext').text());
+            }
+
+            $.post("/buyitemprivate", { ObjectId: objId, SellerId: sellerId, Count: count, BuyerName: playerName }, function (data) {
+                if (data.startsWith("ok:")) {
+
+                    if ((parseInt(roottr.find('.itemcounttext').text()) - count) <= 0) {
+                        roottr.remove();
+                    } else {
+                        var rest = parseInt(roottr.find('.itemcounttext').text()) - count;
+                        roottr.find('.itemcounttext').text(rest);
+                    }
+                    toastr["success"]("Successfully bought the item.");
+                } else {
+                    toastr["error"](data);
+                }
+            });
+
+        });
+    </script>
+}
+
+
+@section css
+{
+    <link rel="stylesheet" href="~/css/plugins/footable/footable.core.css" />
+}

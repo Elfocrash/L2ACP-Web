@@ -66,5 +66,13 @@ namespace L2ACP.Services
         Task<L2Response> GiveDonatePoints(string playerName, int donatePoints);
 
         Task<L2Response> SetPlayerLevel(string playerName, int level);
+
+        Task<L2Response> GetBuyPrivateStoreList();
+
+        Task<L2Response> GetSellPrivateStoreList();
+
+        Task<L2Response> SellPrivateStoreItem(int objectId, int sellerId, int count, string buyerName);
+
+        Task<L2Response> BuyPrivateStoreItem(int objectId, int buyerId, int count, string sellerName);
     }
 }
