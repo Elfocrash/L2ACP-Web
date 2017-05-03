@@ -14,6 +14,10 @@
     this program. If not, see <http://www.gnu.org/licenses/>.
 *@
 
+@using L2ACP.Models
+@using Microsoft.AspNetCore.Mvc.Localization
+@model LoginViewModel
+@inject IViewLocalizer Localizer
 @{
     ViewData["Title"] = Localizer["Login to L2ACP"];
     ViewData["ExtraClass"] = "gray-bg";

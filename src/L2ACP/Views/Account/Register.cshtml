@@ -14,6 +14,11 @@
     this program. If not, see <http://www.gnu.org/licenses/>.
 *@
 
+using L2ACP.Models
+@using L2ACP.Models
+@using Microsoft.AspNetCore.Mvc.Localization
+@model L2ACP.Models.RegisterViewModel
+@inject IViewLocalizer Localizer
 @{
     ViewData["Title"] = Localizer["Register"];
     ViewData["ExtraClass"] = "gray-bg";
