@@ -1,11 +1,12 @@
-﻿
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 <div class="wrapper wrapper-content animated fadeIn">
     <div class="col-lg-2">
         <div id="buyitems" class="widget navy-bg p-lg text-center">
             <div class="m-b-md">
                 <i class="fa fa-shopping-cart fa-4x"></i>
                 <h3 class="font-bold no-margins">
-                    Buy ingame items
+                    @Localizer["Buy ingame items"]
                 </h3>
             </div>
         </div>
@@ -15,7 +16,7 @@
             <div class="m-b-md">
                 <i class="fa fa-plus fa-4x"></i>
                 <h3 class="font-bold no-margins">
-                    Player services
+                    @Localizer["Player services"]
                 </h3>
             </div>
         </div>

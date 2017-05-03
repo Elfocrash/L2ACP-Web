@@ -2,8 +2,10 @@
 @using L2ACP.Extensions
 @using L2ACP.Models
 @using L2ACP.Services
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 @{
-    ViewData["Title"] = "Lucky Wheel";
+    ViewData["Title"] = Localizer["Lucky Wheel"];
 }
 @inject AssetManager AssetManager
 @model L2ACP.Models.LuckyWheelViewmodel
@@ -11,7 +13,7 @@
 <div class="row  border-bottom white-bg dashboard-header">
     <div class="wrapper wrapper-content animated fadeIn" style="padding: 0px 10px 40px;">
         <div class="col-md-12">
-            <h3>Welcome @Context.GetUsername()</h3>
+            <h3>@Localizer["Welcome"] @Context.GetUsername()</h3>
             @*<select id="charsSelect" class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" name="account">
                 <option selected="selected" disabled="disabled">Please select a character</option>
             </select>*@
@@ -25,33 +27,33 @@
                     <div class="win-popup" hidden="">
                         <div class="win-img"><img src="/images/win.png" alt=""></div>
                         <div class="win-item-img"></div>
-                        <div class="win-item-name">Item name</div>
+                        <div class="win-item-name">@Localizer["Item name"]</div>
                         <div class="wheel-btn">
-                            <button class="wheel-start-btn" onclick="ContinueGame()">Play again</button>
+                            <button class="wheel-start-btn" onclick="ContinueGame()">@Localizer["Play again"]</button>
                         </div>
                     </div>
                     <div class="start-popup">
-                        <div class="wheel-title">Lucky wheel</div>
+                        <div class="wheel-title">@Localizer["Lucky Wheel"]</div>
                         <div class="wheel-info">
-                            Test your luck and win valuable prizes!
+                            @Localizer["Test your luck and win valuable prizes!"]
                             <br><br>
-                            <span class="badge badge-success">One spin costs <span id="spincost">5</span> Donate Points.</span>
+                            <span class="badge badge-success">@Localizer["One spin costs"] <span id="spincost">5</span> @Localizer["Donate Points"]</span>
                             <br><br>
-                            Simply select the character what you would like the prize to go to and press the spin button.
+                            @Localizer["Simply select the character what you would like the prize to go to and press the spin button."]
                             <br><br>
-                            Good luck!
+                            @Localizer["Good luck"]!
                         </div>
                         <select id="char_name" class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" onchange="ShowWheelBtn()" name="account">
-                            <option selected="selected"  value="no_char" disabled="disabled">Please select a character</option>
+                            <option selected="selected"  value="no_char" disabled="disabled">@Localizer["Please select a character"]</option>
                         </select>
                         <br><br><br><br>
                         <div class="wheel-btn" style="display: none;">
-                            <button class="wheel-start-btn" onclick="WheelStart()">Start game</button>
+                            <button class="wheel-start-btn" onclick="WheelStart()">@Localizer["Start game"]</button>
                         </div>
                     </div>
                 </div>
                 <div class="wheel-text" hidden="" style="display: none;">
-                    <div class="wheel-char">Character: </div>
+                    <div class="wheel-char">@Localizer["Character:"] </div>
 
                 </div>
                 <div class="wheel-count"></div>
@@ -76,7 +78,7 @@
                             catch (ArgumentOutOfRangeException)
                             {
                                 <div class="gear-item @("gear-item"+(i+1))">
-                                    <div class="wheel-prize-name">No item found</div>
+                                    <div class="wheel-prize-name">@Localizer["No item found"]</div>
                                     <div class="wheel-prize"><img src="/images/gameIcons/noimage.png" alt=""></div>
                                 </div>
                             }
@@ -134,14 +136,14 @@
                     var currentDonateCount = parseInt($('.donatepointcount').text());
                     var cost = parseInt($('#spincost').text());
                     if (currentDonateCount < cost) {
-                        toastr["error"]("You don't have enough donate points.");
+                        toastr["error"]("@Localizer["You don't have enough donate points."]");
                     }else if($('#char_name').val()==null){
-                        toastr["error"]("Please select a character");
+                        toastr["error"]("@Localizer["Please select a character"]");
                         return false;
                     } else {
                         $('.start-popup').hide();
                         $('.wheel-popup').fadeOut(800);
-                        $('.wheel-char').text('Character: ' + $( "#char_name option:selected" ).text());
+                        $('.wheel-char').text('@Localizer["Character:"] ' + $( "#char_name option:selected" ).text());
                         $('.wheel-text').fadeIn(200);
                     }
                 }

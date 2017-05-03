@@ -1,13 +1,14 @@
 ﻿@using L2ACP.Services
+@using Microsoft.AspNetCore.Mvc.Localization
 @model string[]
 @inject AssetManager AssetManager
-
+@inject IViewLocalizer Localizer
 
 <div class="wrapper wrapper-content animated fadeIn">
     <div class="row" style="margin-bottom: 15px;">
         <div class="col-lg-12">
             <select id="charsSelect" class="form-control m-b" asp-items="new SelectList(Model)" name="players">
-                <option selected="selected" disabled="disabled">Please select a character</option>
+                <option selected="selected" disabled="disabled">@Localizer["Please select a character"]</option>
             </select>
         </div>
     </div>
@@ -16,42 +17,42 @@
         <div class="col-lg-12">
             <div class="tabs-container">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#tab-1">Give Item</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-2">Punish</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-3">Player stats</a></li>
+                    <li class="active"><a data-toggle="tab" href="#tab-1">@Localizer["Give Item"]</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-2">@Localizer["Punish"]</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3">@Localizer["Player stats"]</a></li>
                 </ul>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane active">
                         <div class="panel-body">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
-                                    <h5>Give item</h5>
+                                    <h5>@Localizer["Give item"]</h5>
                                 </div>
                                 <div class="ibox-content">
                                     <div class="form-group">
                                         <select id="items" class="form-control m-b" asp-items='new SelectList(AssetManager.GetItems().Values.Where(x => x.ItemId <= 9299 && !x.IsQuestItem).OrderBy(x => x.Name), "ItemId","Name" )' name="items">
-                                            <option selected="selected" disabled="disabled">Please select an item</option>
+                                            <option selected="selected" disabled="disabled">@Localizer["Please select an item"]</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <input id="itemCount" type="number" placeholder="Item count" class="form-control" name="itemcount" min="1" max="2147483647">
+                                        <input id="itemCount" type="number" placeholder="@Localizer["Item count"]" class="form-control" name="itemcount" min="1" max="2147483647">
                                     </div>
                                     <div class="form-group">
-                                        <input id="enchant" type="number" placeholder="Enchant (If applicable)" class="form-control" name="enchant" min="0" max="65535">
+                                        <input id="enchant" type="number" placeholder="@Localizer["Enchant (If applicable)"]" class="form-control" name="enchant" min="0" max="65535">
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" id="giveItem" class="btn btn-primary">Give item</button>
+                                        <button type="button" id="giveItem" class="btn btn-primary">@Localizer["Give item"]</button>
                                     </div>
                                 </div>
                                 <div class="ibox-title">
-                                    <h5>Give donate points</h5>
+                                    <h5>@Localizer["Give donate points"]</h5>
                                 </div>
                                 <div class="ibox-content">
                                     <div class="form-group">
-                                        <input id="donatepointscount" type="number" placeholder="Donate points" class="form-control" name="itemcount" min="1" max="2147483647">
+                                        <input id="donatepointscount" type="number" placeholder="@Localizer["Donate points"]" class="form-control" name="itemcount" min="1" max="2147483647">
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" id="giveDonatePointsBtn" class="btn btn-primary">Give donate points</button>
+                                        <button type="button" id="giveDonatePointsBtn" class="btn btn-primary">@Localizer["Give donate points"]</button>
                                     </div>
                                 </div>
 
@@ -62,24 +63,24 @@
                         <div class="panel-body">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
-                                    <h5>Punishments</h5>
+                                    <h5>@Localizer["Punishments"]</h5>
                                 </div>
                                 <div class="ibox-content">
                                     <div class="form-group">
-                                        <input id="punishSeconds" type="number" placeholder="Punishment seconds (0 = Infinite)" class="form-control" min="0" max="2147483647">
+                                        <input id="punishSeconds" type="number" placeholder="@Localizer["Punishment seconds (0 is Infinite)"]" class="form-control" min="0" max="2147483647">
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" id="banAccBtn" class="btn btn-primary">Ban Account</button>
-                                        <button type="button" id="banCharBtn" class="btn btn-primary">Ban Character</button>
-                                        <button type="button" id="banChatBtn" class="btn btn-primary">Ban Chat</button>
-                                        <button type="button" id="jailBtn" class="btn btn-primary">Jail Character</button>
-                                        <button type="button" id="kickBtn" class="btn btn-primary">Kick Character</button>
+                                        <button type="button" id="banAccBtn" class="btn btn-primary">@Localizer["Ban Account"]</button>
+                                        <button type="button" id="banCharBtn" class="btn btn-primary">@Localizer["Ban Character"]</button>
+                                        <button type="button" id="banChatBtn" class="btn btn-primary">@Localizer["Ban Chat"]</button>
+                                        <button type="button" id="jailBtn" class="btn btn-primary">@Localizer["Jail Character"]</button>
+                                        <button type="button" id="kickBtn" class="btn btn-primary">@Localizer["Kick Character"]</button>
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" id="unbanAccBtn" class="btn btn-danger">Unban Account</button>
-                                        <button type="button" id="unbanCharBtn" class="btn btn-danger">Unban Character</button>
-                                        <button type="button" id="unbanChatBtn" class="btn btn-danger">Unban Chat</button>
-                                        <button type="button" id="unjailBtn" class="btn btn-danger">Unjail Character</button>
+                                        <button type="button" id="unbanAccBtn" class="btn btn-danger">@Localizer["Unban Account"]</button>
+                                        <button type="button" id="unbanCharBtn" class="btn btn-danger">@Localizer["Unban Character"]</button>
+                                        <button type="button" id="unbanChatBtn" class="btn btn-danger">@Localizer["Unban Chat"]</button>
+                                        <button type="button" id="unjailBtn" class="btn btn-danger">@Localizer["Unjail Character"]</button>
                                     </div>
                                 </div>
 
@@ -90,14 +91,14 @@
                         <div class="panel-body">
                             <div class="ibox float-e-margins">
                                 <div class="ibox-title">
-                                    <h5>Set level</h5>
+                                    <h5>@Localizer["Set level"]</h5>
                                 </div>
                                 <div class="ibox-content">
                                     <div class="form-group">
-                                        <input id="playerlevel" type="number" placeholder="New level" class="form-control" min="1" max="85">
+                                        <input id="playerlevel" type="number" placeholder="@Localizer["New level"]" class="form-control" min="1" max="85">
                                     </div>
                                     <div class="form-group">
-                                        <button type="button" id="playerlevelBtn" class="btn btn-primary">Set level</button>
+                                        <button type="button" id="playerlevelBtn" class="btn btn-primary">@Localizer["Set level"]</button>
                                     </div>
                                 </div>
 
@@ -116,7 +117,7 @@
 
     $('#giveItem').click(function () {
         if ($('#charsSelect').val() == null) {
-            toastr["error"]("Please select a character");
+            toastr["error"]("@Localizer["Please select a character"]");
             return false;
         }
 
@@ -142,14 +143,14 @@
             dataType: "json",
             success: function (response) {
                 if (response.responseText.startsWith("ok:")) {
-                    toastr["success"]("Item given successfully");
+                    toastr["success"]("@Localizer["Item given successfully"]");
                 } else {
                     toastr["error"](response.responseText);
                 }
             },
             error: function (response) {
                 if (response.responseText.startsWith("ok:")) {
-                    toastr["success"]("Item given successfully");
+                    toastr["success"]("@Localizer["Item given successfully"]");
                 } else {
                     toastr["error"](response.responseText);
                 }
@@ -160,7 +161,7 @@
 
     $('#playerlevelBtn').click(function () {
         if ($('#charsSelect').val() == null) {
-            toastr["error"]("Please select a character");
+            toastr["error"]("@Localizer["Please select a character"]");
             return false;
         }
 
@@ -168,14 +169,14 @@
         var level = $('#playerlevel').val();
 
         if (level == "" || level == null) {
-            toastr["error"]("Please specify the level");
+            toastr["error"]("@Localizer["Please specify the level"]");
             return false;
         }
 
         var jsonObj = { Username: character, Level: level };
         $.post("/admin/setplayerlevel", jsonObj, function (data) {
             if (data.startsWith("ok:")) {
-                toastr["success"]("Level set successfully");
+                toastr["success"]("@Localizer["Level set successfully"]");
             } else {
                 toastr["error"](data);
             }
@@ -185,7 +186,7 @@
 
     $('#giveDonatePointsBtn').click(function () {
         if ($('#charsSelect').val() == null) {
-            toastr["error"]("Please select a character");
+            toastr["error"]("@Localizer["Please select a character"]");
             return false;
         }
 
@@ -193,14 +194,14 @@
         var points = $('#donatepointscount').val();
 
         if (points == "" || points == null) {
-            toastr["error"]("Please specify the donate points");
+            toastr["error"]("@Localizer["Please specify the donate points"]");
             return false;
         }
 
         var jsonObj = { Username: character, Points: points };
         $.post("/admin/givedonatepoints", jsonObj, function(data) {
             if (data.startsWith("ok:")) {
-                toastr["success"]("Donate points given successfully");
+                toastr["success"]("@Localizer["Donate points given successfully"]");
             } else {
                 toastr["error"](data);
             }
@@ -249,14 +250,14 @@
 
     function punishChar(id) {
         if ($('#charsSelect').val() == null) {
-            toastr["error"]("Please select a character");
+            toastr["error"]("@Localizer["Please select a character"]");
             return false;
             }
             var charName = $('#charsSelect').val();
             var punishSecs = $('#punishSeconds').val();
 
             if (punishSecs.trim().length == 0) {
-                toastr["error"]("You must set punishment time.");
+                toastr["error"]("@Localizer["You must set punishment time."]");
                 return false;
             }
             $.post("/admin/punish", { 'PunishId': id, 'PlayerName': charName, 'Time': punishSecs}, function( data ) {

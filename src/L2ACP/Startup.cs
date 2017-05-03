@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using L2ACP.Extensions;
@@ -7,9 +8,12 @@ using L2ACP.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 
 namespace L2ACP
 {
@@ -34,8 +38,28 @@ namespace L2ACP
             services.AddTransient<IAuthService, AuthService>();
             services.AddTransient<IRequestService, RequestService>();
             services.AddSingleton<AssetManager>();
+            services.AddLocalization(opts => { opts.ResourcesPath = "Resources"; });
 
-            services.AddMvc();
+            services.AddMvc().AddViewLocalization(
+                    LanguageViewLocationExpanderFormat.Suffix,
+                    opts => { opts.ResourcesPath = "Resources"; })
+                .AddDataAnnotationsLocalization();
+
+            services.Configure<RequestLocalizationOptions>(
+                opts =>
+                {
+                    var supportedCultures = new List<CultureInfo>
+                    {
+                        new CultureInfo("en-GB"),
+                        new CultureInfo("pt-BR")
+                    };
+
+                    opts.DefaultRequestCulture = new RequestCulture("en-GB");
+                    // Formatting numbers, dates, etc.
+                    opts.SupportedCultures = supportedCultures;
+                    // UI strings that we have localized.
+                    opts.SupportedUICultures = supportedCultures;
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -72,7 +96,8 @@ namespace L2ACP
             }
 
             app.UseInfoMiddleware();
-
+            var options = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();
+            app.UseRequestLocalization(options.Value);
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

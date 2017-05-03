@@ -3,6 +3,7 @@ using L2ACP.Extensions;
 using L2ACP.Models;
 using L2ACP.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 
 namespace L2ACP.Controllers
 {
@@ -10,11 +11,13 @@ namespace L2ACP.Controllers
     {
         private readonly IAuthService _authService;
         private readonly IRequestService _requestService;
+        private readonly IStringLocalizer<AccountController> _localizer;
 
-        public AccountController(IAuthService authService, IRequestService requestService)
+        public AccountController(IAuthService authService, IRequestService requestService, IStringLocalizer<AccountController> localizer)
         {
             _authService = authService;
             _requestService = requestService;
+            _localizer = localizer;
         }
 
         [Route("/register")]
@@ -77,7 +80,7 @@ namespace L2ACP.Controllers
             {
                 if (model.Password != model.ConfirmPassword)
                 {
-                    ModelState.AddModelError(string.Empty, "Passwords don't match");
+                    ModelState.AddModelError(string.Empty, _localizer["Passwords don't match"]);
                     return View(model);
                 }
 

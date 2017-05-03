@@ -8,6 +8,7 @@ using L2ACP.Responses;
 using L2ACP.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
+using Microsoft.Extensions.Localization;
 
 namespace L2ACP.Controllers
 {
@@ -17,9 +18,12 @@ namespace L2ACP.Controllers
     public class AdminController : Controller
     {
         private readonly IRequestService _requestService;
-        public AdminController(IRequestService requestService)
+        private readonly IStringLocalizer<AdminController> _localizer;
+
+        public AdminController(IRequestService requestService, IStringLocalizer<AdminController> localizer)
         {
             _requestService = requestService;
+            _localizer = localizer;
         }
 
         public async Task<IActionResult> Index()
@@ -138,10 +142,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> GiveItem([FromBody] GiveItemViewmodel model)
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var response = await _requestService.GiveItem(model.Username, model.ItemId, model.ItemCount, model.Enchant);
             if (response.ResponseCode == 200)
@@ -157,10 +161,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> AnnounceText()
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var text = Request.Form["annText"];
 
@@ -177,10 +181,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> GiveDonatePoints()
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var playerName = Request.Form["Username"];
             var donatePoints = int.Parse(Request.Form["Points"]);
@@ -198,10 +202,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> SetPlayerLevel()
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var playerName = Request.Form["Username"];
             var level = int.Parse(Request.Form["Level"]);
@@ -219,13 +223,13 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> ServerRestart()
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             if (!int.TryParse(Request.Form["restartseconds"], out int seconds))
-                return Content("Invalid value provided");
+                return Content(_localizer["Invalid value provided"]);
 
             var response = await _requestService.RestartServer(seconds);
             if (response.ResponseCode == 200)
@@ -240,10 +244,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> SetDonateList([FromBody]AdminDonateListViewmodel[] items)
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var response = await _requestService.SetDonateList(items);
             if (response.ResponseCode == 200)
@@ -258,10 +262,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> SpawnNpc()
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var npcId = int.Parse(Request.Form["NpcId"]);
             var x = int.Parse(Request.Form["X"]);
@@ -280,10 +284,10 @@ namespace L2ACP.Controllers
         public async Task<IActionResult> Punish()
         {
             if (!User.Identity.IsAuthenticated)
-                return Content("You need to be logged in");
+                return Content(_localizer["You need to be logged in"]);
 
             if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
-                return Content("Oh fuck off");
+                return Content(_localizer["Not enough access level"]);
 
             var punishId = int.Parse(Request.Form["PunishId"]);
             var playerName = Request.Form["PlayerName"];

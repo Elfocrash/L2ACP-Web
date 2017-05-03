@@ -1,13 +1,15 @@
 ﻿@using L2ACP.Controllers
 @using L2ACP.Extensions
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 @{
-    ViewData["Title"] = "Live boss map";
+    ViewData["Title"] = Localizer["Live boss map"];
 }
 
 <div class="row  border-bottom white-bg dashboard-header">
     <div class="wrapper wrapper-content animated fadeIn">
         <div class="col-md-12">
-            <h2>Live bosses</h2>
+            <h2>@Localizer["Live bosses"]</h2>
             <div class="rbmapwrapper" style="position: relative; overflow-x: auto;">
                 <img src="images/map.jpg"/>
             </div>
@@ -19,7 +21,7 @@
                 </div>
                 <div class="footer">
                     <div>
-                        <strong>Copyright</strong> L2ACP &copy; 2017
+                        <strong>@Localizer["Copyright"]</strong>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Admin area";
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = Localizer["Admin area"];
 }
 
 <div class="row">
@@ -10,7 +12,7 @@
                     <div class="m-b-md">
                         <i class="fa fa-dashboard fa-4x"></i>
                         <h3 class="font-bold no-margins">
-                            L2ACP Managment
+                            @Localizer["L2ACP Managment"]
                         </h3>
                     </div>
                 </div>
@@ -22,7 +24,7 @@
                     <div class="m-b-md">
                         <i class="fa fa-user-o fa-4x"></i>
                         <h3 class="font-bold no-margins">
-                            Player Managment
+                            @Localizer["Player Managment"]
                         </h3>
                     </div>
                 </div>
@@ -34,7 +36,7 @@
                     <div class="m-b-md">
                         <i class="fa fa-server fa-4x"></i>
                         <h3 class="font-bold no-margins">
-                            Server Managment
+                            @Localizer["Server Managment"]
                         </h3>
                     </div>
                 </div>
@@ -46,7 +48,7 @@
                     <div class="m-b-md">
                         <i class="fa fa-globe fa-4x" aria-hidden="true"></i>
                         <h3 class="font-bold no-margins">
-                            Live Map View
+                            @Localizer["Live Map View"]
                         </h3>
                     </div>
                 </div>

@@ -1,16 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Statistics";
+    ViewData["Title"] = Localizer["Statistics Page"];
 }
+@using Microsoft.AspNetCore.Mvc.Localization
 @model L2ACP.Models.StatsViewModel
-
+@inject IViewLocalizer Localizer
 <div class="wrapper wrapper-content animated fadeIn">
     <div class="row">
         <div class="col-lg-12">
             <div class="tabs-container">
                 <ul class="nav nav-tabs">
-                    <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">Top PvP</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">Top PK</a></li>
-                    <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">Top Time</a></li>
+                    <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true">@Localizer["Top PvP"]</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">@Localizer["Top PK"]</a></li>
+                    <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">@Localizer["Top Time"]</a></li>
                 </ul>
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane active">
@@ -19,13 +20,13 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Player name</th>
-                                        <th>Level</th>
-                                        <th>Class</th>
-                                        <th>Pvp</th>
-                                        <th>Pk</th>
-                                        <th>Online time</th>
-                                        <th>Status</th>
+                                        <th>@Localizer["Player name"]</th>
+                                        <th>@Localizer["Level"]</th>
+                                        <th>@Localizer["Class"]</th>
+                                        <th>@Localizer["Pvp"]</th>
+                                        <th>@Localizer["Pk"]</th>
+                                        <th>@Localizer["Online time"]</th>
+                                        <th>@Localizer["Status"]</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -43,12 +44,12 @@
                                                 TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
                                                 var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
                                             }
-                                            <td>@parsed[0] days @parsed[1] hours @parsed[2] mins</td>
+                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["mins"] @parsed[2] @Localizer["secs"]</td>
                                             <td>
                                                 @if (player.Online == 0)
-                                            {<span class="label label-danger">Offline</span>}
-                                            else
-                                            {<span class="label label-primary">Online</span>}
+                                                {<span class="label label-danger">@Localizer["Offline"]</span>}
+                                                else
+                                                {<span class="label label-primary">@Localizer["Online"]</span>}
                                         </td>
                                     </tr>
                                                     pvpCount++;
@@ -63,13 +64,13 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Player name</th>
-                                        <th>Level</th>
-                                        <th>Class</th>
-                                        <th>Pvp</th>
-                                        <th>Pk</th>
-                                        <th>Online time</th>
-                                        <th>Status</th>
+                                        <th>@Localizer["Player name"]</th>
+                                        <th>@Localizer["Level"]</th>
+                                        <th>@Localizer["Class"]</th>
+                                        <th>@Localizer["Pvp"]</th>
+                                        <th>@Localizer["Pk"]</th>
+                                        <th>@Localizer["Online time"]</th>
+                                        <th>@Localizer["Status"]</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -87,12 +88,12 @@
                                                 TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
                                                 var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
                                             }
-                                            <td>@parsed[0] days @parsed[1] mins @parsed[2] secs</td>
+                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["mins"] @parsed[2] @Localizer["secs"]</td>
                                             <td>
                                                 @if (player.Online == 0)
-                                                {<span class="label label-danger">Offline</span>}
+                                                {<span class="label label-danger">@Localizer["Offline"]</span>}
                                                 else
-                                                {<span class="label label-primary">Online</span>}
+                                                {<span class="label label-primary">@Localizer["Online"]</span>}
                                             </td>
                                         </tr>
                                                     pkCount++;
@@ -107,13 +108,13 @@
                                 <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th>Player name</th>
-                                        <th>Level</th>
-                                        <th>Class</th>
-                                        <th>Pvp</th>
-                                        <th>Pk</th>
-                                        <th>Online time</th>
-                                        <th>Status</th>
+                                        <th>@Localizer["Player name"]</th>
+                                        <th>@Localizer["Level"]</th>
+                                        <th>@Localizer["Class"]</th>
+                                        <th>@Localizer["Pvp"]</th>
+                                        <th>@Localizer["Pk"]</th>
+                                        <th>@Localizer["Online time"]</th>
+                                        <th>@Localizer["Status"]</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -131,12 +132,12 @@
                                                 TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
                                                 var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
                                             }
-                                            <td>@parsed[0] days @parsed[1] mins @parsed[2] secs</td>
+                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["mins"] @parsed[2] @Localizer["secs"]</td>
                                             <td>
                                                 @if (player.Online == 0)
-                                                {<span class="label label-danger">Offline</span>}
+                                                {<span class="label label-danger">@Localizer["Offline"]</span>}
                                                 else
-                                                {<span class="label label-primary">Online</span>}
+                                                {<span class="label label-primary">@Localizer["Online"]</span>}
                                             </td>
                                         </tr>
                                                     onlineCount++;

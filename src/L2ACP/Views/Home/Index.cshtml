@@ -1,16 +1,18 @@
 ﻿@using L2ACP.Controllers
 @using L2ACP.Extensions
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = Localizer["Home Page"];
 }
 @model IndexViewModel
 <div class="wrapper wrapper-content animated fadeIn">
     <div class="row  border-bottom white-bg dashboard-header">
 
         <div class="col-md-9">
-            <h2>Welcome @Context.GetUsername()</h2>
+            <h2>@Localizer["Welcome"] @Context.GetUsername()</h2>
             <select id="charsSelect" class="form-control m-b" asp-items="new SelectList(Model.CharacterNames)" name="account">
-                <option selected="selected" disabled="disabled">Please select a character</option>
+                <option selected="selected" disabled="disabled">@Localizer["Please select a character"]</option>
             </select>
             <div class="row">
                 <div class="col-lg-12">
@@ -34,7 +36,7 @@
                 </div>
                 <div class="footer">
                     <div>
-                        <strong>Copyright</strong> L2ACP &copy; 2017
+                        <strong>@Localizer["Copyright"]</strong>
                     </div>
                 </div>
             </div>

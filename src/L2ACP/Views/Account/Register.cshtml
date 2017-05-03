@@ -1,34 +1,36 @@
-﻿@{
-    ViewData["Title"] = "Register";
+﻿@using L2ACP.Models
+@using Microsoft.AspNetCore.Mvc.Localization
+@model RegisterViewModel
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = Localizer["Register"];
     ViewData["ExtraClass"] = "gray-bg";
 }
 
-@using L2ACP.Models
-@model RegisterViewModel
 <div class="wrapper wrapper-content animated fadeIn">
     <div class="middle-box text-center loginscreen">
         <div>
             <div>
-                <h1 class="logo-name">ACP</h1>
+                <h1 class="logo-name">@Localizer["ACP Title"]</h1>
             </div>
-            <h3>Welcome to L2ACP</h3>
-            <p>Login using your ingame credentials</p>
+            <h3>@Localizer["Welcome to L2ACP"]</h3>
+            <p>@Localizer["Register a new account"]</p>
             <form asp-controller="Account" asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="m-t">
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
-                    <input type="text" asp-for="Username" class="form-control" placeholder="Username" required="">
+                    <input type="text" asp-for="Username" class="form-control" placeholder="@Localizer["Username"]" required="">
                 </div>
                 <div class="form-group">
-                    <input type="password" asp-for="Password" class="form-control" placeholder="Password" required="">
+                    <input type="password" asp-for="Password" class="form-control" placeholder="@Localizer["Password"]" required="">
                 </div>
                 <div class="form-group">
-                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Confirm Password" required="">
+                    <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="@Localizer["Confirm Password"]" required="">
                 </div>
-                <button type="submit" class="btn btn-primary block full-width m-b">Register</button>
+                <button type="submit" class="btn btn-primary block full-width m-b">@Localizer["Register"]</button>
 
-                <a class="btn btn-sm btn-white btn-block" asp-action="Login">Login</a>
+                <a class="btn btn-sm btn-white btn-block" asp-action="Login">@Localizer["Login"]</a>
             </form>
-            <p class="m-t"> <small>L2ACP &copy; 2017</small> </p>
+            <p class="m-t"> <small>@Localizer["Copyright"]</small> </p>
         </div>
     </div>
 </div>

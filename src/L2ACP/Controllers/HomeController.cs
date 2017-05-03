@@ -7,7 +7,10 @@ using L2ACP.Extensions;
 using L2ACP.Models;
 using L2ACP.Responses;
 using L2ACP.Services;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 
 namespace L2ACP.Controllers
 {
@@ -16,10 +19,13 @@ namespace L2ACP.Controllers
     {
         private readonly IRequestService _requestService;
         private readonly AssetManager _assetManager;
-        public HomeController(IRequestService requestService, AssetManager assetManager)
+        private readonly IStringLocalizer<HomeController> _localizer;
+
+        public HomeController(IRequestService requestService, AssetManager assetManager, IStringLocalizer<HomeController> localizer)
         {
             _requestService = requestService;
             _assetManager = assetManager;
+            _localizer = localizer;
         }
 
         public async Task<IActionResult> Index()
@@ -235,7 +241,7 @@ namespace L2ACP.Controllers
                         
                     return Json(new {status = "error", message = response?.ResponseMessage});
                 }
-                return Json(new { status = "error", message = "This is not your character" });
+                return Json(new { status = "error", message = _localizer["This is not your character"] });
             }
             return Unauthorized();
         }
@@ -526,6 +532,17 @@ namespace L2ACP.Controllers
             return Unauthorized();
         }
 
+        [HttpPost]
+        public IActionResult SetLanguage(string culture, string returnUrl)
+        {
+            Response.Cookies.Append(
+                CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)),
+                new CookieOptions { Expires = DateTimeOffset.UtcNow.AddYears(1) }
+            );
+
+            return LocalRedirect(returnUrl);
+        }
     }
 
     public class IndexViewModel

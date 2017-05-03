@@ -1,7 +1,9 @@
 ﻿@using L2ACP.Models
 @using L2ACP.Services
+@using Microsoft.AspNetCore.Mvc.Localization
 @inject AssetManager AssetManager
 @model DonateService[]
+@inject IViewLocalizer Localizer
 <div class="wrapper wrapper-content animated fadeIn">
 
     @if (Model.FirstOrDefault(x => x.ServiceId == 1).Price >= 0) //Rename player
@@ -11,8 +13,8 @@
                 <div class="m-b-md">
                     <i class="fa fa-shopping-cart fa-2x"></i>
                     <div class="font-bold no-margins" style="font-size: 14px;">
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 1).ServiceName</div>
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 1).Price Donate Points</div>
+                        <div>@Localizer["Rename player"]</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 1).Price @Localizer["Donate Points"]</div>
                     </div>
                 </div>
             </div>
@@ -22,21 +24,21 @@
             <div class="modal-dialog">
                 <div class="modal-content animated bounceInRight">
                     <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">@Localizer["Close"]</span></button>
                         <i class="fa fa-laptop modal-icon"></i>
-                        <h4 class="modal-title">Rename player</h4>
+                        <h4 class="modal-title">@Localizer["Rename player"]</h4>
                     </div>
                     <div class="modal-body">
                         <p>
-                            <strong>Select the new name for: <span class="renameCurPlayer"></span></strong>
+                            <strong>@Localizer["Select the new name for:"] <span class="renameCurPlayer"></span></strong>
                         </p>
                         <div class="form-group">
-                            <label>New name</label> <input type="text" id="newName" placeholder="Enter your new character name" class="form-control">
+                            <label>@Localizer["New name"]</label> <input type="text" id="newName" placeholder="@Localizer["Enter your new character name"]" class="form-control">
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-                        <button type="button" id="btnRenamePlayer" class="btn btn-primary">Rename player</button>
+                        <button type="button" class="btn btn-white" data-dismiss="modal">@Localizer["Close"]</button>
+                        <button type="button" id="btnRenamePlayer" class="btn btn-primary">@Localizer["Rename player"]</button>
                     </div>
                 </div>
             </div>
@@ -50,8 +52,8 @@
                 <div class="m-b-md">
                     <i class="fa fa-shopping-cart fa-2x"></i>
                     <div class="font-bold no-margins" style="font-size: 14px;">
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 2).ServiceName</div>
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 2).Price Donate Points</div>
+                        <div>@Localizer["Make nobless"]</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 2).Price @Localizer["Donate Points"]</div>
                     </div>
                 </div>
             </div>
@@ -61,18 +63,18 @@
                     <div class="modal-dialog">
                         <div class="modal-content animated bounceInRight">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">@Localizer["Close"]</span></button>
                                 <i class="fa fa-laptop modal-icon"></i>
-                                <h4 class="modal-title">Make nobless</h4>
+                                <h4 class="modal-title">@Localizer["Make nobless"]</h4>
                             </div>
                             <div class="modal-body">
                                 <p>
-                                    <strong>Are you sure you want to make <span class="renameCurPlayer"></span> Nobless?</strong>
+                                    <strong>@Localizer["Are you sure you want to make"] <span class="renameCurPlayer"></span> @Localizer["Nobless"]?</strong>
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-                                <button type="button" id="btnMakeNobless" class="btn btn-primary">Make nobless</button>
+                                <button type="button" class="btn btn-white" data-dismiss="modal">@Localizer["Close"]</button>
+                                <button type="button" id="btnMakeNobless" class="btn btn-primary">@Localizer["Make nobless"]</button>
                             </div>
                         </div>
                     </div>
@@ -86,8 +88,8 @@
                 <div class="m-b-md">
                     <i class="fa fa-shopping-cart fa-2x"></i>
                     <div class="font-bold no-margins" style="font-size: 14px;">
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 3).ServiceName</div>
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 3).Price Donate Points</div>
+                        <div>@Localizer["Reset PK"]</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 3).Price @Localizer["Donate Points"]</div>
                     </div>
                 </div>
             </div>
@@ -97,18 +99,18 @@
                     <div class="modal-dialog">
                         <div class="modal-content animated bounceInRight">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">@Localizer["Close"]</span></button>
                                 <i class="fa fa-laptop modal-icon"></i>
-                                <h4 class="modal-title">Reset PK</h4>
+                                <h4 class="modal-title">@Localizer["Reset PK"]</h4>
                             </div>
                             <div class="modal-body">
                                 <p>
-                                    <strong>Are you sure you want to reset the pks of <span class="renameCurPlayer"></span>?</strong>
+                                    <strong>@Localizer["Are you sure you want to reset the pks of"] <span class="renameCurPlayer"></span>?</strong>
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-                                <button type="button" id="btnResetPk" class="btn btn-primary">Reset PK</button>
+                                <button type="button" class="btn btn-white" data-dismiss="modal">@Localizer["Close"]</button>
+                                <button type="button" id="btnResetPk" class="btn btn-primary">@Localizer["Reset PK"]</button>
                             </div>
                         </div>
                     </div>
@@ -122,8 +124,8 @@
                 <div class="m-b-md">
                     <i class="fa fa-shopping-cart fa-2x"></i>
                     <div class="font-bold no-margins" style="font-size: 14px;">
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 4).ServiceName</div>
-                        <div>@Model.FirstOrDefault(x => x.ServiceId == 4).Price Donate Points</div>
+                        <div>@Localizer["Change sex"]</div>
+                        <div>@Model.FirstOrDefault(x => x.ServiceId == 4).Price @Localizer["Donate Points"]</div>
                     </div>
                 </div>
             </div>
@@ -134,18 +136,18 @@
                     <div class="modal-dialog">
                         <div class="modal-content animated bounceInRight">
                             <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">@Localizer["Close"]</span></button>
                                 <i class="fa fa-laptop modal-icon"></i>
-                                <h4 class="modal-title">Change sex</h4>
+                                <h4 class="modal-title">@Localizer["Change sex"]</h4>
                             </div>
                             <div class="modal-body">
                                 <p>
-                                    <strong>Are you sure you want to change the sex of <span class="renameCurPlayer"></span>?</strong>
+                                    <strong>@Localizer["Are you sure you want to change the sex of"] <span class="renameCurPlayer"></span>?</strong>
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-                                <button type="button" id="btnChangeSex" class="btn btn-primary">Change Sex</button>
+                                <button type="button" class="btn btn-white" data-dismiss="modal">@Localizer["Close"]</button>
+                                <button type="button" id="btnChangeSex" class="btn btn-primary">@Localizer["Change sex"]</button>
                             </div>
                         </div>
                     </div>

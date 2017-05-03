@@ -1,15 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Analytics";
-}
+﻿@inject IViewLocalizer Localizer
 @using Microsoft.AspNetCore.Html
+@using Microsoft.AspNetCore.Mvc.Localization
 @using Newtonsoft.Json
 @model L2ACP.Models.AnalyticsViewmodel
+@{
+    ViewData["Title"] = Localizer["Analytics"];
+}
+
 
 <div class="row">
     <div class="col-lg-8">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>Online players <small> Displays what the server traffic is during the day</small></h5>
+                <h5>@Localizer["Online players"] <small> @Localizer["Displays what the server traffic is during the day"]</small></h5>
                 <div class="ibox-tools">
                     <a class="collapse-link">
                         <i class="fa fa-chevron-up"></i>
@@ -35,7 +38,7 @@
             data: @(new HtmlString(JsonConvert.SerializeObject(Model.OnlinePlayers))),
             xkey: 'Timestamp',
             ykeys: ['Count'],
-            labels: ['Online Players'],
+            labels: ['@Localizer["Online players"]'],
             pointSize: 1,
             hideHover: 'auto',
             resize: true,
