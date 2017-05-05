@@ -192,9 +192,21 @@ namespace L2ACP.Controllers
                 if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
                     var response = await _requestService.RenamePlayer(playerName, newName);
-                    if(response.ResponseCode == 200)
-                        return Content("ok:" + response.ResponseMessage);
-                    return Content(response.ResponseMessage);
+                    switch (response.ResponseCode)
+                    {
+                        case 200:
+                            return Content("ok:" + _localizer["Successfully renamed"]);
+                        case 500:
+                            return Content(_localizer["Provided name is not valid."]);
+                        case 501:
+                            return Content(_localizer["That is already your name."]);
+                        case 502:
+                            return Content(_localizer["Than name belongs to someone else."]);
+                        case 503:
+                            return Content(_localizer["This service is disabled"]);
+                        case 504:
+                            return Content(_localizer["Not enough donate points."]);
+                    }
                 }
 
                 return BadRequest();
@@ -215,9 +227,18 @@ namespace L2ACP.Controllers
                 if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
                     var response = await _requestService.SetNobless(playerName);
-                    if (response.ResponseCode == 200)
-                        return Content("ok:" + response.ResponseMessage);
-                    return Content(response.ResponseMessage);
+
+                    switch (response.ResponseCode)
+                    {
+                        case 200:
+                            return Content("ok:" + _localizer["Successfully set nobless!"]);
+                        case 500:
+                            return Content(_localizer["This service is disabled"]);
+                        case 501:
+                            return Content(_localizer["Not enough donate points."]);
+                        case 502:
+                            return Content(_localizer["This player is already nobless."]);
+                    }
                 }
 
                 return BadRequest();
@@ -254,7 +275,7 @@ namespace L2ACP.Controllers
                         });
                     }
                         
-                    return Json(new {status = "error", message = response?.ResponseMessage});
+                    return Json(new {status = "error", message = _localizer["Not enough donate points."] });
                 }
                 return Json(new { status = "error", message = _localizer["This is not your character"] });
             }
@@ -274,9 +295,15 @@ namespace L2ACP.Controllers
                 if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
                     var response = await _requestService.ChangeSex(playerName);
-                    if (response.ResponseCode == 200)
-                        return Content("ok:" + response.ResponseMessage);
-                    return Content(response.ResponseMessage);
+                    switch (response.ResponseCode)
+                    {
+                        case 200:
+                            return Content("ok:" + _localizer["Successfully changed the sex"]);
+                        case 500:
+                            return Content(_localizer["Not enough donate points."]);
+                        case 501:
+                            return Content(_localizer["This service is disabled"]);
+                    }
                 }
 
                 return BadRequest();
@@ -297,9 +324,17 @@ namespace L2ACP.Controllers
                 if (allCharsResponse.AccountNames.Contains(playerName, StringComparer.OrdinalIgnoreCase))
                 {
                     var response = await _requestService.ResetPk(playerName);
-                    if (response.ResponseCode == 200)
-                        return Content("ok:" + response.ResponseMessage);
-                    return Content(response.ResponseMessage);
+                    switch (response.ResponseCode)
+                    {
+                        case 200:
+                            return Content("ok:" + _localizer["Successfully cleared the PKs."]);
+                        case 500:
+                            return Content(_localizer["This service is disabled"]);
+                        case 501:
+                            return Content(_localizer["Not enough donate points."]);
+                        case 502:
+                            return Content(_localizer["Your PKs are already zero."]);
+                    }
                 }
 
                 return BadRequest();
@@ -379,11 +414,21 @@ namespace L2ACP.Controllers
                     var buyerName = Request.Form["SellerName"].ToString();
 
                     var response = await _requestService.SellPrivateStoreItem(objectId, sellerId, count,buyerName);
-                    if (response.ResponseCode == 200)
+                    switch (response.ResponseCode)
                     {
-                        return Content("ok:" + response.ResponseMessage);
+                        case 200:
+                            return Content("ok:" + response.ResponseMessage);
+                        case 500:
+                            return Content(_localizer["Something went wrong!"]);
+                        case 501:
+                            return Content(_localizer["You can't do that while holding a cursed weapon."]);
+                        case 502:
+                            return Content(_localizer["This player is not buying anything."]);
+                        case 503:
+                            return Content(_localizer["You are not authorized to do that."]);
+                        case 504:
+                            return Content(_localizer["You don't have the items required."]);
                     }
-                    return Content(response.ResponseMessage);
                 }
                 return BadRequest();
             }
@@ -428,11 +473,21 @@ namespace L2ACP.Controllers
                     var sellerName = Request.Form["BuyerName"].ToString();
 
                     var response = await _requestService.BuyPrivateStoreItem(objectId, buyerId, count, sellerName);
-                    if (response.ResponseCode == 200)
+                    switch (response.ResponseCode)
                     {
-                        return Content("ok:" + response.ResponseMessage);
+                        case 200:
+                            return Content("ok:" + response.ResponseMessage);
+                        case 500:
+                            return Content(_localizer["Something went wrong!"]);
+                        case 501:
+                            return Content(_localizer["You can't do that while holding a cursed weapon."]);
+                        case 502:
+                            return Content(_localizer["This player is not selling anything."]);
+                        case 503:
+                            return Content(_localizer["You are not authorized to do that."]);
+                        case 504:
+                            return Content(_localizer["You don't have the items required."]);
                     }
-                    return Content(response.ResponseMessage);
                 }
                 return BadRequest();
             }
@@ -462,11 +517,17 @@ namespace L2ACP.Controllers
                 var accountName = HttpContext.GetUsername();
 
                 var response = await _requestService.BuyItem(accountName, model.Username,model.ItemId,model.ItemCount,model.Enchant,model.Price);
-                if (response.ResponseCode == 200)
+                switch (response.ResponseCode)
                 {
-                    return Content("paid:" + model.Price);
+                    case 200:
+                        return Content("paid:" + model.Price);
+                    case 500:
+                        return Content(_localizer["Invalid request!"]);
+                    case 501:
+                        return Content(_localizer["Not enough donate points"]);
+                    default:
+                        return Content(_localizer["Invalid request!"]);
                 }
-                return Content(response.ResponseMessage);
 
             }
             return Unauthorized();
@@ -481,12 +542,15 @@ namespace L2ACP.Controllers
                 var accountName = HttpContext.GetUsername();
 
                 var response = await _requestService.ChangePassword(accountName, model.CurrentPassword.ToL2Password(), model.NewPassword.ToL2Password());
-                if (response.ResponseCode == 200)
+                switch (response.ResponseCode)
                 {
-                    return Content("ok");
+                    case 200:
+                        return Content("ok");
+                    case 500:
+                        return Content(_localizer["Something went wrong!"]);
+                    case 501:
+                        return Content(_localizer["Invalid password!"]);
                 }
-                return Content(response.ResponseMessage);
-
             }
             return Unauthorized();
         }

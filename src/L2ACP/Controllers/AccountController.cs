@@ -78,7 +78,7 @@ namespace L2ACP.Controllers
                     await _authService.SignInUser(model.Username, HttpContext);
                     return Redirect("/");
                 }
-                ModelState.AddModelError(string.Empty, response.ResponseMessage);
+                ModelState.AddModelError(string.Empty, _localizer["Unsuccessful login"]);
             }
             return View(model);
         }
@@ -108,7 +108,7 @@ namespace L2ACP.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, response.ResponseMessage);
+                    ModelState.AddModelError(string.Empty, _localizer["Unsuccessful registration"]);
                 }
             }
             return View(model);
