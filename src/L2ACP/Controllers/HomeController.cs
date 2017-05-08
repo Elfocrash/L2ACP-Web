@@ -43,7 +43,7 @@ namespace L2ACP.Controllers
             _localizer = localizer;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
@@ -57,7 +57,7 @@ namespace L2ACP.Controllers
         }
 
         [Route("/services")]
-        public async Task<IActionResult> Services()
+        public IActionResult Services()
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
@@ -72,7 +72,7 @@ namespace L2ACP.Controllers
         }
 
         [Route("/raidbossmap")]
-        public async Task<IActionResult> RbMap()
+        public IActionResult RbMap()
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");

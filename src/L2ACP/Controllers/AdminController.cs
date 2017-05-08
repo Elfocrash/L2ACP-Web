@@ -41,7 +41,7 @@ namespace L2ACP.Controllers
             _localizer = localizer;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
@@ -103,7 +103,7 @@ namespace L2ACP.Controllers
         }
 
         [Route("serverManage")]
-        public async Task<IActionResult> ServerManage()
+        public IActionResult ServerManage()
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
@@ -115,7 +115,7 @@ namespace L2ACP.Controllers
         }
 
         [Route("liveMap")]
-        public async Task<IActionResult> LiveMap()
+        public IActionResult LiveMap()
         {
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
