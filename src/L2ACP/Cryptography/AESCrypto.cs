@@ -4,6 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using L2ACP.Extensions;
+using Microsoft.Extensions.Configuration;
 
 namespace L2ACP.Cryptography
 {
@@ -94,7 +95,7 @@ namespace L2ACP.Cryptography
         {
             if (salt == null) throw new ArgumentNullException(nameof(salt));
             var saltBytes = Encoding.UTF8.GetBytes(salt);
-            var key = new Rfc2898DeriveBytes(Constants.Inputkey, saltBytes);
+            var key = new Rfc2898DeriveBytes(Startup.Configuration.GetValue<string>("CryptoKey"), saltBytes);
 
             var aesAlg = new RijndaelManaged();
             aesAlg.Key = key.GetBytes(aesAlg.KeySize / 8);

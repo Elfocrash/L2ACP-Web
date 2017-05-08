@@ -17,6 +17,7 @@ using System.Net.Http;
 using System.Text;
 using L2ACP.Cryptography;
 using L2ACP.Extensions;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace L2ACP.Responses
@@ -30,7 +31,7 @@ namespace L2ACP.Responses
 
     public class JsonContent : StringContent
     {
-        public JsonContent(object obj) : base(AesCrypto.EncryptRijndael(JsonConvert.SerializeObject(obj), Constants.Salt), Encoding.UTF8, "application/json")
+        public JsonContent(object obj) : base(AesCrypto.EncryptRijndael(JsonConvert.SerializeObject(obj), Startup.Configuration.GetValue<string>("CryptoSalt")), Encoding.UTF8, "application/json")
         { }
     }
 }

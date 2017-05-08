@@ -13,12 +13,15 @@
  * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>.
  */
+
+using Microsoft.Extensions.Configuration;
+
 namespace L2ACP.Requests
 {
 
     public abstract class L2Request
     {
-        public string ApiKey { get; set; } = "elfocrash";
+        public string ApiKey { get; set; } = Startup.Configuration.GetValue<string>("ApiKey");
 
         public int RequestId { get; set; }
 

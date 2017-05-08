@@ -24,6 +24,7 @@ using L2ACP.Requests;
 using L2ACP.Responses;
 using L2ACP.Services;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
@@ -31,7 +32,6 @@ namespace L2ACP.Extensions
 {
     public static class GeneralExtensions
     {
-        private const string ApiUrl = "http://localhost:8000/api";
         public static string ToL2Password(this string str)
         {
             SHA1 shA1 = SHA1.Create();
@@ -51,9 +51,9 @@ namespace L2ACP.Extensions
 
         public static async Task<T> SendPostRequest<T>(this L2Request req) where T : L2Response
         {
-            var request = await new HttpClient().PostAsync(ApiUrl, new JsonContent(req));
+            var request = await new HttpClient().PostAsync(Startup.Configuration.GetValue<string>("ApiEndpoint"), new JsonContent(req));
 
-            var result = AesCrypto.DecryptRijndael(await request.Content.ReadAsStringAsync(), Constants.Salt);
+            var result = AesCrypto.DecryptRijndael(await request.Content.ReadAsStringAsync(), Startup.Configuration.GetValue<string>("CryptoSalt"));
 
             var responseObject = JsonConvert.DeserializeObject<T>(result);
             return responseObject;
