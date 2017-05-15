@@ -68,7 +68,7 @@
 
         $('.itemcount').on('input',
             function () {
-                var newval = parseInt($(this).val());
+                var newval = parseInt(removeDots($(this).val()));
                 var currentVal = parseInt($(this).attr('data-priceforone'));
                 if (newval > parseInt($(this).closest('tr').find('.itemcounttext').text())) {
                     $(this).val($(this).closest('tr').find('.itemcounttext').text());
@@ -77,8 +77,12 @@
                     $(this).val(1);
                 }
                 newval = parseInt($(this).val());
-                $(this).closest('tr').find('.buyStoreItem').text(newval * currentVal);
+                $(this).closest('tr').find('.buyStoreItem').text(numberWithCommas(newval * currentVal));
             });
+
+        $('.buyStoreItem').each(function() {
+            $(this).text(numberWithCommas(parseInt($(this).text())));
+        });
 
         $('.buyStoreItem').click(function () {
             if ($('#charsSelect').val() == null) {
@@ -95,6 +99,9 @@
 
             if ((parseInt(roottr.find('.itemcounttext')) - count) < 0) {
                 count = parseInt(roottr.find('.itemcounttext').text());
+            }else {
+                toastr["error"]("@Localizer["Invalid item amount"]");
+                return false;
             }
 
             $.post("/buyitemprivate", { ObjectId: objId, SellerId: sellerId, Count: count, BuyerName: playerName }, function (data) {
