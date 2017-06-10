@@ -14,6 +14,7 @@ This is the web interface project for L2ACP
 * .NET Core runtime
 * .NET Core SDK
 * Visual Studio 2017 Community Edition
+* npm
 
 ## How to build
 Just open the solution in Visual Studio, do a `dotnet restore` and then publish the project.
