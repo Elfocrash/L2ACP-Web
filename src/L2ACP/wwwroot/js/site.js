@@ -294,9 +294,13 @@ function WinMove() {
         .disableSelection();
 }
 
+function numberWithDots(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
 
-
-
+function removeDots(s) {
+    return s.replace(/[.]/g, '');
+}
 
 /*
  * metismenu - v2.0.2

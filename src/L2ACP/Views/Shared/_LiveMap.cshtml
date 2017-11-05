@@ -55,6 +55,8 @@
         $.post("/admin/spawnnpc", { 'NpcId': npcId, 'X': ingameX, 'Y': ingameY}, function( data ) {
             if (data.startsWith("ok:")) {
                 toastr["success"](data.replace("ok:", ""));
+                $('#npcsSelect').val(null);
+                $('#npcsSelect').change();
             } else {
                 toastr["error"](data);
             }

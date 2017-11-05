@@ -68,7 +68,7 @@
 
         $('.itemcount').on('input',
             function() {
-                var newval = parseInt($(this).val());
+                var newval = parseInt(removeDots($(this).val()));
                 var currentVal = parseInt($(this).attr('data-priceforone'));
                 if (newval > parseInt($(this).closest('tr').find('.itemcounttext').text())) {
                     $(this).val($(this).closest('tr').find('.itemcounttext').text());
@@ -77,8 +77,12 @@
                     $(this).val(1);
                 }
                 newval = parseInt($(this).val());
-                $(this).closest('tr').find('.sellStoreItem').text(newval * currentVal);
+                $(this).closest('tr').find('.sellStoreItem').text(numberWithDots(newval * currentVal));
             });
+
+        $('.sellStoreItem').each(function() {
+            $(this).text(numberWithDots(parseInt($(this).text())));
+        });
 
         $('.sellStoreItem').click(function() {
             if ($('#charsSelect').val() == null) {
@@ -86,24 +90,24 @@
                 return false;
             }
 
-
             var objId = $(this).attr('data-itemobjid');
             var buyerId = $(this).attr('data-buyerid');
             var roottr = $(this).closest('tr');
-            var count = parseInt(roottr.find('.itemcount').val());
+            var count = parseInt(removeDots(roottr.find('.itemcount').val()));
             var playerName = $('#charsSelect').val();
 
-            if ((parseInt(roottr.find('.itemcounttext')) - count) < 0) {
-                count = parseInt(roottr.find('.itemcounttext').text());
+            if (parseInt(removeDots(roottr.find('.itemcounttext').text())) < count) {
+                toastr["error"]("Invalid item amount");
+                return false;
             }
 
             $.post("/sellitemprivate", { ObjectId: objId, BuyerId: buyerId, Count: count, SellerName: playerName }, function(data) {
                 if (data.startsWith("ok:")) {
 
-                    if ((parseInt(roottr.find('.itemcounttext').text()) - count) <= 0) {
+                    if ((parseInt(removeDots(roottr.find('.itemcounttext').text())) - count) <= 0) {
                         roottr.remove();
                     } else {
-                        var rest = parseInt(roottr.find('.itemcounttext').text()) - count;
+                        var rest = parseInt(removeDots(roottr.find('.itemcounttext').text())) - count;
                         roottr.find('.itemcounttext').text(rest);
                     }
                     toastr["success"]("@Localizer["Successfully sold the item"]");
