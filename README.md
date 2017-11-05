@@ -1,10 +1,6 @@
 # L2ACP-Web
 This is the web interface project for L2ACP
 
-|  CI status        |
-|:-------------:|
-| [![Build status](https://ci.appveyor.com/api/projects/status/yunj77v8vy526owo?svg=true)](https://ci.appveyor.com/project/Elfocrash/l2acp-web) |
-
 |  Supported languages        |
 |:-------------:|
 | English |
