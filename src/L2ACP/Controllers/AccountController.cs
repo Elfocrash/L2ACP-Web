@@ -19,6 +19,7 @@ using L2ACP.Models;
 using L2ACP.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
+using System;
 
 namespace L2ACP.Controllers
 {
@@ -68,7 +69,7 @@ namespace L2ACP.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             if (User.Identity.IsAuthenticated)
                 return Redirect("/");
-
+            
             if (ModelState.IsValid)
             {
                 var response = await _requestService.LoginUser(model.Username, model.Password.ToL2Password());

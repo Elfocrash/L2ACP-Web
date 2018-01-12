@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{67FBBA60-BC97-43EF-B275-B66973F7FFB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBFBBA3A-5D21-4DF9-941D-3767C5C53AAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2ACP", "src\L2ACP\L2ACP.csproj", "{9E68DE49-0A93-452B-A293-2FD5F8B1E844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2ACP", "src\L2ACP\L2ACP.csproj", "{9E68DE49-0A93-452B-A293-2FD5F8B1E844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9E68DE49-0A93-452B-A293-2FD5F8B1E844} = {67FBBA60-BC97-43EF-B275-B66973F7FFB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {280D5A12-6A97-4ED3-A5DE-CA0A79BDDEF2}
 	EndGlobalSection
 EndGlobal

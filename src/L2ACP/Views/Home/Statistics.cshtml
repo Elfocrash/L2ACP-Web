@@ -59,7 +59,7 @@
                                                 TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
                                                 var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
                                             }
-                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["mins"] @parsed[2] @Localizer["secs"]</td>
+                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["hours"] @parsed[2] @Localizer["mins"]</td>
                                             <td>
                                                 @if (player.Online == 0)
                                                 {<span class="label label-danger">@Localizer["Offline"]</span>}
@@ -103,7 +103,7 @@
                                                 TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
                                                 var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
                                             }
-                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["mins"] @parsed[2] @Localizer["secs"]</td>
+                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["hours"] @parsed[2] @Localizer["mins"]</td>
                                             <td>
                                                 @if (player.Online == 0)
                                                 {<span class="label label-danger">@Localizer["Offline"]</span>}
@@ -147,7 +147,7 @@
                                                 TimeSpan time = TimeSpan.FromSeconds(player.OnlineTime);
                                                 var parsed = time.ToString(@"d\:h\:m\:s").Split(':');
                                             }
-                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["mins"] @parsed[2] @Localizer["secs"]</td>
+                                            <td>@parsed[0] @Localizer["days"] @parsed[1] @Localizer["hours"] @parsed[2] @Localizer["mins"]</td>
                                             <td>
                                                 @if (player.Online == 0)
                                                 {<span class="label label-danger">@Localizer["Offline"]</span>}

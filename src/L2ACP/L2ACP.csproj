@@ -10,54 +10,12 @@
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Include="wwwroot\css\plugins\footable\fonts\footable.eot" />
-    <Content Include="wwwroot\css\plugins\footable\fonts\footable.svg" />
-    <Content Include="wwwroot\css\plugins\footable\fonts\footable.ttf" />
-    <Content Include="wwwroot\css\plugins\footable\fonts\footable.woff" />
-    <Content Include="wwwroot\css\plugins\footable\footable.core.css" />
-    <Content Include="wwwroot\css\plugins\morris\morris-0.4.3.min.css" />
-    <Content Include="wwwroot\images\0.gif" />
-    <Content Include="wwwroot\images\background.png" />
-    <Content Include="wwwroot\images\border.png" />
-    <Content Include="wwwroot\images\buttons.png" />
-    <Content Include="wwwroot\images\button_bg.png" />
-    <Content Include="wwwroot\images\cover.png" />
-    <Content Include="wwwroot\images\gear.png" />
-    <Content Include="wwwroot\images\gears.gif" />
-    <Content Include="wwwroot\images\Itemname_bg.png" />
-    <Content Include="wwwroot\images\loading.png" />
-    <Content Include="wwwroot\images\map.jpg" />
-    <Content Include="wwwroot\images\mark.gif" />
-    <Content Include="wwwroot\images\Popup_bg.png" />
-    <Content Include="wwwroot\images\privatebuy.png" />
-    <Content Include="wwwroot\images\privatesell.png" />
-    <Content Include="wwwroot\images\win.png" />
-    <Content Include="wwwroot\images\Win_Effect.png" />
-    <Content Include="wwwroot\js\footable\footable.all.min.js" />
-    <Content Include="wwwroot\js\i18next.min.js" />
-    <Content Include="wwwroot\js\morris\morris.js" />
-    <Content Include="wwwroot\js\morris\raphael-2.1.0.min.js" />
-    <Content Include="wwwroot\xml\npcs\12000-12999.xml" />
-    <Content Include="wwwroot\xml\npcs\13000-13999.xml" />
-    <Content Include="wwwroot\xml\npcs\14000-14999.xml" />
-    <Content Include="wwwroot\xml\npcs\16000-16999.xml" />
-    <Content Include="wwwroot\xml\npcs\18000-18999.xml" />
-    <Content Include="wwwroot\xml\npcs\20000-20999.xml" />
-    <Content Include="wwwroot\xml\npcs\21000-21999.xml" />
-    <Content Include="wwwroot\xml\npcs\22000-22999.xml" />
-    <Content Include="wwwroot\xml\npcs\25000-25999.xml" />
-    <Content Include="wwwroot\xml\npcs\27000-27999.xml" />
-    <Content Include="wwwroot\xml\npcs\29000-29999.xml" />
-    <Content Include="wwwroot\xml\npcs\30000-30999.xml" />
-    <Content Include="wwwroot\xml\npcs\31000-31999.xml" />
-    <Content Include="wwwroot\xml\npcs\32000-32999.xml" />
-    <Content Include="wwwroot\xml\npcs\35000-35999.xml" />
-    <Content Include="wwwroot\xml\npcs\50000-50999.xml" />
-  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE;RELEASE;NETCOREAPP1_1</DefineConstants>
+  </PropertyGroup>
 
   <ItemGroup>
-    <None Update="wwwroot\**\*;Views\**\*;Areas\**\Views">
+    <None Update="Views\**\*;Areas\**\Views">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </None>
   </ItemGroup>
@@ -83,10 +41,7 @@
     <PackageReference Include="system.xml.xpath.xmldocument" Version="4.0.0" />
   </ItemGroup>
 
-  <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
-    <Exec Command="bower install" />
-    <Exec Command="dotnet bundle" />
-  </Target>
+  
 
   <ItemGroup>
     <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.2.301" />
@@ -94,6 +49,92 @@
 
   <ItemGroup>
     <Folder Include="Models\BusinessModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.css.map" />
+    <None Include="wwwroot\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\less\badges_labels.less" />
+    <None Include="wwwroot\css\less\base.less" />
+    <None Include="wwwroot\css\less\buttons.less" />
+    <None Include="wwwroot\css\less\chat.less" />
+    <None Include="wwwroot\css\less\custom.less" />
+    <None Include="wwwroot\css\less\elements.less" />
+    <None Include="wwwroot\css\less\landing.less" />
+    <None Include="wwwroot\css\less\md-skin.less" />
+    <None Include="wwwroot\css\less\media.less" />
+    <None Include="wwwroot\css\less\metismenu.less" />
+    <None Include="wwwroot\css\less\mixins.less" />
+    <None Include="wwwroot\css\less\navigation.less" />
+    <None Include="wwwroot\css\less\pages.less" />
+    <None Include="wwwroot\css\less\rtl.less" />
+    <None Include="wwwroot\css\less\sidebar.less" />
+    <None Include="wwwroot\css\less\skins.less" />
+    <None Include="wwwroot\css\less\spinners.less" />
+    <None Include="wwwroot\css\less\style.less" />
+    <None Include="wwwroot\css\less\theme-config.less" />
+    <None Include="wwwroot\css\less\top_navigation.less" />
+    <None Include="wwwroot\css\less\typography.less" />
+    <None Include="wwwroot\css\less\variables.less" />
+    <None Include="wwwroot\css\plugins\footable\fonts\footable.svg" />
+    <None Include="wwwroot\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\font-awesome\less\animated.less" />
+    <None Include="wwwroot\font-awesome\less\bordered-pulled.less" />
+    <None Include="wwwroot\font-awesome\less\core.less" />
+    <None Include="wwwroot\font-awesome\less\fixed-width.less" />
+    <None Include="wwwroot\font-awesome\less\font-awesome.less" />
+    <None Include="wwwroot\font-awesome\less\icons.less" />
+    <None Include="wwwroot\font-awesome\less\larger.less" />
+    <None Include="wwwroot\font-awesome\less\list.less" />
+    <None Include="wwwroot\font-awesome\less\mixins.less" />
+    <None Include="wwwroot\font-awesome\less\path.less" />
+    <None Include="wwwroot\font-awesome\less\rotated-flipped.less" />
+    <None Include="wwwroot\font-awesome\less\screen-reader.less" />
+    <None Include="wwwroot\font-awesome\less\stacked.less" />
+    <None Include="wwwroot\font-awesome\less\variables.less" />
+    <None Include="wwwroot\font-awesome\scss\font-awesome.scss" />
+    <None Include="wwwroot\font-awesome\scss\_animated.scss" />
+    <None Include="wwwroot\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="wwwroot\font-awesome\scss\_core.scss" />
+    <None Include="wwwroot\font-awesome\scss\_fixed-width.scss" />
+    <None Include="wwwroot\font-awesome\scss\_icons.scss" />
+    <None Include="wwwroot\font-awesome\scss\_larger.scss" />
+    <None Include="wwwroot\font-awesome\scss\_list.scss" />
+    <None Include="wwwroot\font-awesome\scss\_mixins.scss" />
+    <None Include="wwwroot\font-awesome\scss\_path.scss" />
+    <None Include="wwwroot\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="wwwroot\font-awesome\scss\_screen-reader.scss" />
+    <None Include="wwwroot\font-awesome\scss\_stacked.scss" />
+    <None Include="wwwroot\font-awesome\scss\_variables.scss" />
+    <None Include="wwwroot\js\footable\footable.all.min.js" />
+    <None Include="wwwroot\js\i18next.min.js" />
+    <None Include="wwwroot\js\morris\morris.js" />
+    <None Include="wwwroot\js\morris\raphael-2.1.0.min.js" />
+    <None Include="wwwroot\js\select2.full.min.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\_references.js" />
   </ItemGroup>
 
   <ItemGroup>
