@@ -13,6 +13,7 @@
     You should have received a copy of the GNU General Public License along with
     this program. If not, see <http://www.gnu.org/licenses/>.
 *@
+@using L2ACP.Extensions
 @using L2ACP.Services
 @using Microsoft.AspNetCore.Mvc.Localization
 @model string[]
@@ -89,7 +90,10 @@
                                         <button type="button" id="banCharBtn" class="btn btn-primary">@Localizer["Ban Character"]</button>
                                         <button type="button" id="banChatBtn" class="btn btn-primary">@Localizer["Ban Chat"]</button>
                                         <button type="button" id="jailBtn" class="btn btn-primary">@Localizer["Jail Character"]</button>
-                                        <button type="button" id="kickBtn" class="btn btn-primary">@Localizer["Kick Character"]</button>
+                                        @if (Context.GetTargetServerType() != "L2OFF")
+                                        {
+                                            <button type="button" id="kickBtn" class="btn btn-primary">@Localizer["Kick Character"]</button>
+                                        }
                                     </div>
                                     <div class="form-group">
                                         <button type="button" id="unbanAccBtn" class="btn btn-danger">@Localizer["Unban Account"]</button>

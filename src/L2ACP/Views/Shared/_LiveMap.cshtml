@@ -13,6 +13,7 @@
     You should have received a copy of the GNU General Public License along with
     this program. If not, see <http://www.gnu.org/licenses/>.
 *@
+@using L2ACP.Extensions
 @using L2ACP.Services
 @using Microsoft.AspNetCore.Mvc.Localization
 @inject AssetManager AssetManager
@@ -23,61 +24,84 @@
 
 
 <div class="wrapper wrapper-content animated fadeIn">
-    <div class="row" style="margin-bottom: 15px;">
-        <div class="col-lg-12">
-            <select id="npcsSelect" class="form-control m-b" asp-items='new SelectList(data, "NpcId","Name")' name="npcs">
-                <option selected="selected" disabled="disabled">@Localizer["Please select an NPC to spawn"]</option>
-            </select>
+    @if (Context.GetTargetServerType() != "L2OFF")
+    {
+        <div class="row" style="margin-bottom: 15px;">
+            <div class="col-lg-12">
+                <select id="npcsSelect" class="form-control m-b" asp-items='new SelectList(data, "NpcId","Name")' name="npcs">
+                    <option selected="selected" disabled="disabled">@Localizer["Please select an NPC to spawn"]</option>
+                </select>
+            </div>
         </div>
-    </div>
+    }
+    
     <div class="mapwrapper" style="position: relative; overflow-x: auto;">
         <img src="images/map.jpg"/>
     </div>
 </div>
 
-
-<script>
-    $('#npcsSelect').select2();
-
-    $('.mapwrapper').click(function (e) {
-        if ($('#npcsSelect').val() == null) {
-            toastr["error"]("@Localizer["Select an npc if you want to spawn it."]");
-            return false;
+@if (Context.GetTargetServerType() == "L2OFF")
+{
+    <script>
+        function getLiveMapData()
+        {
+            $.get("/admin/getLiveMapData", function(data) {
+                $(".mapObj").remove();
+                    for (var i = 0; i < data.length; i++)
+                    {
+                        var img = $('<img class="mapObj"  data-toggle="tooltip" data-html="true" title="Name: ' + data[i].name + '" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
+                        img.attr('src', '/images/mark.gif');
+                        img.appendTo('.mapwrapper');
+                    }
+                $('[data-toggle="tooltip"]').tooltip();
+                });
         }
 
+        getLiveMapData();
+        setInterval(getLiveMapData, 5000);
+    </script>
+}
+else
+{
+    <script>
+        $('#npcsSelect').select2();
 
-        var offset = $(this).offset();
-        var ingameX = 200 * ((e.pageX - offset.left) - 116) - 107823;
-        var ingameY = 200 * ((e.pageY - offset.top) - 2580) + 255420;
-        var npcId = $('#npcsSelect').val();
-        console.log(ingameX);
-        console.log(ingameY);
-        $.post("/admin/spawnnpc", { 'NpcId': npcId, 'X': ingameX, 'Y': ingameY}, function( data ) {
-            if (data.startsWith("ok:")) {
-                toastr["success"](data.replace("ok:", ""));
-                $('#npcsSelect').val(null);
-                $('#npcsSelect').change();
-            } else {
-                toastr["error"](data);
+        $('.mapwrapper').click(function (e) {
+            if ($('#npcsSelect').val() == null) {
+                toastr["error"]("@Localizer["Select an npc if you want to spawn it."]");
+                return false;
             }
+
+            var offset = $(this).offset();
+            var ingameX = 200 * ((e.pageX - offset.left) - 116) - 107823;
+            var ingameY = 200 * ((e.pageY - offset.top) - 2580) + 255420;
+            var npcId = $('#npcsSelect').val();
+            console.log(ingameX);
+            console.log(ingameY);
+            $.post("/admin/spawnnpc", { 'NpcId': npcId, 'X': ingameX, 'Y': ingameY}, function( data ) {
+                if (data.startsWith("ok:")) {
+                    toastr["success"](data.replace("ok:", ""));
+                    $('#npcsSelect').val(null);
+                    $('#npcsSelect').change();
+                } else {
+                    toastr["error"](data);
+                }
+            });
         });
-    });
 
-    
+        function getLiveMapData() {
+            $.get("/admin/getLiveMapData", function (data) {
+                $(".mapObj").remove();
+                for (var i = 0; i < data.length; i++) {
+                    var img = $('<img class="mapObj"  data-toggle="tooltip" data-html="true" title="Name: ' + data[i].name + '" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
+                    img.attr('src', '/images/mark.gif');
+                    img.appendTo('.mapwrapper');
+                }
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        }
 
-    function getLiveMapData() {
-        $.get("/admin/getLiveMapData", function (data) {
-            $(".mapObj").remove();
-            for (var i = 0; i < data.length; i++) {
-                var img = $('<img class="mapObj"  data-toggle="tooltip" data-html="true" title="Name: ' + data[i].name + '" style="position: absolute; top: ' + data[i].y + 'px; left: ' + data[i].x + 'px;">');
-                img.attr('src', '/images/mark.gif');
-                img.appendTo('.mapwrapper');
-            }
-            $('[data-toggle="tooltip"]').tooltip(); 
-        });
-    }
-
-    getLiveMapData();
-    setInterval(getLiveMapData, 5000);
-
-</script>
+        getLiveMapData();
+        setInterval(getLiveMapData, 5000);
+    </script>
+}

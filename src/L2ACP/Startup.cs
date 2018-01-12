@@ -51,7 +51,14 @@ namespace L2ACP
         {
             // Add framework services.
             services.AddTransient<IAuthService, AuthService>();
-            services.AddTransient<IRequestService, RequestService>();
+            if (Startup.Configuration.GetValue<string>("TargetServerType") == "L2OFF")
+            {
+                services.AddTransient<IRequestService, DatabaseRequestService>();
+            }
+            else
+            {
+                services.AddTransient<IRequestService, RequestService>();
+            }
             services.AddSingleton<AssetManager>();
             services.AddLocalization(opts => { opts.ResourcesPath = "Resources"; });
 

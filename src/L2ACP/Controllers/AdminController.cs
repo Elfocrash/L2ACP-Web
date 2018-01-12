@@ -46,7 +46,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             return View();
@@ -58,7 +58,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             var playersData = await _requestService.GetAnalyticsPlayers() as GetAnalyticsPlayersResponse;
@@ -74,7 +74,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             var getBuyList = await _requestService.GetBuyList() as GetBuyListResponse;
@@ -94,7 +94,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             var allPlayers = await _requestService.GetAllPlayers() as GetAllPlayerNamesResponse;
@@ -108,7 +108,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             return PartialView("_ServerManagment");
@@ -120,7 +120,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             return PartialView("_LiveMap");
@@ -132,7 +132,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return RedirectToAction("Login", "Account");
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return RedirectToAction("Login", "Account");
 
             var response = await _requestService.GetAllOnlinePlayersForMap() as GetAllOnlinePlayersForMapResponse;
@@ -144,6 +144,8 @@ namespace L2ACP.Controllers
                 {
                     player.X = (int) Math.Round((double)(116 + (player.X + 107823) / 200));
                     player.Y = (int)Math.Round((double)(2580 + (player.Y - 255420) / 200));
+
+                    System.Diagnostics.Debug.WriteLine("X: " + player.X + ", Y: " + player.Y);
                 }
 
                 return new JsonResult(players);
@@ -159,7 +161,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var response = await _requestService.GiveItem(model.Username, model.ItemId, model.ItemCount, model.Enchant);
@@ -178,7 +180,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var text = Request.Form["annText"];
@@ -198,7 +200,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var playerName = Request.Form["Username"];
@@ -219,7 +221,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var playerName = Request.Form["Username"];
@@ -250,7 +252,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             if (!int.TryParse(Request.Form["restartseconds"], out int seconds))
@@ -271,7 +273,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var response = await _requestService.SetDonateList(items);
@@ -289,7 +291,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var npcId = int.Parse(Request.Form["NpcId"]);
@@ -311,7 +313,7 @@ namespace L2ACP.Controllers
             if (!User.Identity.IsAuthenticated)
                 return Content(_localizer["You need to be logged in"]);
 
-            if (HttpContext.GetAccountInfo()?.AccessLevel < 100)
+            if (!HttpContext.HasAdminAccess())
                 return Content(_localizer["Not enough access level"]);
 
             var punishId = int.Parse(Request.Form["PunishId"]);
