@@ -40,8 +40,6 @@ namespace L2ACP.Services
 
         public async Task<L2Response> LoginUser(string username, string password)
         {
-            System.Diagnostics.Debug.WriteLine("Requested username: " + username + ", Requested password: " + password);
-
             L2Response response = new L2Response();
             try
             {
@@ -456,7 +454,6 @@ namespace L2ACP.Services
                             if (reader.Read())
                             {
                                 string currentDbPassword = GeneralExtensions.ByteArrayToString((byte[])reader["password"]);
-                                System.Diagnostics.Debug.WriteLine("Current DB password: " + currentDbPassword + ", Inserted password: " + currentPass);
                                 if (currentPass != currentDbPassword)
                                 {
                                     System.Diagnostics.Debug.WriteLine("Passwords do not match !");

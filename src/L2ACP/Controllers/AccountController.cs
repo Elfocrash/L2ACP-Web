@@ -72,8 +72,6 @@ namespace L2ACP.Controllers
             
             if (ModelState.IsValid)
             {
-                System.Diagnostics.Debug.WriteLine("Model password: " + model.Password);
-
                 var response = await _requestService.LoginUser(model.Username, model.Password.ToL2Password());
 
                 if (response.ResponseCode == 200)
