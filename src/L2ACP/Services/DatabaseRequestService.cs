@@ -142,17 +142,23 @@ namespace L2ACP.Services
                         cmd.Parameters.AddWithValue("@ANSWER1", ConvertHexStringToByteArray("00"));
                         cmd.Parameters.AddWithValue("@ANSWER2", ConvertHexStringToByteArray("00"));
 
-                        if (cmd.ExecuteNonQuery() == 1)
-                        {
-                            response.ResponseCode = 200;
-                            response.ResponseMessage = "Successful registration";
-                        }
-                        else
+                        if (cmd.ExecuteNonQuery() != 1)
                         {
                             response.ResponseCode = 500;
                             response.ResponseMessage = "Unsuccessful registration";
+                            return response;
                         }
                     }
+
+                    using (SqlCommand cmd = lin2dbDbConn.CreateCommand())
+                    {
+                        cmd.CommandText = "INSERT INTO user_account (account, pay_stat) values (@USERNAME, 1)";
+                        cmd.Parameters.AddWithValue("@USERNAME", username);
+
+                        cmd.ExecuteNonQuery();
+                    }
+
+                    response.ResponseCode = 200;
                 }
             }
             catch (Exception ex)
