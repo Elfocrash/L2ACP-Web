@@ -20,6 +20,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using L2ACP.Extensions;
 using L2ACP.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -67,6 +68,17 @@ namespace L2ACP
                     opts => { opts.ResourcesPath = "Resources"; })
                 .AddDataAnnotationsLocalization();
 
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = "Auth";
+                options.DefaultScheme = "Auth";
+            }).AddCookie(options =>
+            {
+                options.LoginPath = new PathString("/login");
+                options.AccessDeniedPath = new PathString("/login");
+                
+            });
+
             services.Configure<RequestLocalizationOptions>(
                 opts =>
                 {
@@ -99,18 +111,9 @@ namespace L2ACP
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            
             app.UseStaticFiles();
             
-            app.UseCookieAuthentication(new CookieAuthenticationOptions()
-            {
-                AuthenticationScheme = "Auth",
-                LoginPath = new PathString("/login"),
-                AccessDeniedPath = new PathString("/login"),
-                AutomaticAuthenticate = true,
-                AutomaticChallenge = true
-            });
-
             using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
             {
                 var assetManager = serviceScope.ServiceProvider.GetService<AssetManager>();

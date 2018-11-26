@@ -30,7 +30,7 @@ namespace L2ACP.Services
         private static string LIN2USER_CONN_STRING = Startup.Configuration.GetValue<string>("ConnectionString_lin2user");
         private static string LIN2DB_CONN_STRING = Startup.Configuration.GetValue<string>("ConnectionString_lin2db");
 
-        public static int GetNumDonatePoints(string accountName)
+        public static async Task<int> GetNumDonatePoints(string accountName)
         {
             int numDonatePoints = -1;
             try
@@ -44,7 +44,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT donatepoints FROM user_auth WHERE account = @USER";
                         cmd.Parameters.AddWithValue("@USER", accountName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -90,11 +90,9 @@ namespace L2ACP.Services
                 System.Diagnostics.Debug.WriteLine("AddDonatePoints: Failed to execute query. Exception: " + ex.Message);
                 return false;
             }
-
-            return false;
         }
 
-        public static string GetAccountNameFromCharName(string charName)
+        public static async Task<string> GetAccountNameFromCharName(string charName)
         {
             string accountName = "";
             try
@@ -108,7 +106,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT account_name FROM user_data WHERE char_name = @CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", charName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -127,7 +125,7 @@ namespace L2ACP.Services
             return accountName;
         }
 
-        public static int GetCharIdFromCharName(string charName)
+        public static async Task<int> GetCharIdFromCharName(string charName)
         {
             int charId = -1;
             try
@@ -141,7 +139,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT char_id FROM user_data WHERE char_name = @CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", charName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -160,7 +158,7 @@ namespace L2ACP.Services
             return charId;
         }
 
-        public static string GetCharNameFromCharId(int charId)
+        public static async Task<string> GetCharNameFromCharId(int charId)
         {
             string charName = "";
             try
@@ -174,7 +172,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT char_name FROM user_data WHERE char_id = @CHAR_ID";
                         cmd.Parameters.AddWithValue("@CHAR_ID", charId);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -193,7 +191,7 @@ namespace L2ACP.Services
             return charName;
         }
 
-        public static List<DonateService> GetDonateServicesList()
+        public static async Task<List<DonateService>> GetDonateServicesList()
         {
             List<DonateService> donateServices = new List<DonateService>();
             try
@@ -207,7 +205,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT * FROM l2acp_donateservices";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             while (reader.Read())
                             {
@@ -222,7 +220,7 @@ namespace L2ACP.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 donateServices = null;
             }
@@ -230,7 +228,7 @@ namespace L2ACP.Services
             return donateServices;
         }
 
-        public static DonateService GetDonateServiceById(int id)
+        public static async Task<DonateService> GetDonateServiceById(int id)
         {
             DonateService donateService = null;
             try
@@ -244,7 +242,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM l2acp_donateservices WHERE serviceid=@SERVICE_ID";
                         cmd.Parameters.AddWithValue("@SERVICE_ID", id);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -257,7 +255,7 @@ namespace L2ACP.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 donateService = null;
             }
@@ -265,9 +263,9 @@ namespace L2ACP.Services
             return donateService;
         }
 
-        public static bool GiveItemToCharacter(string username, int itemId, int itemCount, int enchant)
+        public static async Task<bool> GiveItemToCharacter(string username, int itemId, int itemCount, int enchant)
         {
-            int charId = GetCharIdFromCharName(username);
+            int charId = await GetCharIdFromCharName(username);
             if (charId == -1)
             {
                 return false;
@@ -299,15 +297,13 @@ namespace L2ACP.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
-
-            return false;
         }
 
-        public static List<TradeItemAcp> GetPrivateStoreItems(bool isBuyList)
+        public static async Task<List<TradeItemAcp>> GetPrivateStoreItems(bool isBuyList)
         {
             List<TradeItemAcp> items = new List<TradeItemAcp>();
 
@@ -323,12 +319,12 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM PrivateStore WHERE store_type=@STORE_TYPE";
                         cmd.Parameters.AddWithValue("@STORE_TYPE", storeType);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             while (reader.Read())
                             {
                                 int charId = reader.GetInt32(reader.GetOrdinal("char_id"));
-                                string charName = GetCharNameFromCharId(charId);
+                                string charName = await GetCharNameFromCharId(charId);
                                 for (int itemIdx = 1; itemIdx <= 8; itemIdx++)
                                 {
                                     int itemId = reader.GetInt32(reader.GetOrdinal("item" + itemIdx.ToString() + "_id"));
@@ -349,7 +345,7 @@ namespace L2ACP.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
@@ -357,7 +353,7 @@ namespace L2ACP.Services
             return items;
         }
 
-        private int GetCharacterTotalOnline(string charName)
+        private async Task<int> GetCharacterTotalOnline(string charName)
         {
             int totalOnline = -1;
             try
@@ -371,7 +367,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT use_time FROM user_data WHERE char_name=@CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", charName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -425,7 +421,7 @@ namespace L2ACP.Services
             return isOnline;
         }
 
-        public static List<LuckyWheelItem> GetLuckyWheelListHelper()
+        public static async Task<List<LuckyWheelItem>> GetLuckyWheelListHelper()
         {
             List<LuckyWheelItem> items = new List<LuckyWheelItem>();
             try
@@ -438,7 +434,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT * FROM l2acp_luckywheelitems";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             while (reader.Read())
                             {
@@ -461,7 +457,7 @@ namespace L2ACP.Services
             return items;
         }
 
-        public static string GetClanNameFromPledgeId(int pledgeId)
+        public static async Task<string> GetClanNameFromPledgeId(int pledgeId)
         {
             if (pledgeId <= 0)
             {
@@ -480,7 +476,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT name FROM Pledge WHERE pledge_id=@PLEDGE_ID";
                         cmd.Parameters.AddWithValue("@PLEDGE_ID", pledgeId);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -490,7 +486,7 @@ namespace L2ACP.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 clanName = "";
             }
@@ -498,7 +494,7 @@ namespace L2ACP.Services
             return clanName;
         }
 
-        public static string GetAllianceNameFromPledgeId(int pledgeId)
+        public static async Task<string> GetAllianceNameFromPledgeId(int pledgeId)
         {
             if (pledgeId <= 0)
             {
@@ -518,7 +514,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT alliance_id FROM Pledge WHERE pledge_id=@PLEDGE_ID";
                         cmd.Parameters.AddWithValue("@PLEDGE_ID", pledgeId);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -534,7 +530,7 @@ namespace L2ACP.Services
                             cmd.CommandText = "SELECT name FROM Alliance WHERE id=@ALLIANCE_ID";
                             cmd.Parameters.AddWithValue("@ALLIANCE_ID", allianceId);
 
-                            using (SqlDataReader reader = cmd.ExecuteReader())
+                            using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                             {
                                 if (reader.Read())
                                 {
@@ -545,7 +541,7 @@ namespace L2ACP.Services
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 allianceName = "";
             }
