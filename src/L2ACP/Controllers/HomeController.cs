@@ -541,7 +541,7 @@ namespace L2ACP.Controllers
             {
                 var accountName = HttpContext.GetUsername();
 
-                var response = await _requestService.ChangePassword(accountName, model.CurrentPassword.ToLegacyL2Password(), model.NewPassword.ToL2Password());
+                var response = await _requestService.ChangePassword(accountName, model.CurrentPassword.ToL2Password(), model.NewPassword.ToL2Password());
                 switch (response.ResponseCode)
                 {
                     case 200:
