@@ -52,7 +52,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM user_auth WHERE account = @USER";
                         cmd.Parameters.AddWithValue("@USER", username);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -121,7 +121,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM user_auth WHERE account = @USER";
                         cmd.Parameters.AddWithValue("@USER", username);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -189,7 +189,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM user_data WHERE account_name = @USER";
                         cmd.Parameters.AddWithValue("@USER", username);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<string> charNames = new List<string>();
                             while (reader.Read())
@@ -205,7 +205,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM builder_account WHERE account_name = @USER";
                         cmd.Parameters.AddWithValue("@USER", username);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -224,7 +224,7 @@ namespace L2ACP.Services
                 response.ResponseMessage = ex.Message;
             }
 
-            response.DonatePoints = DatabaseServiceHelper.GetNumDonatePoints(username);
+            response.DonatePoints = await DatabaseServiceHelper.GetNumDonatePoints(username);
             if (response.DonatePoints == -1)
             {
                 response.ResponseCode = 500;
@@ -253,7 +253,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT char_id FROM user_data WHERE char_name = @CHARNAME";
                         cmd.Parameters.AddWithValue("@CHARNAME", player);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -274,7 +274,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM user_item WHERE char_id = @CHAR_ID";
                         cmd.Parameters.AddWithValue("@CHAR_ID", charId);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<InventoryInfo> inventoryList = new List<InventoryInfo>();
                             while (reader.Read())
@@ -320,7 +320,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT * FROM user_data WHERE char_name = @CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", playerName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             response.PlayerInfo = new PlayerInfo();
                             if (reader.Read())
@@ -333,8 +333,8 @@ namespace L2ACP.Services
                                 response.PlayerInfo.Sex = (int)reader.GetByte(reader.GetOrdinal("gender"));
                                 response.PlayerInfo.Race = (int)reader.GetByte(reader.GetOrdinal("class"));
                                 int pledgeId = reader.GetInt32(reader.GetOrdinal("pledge_id"));
-                                response.PlayerInfo.ClanName = DatabaseServiceHelper.GetClanNameFromPledgeId(pledgeId); 
-                                response.PlayerInfo.AllyName = DatabaseServiceHelper.GetAllianceNameFromPledgeId(pledgeId);
+                                response.PlayerInfo.ClanName = await DatabaseServiceHelper.GetClanNameFromPledgeId(pledgeId); 
+                                response.PlayerInfo.AllyName = await DatabaseServiceHelper.GetAllianceNameFromPledgeId(pledgeId);
                                 response.PlayerInfo.Hero = false; // Can be probably retrieved from user_nobless
                                 response.PlayerInfo.Nobless = false; // Can be probably retrieved from user_nobless
                                 response.PlayerInfo.Time = reader.GetInt32(reader.GetOrdinal("use_time"));
@@ -394,7 +394,7 @@ namespace L2ACP.Services
                         cmd.Parameters.AddWithValue("@TRANSACTION_ID", transactionId);
                         cmd.Parameters.AddWithValue("@VERIFICATION_SIGN", verifySign);
 
-                        int count = (int)cmd.ExecuteScalar();
+                        int count = (int)await cmd.ExecuteScalarAsync();
                         if (count > 0)
                         {
                             response.ResponseCode = 500;
@@ -455,7 +455,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT password FROM user_auth WHERE account = @USER";
                         cmd.Parameters.AddWithValue("@USER", username);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -518,7 +518,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT * FROM l2acp_donateitems";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<BuyListItem> donateBuyList = new List<BuyListItem>();
                             while (reader.Read())
@@ -552,7 +552,7 @@ namespace L2ACP.Services
         {
             GetBuyPrivateStoreItemsResponse response = new GetBuyPrivateStoreItemsResponse();
 
-            response.BuyList = DatabaseServiceHelper.GetPrivateStoreItems(true).ToArray();
+            response.BuyList = (await DatabaseServiceHelper.GetPrivateStoreItems(true)).ToArray();
 
             return response;
         }
@@ -561,7 +561,7 @@ namespace L2ACP.Services
         {
             GetSellPrivateStoreItemsResponse response = new GetSellPrivateStoreItemsResponse();
 
-            response.SellList = DatabaseServiceHelper.GetPrivateStoreItems(false).ToArray();
+            response.SellList = (await DatabaseServiceHelper.GetPrivateStoreItems(false)).ToArray();
 
             return response;
         }
@@ -571,7 +571,7 @@ namespace L2ACP.Services
         {
             L2Response response = new L2Response();
 
-            int numDonatePoints = DatabaseServiceHelper.GetNumDonatePoints(accountName);
+            int numDonatePoints = await DatabaseServiceHelper.GetNumDonatePoints(accountName);
             if (numDonatePoints == -1)
             {
                 response.ResponseCode = 500;
@@ -584,7 +584,7 @@ namespace L2ACP.Services
                 return response;
             }
 
-            if (DatabaseServiceHelper.GiveItemToCharacter(modelUsername, modelItemId, modelItemCount, modelEnchant))
+            if (await DatabaseServiceHelper.GiveItemToCharacter(modelUsername, modelItemId, modelItemCount, modelEnchant))
             {
                 response.ResponseCode = 200;
 
@@ -629,7 +629,7 @@ namespace L2ACP.Services
         public async Task<L2Response> GiveItem(string username, int itemId, int itemCount, int enchant)
         {
             L2Response response = new L2Response();
-            if (DatabaseServiceHelper.GiveItemToCharacter(username, itemId, itemCount, enchant))
+            if (await DatabaseServiceHelper.GiveItemToCharacter(username, itemId, itemCount, enchant))
             {
                 response.ResponseCode = 200;
             }
@@ -664,7 +664,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT account_name FROM user_data WHERE char_name=@CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", playerName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -714,7 +714,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "UPDATE user_data SET Lev=@LEVEL WHERE char_name=@CHAR_NAME";
                         cmd.Parameters.AddWithValue("@LEVEL", (byte)level);
                         cmd.Parameters.AddWithValue("@CHAR_NAME", playerName);
-                        if (cmd.ExecuteNonQuery() != 1)
+                        if (await cmd.ExecuteNonQueryAsync() != 1)
                         {
                             response.ResponseCode = 500;
                             return response;
@@ -749,7 +749,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT TOP 20 char_name, Lev, daily_pvp, PK, use_time, class FROM user_data ORDER BY daily_pvp DESC";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<TopPlayer> topPvpPlayers = new List<TopPlayer>();
                             while (reader.Read())
@@ -773,7 +773,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT TOP 20 char_name, Lev, daily_pvp, PK, use_time, class FROM user_data ORDER BY PK DESC";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<TopPlayer> topPkPlayers = new List<TopPlayer>();
                             while (reader.Read())
@@ -797,7 +797,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT TOP 20 char_name, Lev, daily_pvp, PK, use_time, class FROM user_data ORDER BY use_time DESC";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<TopPlayer> topOnlinePlayers = new List<TopPlayer>();
                             while (reader.Read())
@@ -836,7 +836,7 @@ namespace L2ACP.Services
         {
             GetDonateServicesResponse response = new GetDonateServicesResponse();
 
-            List<DonateService> donateServicesList = DatabaseServiceHelper.GetDonateServicesList();
+            List<DonateService> donateServicesList = await DatabaseServiceHelper.GetDonateServicesList();
             if (donateServicesList == null)
             {
                 response.ResponseCode = 500;
@@ -859,14 +859,14 @@ namespace L2ACP.Services
                 response.ResponseCode = 501;
                 return response;
             }
-            if (DatabaseServiceHelper.GetCharIdFromCharName(newName) != -1)
+            if (await DatabaseServiceHelper.GetCharIdFromCharName(newName) != -1)
             {
                 // Player already exists
                 response.ResponseCode = 502;
                 return response;
             }
 
-            DonateService renameService = DatabaseServiceHelper.GetDonateServiceById(1);
+            DonateService renameService = await DatabaseServiceHelper.GetDonateServiceById(1);
             if (renameService == null)
             {
                 response.ResponseCode = 503;
@@ -880,8 +880,8 @@ namespace L2ACP.Services
                 return response;
             }
 
-            string accountName = DatabaseServiceHelper.GetAccountNameFromCharName(playerName);
-            int numDonatePoints = DatabaseServiceHelper.GetNumDonatePoints(accountName);
+            string accountName = await DatabaseServiceHelper.GetAccountNameFromCharName(playerName);
+            int numDonatePoints = await DatabaseServiceHelper.GetNumDonatePoints(accountName);
             if (numDonatePoints == -1)
             {
                 response.ResponseCode = 503;
@@ -957,7 +957,7 @@ namespace L2ACP.Services
         {
             var response = new L2Response();
 
-            DonateService service = DatabaseServiceHelper.GetDonateServiceById(4);
+            DonateService service = await DatabaseServiceHelper.GetDonateServiceById(4);
             if (service == null)
             {
                 response.ResponseCode = 501;
@@ -970,8 +970,8 @@ namespace L2ACP.Services
                 return response;
             }
 
-            string accountName = DatabaseServiceHelper.GetAccountNameFromCharName(playerName);
-            int numDonatePoints = DatabaseServiceHelper.GetNumDonatePoints(accountName);
+            string accountName = await DatabaseServiceHelper.GetAccountNameFromCharName(playerName);
+            int numDonatePoints = await DatabaseServiceHelper.GetNumDonatePoints(accountName);
             if (numDonatePoints == -1)
             {
                 response.ResponseCode = 501;
@@ -997,7 +997,7 @@ namespace L2ACP.Services
                         cmd.CommandText = "SELECT gender FROM user_data WHERE char_name=@CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", playerName);
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -1046,7 +1046,7 @@ namespace L2ACP.Services
         {
             var response = new L2Response();
 
-            DonateService service = DatabaseServiceHelper.GetDonateServiceById(3);
+            DonateService service = await DatabaseServiceHelper.GetDonateServiceById(3);
             if (service == null)
             {
                 response.ResponseCode = 500;
@@ -1059,8 +1059,8 @@ namespace L2ACP.Services
                 return response;
             }
 
-            string accountName = DatabaseServiceHelper.GetAccountNameFromCharName(playerName);
-            int numDonatePoints = DatabaseServiceHelper.GetNumDonatePoints(accountName);
+            string accountName = await DatabaseServiceHelper.GetAccountNameFromCharName(playerName);
+            int numDonatePoints = await DatabaseServiceHelper.GetNumDonatePoints(accountName);
             if (numDonatePoints == -1)
             {
                 response.ResponseCode = 500;
@@ -1083,7 +1083,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT PK FROM user_data WHERE char_name=@CHAR_NAME";
                         cmd.Parameters.AddWithValue("@CHAR_NAME", playerName);
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             if (reader.Read())
                             {
@@ -1141,7 +1141,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT char_name FROM user_data";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<string> charNames = new List<string>();
                             while (reader.Read())
@@ -1174,7 +1174,7 @@ namespace L2ACP.Services
                 {
                     lin2worldDbConn.Open();
 
-                    int charId = DatabaseServiceHelper.GetCharIdFromCharName(playerName);
+                    int charId = await DatabaseServiceHelper.GetCharIdFromCharName(playerName);
                     if (charId == -1)
                     {
                         System.Diagnostics.Debug.WriteLine("1");
@@ -1235,7 +1235,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT char_name, xloc, yloc, Lev, nickname FROM user_data with (nolock) WHERE login>logout";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<MapPlayer> onlinePlayers = new List<MapPlayer>();
                             while (reader.Read())
@@ -1280,7 +1280,7 @@ namespace L2ACP.Services
                     {
                         cmd.CommandText = "SELECT * FROM npc_boss WHERE alive=1";
 
-                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
                             List<MapMob> bossList = new List<MapMob>();
                             while (reader.Read())
@@ -1350,7 +1350,7 @@ namespace L2ACP.Services
                             cmd.Parameters.AddWithValue("@ITEM_COUNT", item.itemcount);
                             cmd.Parameters.AddWithValue("@ENCHANT", item.itemenchant);
                             cmd.Parameters.AddWithValue("@PRICE", item.itemprice);
-                            cmd.ExecuteNonQuery();
+                            await cmd.ExecuteNonQueryAsync();
                         }
                     }
 
@@ -1378,7 +1378,7 @@ namespace L2ACP.Services
         {
             LuckyWheelListResponse response = new LuckyWheelListResponse();
 
-            var items = DatabaseServiceHelper.GetLuckyWheelListHelper();
+            var items = await DatabaseServiceHelper.GetLuckyWheelListHelper();
             if (items != null)
             {
                 response.Items = items.ToArray();
@@ -1413,7 +1413,7 @@ namespace L2ACP.Services
         {
             LuckyWheelSpinResponse response = new LuckyWheelSpinResponse();
 
-            var items = DatabaseServiceHelper.GetLuckyWheelListHelper();
+            var items = await DatabaseServiceHelper.GetLuckyWheelListHelper();
             if (items != null)
             {
                 Dictionary<int, double> itemIdToUpperLimitChance = new Dictionary<int, double>();
@@ -1446,9 +1446,9 @@ namespace L2ACP.Services
                 }
                 else
                 {
-                    string accountName = DatabaseServiceHelper.GetAccountNameFromCharName(playername);
+                    string accountName = await DatabaseServiceHelper.GetAccountNameFromCharName(playername);
                     DatabaseServiceHelper.AddDonatePoints(accountName, -5);
-                    DatabaseServiceHelper.GiveItemToCharacter(playername, response.Item.ItemId, response.Item.Count, 0);
+                    await DatabaseServiceHelper.GiveItemToCharacter(playername, response.Item.ItemId, response.Item.Count, 0);
                     response.ResponseCode = 200;
                 }
             }
