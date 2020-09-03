@@ -16,6 +16,7 @@
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 
 namespace L2ACP.Services
@@ -32,7 +33,7 @@ namespace L2ACP.Services
             var id = new ClaimsIdentity(claims, "password");
             var p = new ClaimsPrincipal(id);
 
-            await context.Authentication.SignInAsync("Auth", p);
+            await context.SignInAsync("Auth", p);
         }
     }
 }

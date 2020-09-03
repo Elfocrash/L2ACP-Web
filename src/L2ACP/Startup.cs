@@ -72,7 +72,7 @@ namespace L2ACP
             {
                 options.DefaultAuthenticateScheme = "Auth";
                 options.DefaultScheme = "Auth";
-            }).AddCookie(options =>
+            }).AddCookie("Auth",options =>
             {
                 options.LoginPath = new PathString("/login");
                 options.AccessDeniedPath = new PathString("/login");
@@ -111,7 +111,8 @@ namespace L2ACP
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-            
+
+            app.UseAuthentication();
             app.UseStaticFiles();
             
             using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())

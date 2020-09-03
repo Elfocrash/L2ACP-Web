@@ -20,6 +20,7 @@ using L2ACP.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using System;
+using Microsoft.AspNetCore.Authentication;
 
 namespace L2ACP.Controllers
 {
@@ -49,7 +50,7 @@ namespace L2ACP.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                HttpContext.Authentication.SignOutAsync("Auth");
+                HttpContext.SignOutAsync("Auth");
             }
             return RedirectToAction("Login");
         }
