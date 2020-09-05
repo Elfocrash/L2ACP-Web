@@ -50,7 +50,7 @@ namespace L2ACP.Services
             string webRootPath = _hostingEnvironment.WebRootPath;
             InitialiseItems(webRootPath);
 
-            var files = Directory.GetFileSystemEntries(webRootPath + "\\xml\\npcs");
+            var files = Directory.GetFileSystemEntries(Path.Combine(webRootPath,"xml","npcs"));
             Dictionary<int, L2Npc> npcs = new Dictionary<int, L2Npc>();
             foreach (var file in files)
             {
@@ -75,7 +75,7 @@ namespace L2ACP.Services
 
         private void InitialiseItems(string webRootPath)
         {
-            var files = Directory.GetFileSystemEntries(webRootPath + "\\xml\\items");
+            var files = Directory.GetFileSystemEntries(Path.Combine(webRootPath,"xml","items"));
             Dictionary<int, L2Item> items = new Dictionary<int, L2Item>();
             foreach (var file in files)
             {

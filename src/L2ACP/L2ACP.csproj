@@ -7,6 +7,7 @@
     <OutputType>Exe</OutputType>
     <PackageId>L2ACP</PackageId>
     <RuntimeFrameworkVersion>2.1.3</RuntimeFrameworkVersion>
+    <UserSecretsId>7adea311-849d-437d-9cc9-d192b792b0ac</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
